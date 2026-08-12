@@ -13,12 +13,26 @@ function includesTerm(values: string[], target: string) {
 }
 
 export function calculateMatch(profile: UserProfile, job: Job): JobMatch {
-  const profileTerms = [...profile.skills, profile.experience, profile.major];
+  const allExperiences = [
+    ...profile.careerExperiences,
+    ...profile.internshipExperiences,
+    ...profile.projectExperiences,
+    ...profile.trainingExperiences,
+    profile.experience,
+  ];
+  const profileTerms = [
+    ...profile.skills,
+    ...profile.certificates,
+    ...profile.interestedIndustries,
+    ...allExperiences,
+    profile.major,
+    profile.education,
+  ];
   const matchedRequired = job.requiredSkills.filter((skill) => includesTerm(profileTerms, skill));
   const matchedPreferred = job.preferredSkills.filter((skill) => includesTerm(profileTerms, skill));
   const majorMatched = job.relatedMajors.some((major) => includesTerm([profile.major], major));
   const experienceTerms = [...job.requiredSkills, ...job.preferredSkills].filter((skill) =>
-    includesTerm([profile.experience], skill),
+    includesTerm(allExperiences, skill),
   );
   const locationMatched = normalize(job.location).includes(normalize(profile.preferredLocation));
 

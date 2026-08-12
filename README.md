@@ -39,6 +39,8 @@ OPENAI_MODEL=gpt-5.4-nano
 
 자세한 분업 방식은 [docs/team-roles.md](docs/team-roles.md)를 참고하세요.
 
+AI 활용 범위, 개인정보 처리 원칙과 데이터 출처 표기 기준은 [docs/ai-usage-and-data.md](docs/ai-usage-and-data.md)를 참고하세요.
+
 ## 주요 구조
 
 ```text

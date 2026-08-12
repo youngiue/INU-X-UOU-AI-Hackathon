@@ -1,6 +1,14 @@
 export interface UserProfile {
   major: string;
+  education: string;
+  careerExperiences: string[];
+  internshipExperiences: string[];
+  projectExperiences: string[];
+  certificates: string[];
   skills: string[];
+  trainingExperiences: string[];
+  preferredConditions: string;
+  interestedIndustries: string[];
   experience: string;
   preferredLocation: string;
 }
