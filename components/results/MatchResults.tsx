@@ -34,7 +34,7 @@ export function MatchResults({ initialResult, profile }: Props) {
 
       <div className="verification-notice" role="note">
         <strong>AI 활용 및 검증 안내</strong>
-        <span>AI는 비식별 프로필의 항목 정리와 추천 이유 생성에 사용됩니다. 매칭 점수는 코드 기반 참고 지표이며 합격 확률이 아닙니다. 현재 공고는 기능 검증용 샘플이므로 실제 지원 전 원문과 출처를 반드시 확인하세요.</span>
+        <span>AI는 입력된 프로필과 공고를 바탕으로 추천 이유를 설명하는 데 사용됩니다. 매칭 점수는 코드 기반 참고 지표이며 합격 확률이 아닙니다. 현재 공고는 기능 검증용 샘플이므로 실제 지원 전 원문과 출처를 반드시 확인하세요.</span>
       </div>
 
       <div className="result-grid">
