@@ -64,7 +64,7 @@ export function ProfileInputForm({
   }
 
   return (
-    <form className="w-full max-w-[480px] space-y-5" onSubmit={handleSubmit}>
+    <form className="w-full max-w-2xl space-y-5" onSubmit={handleSubmit}>
       <FormSection title="기본정보" index="01">
         <TextField
           id="major"

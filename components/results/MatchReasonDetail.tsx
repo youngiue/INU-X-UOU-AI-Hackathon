@@ -44,7 +44,7 @@ export function MatchReasonDetail({
   welfareServices = [],
 }: MatchReasonDetailProps) {
   return (
-    <article className="w-full max-w-sm rounded-lg border border-grid bg-panel p-5 text-ink">
+    <article className="w-full rounded-lg border border-grid bg-panel p-5 text-ink">
       {isHiddenGem && (
         <div className="mb-5 rounded-lg border border-accent2/40 bg-accent2-soft p-4">
           <div className="flex items-center gap-1.5 text-[13px] font-medium text-accent2">

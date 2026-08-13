@@ -39,7 +39,7 @@ function LanyardStrap({
           className="whitespace-nowrap font-technical text-[7px] font-bold tracking-[0.3em] text-navy-950/60"
           style={{ writingMode: "vertical-rl" }}
         >
-          ULSAN CAREER RADAR • ULSAN CAREER RADAR • ULSAN CAREER RADAR •
+          U SCANNER • U SCANNER • U SCANNER • U SCANNER
         </span>
       </div>
     </div>
@@ -115,7 +115,7 @@ export function InteractiveIdCard({
             role="button"
             tabIndex={0}
             aria-pressed={isFlipped}
-            aria-label="울산 커리어 레이더 사원증 (클릭하면 뒤집힙니다)"
+            aria-label="유스캐너 사원증 (클릭하면 뒤집힙니다)"
             onMouseMove={handleMouseMove}
             onClick={() => setIsFlipped((current) => !current)}
             onKeyDown={(event) => {
@@ -166,7 +166,7 @@ export function InteractiveIdCard({
                 className="absolute bottom-6 right-2.5 z-20 whitespace-nowrap font-technical text-[8px] font-bold tracking-[0.25em] text-muted-dim"
                 style={{ writingMode: "vertical-rl" }}
               >
-                ULSAN CAREER RADAR
+                U SCANNER
               </span>
 
               <div className="absolute inset-x-0 bottom-0 z-20 p-4 pr-7">

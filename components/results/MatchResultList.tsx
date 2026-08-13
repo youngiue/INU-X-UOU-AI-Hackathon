@@ -32,7 +32,7 @@ export function MatchResultList({ results, blindSpotLabel }: MatchResultListProp
   const visibleResults = groupedResults[activeGroup];
 
   return (
-    <section className="w-full max-w-sm">
+    <section className="w-full">
       <div className="relative grid grid-cols-2 border-b border-grid" role="tablist" aria-label="매칭 결과 분류">
         <TabButton
           active={activeGroup === "existing"}

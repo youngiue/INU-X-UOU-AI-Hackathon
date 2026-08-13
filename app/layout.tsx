@@ -6,7 +6,7 @@ import "./globals.css";
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono" });
 
 export const metadata: Metadata = {
-  title: "울산 커리어 레이더",
+  title: "유스캐너",
   description: "직무명이 아닌 실제 업무로 발견하는 울산 취업기회",
 };
 

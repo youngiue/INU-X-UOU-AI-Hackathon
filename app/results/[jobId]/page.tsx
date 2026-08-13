@@ -43,7 +43,7 @@ export default function ResultDetailPage() {
 
   return (
     <main className="min-h-screen px-6 py-12 sm:px-8">
-      <div className="mx-auto w-full max-w-[480px]">
+      <div className="mx-auto w-full max-w-2xl">
         <button
           type="button"
           onClick={() => router.push("/results")}

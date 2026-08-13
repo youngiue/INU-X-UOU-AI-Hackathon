@@ -129,10 +129,16 @@ function StepCard({
         <span className="grid h-10 w-10 place-items-center rounded-md border border-accent2/50 bg-accent2-soft text-accent2 transition-colors duration-200 group-hover:bg-accent2 group-hover:text-navy-950">
           <Icon aria-hidden="true" size={18} strokeWidth={2} />
         </span>
-        <span className="font-technical text-xs text-muted-dim">{step.index}</span>
+        <span className="font-technical text-xs text-muted-dim">
+          {step.index}
+        </span>
       </div>
-      <h3 className="mt-4 text-base font-medium text-ink">{step.title}</h3>
-      <p className="mt-2 text-[13px] leading-6 text-muted">{step.body}</p>
+      <h3 className="mt-4 text-balance text-base font-medium text-ink">
+        {step.title}
+      </h3>
+      <p className="mt-2 mb-2 ext-pretty text-[13px] leading-6 text-muted">
+        {step.body}
+      </p>
       <p className="mt-auto border-t border-grid pt-3 font-technical text-[10px] tracking-wide text-muted-dim">
         {step.io}
       </p>
@@ -191,7 +197,7 @@ export default function Home() {
               U
             </span>
             <strong className="text-[15px] tracking-tight text-ink">
-              울산 커리어 레이더
+              유스캐너
             </strong>
             <span className="ml-auto rounded-full border border-grid px-3 py-1 font-technical text-[11px] text-muted">
               INU X UOU AI HACKATHON
@@ -219,7 +225,10 @@ export default function Home() {
             style={{ opacity: Math.max(0, 1 - progress * 1.1) }}
           >
             <div
-              style={{ transform: "scale(0.4376)", transformOrigin: "top center" }}
+              style={{
+                transform: "scale(0.4376)",
+                transformOrigin: "top center",
+              }}
             >
               <InteractiveIdCard variant="cropped" />
             </div>
@@ -234,21 +243,24 @@ export default function Home() {
           >
             <div className="pointer-events-auto max-w-2xl">
               <p className="font-technical text-xs tracking-[0.2em] text-accent2">
-                JOB-SIGNAL // ULSAN
+                U:TURN
               </p>
               <h1 className="mt-4 text-[40px] font-bold leading-[1.05] tracking-tight text-ink sm:text-[56px]">
-                직무명 너머의
+                놓치고 있던 울산의 일자리,
                 <br />
-                <span className="text-accent">숨은 도면</span>을 읽습니다
+                <span className="text-accent">당신의 사각지대에 놓여</span>
+                <br />
+                보이지 않았을 뿐입니다
               </h1>
               <p className="mt-6 max-w-lg text-[15px] leading-7 text-muted">
-                전공과 평소 검색 습관이 만든 사각지대 때문에, 나에게 맞는 울산의
-                기회를 놓치고 있을 수 있어요. AI가 그 빈틈을 찾아 실제 업무
-                기준으로 보여드립니다.
+                전공과 평소 검색 습관이 만든 사각지대 때문에,
+                <br />
+                나에게 맞는 울산의 기회를 놓치고 있을 수 있어요.
+                <br /> AI가 그 빈틈을 찾아 실제 업무 기준으로 보여드립니다.
               </p>
               <Link
                 href="/profile"
-                className="mt-9 inline-flex items-center gap-2 rounded-md bg-accent px-5 py-3.5 text-[15px] font-semibold text-navy-950 transition active:scale-95 hover:bg-accent-hover"
+                className="animate-glow mt-9 inline-flex items-center gap-2 rounded-md bg-accent px-5 py-3.5 text-[15px] font-semibold text-navy-950 transition active:scale-95 hover:bg-accent-hover"
               >
                 내 역량으로 공고 찾기 시작
                 <ArrowRight
@@ -279,7 +291,7 @@ export default function Home() {
         ref={nextSectionRef}
         className="flex min-h-screen snap-start flex-col justify-center bg-blueprint-grid-fine border-b border-grid bg-navy-950"
       >
-        <div className="mx-auto w-full max-w-5xl px-6 py-8 sm:px-8">
+        <div className="mx-auto w-full max-w-6xl px-6 py-8 sm:px-8">
           <p className="font-technical text-xs tracking-[0.2em] text-accent2">
             HOW IT WORKS
           </p>
@@ -287,17 +299,17 @@ export default function Home() {
             4단계로 완성되는 매칭 도면
           </h2>
           <p className="mt-2 max-w-lg text-[13px] leading-6 text-muted">
-            입력부터 추천 이유까지, 하나의 파이프라인이 사각지대를 표준화된
-            매칭 결과로 바꿉니다.
+            입력부터 추천 이유까지, 하나의 파이프라인이 사각지대를 표준화된 매칭
+            결과로 바꿉니다.
           </p>
 
-          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-[1fr_auto_1fr_auto_1fr_auto_1fr] sm:items-stretch sm:gap-3">
+          <div className="mt-8 mb-6 grid grid-cols-1 gap-4 lg:grid-cols-[1fr_auto_1fr_auto_1fr_auto_1fr] lg:items-stretch lg:gap-4">
             {STEPS.map((step, index) => (
               <Fragment key={step.index}>
                 <StepCard step={step} index={index} scrollRef={scrollRef} />
                 {index < STEPS.length - 1 && (
                   <div
-                    className="hidden text-grid-strong sm:flex sm:items-center sm:justify-center"
+                    className="hidden text-grid-strong lg:flex lg:items-center lg:justify-center"
                     aria-hidden="true"
                   >
                     <ChevronRight size={20} strokeWidth={2} />
