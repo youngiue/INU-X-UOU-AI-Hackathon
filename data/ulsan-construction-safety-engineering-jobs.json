@@ -1,0 +1,351 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_CSE_001",
+    "occupation_group": "건설·건축·토목",
+    "occupation_type": "ARCHITECTURAL_DESIGN",
+    "employer": "(주)엠피티건축사사무소",
+    "employer_normalized": "엠피티건축사사무소",
+    "posting_title": "(주)엠피티건축사사무소 2026 정규직 직원 채용 (신입/경력)",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산광역시 중구 학성로 11, 205호",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "detail": "학성로 11, 205호",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-07-14",
+      "end": "2026-08-31"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": "주 5일(월~금) 09:00~18:00",
+    "raw_tasks": [
+      "현상설계"
+    ],
+    "eligibility_notes": [
+      "대졸 이상",
+      "경력 무관"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "대졸 이상"
+    ],
+    "required_capabilities": [
+      "현상설계"
+    ],
+    "source": {
+      "source_name": "월간 SPACE",
+      "source_type": "건축 전문 채용플랫폼",
+      "source_url": "https://vmspace.com/job/job_view.html?base_seq=MTM0NjM%3D&key=&page=2",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "건축 전문매체의 상세 채용공고에서 모집분야, 울산 중구 근무지, 고용형태, 학력 및 모집기간 확인",
+      "공고 설명에는 회사가 건축설계·감리·리모델링 등을 수행한다고 나오지만 모집분야 자체는 현상설계이므로 다른 회사 업무를 해당 채용직무의 raw_tasks로 확대하지 않음",
+      "모집인원 표기가 0명으로 되어 있어 실제 채용인원 의미가 불명확하므로 recruitment_count는 null 처리"
+    ],
+    "posting_status": "OPEN",
+    "usage_mode": "CURRENT_OPPORTUNITY",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_CSE_002",
+    "occupation_group": "산업안전·소방·환경",
+    "occupation_type": "CONSTRUCTION_SAFETY_MANAGEMENT",
+    "employer": "현대오토에버",
+    "employer_normalized": "현대오토에버",
+    "posting_title": "[공통] 정보통신공사 안전관리자 계약직(울산)",
+    "employment_type": "계약직",
+    "work_location": {
+      "raw": "울산 북구 양정동",
+      "sido": "울산광역시",
+      "sigungu": "북구",
+      "detail": "현대자동차 울산공장 물리보안시스템 구축 프로젝트",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": "2027-03-31",
+      "note": "입사일~2027년 3월"
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "현대자동차 울산공장 물리보안시스템 구축 프로젝트 공사 안전관리",
+      "위험성평가",
+      "안전점검",
+      "TBM 운영",
+      "작업허가서 운영",
+      "유해위험요인 방지계획 수립 및 수행",
+      "근로자 안전교육",
+      "현장 안전수칙 관리",
+      "법정 안전서류 관리",
+      "발주처 및 원청 대응"
+    ],
+    "eligibility_notes": [
+      "산업안전보건법상 안전관리자 선임 가능 자격 보유",
+      "안전관리 경력 5년 이상",
+      "해외여행에 결격사유가 없어야 함",
+      "남성의 경우 회사 지정 입사일까지 병역필 또는 면제",
+      "최종합격 후 회사 지정 입사일에 입사 가능"
+    ],
+    "preferred_conditions": [
+      "현대자동차 국내 제조공장 정보통신공사 관련 경험",
+      "제조공장 정보통신공사 관련 경험",
+      "정보통신 관련 자격 또는 경력"
+    ],
+    "licenses_original": [],
+    "tools_original": [
+      "TBM",
+      "작업허가서"
+    ],
+    "hard_gates": [
+      "산업안전보건법상 안전관리자 선임 가능 자격 보유",
+      "안전관리 경력 5년 이상",
+      "해외여행에 결격사유가 없어야 함",
+      "남성의 경우 회사 지정 입사일까지 병역필 또는 면제",
+      "회사 지정 입사일에 입사 가능"
+    ],
+    "required_capabilities": [
+      "건설·공사 안전관리",
+      "위험성평가",
+      "현장 안전점검",
+      "안전교육 및 법정 안전서류 관리"
+    ],
+    "source": {
+      "source_name": "현대오토에버 LinkedIn 채용공고",
+      "source_type": "민간 플랫폼 내 기업 채용공고",
+      "source_url": "https://kr.linkedin.com/jobs/view/%EA%B3%B5%ED%86%B5-%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B3%B5%EC%82%AC-%EC%95%88%EC%A0%84%EA%B4%80%EB%A6%AC%EC%9E%90-%EA%B3%84%EC%95%BD%EC%A7%81-%EC%9A%B8%EC%82%B0-at-hyundai-autoever-4432372642",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "현대오토에버 명의 상세공고에서 울산 북구 근무, 실제 안전관리 업무, 계약기간 및 지원조건을 확인",
+      "안전기사 해시태그가 존재하지만 특정 산업안전기사 자격증 하나만을 필수라고 공고가 명시하지 않으므로 licenses_original에 임의 입력하지 않음",
+      "필수조건은 '산업안전보건법상 안전관리자 선임 가능 자격'이라는 원문의 범위를 그대로 유지"
+    ],
+    "posting_status": "OPEN",
+    "usage_mode": "CURRENT_OPPORTUNITY",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_CSE_003",
+    "occupation_group": "산업안전·소방·환경",
+    "occupation_type": "CHEMICAL_PLANT_EHS",
+    "employer": "WACKER",
+    "employer_normalized": "WACKER",
+    "posting_title": "EH&S Engineer",
+    "employment_type": "풀타임",
+    "work_location": {
+      "raw": "Namgu, Ulsan-si / Ulsan, KOR, 44784",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": "2026-06-17",
+    "application_period": {
+      "start": "2026-06-17",
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "잠재 위험요인 제거를 통한 안전·보건·환경 사고 예방활동",
+      "EH&S 관련 문서와 작업관행 전반 검토",
+      "WACKER EH&S 매뉴얼의 현장 적용 여부 확인",
+      "현지 법규 준수 여부 확인",
+      "개정 화학물질관리법 대응",
+      "화학사고예방관리계획 운영",
+      "그룹 목표에 따른 사업장 지속가능성 관리계획 수립 및 운영",
+      "위험물 관련 법령 개정에 따른 신규 화재예방 규정 이행상태 평가 대응"
+    ],
+    "eligibility_notes": [
+      "글로벌 EH&S 팀과 의사소통 가능한 영어 능력"
+    ],
+    "preferred_conditions": [
+      "화학공학·환경공학·안전공학·화학 학사",
+      "환경·안전 관련 자격",
+      "관련 업무경험"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "글로벌 EH&S 팀과 의사소통 가능한 영어 능력"
+    ],
+    "required_capabilities": [
+      "EH&S 사고예방",
+      "환경·안전 법규 대응",
+      "화학사고예방관리계획 운영"
+    ],
+    "source": {
+      "source_name": "WACKER LinkedIn 채용공고",
+      "source_type": "민간 플랫폼 내 기업 채용공고",
+      "source_url": "https://kr.linkedin.com/jobs/view/eh-s-engineer-at-wacker-4428458569",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "WACKER 명의 공고에서 울산 남구 근무, 공고 시작일 및 EH&S 세부업무 확인",
+      "학사 전공·환경안전 자격·업무경험은 원문에서 preferred로 표현되어 Hard Gate로 올리지 않음",
+      "LinkedIn 페이지에서 해당 공고가 마감된 상태임을 확인"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_CSE_004",
+    "occupation_group": "산업안전·소방·환경",
+    "occupation_type": "FIRE_PROTECTION_CONSTRUCTION",
+    "employer": "주식회사 주원방재",
+    "employer_normalized": "주원방재",
+    "posting_title": "소방시설 공사 경력자 모집합니다.",
+    "employment_type": null,
+    "work_location": {
+      "raw": "울산 중구",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": "2026-03-18",
+    "application_period": {
+      "start": "2026-03-18",
+      "end": "2026-04-30"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "연봉 3,500만원 이상~5,000만원 이하",
+    "working_hours": null,
+    "raw_tasks": [
+      "소방시설 공사"
+    ],
+    "eligibility_notes": [
+      "경력 1년"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "경력 1년"
+    ],
+    "required_capabilities": [
+      "소방시설 공사"
+    ],
+    "source": {
+      "source_name": "울산고용복지+센터",
+      "source_type": "정부·공공기관 채용정보",
+      "source_url": "https://www.work.go.kr/ulsan/infoPlace/empInfo/empInfoList.do",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "울산고용복지+센터 인증 채용정보에서 기업명, 공고명, 울산 중구 근무, 경력 1년, 등록일·마감일 및 임금 확인",
+      "별도 상세자료에는 소방공사 확장을 위한 경력직이라는 설명이 있으나 본 RAW는 공공 채용목록에서 직접 확인되는 범위 위주로 보수적으로 구성",
+      "소방설비기사 등 특정 자격을 필수라고 확인하지 못했으므로 Hard Gate에 추가하지 않음"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_CSE_005",
+    "occupation_group": "시험·검사·인증",
+    "occupation_type": "NON_DESTRUCTIVE_TESTING",
+    "employer": "현대검사기술(주)",
+    "employer_normalized": "현대검사기술",
+    "posting_title": "비파괴검사원 모집(신입/경력)_RT(방사선)없음",
+    "employment_type": "기간의 정함이 없는 근로계약",
+    "work_location": {
+      "raw": "울산광역시 동구 전하동 방어진순환도로 1000, 현대중공업 엔진기계사업부 내",
+      "sido": "울산광역시",
+      "sigungu": "동구",
+      "detail": "HD현대중공업 엔진기계사업부 내",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 3,
+    "posting_date": "2026-02-11",
+    "application_period": {
+      "start": "2026-02-11",
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "연봉 2,800만원 이상, 면접 후 조정 가능",
+    "working_hours": "주 5일 08:00~17:00, 주 40시간",
+    "raw_tasks": [
+      "선박엔진 부품 비파괴검사",
+      "UT 비파괴검사",
+      "MT 비파괴검사",
+      "PT 비파괴검사",
+      "RT 방식은 수행하지 않음"
+    ],
+    "eligibility_notes": [
+      "학력 무관",
+      "경력 무관"
+    ],
+    "preferred_conditions": [
+      "비파괴검사 관련 자격증 소지자",
+      "경력자는 경력에 따라 별도 협의"
+    ],
+    "licenses_original": [
+      "침투비파괴검사기사",
+      "자기비파괴검사기사"
+    ],
+    "tools_original": [
+      "UT",
+      "MT",
+      "PT"
+    ],
+    "hard_gates": [],
+    "required_capabilities": [
+      "선박엔진 부품 비파괴검사"
+    ],
+    "source": {
+      "source_name": "울산광역시 동구청 일자리지원센터 / 고용24",
+      "source_type": "정부·지자체 공식 채용정보",
+      "source_url": "https://www.donggu.ulsan.kr/us/prg/job/view.do?nttId=191841",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "울산 동구청 공식 구인정보에서 2026년 공고, 사업장, 모집인원, 임금, 근무시간, 선박엔진 부품 및 UT·MT·PT 검사 업무를 직접 확인",
+      "고용24 파생자료에서는 침투·자기비파괴검사기사 항목이 표시되지만 별도 우대문구에서 비파괴검사 자격증 소지자를 우대한다고 확인되어 자격증을 Hard Gate로 강제하지 않음",
+      "출처에 따라 해당 공고가 '채용시까지' 또는 2026-04-12 마감으로 표시되어 현재 모집 여부를 확정할 수 없어 posting_status는 UNKNOWN 처리"
+    ],
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  }
+]

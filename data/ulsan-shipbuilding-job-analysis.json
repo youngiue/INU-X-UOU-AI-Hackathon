@@ -1,0 +1,231 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_SM_001",
+    "job_family_ai": "조선 선체 생산설계",
+    "actual_tasks_normalized": [
+      "선체 생산설계",
+      "생산도 작성",
+      "네스팅",
+      "취재",
+      "계량"
+    ],
+    "skills": [
+      "선체 생산설계",
+      "생산도 작성",
+      "네스팅"
+    ],
+    "tools_normalized": [
+      "AM"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "생산설계 업무 이해"
+    ],
+    "related_roles": [
+      "선체 생산설계",
+      "조선 생산설계"
+    ],
+    "suitable_experience_examples": [
+      "조선 생산설계 관련 프로젝트 또는 교육 경험"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "선체 생산설계라는 제목보다 생산도·네스팅·취재·계량 등 실제 배속 업무가 더 구체적으로 제시됨"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "RAW 범위를 넘어 일반 CAD 역량이나 도면해석 역량을 별도로 추론하지 않음. 공고에서 확인된 AM과 생산설계 업무만 중심으로 분석."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_SM_002",
+    "job_family_ai": "해양플랜트 선실배관 설계",
+    "actual_tasks_normalized": [
+      "선실배관 상세설계",
+      "선실배관 생산설계"
+    ],
+    "skills": [
+      "선실배관 상세설계",
+      "선실배관 생산설계"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [
+      "해양플랜트 선실배관 설계"
+    ],
+    "suitable_experience_examples": [
+      "배관설계 관련 프로젝트 또는 교육 경험"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 선실배관 상세·생산설계 업무를 직접적으로 설명함"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "직무 자체는 기존 DB의 설계 선택지를 보완하지만 제목과 실제 업무가 직접 일치하므로 발견 가치는 HIGH가 아닌 MEDIUM으로 평가. 확인되지 않은 CAD 프로그램은 추가하지 않음."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_SM_003",
+    "job_family_ai": "해양 전계장·선박 전장 시운전",
+    "actual_tasks_normalized": [
+      "계장설비 시운전",
+      "Loop Check 및 Calibration",
+      "현장 계측기 설치상태 점검",
+      "Transmitter 점검",
+      "Control Valve 기능시험",
+      "Punch Item 확인 및 조치",
+      "시운전 Troubleshooting 지원",
+      "Generator 및 Transformer 테스트",
+      "고압·저압 배전반 시험",
+      "동기화 및 부하분배 시험",
+      "선박 전장 시운전",
+      "Motor·Lighting·Switchboard 시험",
+      "Cable Megger Test",
+      "PMS 인터페이스 체크"
+    ],
+    "skills": [
+      "전계장 시운전",
+      "계측기 시험",
+      "전력설비 시험",
+      "Troubleshooting"
+    ],
+    "tools_normalized": [
+      "Loop Check",
+      "Calibration",
+      "Transmitter",
+      "Control Valve",
+      "Generator",
+      "Transformer",
+      "HV/LV Switchgear"
+    ],
+    "required_skills": [
+      "전계장 관련 실무경력",
+      "조선소 또는 플랜트 시운전 경험"
+    ],
+    "transferable_skills": [
+      "설비 시험",
+      "이상상태 진단",
+      "계측기 점검"
+    ],
+    "related_roles": [
+      "계장 시운전",
+      "선박 전장 시운전",
+      "플랜트 커미셔닝"
+    ],
+    "suitable_experience_examples": [
+      "계측기 시험 또는 교정 실무경험",
+      "전기설비 시운전 경험",
+      "조선소 또는 플랜트 시운전 경험"
+    ],
+    "hard_gate_summary": [
+      "전계장 관련 경력 3년 이상",
+      "국내 조선소 또는 플랜트 시운전 경험",
+      "해외출장 및 해외근무에 결격사유가 없어야 함"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "전계장 시운전이라는 제목보다 계장·발전기·변압기·배전반·전장·절연시험·PMS 인터페이스 확인까지 실제 업무범위가 넓음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "Cable Megger Test와 PMS 인터페이스 체크를 공식 RAW에 따라 추가. DCS/PLC는 우대경험이므로 required_skills나 tools_normalized의 실제 수행도구로 확대하지 않음. Hard Gate 미충족자는 현재지원 대상으로 취급해서는 안 됨."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_SM_004",
+    "job_family_ai": "플랜트·제조공장 기계설계",
+    "actual_tasks_normalized": [
+      "플랜트 도면 작성 및 수정",
+      "설비·시스템 설계",
+      "제조공장설비 기본설계",
+      "제작공정설계",
+      "표준작업설계",
+      "배관 기본설계",
+      "배관 상세설계",
+      "제조공정설계"
+    ],
+    "skills": [
+      "플랜트 설계",
+      "기계설계",
+      "배관설계",
+      "2D CAD"
+    ],
+    "tools_normalized": [
+      "2D CAD",
+      "CAD/CAM"
+    ],
+    "required_skills": [
+      "2D CAD 사용"
+    ],
+    "transferable_skills": [
+      "도면 작성",
+      "설계자료 검토",
+      "공정 이해"
+    ],
+    "related_roles": [
+      "플랜트 기계설계",
+      "제조공장 설비설계",
+      "배관설계"
+    ],
+    "suitable_experience_examples": [
+      "2D CAD를 사용한 기계도면 작성 경험",
+      "설비 또는 배관설계 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "2D CAD 사용 가능"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "플랜트·기계설계라는 제목보다 공장설비 기본설계·제작공정·배관설계·제조공정설계까지 실제 업무범위가 넓음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "2D CAD는 명시적 필수조건. 학력·전공 및 경력은 동일 고용24 페이지의 구조화 필드와 공고 본문이 상충하므로 Hard Gate로 확정하지 않음."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_SM_005",
+    "job_family_ai": "선박 전기·전장의장 설계",
+    "actual_tasks_normalized": [
+      "선박 전기설비 배치설계",
+      "전장의장 설계",
+      "결선도 설계",
+      "Cable Way 설계",
+      "현장 의장도면 출도"
+    ],
+    "skills": [
+      "선박 전기설계",
+      "전장의장 설계",
+      "결선도 설계"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "전기도면 이해",
+      "배선·결선 이해",
+      "설계도면 작성"
+    ],
+    "related_roles": [
+      "선박 전장설계",
+      "전장의장 설계",
+      "선박 전기설계"
+    ],
+    "suitable_experience_examples": [
+      "전기회로 또는 배선도면을 작성한 프로젝트",
+      "전기설비 배치·결선 관련 설계 경험"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "제목이 핵심 직무를 설명하지만 실제 업무에서는 전기설비 배치도, 결선도, Cable Way 및 현장 의장도면까지 세부 영역이 제시됨"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "전기기사는 필수 여부가 확인되지 않아 Hard Gate로 사용하지 않음. PLC·자동제어 등 원문에서 확인되지 않은 기술은 추가하지 않음. 마감 공고이므로 직무탐색 참고용으로만 사용."
+  }
+]

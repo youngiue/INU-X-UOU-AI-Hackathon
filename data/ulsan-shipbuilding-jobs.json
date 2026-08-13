@@ -1,0 +1,376 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_SM_001",
+    "occupation_group": "ENGINEERING_MANUFACTURING",
+    "occupation_type": "SHIP_HULL_PRODUCTION_DESIGN",
+    "employer": "(주)티엠이",
+    "employer_normalized": "티엠이",
+    "posting_title": "조선 선체 생산설계 신입/경력 사원 모집",
+    "employment_type": null,
+    "work_location": {
+      "raw": "울산광역시 동구 방어진순환도로 1000, 해양EPC관 (전하동, 조선별관)",
+      "sido": "울산",
+      "sigungu": "동구",
+      "detail": "해양EPC관 (전하동, 조선별관)",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 5,
+    "posting_date": "2026-01-09",
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "연봉 3,000만원 이상",
+    "working_hours": "08:00~17:00, 중식시간 1시간",
+    "raw_tasks": [
+      "조선 선체 생산설계",
+      "생산도(공작도, 일품도)",
+      "네스팅",
+      "취재",
+      "계량"
+    ],
+    "eligibility_notes": [
+      "신입사원은 조선 관련 제반 지식 및 현대중공업 조선설계프로그램(AM) 사용 교육 후 실무 투입",
+      "오토캐드 등 기타 설계 프로그램 사용 여부 불필요"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [
+      "현대중공업 조선설계프로그램(AM)"
+    ],
+    "hard_gates": [],
+    "required_capabilities": [],
+    "source": {
+      "source_name": "울산광역시 동구청 일자리지원센터",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.donggu.ulsan.kr/us/prg/job/view.do?nttId=191739",
+      "source_reference": "K131212601080057",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "동구청 공식 구인정보에서 사업장명, 울산 동구 소재지, 모집인원, 임금, 근무시간, 실제 담당업무를 직접 확인",
+      "posting_date는 기업 자체 채용페이지 게시일이 아니라 동구청 구인정보 작성일 기준",
+      "접수 종료일이 확인되지 않아 현재 모집 여부는 확정하지 않음"
+    ],
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_SM_002",
+    "occupation_group": "ENGINEERING_MANUFACTURING",
+    "occupation_type": "OFFSHORE_PIPING_DESIGN",
+    "employer": "대양엔지니어링(주)",
+    "employer_normalized": "대양엔지니어링",
+    "posting_title": "해양플랜트 선실배관 설계 신입 및 경력자 모집",
+    "employment_type": null,
+    "work_location": {
+      "raw": "울산광역시 동구 방어진순환도로 1000, 현대 중공업 내 해양 경영관 7층 (전하동)",
+      "sido": "울산",
+      "sigungu": "동구",
+      "detail": "현대 중공업 내 해양 경영관 7층",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 2,
+    "posting_date": "2026-04-24",
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "월급 250만원 이상",
+    "working_hours": "08:00~18:00",
+    "raw_tasks": [
+      "해양플랜트 선실배관 상세설계",
+      "해양플랜트 선실배관 생산설계"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [
+      "신입 및 경력자 우대"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "required_capabilities": [],
+    "source": {
+      "source_name": "울산광역시 동구청 일자리지원센터",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.donggu.ulsan.kr/us/prg/job/view.do?nttId=192024",
+      "source_reference": "K131522604230001",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "동구청 공식 구인정보에서 기업명, 울산 근무지, 모집인원, 임금, 근무시간, 선실배관 상세·생산설계 업무 확인",
+      "posting_date는 동구청 구인정보 작성일 기준",
+      "현재 접수 가능 여부를 확정할 수 있는 종료일이 확인되지 않아 UNKNOWN 처리"
+    ],
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_SM_003",
+    "occupation_group": "ENGINEERING_MANUFACTURING",
+    "occupation_type": "MARINE_COMMISSIONING",
+    "employer": "주식회사 케이원",
+    "employer_normalized": "케이원",
+    "posting_title": "울산현대HD중공업 해양시운전 전계장 채용",
+    "employment_type": "기간의 정함이 있는 근로계약",
+    "work_location": {
+      "raw": "울산광역시 동구 방어진순환도로 1000, HD현대중공업 울산조선소 내 (전하동)",
+      "sido": "울산",
+      "sigungu": "동구",
+      "detail": "HD현대중공업 울산조선소 내",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 5,
+    "posting_date": "2026-06-23",
+    "application_period": {
+      "start": "2026-06-23",
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "고용24 구조화 정보상 8개월, 계약기간 만료 후 상용직 전환 검토"
+    },
+    "salary": "고용24 구조화 정보상 월급 350만원~500만원, 공고 본문에는 회사 내규·경력별 협의로 병기",
+    "working_hours": "08:00~17:00, 주 5일, 주 40시간",
+    "raw_tasks": [
+      "계장 설비 시운전(Commissioning) 업무",
+      "Loop Check 및 Calibration 수행",
+      "현장 계측기(Field Instrument) 설치 상태 점검",
+      "Pressure / Temperature / Level Transmitter 점검",
+      "Control Valve 기능 시험 및 Stroke Test 수행",
+      "Punch Item 확인 및 조치",
+      "계장 관련 시운전 및 Troubleshooting 지원",
+      "Generator 및 Transformer 테스트",
+      "고압/저압 배전반(HV/LV Switchgear) 시험",
+      "동기화(Synchronizing) 및 부하 분배(Load Sharing) 시험",
+      "선박 전장 시운전",
+      "Motor Run, Lighting, Switchboard Test",
+      "Cable Megger Test",
+      "PMS 인터페이스 체크"
+    ],
+    "eligibility_notes": [
+      "학력 무관",
+      "전계장 관련 경력 3년 이상",
+      "국내 조선소 또는 플랜트 시운전 경험자",
+      "해외출장 및 해외근무에 결격사유가 없는 자"
+    ],
+    "preferred_conditions": [
+      "조선소 시운전 경험자",
+      "Loop Check 및 Calibration 실무 경험자",
+      "DCS / PLC 관련 업무 경험자",
+      "계장 관련 자격증 보유자",
+      "CompEx 또는 IECEx 자격 보유자",
+      "전기기사 또는 전기기능장 자격",
+      "고압 및 발전설비 시운전 경험",
+      "영어 가능자",
+      "즉시 투입 가능자"
+    ],
+    "licenses_original": [
+      "계장 관련 자격증",
+      "CompEx",
+      "IECEx",
+      "전기기사",
+      "전기기능장"
+    ],
+    "tools_original": [
+      "Loop Check",
+      "Calibration",
+      "Pressure Transmitter",
+      "Temperature Transmitter",
+      "Level Transmitter",
+      "Control Valve",
+      "Generator",
+      "Transformer",
+      "HV/LV Switchgear",
+      "DCS",
+      "PLC"
+    ],
+    "hard_gates": [
+      "전계장 관련 경력 3년 이상",
+      "국내 조선소 또는 플랜트 시운전 경험",
+      "해외출장 및 해외근무에 결격사유가 없어야 함"
+    ],
+    "required_capabilities": [
+      "전계장 시운전 실무"
+    ],
+    "source": {
+      "source_name": "고용24",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://m.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=VALIDATION&infoTypeGroup=tb_workinfoworknet&wantedAuthNo=K131522606230005",
+      "source_reference": "K131522606230005",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "고용24 상세공고에서 기업, 업무, 울산 근무지, 필수 경력 및 시운전 경험, 우대조건을 직접 확인",
+      "Cable Megger Test 및 PMS 인터페이스 체크가 실제 담당업무에 명시됨",
+      "구조화 임금 정보는 월 350~500만원이나 공고 본문에는 회사 내규·경력별 협의라고 병기되어 있어 둘 다 보존",
+      "공고 등록일시는 2026-06-23 09:42:53",
+      "접수 마감은 채용시까지로 표시되지만 현재 실제 모집 지속 여부를 확정하지 못해 UNKNOWN 처리"
+    ],
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_SM_004",
+    "occupation_group": "ENGINEERING_MANUFACTURING",
+    "occupation_type": "PLANT_MECHANICAL_DESIGN",
+    "employer": "김철우설계사무소",
+    "employer_normalized": "김철우설계사무소",
+    "posting_title": "플랜트 및 기계 설계 (신입&경력) 인재 모집합니다",
+    "employment_type": "기간의 정함이 없는 근로계약",
+    "work_location": {
+      "raw": "울산광역시 남구 테크노산업로81번길 25, 3층 김철우설계사무소 (두왕동)",
+      "sido": "울산",
+      "sigungu": "남구",
+      "detail": "테크노산업로81번길 25, 3층",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": "2026-06-08",
+    "application_period": {
+      "start": "2026-06-08",
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "기간의 정함이 없는 근로계약"
+    },
+    "salary": "연봉 2,800만원~3,400만원, 상여금 별도 100%, 협의 가능",
+    "working_hours": "09:00~18:00, 주 5일, 주 40시간, 근무시간 협의 가능",
+    "raw_tasks": [
+      "플랜트 도면 작성 및 수정",
+      "시설 구축에 필요한 설비 및 시스템 설계",
+      "제품 공정 설계",
+      "제조공장설비 기본설계",
+      "제작공정계획 수립·작성·검토",
+      "표준작업설계",
+      "배관 기본설계 계획",
+      "배관 상세설계 도면 작성",
+      "제조공정설계"
+    ],
+    "eligibility_notes": [
+      "고용24 구조화 학력 필드: 대졸(2~3년)~석사",
+      "공고 본문 공통 자격요건에 '학력 : 공학계열'로 표기",
+      "공고 본문에는 신입/경력 1년 이상으로 표기되나 고용24 구조화 경력 필드는 관계없음으로 표시되어 상충함"
+    ],
+    "preferred_conditions": [
+      "인근거주자",
+      "해당직무 근무경험",
+      "CAD/CAM 능숙자",
+      "문서작성 우수자",
+      "기계설계산업기사"
+    ],
+    "licenses_original": [
+      "기계설계산업기사"
+    ],
+    "tools_original": [
+      "2D CAD",
+      "CAD/CAM"
+    ],
+    "hard_gates": [
+      "2D CAD 사용 가능"
+    ],
+    "required_capabilities": [
+      "2D CAD 사용"
+    ],
+    "source": {
+      "source_name": "고용24",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://m.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=VALIDATION&infoTypeGroup=tb_workinfoworknet&wantedAuthNo=K131612606080029",
+      "source_reference": "K131612606080029",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "고용24에서 기업명, 울산 남구 주소, 모집인원, 임금, 근무시간, 상세 설계업무를 확인",
+      "2D CAD는 기타 필수 사항으로 명시되어 Hard Gate로 반영",
+      "학력·전공 및 경력 정보는 고용24 구조화 필드와 공고 본문 사이에 충돌이 있어 Hard Gate로 확정하지 않음",
+      "채용시까지로 표시되지만 현재 진행 중인 다른 채용공고가 없다고 표시되어 실제 모집 지속 여부는 UNKNOWN 처리"
+    ],
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_SM_005",
+    "occupation_group": "ENGINEERING_MANUFACTURING",
+    "occupation_type": "SHIP_ELECTRICAL_DESIGN",
+    "employer": "오엠텍주식회사",
+    "employer_normalized": "오엠텍",
+    "posting_title": "[2026 울산 일자리박람회 직접 참여업체] 선박 전기 전장 설계",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산 북구 진장13길 30",
+      "sido": "울산",
+      "sigungu": "북구",
+      "detail": "진장13길 30",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": null,
+      "end": "2026-06-17"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "연봉 3,000만원 이상, 면접 후 결정 가능",
+    "working_hours": "08:00~17:00, 주 5일, 주 40시간",
+    "raw_tasks": [
+      "선박 전기 및 전장의장 설계",
+      "AMP 수전설비와 ESS 등 선박 전기설비 배치도 설계 및 수정",
+      "결선도(Wiring Diagram) 설계 및 수정",
+      "케이블웨이(Cable Way) 도면 설계 및 수정",
+      "생산 및 작업현장 의장 도면 출도"
+    ],
+    "eligibility_notes": [
+      "조선 퇴직자 중 전기 관련 경력자는 연령과 관계없이 채용 가능"
+    ],
+    "preferred_conditions": [
+      "고용촉진장려금대상자"
+    ],
+    "licenses_original": [
+      "전기기사"
+    ],
+    "tools_original": [],
+    "hard_gates": [],
+    "required_capabilities": [],
+    "source": {
+      "source_name": "고용24",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.work24.go.kr/wk/a/b/1570/empDetailView.do?wantedAuthNo=KJ20012606150008",
+      "source_reference": "KJ20012606150008",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "고용24 기반 공고에서 선박 전기·전장의장 업무와 울산 북구 근무를 확인한 데이터",
+      "전기기사는 자격면허 항목에 있으나 필수라고 확정할 근거가 없어 Hard Gate로 처리하지 않음",
+      "2026 울산 일자리박람회 공고로 현재 지원 가능한 공고로 사용하지 않음"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  }
+]
