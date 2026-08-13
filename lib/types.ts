@@ -9,6 +9,7 @@ export interface UserProfile {
   trainingExperiences: string[];
   preferredConditions: string;
   interestedIndustries: string[];
+  usualSearchKeywords?: string[];
   experience: string;
   preferredLocation: string;
   age?: number;
@@ -21,6 +22,7 @@ export interface Job {
   title: string;
   discoveredRole: string;
   location: string;
+  employmentType: string;
   description: string;
   requiredSkills: string[];
   preferredSkills: string[];
@@ -58,12 +60,35 @@ export interface Job {
   locationPrecision?: "ADDRESS_CONFIRMED" | "SIGUNGU_CONFIRMED" | "MULTI_WORKSITE_CONFIRMED" | "COMPANY_ADDRESS_FALLBACK" | "MULTI_SIGUNGU_CONFIRMED" | "SIDO_ONLY" | "UNKNOWN";
 }
 
+export interface SubScore {
+  label: string;
+  score: number;
+  weight: number;
+}
+
+export interface SkillMatch {
+  label: string;
+  sourceContext: string;
+  relatedTo: string;
+}
+
+export interface SkillGap {
+  label: string;
+  suggestion?: string;
+}
+
 export interface JobMatch {
   job: Job;
   score: number;
+  subScores: SubScore[];
   matchedSkills: string[];
   missingSkills: string[];
   reasons: string[];
+  reasonSummary: string;
+  strengths: SkillMatch[];
+  gaps: SkillGap[];
+  isHiddenGem: boolean;
+  hiddenGemNote?: string;
   gateStatus?: "PASS" | "FAIL" | "UNVERIFIED";
   location_match?: {
     level: "EXACT_LOCAL_MATCH" | "MULTI_WORKSITE_MATCH" | "MULTI_SIGUNGU_MATCH" | "COMPANY_ADDRESS_FALLBACK" | "ULSAN_BROAD_MATCH" | "LOCATION_MISMATCH" | "UNKNOWN";

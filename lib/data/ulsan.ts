@@ -73,6 +73,7 @@ export const ulsanJobs: Job[] = rawRecords.map((raw) => {
     company: raw.employer_normalized ?? raw.employer ?? "울산 채용기관",
     employer: raw.employer_normalized ?? raw.employer,
     title: raw.posting_title ?? raw.career_name ?? "채용공고",
+    employmentType: "채용",
     discoveredRole: analysis?.job_family_ai ?? raw.occupation_type ?? "직무 탐색",
     location: raw.work_location?.raw ?? "울산",
     workLocation: {
