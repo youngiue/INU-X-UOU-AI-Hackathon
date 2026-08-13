@@ -1,0 +1,94 @@
+[
+  {
+    "id": "ULSAN_PUBLIC_SERVICE_001",
+    "occupation_group": "PUBLIC_SERVICE",
+    "occupation_type": "PUBLIC_SERVICE",
+    "employer": "소방청 / 울산광역시소방본부",
+    "employer_normalized": "울산광역시소방본부",
+    "career_name": "소방공무원",
+    "recruitment_year": 2026,
+    "recruitment_track": [
+      "공개경쟁채용",
+      "경력경쟁채용"
+    ],
+    "selection_region": "울산광역시",
+    "work_location": {
+      "raw": "울산광역시 선발 소방공무원 채용체계",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "selection_count": null,
+    "application_period": {
+      "start": "2026-02-09",
+      "end": "2026-02-13"
+    },
+    "eligibility": {
+      "age": null,
+      "education": null,
+      "license": [],
+      "career": [],
+      "other": [
+        "공개경쟁채용과 경력경쟁채용의 세부 응시자격이 서로 다름",
+        "경력경쟁채용은 모집분야별 별도 응시자격기준 적용"
+      ]
+    },
+    "hard_gates": [
+      "2026년 소방공무원 채용시험 시행계획의 응시자격 충족",
+      "경력경쟁채용의 경우 해당 모집분야별 응시자격기준 충족"
+    ],
+    "exam_process": [
+      "필기시험",
+      "체력시험",
+      "종합적성검사",
+      "면접시험",
+      "최종합격"
+    ],
+    "written_exam": {
+      "required": true,
+      "subjects": []
+    },
+    "physical_test": {
+      "required": true,
+      "details": []
+    },
+    "medical_or_body_requirements": {
+      "required": null,
+      "details": []
+    },
+    "aptitude_test": {
+      "required": true,
+      "details": []
+    },
+    "interview": {
+      "required": true,
+      "details": []
+    },
+    "final_assignment": {
+      "region_guaranteed": null,
+      "note": "울산광역시 선발과 관련된 채용임은 확인되나, 임용 후 개별 소방기관 배치범위까지 현재 확보된 공식 웹 본문만으로 단정하지 않음"
+    },
+    "source": {
+      "source_name": "소방청 2026년 소방공무원 채용시험 시행계획 최신 변경공고",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.nfa.go.kr/nfa/news/job/nfajob/?cntId=460&mode=view",
+      "official_url_available": true
+    },
+    "secondary_source": {
+      "source_name": "울산광역시소방본부 채용정보",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://fire.ulsan.go.kr/cop/bbs/selectBoardList.do?bbsId=recruit",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "2026-02-02 소방청 최신 변경공고 기준",
+      "접수기간 2026-02-09~2026-02-13 확인",
+      "2026-02-02 변경사항은 경력경쟁채용 일반분야 시험과목 적용대상에 자동차 운전 분야를 추가한 것",
+      "울산소방본부 공식 게시판에서 필기시험 합격자, 체력시험, 체력시험 합격자, 종합적성검사 및 면접, 최종합격 단계 확인",
+      "세부 연령조건, 자동차면허 요건, 시험과목, 체력시험 종목·배점은 현재 확보한 공식 웹 본문에서 직접 검증하지 않았으므로 입력하지 않음",
+      "개별 소방서 배치를 추정하지 않음"
+    ]
+  }
+]

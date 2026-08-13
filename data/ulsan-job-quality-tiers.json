@@ -1,0 +1,176 @@
+[
+  {
+    "id": "ULSAN_JOB_001",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_002",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_003",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_004",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_005",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_006",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_007",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_008",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_009",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_010",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_011",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_012",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_014",
+    "quality_tier": "CORE",
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_015",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_016",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_017",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_018",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_019",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_020",
+    "quality_tier": "CORE",
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_021",
+    "quality_tier": "CORE",
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_022",
+    "quality_tier": "EXCLUDE",
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_023",
+    "quality_tier": "CORE",
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_024",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_025",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_026",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_027",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_028",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_029",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  },
+  {
+    "id": "ULSAN_JOB_030",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE"
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "ULSAN_PUBLIC_SERVICE_001",
+    "job_family_ai": "소방공무원",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "해당 연도 소방공무원 응시요건 우선 확인",
+      "경력경쟁채용은 모집분야별 별도 응시자격기준 확인"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "소방공무원이라는 진로가 명확하며 일반기업 공고처럼 직무명을 재해석해 발견하는 대상이 아님"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "LOW",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "PUBLIC_SERVICE 전용 진로탐색 분기에서만 사용한다. 전공·프로젝트·봉사·성격·체력 등의 의미유사성만으로 소방공무원을 자동 추천하지 않는다."
+  }
+]

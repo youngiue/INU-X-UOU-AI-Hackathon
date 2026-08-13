@@ -1,0 +1,2630 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_HB_001",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "CULTURE_CONTENT",
+    "employer": "(사)울주세계산악영화제",
+    "employer_normalized": "울산울주세계산악영화제",
+    "posting_title": "2026 울산울주세계산악영화제 단기스태프 2차 모집 - 홍보1",
+    "employment_type": "단기스태프",
+    "work_location": {
+      "raw": "울산울주세계산악영화제 사무국",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "detail": "상북면 알프스온천5길 103-8",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": "2026-02-13",
+    "application_period": {
+      "start": "2026-02-13",
+      "end": "2026-02-27 18:00"
+    },
+    "contract_period": {
+      "start": "2026-05-01",
+      "end": "2026-10-16",
+      "note": null
+    },
+    "salary": "영화제 내부 규정에 따름, 경력에 따른 차등 지급",
+    "working_hours": "주 40시간 원칙, 근무시간 탄력 조정 가능",
+    "raw_tasks": [
+      "영화제 SNS 채널 운영 및 관리",
+      "SNS 홍보 콘텐츠 기획 및 제작",
+      "온라인 이벤트 운영",
+      "홍보 영상 콘텐츠 기획 및 제작 관리",
+      "옥외 및 인쇄 홍보물 디자인 및 관리",
+      "홍보대사 관리"
+    ],
+    "eligibility_notes": [
+      "공고일 기준 만 19세 이상"
+    ],
+    "preferred_conditions": [
+      "영화제 및 관련 업무 유경험자"
+    ],
+    "licenses_original": [],
+    "tools_original": [
+      "Adobe Illustrator",
+      "Adobe Photoshop"
+    ],
+    "hard_gates": [
+      "Adobe Illustrator 및 Photoshop 활용 능력 필수"
+    ],
+    "source": {
+      "source_name": "울산울주세계산악영화제 공식 채용공고",
+      "source_type": "COMPANY_OFFICIAL",
+      "source_url": "https://www.umff.kr/kor/artyboard/mboard.asp?Action=view&intCategory=0&intPage=1&intSeq=16423&strBoardID=EF9H_D13B",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": []
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_002",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "CULTURE_CONTENT",
+    "employer": "(사)울주세계산악영화제",
+    "employer_normalized": "울산울주세계산악영화제",
+    "posting_title": "2026 울산울주세계산악영화제 단기스태프 2차 모집 - 홍보2",
+    "employment_type": "단기스태프",
+    "work_location": {
+      "raw": "울산울주세계산악영화제 사무국",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "detail": "상북면 알프스온천5길 103-8",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": "2026-02-13",
+    "application_period": {
+      "start": "2026-02-13",
+      "end": "2026-02-27 18:00"
+    },
+    "contract_period": {
+      "start": "2026-07-01",
+      "end": "2026-10-16",
+      "note": null
+    },
+    "salary": "영화제 내부 규정에 따름, 경력에 따른 차등 지급",
+    "working_hours": "주 40시간 원칙, 근무시간 탄력 조정 가능",
+    "raw_tasks": [
+      "취재 응대",
+      "보도자료 및 콘텐츠 자료 관리",
+      "프레스센터 운영",
+      "기자회견 운영",
+      "관객리뷰단 모집 및 운영",
+      "리뷰 수급 및 관객리뷰단 관리",
+      "공식기록 사진 및 영상팀 일정 관리 및 촬영본 관리",
+      "홍보물 배포 및 배포처 관리"
+    ],
+    "eligibility_notes": [
+      "공고일 기준 만 19세 이상"
+    ],
+    "preferred_conditions": [
+      "영화제 및 관련 업무 유경험자"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산울주세계산악영화제 공식 채용공고",
+      "source_type": "COMPANY_OFFICIAL",
+      "source_url": "https://www.umff.kr/kor/artyboard/mboard.asp?Action=view&intCategory=0&intPage=1&intSeq=16423&strBoardID=EF9H_D13B",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": []
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_003",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "CULTURE_CONTENT",
+    "employer": "(사)울주세계산악영화제",
+    "employer_normalized": "울산울주세계산악영화제",
+    "posting_title": "2026 울산울주세계산악영화제 단기스태프 4차 모집 - 프로그램4",
+    "employment_type": "단기스태프",
+    "work_location": {
+      "raw": "울산울주세계산악영화제 사무국",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": "2026-04-24",
+    "application_period": {
+      "start": "2026-04-24",
+      "end": "2026-05-08 17:00"
+    },
+    "contract_period": {
+      "start": "2026-06-01",
+      "end": "2026-10-16",
+      "note": null
+    },
+    "salary": "영화제 내부 규정에 따름, 경력에 따른 차등 지급",
+    "working_hours": "주 40시간 원칙, 근무시간 탄력 조정 가능",
+    "raw_tasks": [
+      "상영작 자료 취합 및 콘텐츠 관리",
+      "콘텐츠 번역 및 출판 업체 관리",
+      "모더레이터 운영 지원",
+      "GV 운영"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [
+      "영화제 및 관련 업무 유경험자"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산울주세계산악영화제 공식 채용공고",
+      "source_type": "COMPANY_OFFICIAL",
+      "source_url": "https://www.umff.kr/kor/artyboard/Mboard.asp?Action=view&intSeq=16457&strBoardID=EF9H_D13B",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": []
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_004",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "UNIVERSITY_ADMIN",
+    "employer": "울산대학교",
+    "employer_normalized": "울산대학교",
+    "posting_title": "울산대학교 입학사정관(계약직) 신규채용",
+    "employment_type": "계약직",
+    "work_location": {
+      "raw": "울산 남구 대학로 93",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": "대학로 93",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-05-27",
+      "end": "2026-06-05 17:00"
+    },
+    "contract_period": {
+      "start": "2026-06-15",
+      "end": "2027-06-14",
+      "note": "평가 결과에 따라 연장 가능"
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [],
+    "preferred_conditions": [
+      "입학사정관 또는 대학 입학업무 유경험자",
+      "운전면허 소지자 및 운전 가능자"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "4년제 대학 졸업자 또는 동등 이상 학력"
+    ],
+    "source": {
+      "source_name": "울산대학교 교직원채용시스템",
+      "source_type": "UNIVERSITY_OFFICIAL",
+      "source_url": "https://recruit.ulsan.ac.kr/",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "공고 존재와 접수기간은 대학 공식 채용시스템에서 확인",
+      "근무지 및 일부 상세조건은 민간 플랫폼의 동일 공고와 교차 확인",
+      "공식 페이지에서 상세 수행업무를 직접 확보하지 못해 raw_tasks는 비움"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_005",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "UNIVERSITY_RESEARCH_ADMIN",
+    "employer": "울산대학교 산학협력단",
+    "employer_normalized": "울산대학교 산학협력단",
+    "posting_title": "울산대학교 산학협력단 연구기획팀 계약직원 신규채용",
+    "employment_type": "계약직",
+    "work_location": {
+      "raw": "울산대학교",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 2,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-04-24 13:30",
+      "end": "2026-05-04 13:00"
+    },
+    "contract_period": {
+      "start": "2026-05-11",
+      "end": "2027-05-10",
+      "note": "업무평가에 따라 재계약 가능, 최대 2년"
+    },
+    "salary": "연 28,290,000원~32,040,000원, 경력별 차등",
+    "working_hours": null,
+    "raw_tasks": [
+      "연구지원업무",
+      "연구과제관리"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [
+      "교육 및 연구기관 근무 경력자"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "학사학위 이상"
+    ],
+    "source": {
+      "source_name": "울산대학교 공식 채용시스템 + 동일공고 상세자료 교차검증",
+      "source_type": "UNIVERSITY_OFFICIAL",
+      "source_url": "https://recruit.ulsan.ac.kr/",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "공고 존재는 대학 공식 시스템 확인",
+      "세부 인원·급여·담당업무는 동일공고 상세 채용자료와 교차검증"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_006",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "UNIVERSITY_ADMIN",
+    "employer": "울산대학교",
+    "employer_normalized": "울산대학교",
+    "posting_title": "울산대학교 글로컬대학추진단 총괄추진팀 계약직원 채용",
+    "employment_type": "계약직",
+    "work_location": {
+      "raw": "울산대학교",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-06-02 16:00",
+      "end": "2026-06-17 18:00"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "사업 기획 및 운영"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산대학교 교직원채용시스템",
+      "source_type": "UNIVERSITY_OFFICIAL",
+      "source_url": "https://recruit.ulsan.ac.kr/RCRU/A/RUA010.aspx",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "업무 설명이 '사업 기획 및 운영'으로 짧음"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_007",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "울산광역시도시공사",
+    "employer_normalized": "울산도시공사",
+    "posting_title": "2026년 울산도시공사 청년인턴 채용공고 - 사무행정",
+    "employment_type": "기간제 근로자",
+    "work_location": {
+      "raw": "울산도시공사 배치부서",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": "재무회계·주택사업·보상분양",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 5,
+    "posting_date": "2026-05-11",
+    "application_period": {
+      "start": "2026-05-12 10:00",
+      "end": "2026-05-22 17:00"
+    },
+    "contract_period": {
+      "start": "2026-07-01",
+      "end": "2026-11-30",
+      "note": "5개월"
+    },
+    "salary": "월 약 2,450,000원, 세전",
+    "working_hours": "주 5일, 1일 8시간, 09:00~18:00",
+    "raw_tasks": [
+      "일반행정 업무 지원",
+      "지출 관련 업무 지원",
+      "임대주택관리 관련 업무 지원",
+      "보상 관련 업무 지원"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "울산 주민등록 주소지 보유 또는 울산 소재 학교 졸업(예정)",
+      "임용예정일 기준 만 15세 이상 34세 이하",
+      "2026-07-01부터 근무 가능",
+      "과거 울산도시공사 청년인턴 근무경력 없음"
+    ],
+    "source": {
+      "source_name": "울산도시공사 공식 채용공고",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.umca.co.kr/umca/bbs/view.do?bbsId=BBS_0000000000000002&dataId=4364&mId=001005002004000000",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": []
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_008",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "울산광역시도시공사",
+    "employer_normalized": "울산도시공사",
+    "posting_title": "2026년 울산광역시도시공사 신입직원 - 사무7급 행정(일반)",
+    "employment_type": "사무 7급",
+    "work_location": {
+      "raw": "울산광역시도시공사",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 2,
+    "posting_date": "2026-02-09",
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "일반행정 업무 전반"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "울산 지역인재 요건"
+    ],
+    "source": {
+      "source_name": "울산도시공사 공식 채용공고",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.umca.co.kr/umca/bbs/view.do?bbsId=BBS_0000000000000002&dataId=4227&mId=001005002004000000",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "공식 공고에서 행정(일반) 2명 및 울산 지역인재 조건 확인",
+      "세부 직무기술서는 별도 첨부파일이므로 현재 RAW에는 공고 본문에서 직접 확인된 범위만 저장"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_009",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "PUBLIC_SPECIALIST",
+    "employer": "울산광역시도시공사",
+    "employer_normalized": "울산도시공사",
+    "posting_title": "2026년 울산도시공사 신입직원(기록물) 채용공고",
+    "employment_type": "사무 7급",
+    "work_location": {
+      "raw": "울산광역시도시공사",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": "두왕로 318",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": "2026-06-22",
+    "application_period": {
+      "start": "2026-06-23 10:00",
+      "end": "2026-07-03 17:00"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "기록물관리 업무 전반",
+      "일반행정 업무"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [
+      "기록물관리 전문요원"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "기록물관리 전문요원 자격 보유"
+    ],
+    "source": {
+      "source_name": "울산도시공사 공식 채용공고",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.umca.co.kr/umca/bbs/view.do?bbsId=BBS_0000000000000002&dataId=4414&mId=001005002004000000",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "일반행정 추천풀과 분리 필요"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_010",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "울산경제일자리진흥원",
+    "employer_normalized": "울산경제일자리진흥원",
+    "posting_title": "2026년도 제1차 직원 공개경쟁 채용 - 일반직 7급",
+    "employment_type": "정규직 일반직 7급",
+    "work_location": {
+      "raw": "울산경제일자리진흥원",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 3,
+    "posting_date": "2026-04-21",
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "월 기본급 2,133,000원~3,731,100원",
+    "working_hours": null,
+    "raw_tasks": [
+      "일반행정",
+      "정보기술",
+      "투자운용",
+      "지원사업 운영"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산도시공사 공식 홈페이지에 게시된 울산경제일자리진흥원 요청 공고",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.umca.co.kr/umca/bbs/view.do?bbsId=BBS_0000000000000002&dataId=4351&mId=001001002000000000",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "타 공공기관의 공식 협조 게시 자료",
+      "세부 직무가 복수 영역으로 넓음"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_011",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "RESEARCH_INSTITUTE_ADMIN",
+    "employer": "UNIST",
+    "employer_normalized": "울산과학기술원",
+    "posting_title": "UNIST 창업지원팀 연구원 채용공고(26년4차)",
+    "employment_type": "연구원",
+    "work_location": {
+      "raw": "UNIST 창업지원팀",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "detail": "언양읍 유니스트길 50",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": "2026-06-24",
+    "application_period": {
+      "start": "2026-06-25",
+      "end": "2026-07-09"
+    },
+    "contract_period": {
+      "start": "2026-08-01",
+      "end": null,
+      "note": "최초 1년, 평가 후 재계약 가능, 최대 2년"
+    },
+    "salary": "월 2,900,000원~3,000,000원, 세전",
+    "working_hours": "주 5일, 09:00~18:00",
+    "raw_tasks": [
+      "정부·지자체 창업지원사업 운영 및 지원",
+      "사업비 지출 및 회계 관련 행정 업무",
+      "창업기업 및 예비창업팀 성장 지원·육성"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [
+      "정부·지자체 창업지원사업 운영 유경험자",
+      "연구과제 및 연구비 관리 경험",
+      "창업지원기관 업무 경험"
+    ],
+    "licenses_original": [
+      "경영지도사",
+      "창업보육전문매니저"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "학사학위 이상"
+    ],
+    "source": {
+      "source_name": "UNIST 공식 채용공고",
+      "source_type": "UNIVERSITY_OFFICIAL",
+      "source_url": "https://www.unist.ac.kr/unist/etc/notification/employment.do?article.offset=0&articleLimit=10&articleNo=302010&mode=view",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": []
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_012",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "울산항만공사",
+    "employer_normalized": "울산항만공사",
+    "posting_title": "2026년 상반기 기간제계약직(대체인력, 비서) 채용 - 사무",
+    "employment_type": "기간제계약직",
+    "work_location": {
+      "raw": "울산항만공사",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": "장생포고래로 271",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": null,
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산항만공사 공식 채용공고",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.upa.or.kr/portal/board/post/list.do?bcIdx=668&mid=0405000000",
+      "official_url_available": true
+    },
+    "verification_level": "D",
+    "verification_notes": [
+      "계약직 바급 사무 채용 자체는 공식 결과공고에서 확인",
+      "이번 조사에서 최초 모집공고의 상세 담당업무를 확보하지 못해 핵심 매칭에서 제외"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_013",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "울산항만공사",
+    "employer_normalized": "울산항만공사",
+    "posting_title": "2026년 상반기 기간제계약직(대체인력, 비서) 채용 - 비서",
+    "employment_type": "기간제계약직",
+    "work_location": {
+      "raw": "울산항만공사",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": "장생포고래로 271",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": null,
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산항만공사 공식 채용공고",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.upa.or.kr/portal/board/post/list.do?bcIdx=668&mid=0405000000",
+      "official_url_available": true
+    },
+    "verification_level": "D",
+    "verification_notes": [
+      "비서 채용 존재는 공식 후속공고에서 확인",
+      "상세 수행업무 미확보"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_014",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "울산항만공사",
+    "employer_normalized": "울산항만공사",
+    "posting_title": "2026년 하반기 체험형 청년인턴 채용",
+    "employment_type": "체험형 청년인턴",
+    "work_location": {
+      "raw": "울산항만공사",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": "장생포고래로 271",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": "2026-04-13",
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산항만공사 공식 채용게시판",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.upa.or.kr/portal/board/post/list.do?bcIdx=668&mid=0405000000",
+      "official_url_available": true
+    },
+    "verification_level": "D",
+    "verification_notes": [
+      "채용공고 존재 확인",
+      "현재 검색 결과에서 세부 모집직무·업무를 확보하지 못함"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_015",
+    "occupation_group": "HUMANITIES_BUSINESS",
+    "occupation_type": "PUBLIC_SERVICE",
+    "employer": "울산광역시",
+    "employer_normalized": "울산광역시",
+    "posting_title": "2026년 행정 체험형 청년인턴 채용 공고",
+    "employment_type": "체험형 청년인턴",
+    "work_location": {
+      "raw": "울산광역시",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": "2026-02-04",
+    "application_period": {
+      "start": "2026-02-04 09:00",
+      "end": "2026-02-13 18:00"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산광역시 공식 고시공고",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.ulsan.go.kr/u/rep/transfer/notice/45424.ulsan?gosiGbn=A&mId=001004002000000000",
+      "official_url_available": true
+    },
+    "verification_level": "D",
+    "verification_notes": [
+      "공식 채용공고와 접수기간 확인",
+      "첨부 공고문의 세부 담당업무를 현재 검색결과에서 직접 검증하지 못해 핵심 추천에서는 제외"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_001",
+    "occupation_group": "HEALTH_MEDICAL_WELFARE",
+    "occupation_type": "LICENSED_PROFESSION",
+    "employer": "근로복지공단 울산병원",
+    "employer_normalized": "근로복지공단 울산병원",
+    "posting_title": "근로복지공단 울산병원 의료직 채용공고 - 간호사",
+    "employment_type": "의료직 6급",
+    "work_location": {
+      "raw": "근로복지공단 울산병원 울산 울주군 범서읍 굴화리 11-11",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "detail": "범서읍 굴화리 11-11",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 92,
+    "posting_date": "2026-07-10",
+    "application_period": {
+      "start": "2026-07-13",
+      "end": "2026-07-20 18:00:00"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "3개월 시보 후 근무성적이 양호한 경우 정규직 임용"
+    },
+    "salary": "공단 내부규정에 따름",
+    "working_hours": "1일 8시간. 병원 운영상황에 따라 3교대, 야간 및 휴일 근무 등 근무형태 변경 가능",
+    "raw_tasks": [
+      "의사의 처방이나 규정된 간호 기술에 따른 전문 의료서비스 및 건강관리 업무",
+      "간호 업무 수행을 위한 행정, 물품, 시설 및 환경 관리"
+    ],
+    "eligibility_notes": [
+      "대한민국 국적",
+      "임용일 기준 60세 미만",
+      "임용예정일 즉시 근무 가능"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [
+      "간호사 면허"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "간호사 면허 소지",
+      "대한민국 국적",
+      "임용일 기준 60세 미만",
+      "임용예정일 즉시 근무 가능"
+    ],
+    "source": {
+      "source_name": "근로복지공단 울산병원 공식 채용사이트",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://comwel2.saramin.co.kr/service/comwel2/3869/applicant/apply/recruit_default.asp",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "공식 채용공고에서 울산병원 근무, 92명, 면허, 일정, 근로조건 확인",
+      "직무기술서에서 간호 업무 확인"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_002",
+    "occupation_group": "HEALTH_MEDICAL_WELFARE",
+    "occupation_type": "LICENSED_PROFESSION",
+    "employer": "근로복지공단 울산병원",
+    "employer_normalized": "근로복지공단 울산병원",
+    "posting_title": "근로복지공단 울산병원 의료직 채용공고 - 물리치료사",
+    "employment_type": "의료직 6급",
+    "work_location": {
+      "raw": "근로복지공단 울산병원 울산 울주군 범서읍 굴화리 11-11",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "detail": "범서읍 굴화리 11-11",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 29,
+    "posting_date": "2026-07-10",
+    "application_period": {
+      "start": "2026-07-13",
+      "end": "2026-07-20 18:00:00"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "3개월 시보 후 근무성적이 양호한 경우 정규직 임용"
+    },
+    "salary": "공단 내부규정에 따름",
+    "working_hours": "1일 8시간. 병원 운영상황에 따라 근무형태 변경 가능",
+    "raw_tasks": [
+      "물리치료 업무"
+    ],
+    "eligibility_notes": [
+      "대한민국 국적",
+      "임용일 기준 60세 미만",
+      "임용예정일 즉시 근무 가능"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [
+      "물리치료사 면허"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "물리치료사 면허 소지",
+      "대한민국 국적",
+      "임용일 기준 60세 미만",
+      "임용예정일 즉시 근무 가능"
+    ],
+    "source": {
+      "source_name": "근로복지공단 울산병원 공식 채용사이트",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://comwel2.saramin.co.kr/service/comwel2/3869/applicant/apply/recruit_default.asp",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "공식 채용공고에서 울산병원 근무, 29명, 물리치료사 면허 필수 확인"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_003",
+    "occupation_group": "HEALTH_MEDICAL_WELFARE",
+    "occupation_type": "LICENSED_PROFESSION",
+    "employer": "SK geo centric",
+    "employer_normalized": "SK geo centric",
+    "posting_title": "울산Complex 산업간호사(계약직) 채용",
+    "employment_type": "계약직",
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": "울산Complex",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-04-27",
+      "end": "2026-05-10 23:59"
+    },
+    "contract_period": {
+      "start": "2026-06",
+      "end": "2026-12",
+      "note": "약 6개월"
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "사업장 내 보건관리자",
+      "구성원 보건관리 기획",
+      "특수건강진단 및 사후관리",
+      "건강증진 프로그램 운영",
+      "사업장 내 감염병 예방관리",
+      "비상대응 및 응급처치"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [
+      "산업전문간호사 자격 보유",
+      "산업위생관리기사 등 관련 자격증 보유",
+      "인간공학기사 등 관련 자격증 보유",
+      "MS Office 활용 능력 우수"
+    ],
+    "licenses_original": [
+      "간호사 면허"
+    ],
+    "tools_original": [
+      "MS Office"
+    ],
+    "hard_gates": [
+      "전문대학 졸업 이상 또는 이에 준하는 학력",
+      "간호사 면허",
+      "기업체 보건관리업무 경력 2년 이상",
+      "2026년 6월부터 근무 가능"
+    ],
+    "source": {
+      "source_name": "SK Careers",
+      "source_type": "COMPANY_OFFICIAL",
+      "source_url": "https://www.skcareers.com/Recruit/Detail/R260973",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "SK 공식 공고에서 업무, 울산근무, 면허, 경력 2년, 계약기간 확인"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_004",
+    "occupation_group": "HEALTH_MEDICAL_WELFARE",
+    "occupation_type": "LICENSED_PROFESSION",
+    "employer": "사회복지법인 인애복지재단 인애숲어린이집",
+    "employer_normalized": "인애숲어린이집",
+    "posting_title": "장애아동어린이집 작업치료사 채용",
+    "employment_type": "기간의 정함이 있는 근로계약",
+    "work_location": {
+      "raw": "울산광역시 북구 관문길 187-27, 인애숲어린이집",
+      "sido": "울산광역시",
+      "sigungu": "북구",
+      "detail": "관문길 187-27",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-02-09",
+      "end": "2026-02-13 18:00"
+    },
+    "contract_period": {
+      "start": "2026-03-01",
+      "end": "2027-02-28",
+      "note": "12개월"
+    },
+    "salary": "월 2,760,000원~2,800,000원",
+    "working_hours": "09:00~18:00, 주 5일, 주 40시간",
+    "raw_tasks": [
+      "작업치료사 업무"
+    ],
+    "eligibility_notes": [
+      "대졸(4년)"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [
+      "작업치료사"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "작업치료사 자격 보유",
+      "대졸(4년)"
+    ],
+    "source": {
+      "source_name": "고용24",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://m.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=VALIDATION&infoTypeGroup=tb_workinfoworknet&wantedAuthNo=K131212602090039",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "고용24에서 인원, 자격, 학력, 급여, 기간, 근무시간 및 울산 주소 확인",
+      "세부 작업치료 내용은 공고에 없어 확장하지 않음"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_005",
+    "occupation_group": "HEALTH_MEDICAL_WELFARE",
+    "occupation_type": "LICENSED_PROFESSION",
+    "employer": "울주군정신건강복지센터",
+    "employer_normalized": "울주군정신건강복지센터",
+    "posting_title": "2026년 제5차 울주군정신건강복지센터 직원 채용 모집 공고",
+    "employment_type": "정규직 및 계약직",
+    "work_location": {
+      "raw": "울산광역시 울주군 삼남면 서향교1길 67-12, 울주군보건소 2층",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "detail": "울주군보건소 2층",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 3,
+    "posting_date": "2026-04-30",
+    "application_period": {
+      "start": "2026-05-01",
+      "end": "2026-05-15"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "계약직 2명: 2026-06-01~2027-02-28, 정규직 1명: 2026-06-04부터"
+    },
+    "salary": "정신건강사업안내 인건비 기준",
+    "working_hours": "주 5일",
+    "raw_tasks": [
+      "지역사회 정신건강업무"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [
+      "지역사회 정신건강증진 및 자살예방사업 업무 유경험자",
+      "운전면허 소지 및 실제 운전 가능자"
+    ],
+    "licenses_original": [
+      "정신건강전문요원",
+      "사회복지사",
+      "임상심리사",
+      "간호사",
+      "작업치료사"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "정신건강전문요원, 사회복지사, 임상심리사, 간호사, 작업치료사 중 하나의 지원자격 보유"
+    ],
+    "source": {
+      "source_name": "울주군정신건강복지센터 공식 채용정보",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.ujcmhc.or.kr/sub.php?id=recruit&idx=61&menukey=40",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "센터 공식 공고에서 인원, 업무, 자격, 근무기간, 급여기준 확인"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_006",
+    "occupation_group": "HEALTH_MEDICAL_WELFARE",
+    "occupation_type": "LICENSED_PROFESSION",
+    "employer": "주식회사 도우누리",
+    "employer_normalized": "도우누리",
+    "posting_title": "[2026 울산 일자리박람회] 병원동행매니저 3명 모집",
+    "employment_type": "기간의 정함이 없는 근로계약(시간선택제)",
+    "work_location": {
+      "raw": "울산광역시 남구 거마로118번길 12",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": "거마로118번길 12",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 3,
+    "posting_date": "2026-06-16",
+    "application_period": {
+      "start": null,
+      "end": "2026-08-01"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "기간의 정함이 없는 시간선택제 근로계약"
+    },
+    "salary": "시급 10,320원",
+    "working_hours": "주 2일 09:00~12:00, 주 소정근로시간 6시간, 대상자 요청에 따라 일정 조율",
+    "raw_tasks": [
+      "대상자 요청 시 병원 동행 및 케어 업무 수행"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [
+      "운전 가능자"
+    ],
+    "licenses_original": [
+      "요양보호사"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "요양보호사 자격"
+    ],
+    "source": {
+      "source_name": "고용24 / 2026 울산 일자리박람회",
+      "source_type": "EVENT_OFFICIAL",
+      "source_url": "https://m.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=VALIDATION&infoTypeGroup=tb_workinfoworknet&wantedAuthNo=KJGB002606160002",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "고용24 및 울산 남구청 인증 공고",
+      "요양보호사 필수와 운전 가능 우대를 구분함"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_007",
+    "occupation_group": "HEALTH_MEDICAL_WELFARE",
+    "occupation_type": "WELFARE_SERVICE",
+    "employer": "사단법인울산밀알 밀알의집",
+    "employer_normalized": "밀알의집",
+    "posting_title": "밀알의집에서 장애인복지에 함께 할 사회복지사를 모십니다.",
+    "employment_type": null,
+    "work_location": {
+      "raw": "울산광역시 동구 문재5길 39",
+      "sido": "울산광역시",
+      "sigungu": "동구",
+      "detail": "문재5길 39",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": "2026-03-05",
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "월 2,420,000원 이상",
+    "working_hours": "주 5일. 주간 07:00~16:00 또는 09:00~18:00, 야간 13:00~22:00 또는 21:00~익일 09:00. 한 달 4일 야간교대",
+    "raw_tasks": [
+      "장애인 돌봄 및 행정업무",
+      "프로그램 관리 및 진행"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산광역시 동구청 구인정보",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.donggu.ulsan.kr/us/prg/job/view.do?nttId=191880",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "기존 HW_007 국민행복서비스단 공고를 원문 조건 충돌로 폐기하고 교체",
+      "공식 동구청 페이지에서 모집직종, 업무, 인원, 급여, 근무지·근무시간 확인",
+      "사회복지사 자격의 필수 여부는 본문에서 직접 확인되지 않아 hard_gates에 넣지 않음"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_008",
+    "occupation_group": "HEALTH_MEDICAL_WELFARE",
+    "occupation_type": "WELFARE_SERVICE",
+    "employer": "울산동구가족센터",
+    "employer_normalized": "울산동구가족센터",
+    "posting_title": "울산동구가족센터 사업인력 채용공고(다문화자녀교육활동비전담인력-사회복지사)",
+    "employment_type": null,
+    "work_location": {
+      "raw": "울산광역시 동구 대송로 112, 화정가족문화센터 4층",
+      "sido": "울산광역시",
+      "sigungu": "동구",
+      "detail": "대송로 112, 화정가족문화센터 4층",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": "2026-01-14",
+    "application_period": {
+      "start": "2026-01-09",
+      "end": "2026-01-26 16:00"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "월 2,280,000원~2,320,000원",
+    "working_hours": "09:00~18:00",
+    "raw_tasks": [
+      "다문화자녀 교육활동비 지원사업 운영",
+      "기타 연관사업 진행",
+      "센터 공통업무"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [
+      "사회복지사 2급"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "관련학과 학사학위 이상 또는 사회복지사 2급 자격증",
+      "운전 가능"
+    ],
+    "source": {
+      "source_name": "울산광역시 동구청 구인정보",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.donggu.ulsan.kr/us/prg/job/view.do?nttId=191755",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "동구청 공식 페이지에서 인원, 업무, 임금, 지원자격, 접수기간 확인"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_009",
+    "occupation_group": "HEALTH_MEDICAL_WELFARE",
+    "occupation_type": "LICENSED_PROFESSION",
+    "employer": "울산동구시니어클럽",
+    "employer_normalized": "울산동구시니어클럽",
+    "posting_title": "2026년 울산동구시니어클럽 사회복지사 채용 공고",
+    "employment_type": "계약직",
+    "work_location": {
+      "raw": "울산광역시 동구 대학길 169, 4층",
+      "sido": "울산광역시",
+      "sigungu": "동구",
+      "detail": "대학길 169, 4층",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": "2026-01-23",
+    "application_period": {
+      "start": "2026-01-23",
+      "end": "2026-01-29"
+    },
+    "contract_period": {
+      "start": "2026-02-01",
+      "end": "2027-01-31",
+      "note": null
+    },
+    "salary": "2026년 사회복지시설 종사자 인건비 가이드라인에 준함",
+    "working_hours": "주 5일 09:00~18:00, 주 40시간",
+    "raw_tasks": [
+      "노인일자리 및 사회활동지원사업 관련 업무"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [
+      "노인일자리 및 사회활동지원사업 유경험자",
+      "운전면허 소지 및 운전 가능자"
+    ],
+    "licenses_original": [
+      "사회복지사 2급 이상"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "사회복지사 2급 이상 자격증"
+    ],
+    "source": {
+      "source_name": "울산광역시 동구청 구인정보",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.donggu.ulsan.kr/us/prg/job/view.do?nttId=191782",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "동구청 공식 구인정보에서 자격·업무·기간·근무조건 확인"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_010",
+    "occupation_group": "HEALTH_MEDICAL_WELFARE",
+    "occupation_type": "HEALTHCARE_ADMIN",
+    "employer": "혜명심의료재단",
+    "employer_normalized": "울산병원",
+    "posting_title": "2026년 울산병원 고객지원부(응급실 원무팀) 채용 공고",
+    "employment_type": "계약직(정규직 전환 가능)",
+    "work_location": {
+      "raw": "울산 남구 월평로171번길 13, 울산병원",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": "월평로171번길 13",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-04-27",
+      "end": "2026-05-04 18:00"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "회사 내규에 따름, 면접 후 결정",
+    "working_hours": "4조 3교대, 공고 표기 09:00~18:00",
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "신입·경력",
+      "초대졸 이상"
+    ],
+    "preferred_conditions": [
+      "3교대 근무 가능자",
+      "야간근무 가능자"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "초대졸 이상"
+    ],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49059771",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "공고 존재·울산 근무·인원·학력·근무형태는 확인",
+      "실제 원무 세부 수행업무는 확인할 수 없어 raw_tasks를 비움",
+      "SUPPORT 전용"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_011",
+    "occupation_group": "HEALTH_MEDICAL_WELFARE",
+    "occupation_type": "LICENSED_PROFESSION",
+    "employer": "윤혜정산부인과의원",
+    "employer_normalized": "윤혜정산부인과의원",
+    "posting_title": "진료 보조 업무를 통해 의료 분야에서 경험을 쌓고 싶은 분을 모집합니다.",
+    "employment_type": "기간의 정함이 없는 근로계약",
+    "work_location": {
+      "raw": "울산광역시 남구 대학로 138, 6층",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": "대학로 138, 6층",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 2,
+    "posting_date": "2026-03-23",
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "기간의 정함이 없는 근로계약"
+    },
+    "salary": "시급 11,000원 이상",
+    "working_hours": "월·화·수·금 08:30~18:00, 목·토 08:30~13:00. 근무시간 협의 가능",
+    "raw_tasks": [
+      "환자 진료 전 준비작업",
+      "환자 배치 및 안내",
+      "의료기기 청소 및 관리",
+      "의사 및 간호사의 업무 지원"
+    ],
+    "eligibility_notes": [
+      "신입",
+      "학력무관"
+    ],
+    "preferred_conditions": [
+      "의료 분야 경험",
+      "환자 중심적 사고",
+      "소통 능력",
+      "팀워크",
+      "책임감"
+    ],
+    "licenses_original": [
+      "간호조무사"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "간호조무사 자격"
+    ],
+    "source": {
+      "source_name": "고용24",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://m.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=VALIDATION&infoTypeGroup=tb_workinfoworknet&wantedAuthNo=K131212603230006",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "고용24에서 업무·자격·인원·임금·시간·울산주소 직접 확인"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_012",
+    "occupation_group": "HEALTH_MEDICAL_WELFARE",
+    "occupation_type": "LICENSED_PROFESSION",
+    "employer": "울산광역시립노인병원",
+    "employer_normalized": "울산광역시립노인병원",
+    "posting_title": "울산광역시립노인병원 간호사 채용 공고 (Day,Eve)",
+    "employment_type": "기간의 정함이 없는 근로계약",
+    "work_location": {
+      "raw": "울산광역시 울주군 온양읍 덕남로 243",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "detail": "온양읍 덕남로 243",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": "2026-07-29",
+    "application_period": {
+      "start": null,
+      "end": "2026-08-13"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "기간의 정함이 없는 근로계약"
+    },
+    "salary": "연봉 36,000,000원~37,000,000원",
+    "working_hours": "Day 07:00~15:00, Evening 15:00~22:00, 주 5일, 주 40시간",
+    "raw_tasks": [
+      "요양병원 병동 간호업무"
+    ],
+    "eligibility_notes": [
+      "경력무관",
+      "학력무관"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [
+      "간호사"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "간호사 자격면허"
+    ],
+    "source": {
+      "source_name": "고용24 기반 채용정보 교차검증",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://kr.indeed.com/",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "고용24 검색결과에서 2026-07-29 등록, 2026-08-13 마감, 울산 울주군, 연봉 3600~3700만원 확인",
+      "간호사 자격·병동업무·근무시간은 동일 고용24 공고를 인용한 상세 채용자료로 교차확인",
+      "단일 상세 공식 원문을 확보하지 못해 C/SUPPORT로 유지"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_001",
+    "occupation_group": "PUBLIC_ADMINISTRATION",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "울산항만공사",
+    "employer_normalized": "울산항만공사",
+    "posting_title": "2026년 상반기 신입직원(채용형 인턴) 채용 공고 - 사무행정(일반)",
+    "employment_type": "신입직원(채용형 인턴)",
+    "recruitment_method": "NCS 및 블라인드 기반 직무능력중심 채용",
+    "work_location": {
+      "raw": "울산항만공사",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": "2026-04-13",
+    "application_period": {
+      "start": "2026-04-20 09:00",
+      "end": "2026-04-27 18:00"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "약 3개월 채용형 인턴 근무 후 평가 70점 이상인 경우 정규직 최종 임용 예정"
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "ncs_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산항만공사 공식 채용공고",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.upa.or.kr/portal/board/post/view.do?bcIdx=668&idx=16238&mid=0405000000",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "공식 모집공고에서 사무행정 일반 1명 확인",
+      "채용형 인턴 및 정규직 전환 구조 확인",
+      "세부 담당업무는 별도 직무기술서 참조 방식이므로 raw_tasks를 임의 생성하지 않음",
+      "지원조건 세부 원문을 현재 확보하지 않아 hard_gates를 비움"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_002",
+    "occupation_group": "PUBLIC_ADMINISTRATION",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "울산항만공사",
+    "employer_normalized": "울산항만공사",
+    "posting_title": "2026년 상반기 신입직원(채용형 인턴) 채용 공고 - 통계",
+    "employment_type": "신입직원(채용형 인턴)",
+    "recruitment_method": "NCS 및 블라인드 기반 직무능력중심 채용",
+    "work_location": {
+      "raw": "울산항만공사",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": "2026-04-13",
+    "application_period": {
+      "start": "2026-04-20 09:00",
+      "end": "2026-04-27 18:00"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "약 3개월 채용형 인턴 근무 후 평가 70점 이상인 경우 정규직 최종 임용 예정"
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "ncs_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산항만공사 공식 채용공고",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.upa.or.kr/portal/board/post/view.do?bcIdx=668&idx=16238&mid=0405000000",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "공식 공고에서 통계 1명 확인",
+      "직무기술서 세부내용을 현재 확보하지 않아 일반적인 데이터분석 업무를 RAW에 추가하지 않음"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_003",
+    "occupation_group": "PUBLIC_ADMINISTRATION",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "울산시설공단",
+    "employer_normalized": "울산시설공단",
+    "posting_title": "2026년도 제1회 울산시설공단 신규직원 채용 - 일반직 행정·사무 7급",
+    "employment_type": "일반직 7급",
+    "recruitment_method": "직무능력중심 블라인드 채용",
+    "work_location": {
+      "raw": "울산시설공단",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 2,
+    "posting_date": "2026-04-16",
+    "application_period": {
+      "start": null,
+      "end": "2026-05-06"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "일반행정 업무 전반",
+      "기획",
+      "총무",
+      "회계 등 공단 운영전반"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "ncs_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산시설공단 공식 채용공고",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.uic.or.kr/uimc/notify/noti06/selectEmploymentArticle.do?bbsId=BBSMSTR_000000000022&employmentId=EMPLOY_0000000002982",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "공단 공식 채용페이지에서 공고 실재와 NCS 기반 직무설명자료 첨부를 확인",
+      "행정·사무 7급 2명 및 일반행정·기획·총무·회계 업무 확인",
+      "현재 확보하지 못한 세부 자격조건은 hard_gates에 추정해서 넣지 않음"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_004",
+    "occupation_group": "PUBLIC_ADMINISTRATION",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "울산신용보증재단",
+    "employer_normalized": "울산신용보증재단",
+    "posting_title": "울산신용보증재단 일반직(정규직) 공개모집 공고",
+    "employment_type": "일반직 정규직",
+    "recruitment_method": "NCS 기반 직무능력중심 블라인드 채용",
+    "work_location": {
+      "raw": "본·지점 및 소상공인 행복드림센터(울산광역시 내)",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 2,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-02-09",
+      "end": "2026-02-20 14:00"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "최초 임용 후 3개월 수습"
+    },
+    "salary": "연 38,130,471원 이상",
+    "working_hours": "주 5일, 평일 09:00~18:00",
+    "raw_tasks": [
+      "경영전략",
+      "신용보증",
+      "회생지원",
+      "소상공인 교육 등 업무 전반"
+    ],
+    "eligibility_notes": [
+      "학력·전공·연령·성별·신체조건 제한 없음"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "ncs_original": [
+      "NCS 기반 직무능력중심 채용"
+    ],
+    "hard_gates": [
+      "병역필 또는 면제",
+      "지역인재 채용 관련 자격요건 중 하나 충족",
+      "재단 인사규정상 채용제한 사유에 해당하지 않을 것"
+    ],
+    "source": {
+      "source_name": "울산신용보증재단 공식 채용홈페이지",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://recruit.incruit.com/ulsanshinbo/jobcont/2602040023",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "인원, 업무, 울산근무, 지원조건, 급여, 근무시간, NCS 채용방식을 공식 채용페이지에서 확인"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_005",
+    "occupation_group": "PUBLIC_ADMINISTRATION",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "재단법인 울산문화관광재단",
+    "employer_normalized": "울산문화관광재단",
+    "posting_title": "2026년 (재)울산문화관광재단 채용형 인턴(행정직) 공개 채용 공고",
+    "employment_type": "채용형 인턴",
+    "recruitment_method": "공개경쟁채용 / 서류전형 → NCS·인성검사·논술 → 면접전형",
+    "work_location": {
+      "raw": "울산문화관광재단 사무실(울주군 및 남구 등)",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": "울주군 및 남구 등",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 4,
+    "posting_date": "2025-12-24",
+    "application_period": {
+      "start": "2025-12-29",
+      "end": "2026-01-05 18:00"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "임용일로부터 1년, 전환평가 기준 이상인 경우 정규직 일반직 전환"
+    },
+    "salary": "2026년 울산광역시 생활임금조례에 따름",
+    "working_hours": "주 5일, 주 40시간",
+    "raw_tasks": [
+      "경영 일반행정",
+      "문화 일반행정",
+      "관광 일반행정"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "ncs_original": [
+      "NCS 직업기초능력"
+    ],
+    "hard_gates": [
+      "만 18세 이상 만 60세 이하",
+      "대한민국 국적",
+      "남성의 경우 병역필 또는 병역면제",
+      "공고상 행정직 자격기준 중 하나 충족"
+    ],
+    "source": {
+      "source_name": "울산문화관광재단 공식 채용홈페이지",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://recruit.incruit.com/uctf/jobcont/2512150006",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "4명, 주요업무, 울산근무, 채용절차, NCS 필기, 기간, 지원조건을 공식 채용페이지에서 확인"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_006",
+    "occupation_group": "PUBLIC_ADMINISTRATION",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "재단법인 울산테크노파크",
+    "employer_normalized": "울산테크노파크",
+    "posting_title": "울산테크노파크 직원(청년인턴) 채용 공고(제2026-010호)",
+    "employment_type": "청년인턴",
+    "recruitment_method": null,
+    "work_location": {
+      "raw": "울산테크노파크",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "detail": "종가로 15",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": "2026-07-22",
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "사업지원",
+      "경영지원"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "ncs_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산테크노파크 공식 채용공고 존재 확인 및 상세 채용자료 교차검증",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": null,
+      "official_url_available": true
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "울산테크노파크 공식 홈페이지에서 제2026-010호 공고와 2026-07-22 게시일 확인",
+      "세부 업무는 사업지원·경영지원 수준만 유지",
+      "이번 최종본에서는 공식 원문으로 다시 확인하지 못한 급여·연령·접수기간 등 세부 수치를 제거함"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_007",
+    "occupation_group": "PUBLIC_ADMINISTRATION",
+    "occupation_type": "PUBLIC_INSTITUTION",
+    "employer": "재단법인 울산연구원",
+    "employer_normalized": "울산연구원",
+    "posting_title": "2026년 울산연구원 연구직 공개채용 2차 재공고",
+    "employment_type": null,
+    "recruitment_method": null,
+    "work_location": {
+      "raw": "울산연구원",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": "2026-06-30",
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "ncs_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "울산연구원 공식 채용정보",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.uri.re.kr/",
+      "official_url_available": true
+    },
+    "verification_level": "D",
+    "verification_notes": [
+      "울산연구원 공식 홈페이지에서 2026-06-30 연구직 공개채용 2차 재공고 존재 확인",
+      "이번 재검증에서 모집분야·학위·급여·업무를 공식 상세 원문으로 다시 확인하지 못함",
+      "이전 답변의 AI정책·박사학위·급여 수치는 이번 최종 RAW에서는 제거",
+      "핵심 매칭에서 제외"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_001",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "GENERAL_PRIVATE",
+    "employer": "SK inc.(AX)",
+    "employer_normalized": "SK AX",
+    "posting_title": "제조 에너지/화학 계열 AI/DT 및 시스템 담당자 영입 (울산 근무)",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-05-14",
+      "end": "2026-06-15 23:59"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "고객사의 신규 AI/DT 과제를 구체화하고 사업 개발·수행",
+      "AI/DT 과제 제안부터 구축 및 운영 전환까지 수행",
+      "사업 규모에 따라 프로젝트 PM 및 분석·설계 역할 수행"
+    ],
+    "eligibility_notes": [],
+    "preferred_conditions": [
+      "AI/DT 관련 기획 및 사업 수행 경험",
+      "제조 생산·설비·안전환경 관련 업무지식",
+      "다수 프로젝트 수행 경험",
+      "Java, C#, Python, React 등 다양한 개발언어 경험"
+    ],
+    "licenses_original": [],
+    "tools_original": [
+      "JavaScript",
+      "Spring Boot"
+    ],
+    "hard_gates": [
+      "채용 분야 경력 3년 이상",
+      "Application 개발(JavaScript, Spring Boot) 및 분석·설계 역량",
+      "AI/DT 관련 프로젝트 수행 경험 및 프로젝트 PM/PL 또는 사업관리 경험",
+      "최종합격 후 회사 지정일 입사 가능"
+    ],
+    "source": {
+      "source_name": "SK Careers",
+      "source_type": "COMPANY_OFFICIAL",
+      "source_url": "https://www.skcareers.com/Recruit/Detail/R261104",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "공식 원문에서 울산 근무, 담당업무, 경력 3년 이상, JavaScript·Spring Boot 관련 요건 확인"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_002",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "GENERAL_PRIVATE",
+    "employer": "주식회사 이노컴즈",
+    "employer_normalized": "이노컴즈",
+    "posting_title": "AI 개발자 (RAG / LLM / Computer Vision)",
+    "employment_type": "정규직(수습 3개월) 또는 계약직(6개월)",
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-04-01",
+      "end": "2026-05-31"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "계약직 선택 시 6개월"
+    },
+    "salary": "회사 내규에 따름, 면접 후 결정",
+    "working_hours": "주 5일, 09:00~18:00",
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "경력 3년 이상",
+      "학력무관"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [
+      "API",
+      "AWS",
+      "PostgreSQL",
+      "Python"
+    ],
+    "hard_gates": [
+      "경력 3년 이상"
+    ],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48893520",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "공고명·울산근무·경력·기술은 확인",
+      "상세 수행업무를 확인하지 못해 raw_tasks를 비움"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_003",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "GENERAL_PRIVATE",
+    "employer": "주식회사 인사이트온",
+    "employer_normalized": "인사이트온",
+    "posting_title": "[울산] 정규직 개발자 모집 - 경력(3년이상)",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산 중구",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-06-29",
+      "end": "2026-07-29"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "회사 내규에 따름, 면접 후 결정",
+    "working_hours": "주 5일, 09:00~18:00",
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "경력 3년 이상",
+      "대졸 이상"
+    ],
+    "preferred_conditions": [
+      "관련 자격증 보유",
+      "유관업무 경력"
+    ],
+    "licenses_original": [],
+    "tools_original": [
+      "ASP.NET",
+      "C#",
+      "JAVA",
+      "Python",
+      "React",
+      "Vue.js",
+      "Nexacro"
+    ],
+    "hard_gates": [
+      "경력 3년 이상",
+      "대졸 이상"
+    ],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48625494",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "SW 개발자 공고 및 기술스택 확인",
+      "프로젝트 세부업무는 확인 불가"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_004",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "GENERAL_PRIVATE",
+    "employer": "주식회사 인사이트온",
+    "employer_normalized": "인사이트온",
+    "posting_title": "[울산] java, react 프로젝트 개발자 모집(8개월)",
+    "employment_type": "프리랜서",
+    "work_location": {
+      "raw": "울산 중구",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-06-05",
+      "end": "2026-07-05"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "공고명에 프로젝트 기간 8개월 명시"
+    },
+    "salary": "회사 내규에 따름, 면접 후 결정",
+    "working_hours": "주 5일, 09:00~18:00",
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "경력 10년 이상",
+      "대졸 이상"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [
+      "Java",
+      "React"
+    ],
+    "hard_gates": [
+      "경력 10년 이상",
+      "대졸 이상"
+    ],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49319340",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "Java·React 프로젝트 개발 공고 존재와 경력조건 확인",
+      "실제 개발업무 상세는 확인하지 못함"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_005",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "GENERAL_PRIVATE",
+    "employer": "코리아웹데이터센터",
+    "employer_normalized": "코리아웹데이터센터",
+    "posting_title": "AI 개발자 (RAG / LLM / Computer Vision)",
+    "employment_type": null,
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": null,
+      "end": "2026-04-07"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "경력직"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "잡코리아 기업 채용이력",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/company/46075914/recruit",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "2026년 울산 AI 개발자 공고 존재와 마감일 확인",
+      "상세 수행업무·필수 기술·정확한 경력연수는 확인하지 못함"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_006",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "GENERAL_PRIVATE",
+    "employer": "코리아웹데이터센터",
+    "employer_normalized": "코리아웹데이터센터",
+    "posting_title": "플러터 앱 개발자 공고",
+    "employment_type": null,
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": null,
+      "end": "2026-05-12"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "경력직"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [
+      "Flutter"
+    ],
+    "hard_gates": [],
+    "source": {
+      "source_name": "잡코리아 기업 채용이력",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/company/46075914/recruit",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "공고명·울산지역·경력직·마감일 확인",
+      "경력연수와 세부업무는 확인하지 못함"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_007",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "GENERAL_PRIVATE",
+    "employer": "코리아웹데이터센터",
+    "employer_normalized": "코리아웹데이터센터",
+    "posting_title": "Node.js 백엔드 개발자 모집",
+    "employment_type": null,
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": null,
+      "end": "2026-04-01"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "경력직"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [
+      "Node.js"
+    ],
+    "hard_gates": [],
+    "source": {
+      "source_name": "잡코리아 기업 채용이력",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/company/46075914/recruit",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "공고명·울산지역·경력직·마감일 확인",
+      "상세 백엔드 수행업무는 확인하지 못함"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_008",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "GENERAL_PRIVATE",
+    "employer": "주식회사 아이티앤씨",
+    "employer_normalized": "아이티앤씨",
+    "posting_title": "공공기관 인프라운영 서버 상주인력 모집합니다 (울산)",
+    "employment_type": "계약직(3년, 정규직 전환 가능)",
+    "work_location": {
+      "raw": "울산 중구 종가로 345, 한국산업인력공단",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "detail": "종가로 345",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-01-16",
+      "end": "2026-02-15"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "3년"
+    },
+    "salary": "회사 내규에 따름, 면접 후 결정",
+    "working_hours": "주 5일, 09:00~18:00",
+    "raw_tasks": [
+      "공공기관 서버 인프라 상주 운영"
+    ],
+    "eligibility_notes": [
+      "경력 3년 이상",
+      "초대졸 이상"
+    ],
+    "preferred_conditions": [
+      "인근거주자",
+      "유관업무 경력자"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "경력 3년 이상",
+      "초대졸 이상"
+    ],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48425113",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "실제 울산 상주 근무지·서버 인프라 운영·경력·학력·계약기간 확인"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_009",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "GENERAL_PRIVATE",
+    "employer": "주식회사 아이티앤씨",
+    "employer_normalized": "아이티앤씨",
+    "posting_title": "(급)공공기관 보안 상주인력 모집합니다 (울산)",
+    "employment_type": "계약직(3년, 정규직 전환 가능)",
+    "work_location": {
+      "raw": "울산 중구 종가로 340, 근로복지공단",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "detail": "종가로 340",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-02-11",
+      "end": "2026-03-13"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "3년"
+    },
+    "salary": "회사 내규에 따름, 면접 후 결정",
+    "working_hours": "주 5일, 09:00~18:00",
+    "raw_tasks": [
+      "공공기관 보안 상주 운영"
+    ],
+    "eligibility_notes": [
+      "경력 3년 이상",
+      "초대졸 이상"
+    ],
+    "preferred_conditions": [
+      "인근거주자",
+      "유관업무 경력자"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "경력 3년 이상",
+      "초대졸 이상"
+    ],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48591391",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "울산 근로복지공단 상주 보안 운영 공고 확인",
+      "구체적인 보안솔루션·기술은 공고에 없어 추가하지 않음"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_010",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "DESIGN_CONTENT",
+    "employer": "한그루필름 주식회사",
+    "employer_normalized": "한그루필름",
+    "posting_title": "2026년 신규 그래픽 디자이너 채용 공고",
+    "employment_type": "정규직(수습 3개월)",
+    "work_location": {
+      "raw": "울산 남구 월평로 218, 3층",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": "월평로 218, 3층",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-06-23",
+      "end": "2026-07-23"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "수습 3개월"
+    },
+    "salary": "회사 내규에 따름, 면접 후 결정",
+    "working_hours": "09:00~18:00 또는 10:00~19:00",
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "경력무관",
+      "초대졸 이상"
+    ],
+    "preferred_conditions": [
+      "시각디자인학과",
+      "영상그래픽디자인과"
+    ],
+    "licenses_original": [],
+    "tools_original": [
+      "Excel",
+      "PowerPoint",
+      "Illustrator",
+      "InDesign",
+      "Photoshop",
+      "After Effects",
+      "Premiere Pro",
+      "한글"
+    ],
+    "hard_gates": [
+      "초대졸 이상"
+    ],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49440050",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "공고 스킬 항목에 디자인 툴이 직접 기재됨",
+      "시각디자인 산업기사·멀티미디어 전문가는 스킬 항목에 표시됐으나 자격증 필수·우대로 확인되지 않아 licenses_original에서 제외",
+      "포트폴리오 필수 여부는 확인되지 않음"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_011",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "SERVICE_PLANNING",
+    "employer": "코리아웹데이터센터",
+    "employer_normalized": "코리아웹데이터센터",
+    "posting_title": "App/Web 서비스 기획자 채용공고",
+    "employment_type": null,
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": null,
+      "end": "2026-01-26"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "경력직"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "잡코리아 기업 채용이력",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/company/46075914/recruit",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "App/Web 서비스 기획자 울산 채용 존재·경력직·마감일 확인",
+      "기획업무 상세 및 사용도구는 확인할 수 없어 비움"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_012",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "SERVICE",
+    "employer": "주식회사 일송개발",
+    "employer_normalized": "오션뷰호텔",
+    "posting_title": "2026년 오션뷰호텔 프론트 데스크 및 현장운영 채용 [HOTEL FRONT DESK]",
+    "employment_type": "정규직(수습 3개월)",
+    "work_location": {
+      "raw": "울산 동구 해수욕장1길 50, 오션뷰호텔",
+      "sido": "울산광역시",
+      "sigungu": "동구",
+      "detail": "해수욕장1길 50",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-03-06",
+      "end": "2026-04-05"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "수습 3개월"
+    },
+    "salary": "시급 10,320원",
+    "working_hours": "주 5일, 07:00~15:00",
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "경력무관",
+      "학력무관"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48719449",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "호텔프런트, 1명, 고용형태, 급여, 시간, 울산 근무지, 학력·경력 조건 확인",
+      "프런트의 구체적인 고객응대 업무는 공고 본문에 없어 raw_tasks를 비움"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_013",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "SERVICE",
+    "employer": "머큐어앰배서더호텔울산 / 주식회사 랜드파트너스",
+    "employer_normalized": "머큐어앰배서더 울산",
+    "posting_title": "[호텔]머큐어앰배서더 울산 - 객실 팀원 채용(사원-대리)",
+    "employment_type": "정규직(수습 3개월) 또는 계약직(11개월, 정규직 전환 가능)",
+    "work_location": {
+      "raw": "울산 북구 강동산하2로 7",
+      "sido": "울산광역시",
+      "sigungu": "북구",
+      "detail": "강동산하2로 7",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-06-30",
+      "end": "2026-08-29"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "계약직 선택 시 11개월"
+    },
+    "salary": "회사 내규에 따름, 면접 후 결정",
+    "working_hours": "주 5일, 탄력·스케줄 근무",
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "신입·경력"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://m.jobkorea.co.kr/Recruit/GI_Read/49485020",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "객실팀·1명·울산근무·고용형태·신입경력·기간 확인",
+      "상세 객실서비스 업무는 확인되지 않음"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_014",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "SERVICE",
+    "employer": "머큐어앰배서더호텔울산 / 주식회사 랜드파트너스",
+    "employer_normalized": "머큐어앰배서더 울산",
+    "posting_title": "[호텔]머큐어앰배서더 울산 - 객실부 및 OTA 담당자 채용(주임-대리)",
+    "employment_type": "정규직(수습 3개월) 또는 계약직(24개월, 정규직 전환 가능)",
+    "work_location": {
+      "raw": "울산 북구 강동산하2로 7",
+      "sido": "울산광역시",
+      "sigungu": "북구",
+      "detail": "강동산하2로 7",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": 1,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-01-02",
+      "end": "2026-02-01"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "계약직 선택 시 24개월"
+    },
+    "salary": "회사 내규에 따름, 면접 후 결정",
+    "working_hours": "주 5일, 탄력근무제",
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "경력직",
+      "학력무관"
+    ],
+    "preferred_conditions": [
+      "인근거주자",
+      "차량소지자",
+      "지방근무 가능자",
+      "즉시출근 가능자",
+      "장기근무 가능자",
+      "호텔 경력자"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48331359",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "공고명에 OTA 담당이 명시돼 있으나 실제 OTA 수행업무·사용 플랫폼은 확인되지 않아 raw_tasks와 tools_original을 비움"
+    ]
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_015",
+    "occupation_group": "IT_DIGITAL_SERVICE",
+    "occupation_type": "SERVICE",
+    "employer": "브라운도트호텔울산신천점",
+    "employer_normalized": "브라운도트호텔 울산신천점",
+    "posting_title": "브라운도트호텔 울산신천점 프론트직(오전근무자)",
+    "employment_type": null,
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": null,
+      "end": "2026-06-30"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [],
+    "eligibility_notes": [
+      "신입·경력",
+      "학력무관"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [],
+    "source": {
+      "source_name": "잡코리아 기업 채용이력",
+      "source_type": "PRIVATE_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/company/47454561/recruit",
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "2026년 울산 프론트직 공고 존재·신입경력·학력무관·마감일 확인",
+      "세부조건은 확인할 수 없어 null 처리"
+    ]
+  }
+]

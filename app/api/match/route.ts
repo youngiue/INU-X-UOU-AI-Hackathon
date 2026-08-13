@@ -25,7 +25,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const matches = rankJobs(parsed.data, jobs);
+    const matches = await rankJobs(parsed.data, jobs);
     let aiEnhanced = false;
 
     try {
