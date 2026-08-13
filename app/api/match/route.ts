@@ -36,9 +36,11 @@ export async function POST(request: Request) {
     const matches = [...current_opportunities, ...career_discovery];
     let aiEnhanced = false;
 
-    try {
-      const aiResult = await enhanceReasons(parsed.data, matches);
-      if (aiResult) {
+    // 생성이 비결정적이라 검증에 걸릴 수 있어 1회 재시도 — 두 번 다 실패하면 코드 기반 설명으로 폴백
+    for (let attempt = 1; attempt <= 2 && !aiEnhanced; attempt++) {
+      try {
+        const aiResult = await enhanceReasons(parsed.data, matches);
+        if (!aiResult) break;
         assertExactExplanationJobIds(aiResult, matches.map((match) => match.job.id));
         assertKnownSimilarRoles(aiResult, matches.flatMap((match) => [match.job.title, match.job.discoveredRole]));
         assertNoDeveloperLanguage(aiResult);
@@ -59,9 +61,9 @@ export async function POST(request: Request) {
           };
         }
         aiEnhanced = true;
+      } catch (error) {
+        console.error(`OpenAI explanation fallback (attempt ${attempt}):`, error);
       }
-    } catch (error) {
-      console.error("OpenAI explanation fallback:", error);
     }
 
     // 각 공고 근무지 기준 복지서비스 첨부 (AI 설명 생성 이후에 붙여 GPT 입력에는 영향 없음)

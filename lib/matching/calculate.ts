@@ -92,6 +92,11 @@ function locationMatch(profile: UserProfile, job: Job): NonNullable<JobMatch["lo
   return { level: "UNKNOWN", requested: wantedLabel, job_sigungu: jobDistrict, reason: "공고의 근무지역을 충분히 확인하지 못했습니다." };
 }
 function locationRank(match: JobMatch) { return match.location_match?.level === "EXACT_LOCAL_MATCH" ? 3 : ["MULTI_WORKSITE_MATCH", "MULTI_SIGUNGU_MATCH"].includes(match.location_match?.level ?? "") ? 2 : match.location_match?.level === "COMPANY_ADDRESS_FALLBACK" ? 1.5 : match.location_match?.level === "ULSAN_BROAD_MATCH" ? 1 : 0; }
+// AI 설명 생성(explain.ts)과 검증(explanation.ts)이 "지역이 실제로 맞는지"를 각자 다시 계산하지
+//않고 이 값 하나만 참조하도록, 매칭 결과에 직접 채워 넣는다 — 필드가 비어있으면(undefined)
+// 두 곳이 서로 다른 판정을 내릴 수 있어 정확한 설명까지 "거짓 주장"으로 오판되는 버그가 있었음.
+const LOCATION_MATCH_LEVELS = new Set(["EXACT_LOCAL_MATCH", "MULTI_WORKSITE_MATCH", "MULTI_SIGUNGU_MATCH", "COMPANY_ADDRESS_FALLBACK", "ULSAN_BROAD_MATCH"]);
+function isLocationMatchLevel(level: string | undefined): boolean { return level !== undefined && LOCATION_MATCH_LEVELS.has(level); }
 
 /**
  * 자격증명/전공명이 키워드로는 안 맞지만 의미상 통하는 경우(예: "지게차운전기능사" 게이트에
@@ -199,10 +204,16 @@ function scoreJob(profile: UserProfile, job: Job, semanticScore?: number, qualif
     : Math.round(requiredMatchRatio * 100);
   const subScores: SubScore[] = [{ label: "전공 적합도", score: majorMatched ? 92 : 45, weight: 0.25 }, { label: "경험 적합도", score: taskMatched.length || suitableExperienceMatched.length ? 85 : 30, weight: 0.3 }, { label: "기술 적합도", score: skillFitScore, weight: 0.3 }, { label: "근무조건 적합도", score: Math.round(locationRank({ location_match: locationMatch(profile, job) } as JobMatch) / 3 * 100), weight: 0.15 }];
   const reasonSummary = reasons.join(" "); const usualKeywords = profile.usualSearchKeywords ?? []; const isHiddenGem = usualKeywords.length > 0 && !usualKeywords.some((keyword) => hasTerm([job.title, job.discoveredRole], keyword));
-  return { job, score, subScores, matchedSkills: [...new Set([...matchedSkills, ...matchedPreferred])], missingSkills, reasons, reasonSummary, strengths, gaps: buildGaps(job, [...new Set([...matchedSkills, ...matchedPreferred])]), isHiddenGem, hiddenGemNote: isHiddenGem ? `평소 검색 키워드와 직무명은 다르지만 실제 업무(${job.discoveredRole})에 경험이 연결됩니다.` : undefined, gateStatus: gateEvaluation(profile, job, qualificationSemanticScore), location_match: locationMatch(profile, job) };
+  const locationMatchResult = locationMatch(profile, job);
+  return { job, score, subScores, matchedSkills: [...new Set([...matchedSkills, ...matchedPreferred])], missingSkills, reasons, reasonSummary, strengths, gaps: buildGaps(job, [...new Set([...matchedSkills, ...matchedPreferred])]), isHiddenGem, hiddenGemNote: isHiddenGem ? `평소 검색 키워드와 직무명은 다르지만 실제 업무(${job.discoveredRole})에 경험이 연결됩니다.` : undefined, gateStatus: gateEvaluation(profile, job, qualificationSemanticScore), location_match: locationMatchResult, locationMatch: isLocationMatchLevel(locationMatchResult.level) };
 }
 
-export function calculateMatch(profile: UserProfile, job: Job, semanticScore?: number, qualificationSemanticScore?: number, skillSemanticScore?: number): JobMatch { return scoreJob(profile, job, semanticScore, qualificationSemanticScore, skillSemanticScore) ?? { job, score: 0, subScores: [], matchedSkills: [], missingSkills: job.requiredSkills, reasons: [], reasonSummary: "", strengths: [], gaps: [], isHiddenGem: false, gateStatus: gateEvaluation(profile, job, qualificationSemanticScore), location_match: locationMatch(profile, job) }; }
+export function calculateMatch(profile: UserProfile, job: Job, semanticScore?: number, qualificationSemanticScore?: number, skillSemanticScore?: number): JobMatch {
+  const scored = scoreJob(profile, job, semanticScore, qualificationSemanticScore, skillSemanticScore);
+  if (scored) return scored;
+  const locationMatchResult = locationMatch(profile, job);
+  return { job, score: 0, subScores: [], matchedSkills: [], missingSkills: job.requiredSkills, reasons: [], reasonSummary: "", strengths: [], gaps: [], isHiddenGem: false, gateStatus: gateEvaluation(profile, job, qualificationSemanticScore), location_match: locationMatchResult, locationMatch: isLocationMatchLevel(locationMatchResult.level) };
+}
 export async function rankJobs(profile: UserProfile, jobs: Job[]) { const semanticScores = await getSemanticScores(profile, jobs); return jobs.map((job) => scoreJob(profile, job, semanticScores?.get(job.id))).filter((match): match is JobMatch => Boolean(match)).sort((a, b) => b.score - a.score).slice(0, 3); }
 export async function matchJobs(profile: UserProfile, jobs: Job[]) {
   // 자격증이 실제로 검증하는 능력을 추론해 매칭용 기술로 추가 (예: ADsP → 데이터 분석 기초).
