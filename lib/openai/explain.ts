@@ -26,8 +26,10 @@ function buildExplanationEvidence(match: JobMatch) {
         jobValue: gap.label,
         explanationBasis: gap.suggestion ?? "현재 등록된 프로필에서 확인되지 않는 공고 요구사항",
       }));
+  // COMPANY_ADDRESS_FALLBACK도 포함 — 매칭 로직이 준일치로 취급하는 등급인데 여기서 빼면
+  // 모델이 소재지 근거("기업 소재지: 울산 남구")를 보고 쓴 정직한 지역 언급이 거짓 주장으로 오판됨
   const locationMatch = match.locationMatch ?? [
-    "EXACT_LOCAL_MATCH", "MULTI_WORKSITE_MATCH", "MULTI_SIGUNGU_MATCH", "ULSAN_BROAD_MATCH",
+    "EXACT_LOCAL_MATCH", "MULTI_WORKSITE_MATCH", "MULTI_SIGUNGU_MATCH", "COMPANY_ADDRESS_FALLBACK", "ULSAN_BROAD_MATCH",
   ].includes(match.location_match?.level ?? "");
   return { matchedEvidence, missingEvidence, locationMatch };
 }
@@ -68,5 +70,11 @@ export async function enhanceReasons(profile: UserProfile, matches: JobMatch[]):
     text: { format: zodTextFormat(explanationsSchema, "job_explanations") },
   });
   if (!response.output_parsed) throw new Error("OpenAI returned no parsed explanations");
+  // 허용 목록 밖 유사 직무는 검증에서 전체를 폐기하는 대신 해당 항목만 제거한다
+  // (검증 불가능한 제안을 지우는 방향의 정제라 안전하고, 나머지 설명은 살아남는다)
+  const allowedRoleSet = new Set(allowedSimilarRoles);
+  for (const explanation of response.output_parsed.explanations) {
+    explanation.similarRoles = explanation.similarRoles.filter(({ role }) => allowedRoleSet.has(role));
+  }
   return response.output_parsed;
 }

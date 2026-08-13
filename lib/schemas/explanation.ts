@@ -62,7 +62,8 @@ export function assertKnownSimilarRoles(
   }
 }
 
-const FORBIDDEN_USER_FACING_PATTERN = /matchedSkills|missingSkills|matchedEvidence|missingEvidence|skills|certificates|profile|jobId|discoveredRole|recommendationReasons|missingConditions|JSON|필드|배열|객체|입력값|[{}\[\]]/i;
+// 대괄호는 공고 제목 표기([경력], [Tech] 등)를 인용할 때 정상적으로 쓰이므로 차단하지 않는다
+const FORBIDDEN_USER_FACING_PATTERN = /matchedSkills|missingSkills|matchedEvidence|missingEvidence|skills|certificates|profile|jobId|discoveredRole|recommendationReasons|missingConditions|JSON|필드|배열|객체|입력값|[{}]/i;
 
 function explanationTexts(result: Explanations): string[] {
   return result.explanations.flatMap((item) => [
@@ -104,7 +105,15 @@ export function assertGroundedExplanations(
       ...explanation.unexpectedConnections,
       ...explanation.similarRoles.map(({ reason }) => reason),
     ];
-    if (!match.locationMatch && texts.some((text) => /(?:희망\s*)?근무?지역.{0,20}(?:일치|같|부합)/.test(text))) {
+    // 긍정적 지역 일치 주장만 차단 — "일치하지 않지만" 같은 정직한 부정 언급은 허용
+    const claimsLocationMatch = (text: string) => {
+      const claimPattern = /(?:희망\s*)?근무?지역.{0,20}(?:일치|같|부합)[^.。!?]{0,12}/g;
+      for (const claim of text.match(claimPattern) ?? []) {
+        if (!/않|아니|없|어렵|다르/.test(claim)) return true;
+      }
+      return false;
+    };
+    if (!match.locationMatch && texts.some(claimsLocationMatch)) {
       throw new Error("OpenAI falsely claimed a location match");
     }
     for (const text of texts) {

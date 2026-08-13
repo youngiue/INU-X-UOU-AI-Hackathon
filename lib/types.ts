@@ -60,6 +60,21 @@ export interface Job {
   locationPrecision?: "ADDRESS_CONFIRMED" | "SIGUNGU_CONFIRMED" | "MULTI_WORKSITE_CONFIRMED" | "COMPANY_ADDRESS_FALLBACK" | "MULTI_SIGUNGU_CONFIRMED" | "SIDO_ONLY" | "UNKNOWN";
 }
 
+export interface WelfareService {
+  id: string;
+  title: string;
+  category: string;
+  provider: string;
+  /** "울산 전체" | "남구" 등 적용 지역 라벨 */
+  areaLabel: string;
+  supportSummary: string;
+  /** 원문 신청 조건 (판정 불가 조건은 사용자에게 그대로 보여주고 확인 유도) */
+  conditions: string[];
+  /** 왜 이 사용자·이 공고와 관련되는지 — 단정 없이 "확인해볼 수 있습니다" 톤 */
+  reason: string;
+  sourceUrl?: string;
+}
+
 export interface SubScore {
   label: string;
   score: number;
@@ -111,6 +126,8 @@ export interface JobMatch {
   matchedEvidence?: MatchEvidence[];
   missingEvidence?: MatchEvidence[];
   locationMatch?: boolean;
+  /** 이 공고 근무지 기준으로 이용 가능성이 있는 울산 복지서비스 (관련성 상위 최대 3개) */
+  welfareServices?: WelfareService[];
   matchedQualifications?: string[];
   missingQualifications?: string[];
   uncertainQualifications?: string[];

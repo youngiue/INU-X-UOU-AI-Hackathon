@@ -64,6 +64,7 @@ export default function ResultDetailPage() {
             hiddenGemNote={match.hiddenGemNote}
             blindSpotLabel={blindSpotLabel}
             aiExplanation={match.aiExplanation}
+            welfareServices={match.welfareServices}
             whatIfContent={profile && match.missingSkills[0] ? (
               <section className="mt-6 border-t border-grid pt-5">
                 <button type="button" onClick={() => setBoostedMatch(calculateMatch({ ...profile, skills: [...profile.skills, match.missingSkills[0]] }, match.job))} className="w-full rounded-md border border-accent px-4 py-3 text-[13px] font-semibold text-accent">
