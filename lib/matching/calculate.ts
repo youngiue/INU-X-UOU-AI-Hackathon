@@ -85,9 +85,12 @@ function scoreJob(profile: UserProfile, job: Job, semanticScore?: number, qualif
 export function calculateMatch(profile: UserProfile, job: Job, semanticScore?: number, qualificationSemanticScore?: number): JobMatch { return scoreJob(profile, job, semanticScore, qualificationSemanticScore) ?? { job, score: 0, subScores: [], matchedSkills: [], missingSkills: job.requiredSkills, reasons: [], reasonSummary: "", strengths: [], gaps: [], isHiddenGem: false, gateStatus: gateEvaluation(profile, job, qualificationSemanticScore), location_match: locationMatch(profile, job) }; }
 export async function rankJobs(profile: UserProfile, jobs: Job[]) { const semanticScores = await getSemanticScores(profile, jobs); return jobs.map((job) => scoreJob(profile, job, semanticScores?.get(job.id))).filter((match): match is JobMatch => Boolean(match)).sort((a, b) => b.score - a.score).slice(0, 3); }
 export async function matchJobs(profile: UserProfile, jobs: Job[]) {
-  const qualificationSemanticScores = await getQualificationSemanticScores(profile, jobs);
+  const [semanticScores, qualificationSemanticScores] = await Promise.all([
+    getSemanticScores(profile, jobs),
+    getQualificationSemanticScores(profile, jobs),
+  ]);
   const scored = jobs
-    .map((job) => scoreJob(profile, job, undefined, qualificationSemanticScores?.get(job.id)))
+    .map((job) => scoreJob(profile, job, semanticScores?.get(job.id), qualificationSemanticScores?.get(job.id)))
     .filter((match): match is JobMatch => Boolean(match));
   const current = scored.filter((match) => isCurrentEligible(profile, match.job, qualificationSemanticScores?.get(match.job.id)));
   const discovery = scored.filter((match) => !isCurrentEligible(profile, match.job, qualificationSemanticScores?.get(match.job.id)) && match.job.qualityTier !== "EXCLUDE" && !(match.job.occupationType === "PUBLIC_SERVICE" && !isExplicitPublicServiceInterest(profile)));
