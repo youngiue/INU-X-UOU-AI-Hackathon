@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Lightbulb, Search } from "lucide-react";
+import { Lightbulb, Search } from "lucide-react";
 import type { JobMatch } from "@/lib/types";
 
 export interface SkillMatch {
@@ -24,7 +24,6 @@ export interface MatchReasonDetailProps {
   hiddenGemNote?: string;
   /** What the user usually searches by (keyword or major) — shown as a chip explaining the blind spot. */
   blindSpotLabel?: string;
-  onFindTraining?: () => void;
   aiExplanation?: JobMatch["aiExplanation"];
   whatIfContent?: React.ReactNode;
 }
@@ -38,7 +37,6 @@ export function MatchReasonDetail({
   isHiddenGem = false,
   hiddenGemNote,
   blindSpotLabel,
-  onFindTraining,
   aiExplanation,
   whatIfContent,
 }: MatchReasonDetailProps) {
@@ -106,17 +104,6 @@ export function MatchReasonDetail({
         </section>
       )}
       {whatIfContent}
-
-      {gaps.length > 0 && (
-        <button
-          type="button"
-          onClick={onFindTraining}
-          className="mt-6 inline-flex w-full items-center justify-center gap-1.5 rounded-md bg-accent px-4 py-3 text-[13px] font-semibold text-navy-950 transition active:scale-95 hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent2"
-        >
-          역량 보완 교육 보기
-          <ArrowRight aria-hidden="true" size={15} />
-        </button>
-      )}
     </article>
   );
 }

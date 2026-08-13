@@ -72,7 +72,6 @@ export default function ResultDetailPage() {
                 {boostedMatch && <div className="mt-3 rounded-lg border border-grid bg-navy-800 p-4 text-xs leading-5 text-muted"><p>{createScoreChangeExplanation(match.missingSkills[0], match, boostedMatch)}</p></div>}
               </section>
             ) : undefined}
-            onFindTraining={() => window.alert(`${match.job.title} 관련 역량 보완 교육을 찾습니다.`)}
           />
         </div>
       </div>
