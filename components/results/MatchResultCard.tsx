@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { ArrowRight, Lightbulb, Search } from "lucide-react";
+import { ArrowRight, ExternalLink, Lightbulb, Search } from "lucide-react";
 
 export interface SubScore {
   label: string;
@@ -13,6 +13,8 @@ export interface MatchResultCardProps {
   jobTitle: string;
   companyName: string;
   employmentType: string;
+  /** 공고 원문 링크. "#" 또는 빈 값이면 링크를 표시하지 않음. */
+  sourceUrl?: string;
   subScores: SubScore[];
   isHiddenGem?: boolean;
   /** What the user usually searches by (keyword or major) — shown as the reason this job was a blind spot. */
@@ -66,6 +68,7 @@ export function MatchResultCard({
   jobTitle,
   companyName,
   employmentType,
+  sourceUrl,
   subScores,
   isHiddenGem = false,
   blindSpotLabel,
@@ -96,6 +99,18 @@ export function MatchResultCard({
           <p className="mt-1 truncate text-[13px] text-muted">
             {companyName} · {employmentType}
           </p>
+          {sourceUrl && sourceUrl !== "#" && (
+            <a
+              href={sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+              onClick={(event) => event.stopPropagation()}
+              className="mt-1 inline-flex items-center gap-1 text-[11px] font-medium text-accent2 hover:underline"
+            >
+              공고 원문
+              <ExternalLink aria-hidden="true" size={11} strokeWidth={2} />
+            </a>
+          )}
         </div>
         {isHiddenGem && (
           <span className="inline-flex shrink-0 items-center gap-1 rounded-full border border-accent2/40 bg-accent2-soft px-2.5 py-1 text-xs font-medium text-accent2">

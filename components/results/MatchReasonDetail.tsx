@@ -1,6 +1,6 @@
 "use client";
 
-import { Lightbulb, MapPin, Search } from "lucide-react";
+import { ExternalLink, Lightbulb, MapPin, Search } from "lucide-react";
 import type { JobMatch, WelfareService } from "@/lib/types";
 
 export interface SkillMatch {
@@ -17,6 +17,8 @@ export interface SkillGap {
 export interface MatchReasonDetailProps {
   jobTitle: string;
   companyName: string;
+  /** 공고 원문 링크. 실제 채용 사이트로 이동해 지원·상세 조건을 확인하도록 함. */
+  sourceUrl?: string;
   reasonSummary: string;
   strengths: SkillMatch[];
   gaps: SkillGap[];
@@ -33,6 +35,7 @@ export interface MatchReasonDetailProps {
 export function MatchReasonDetail({
   jobTitle,
   companyName,
+  sourceUrl,
   reasonSummary,
   strengths,
   gaps,
@@ -64,6 +67,17 @@ export function MatchReasonDetail({
       <header>
         <h2 className="text-lg font-medium text-ink">{jobTitle}</h2>
         <p className="mt-1 text-[13px] text-muted">{companyName}</p>
+        {sourceUrl && sourceUrl !== "#" && (
+          <a
+            href={sourceUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="mt-2 inline-flex items-center gap-1 text-[12px] font-medium text-accent2 hover:underline"
+          >
+            공고 원문 보기
+            <ExternalLink aria-hidden="true" size={12} strokeWidth={2} />
+          </a>
+        )}
         <p className="mt-4 text-[13px] leading-6 text-ink/90">{reasonSummary}</p>
       </header>
 

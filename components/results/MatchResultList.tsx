@@ -88,8 +88,18 @@ export function MatchResultList({ results, blindSpotLabel }: MatchResultListProp
             ))}
           </div>
         ) : (
-          <div className="rounded-lg border border-dashed border-grid bg-navy-800 px-5 py-12 text-center text-[13px] text-muted">
-            조건에 맞는 공고가 아직 없어요.
+          <div className="rounded-lg border border-dashed border-grid bg-navy-800 px-5 py-12 text-center text-[13px] leading-5 text-muted">
+            {activeGroup === "existing" ? (
+              <>
+                평소 검색어와 그대로 겹치는 공고는 없었어요.
+                <br />
+                대신 실제 업무 기준으로 연결되는 직무를{" "}
+                <strong className="font-medium text-ink">&apos;새로 발견된 직무&apos;</strong>
+                {" "}탭에서 확인해 보세요.
+              </>
+            ) : (
+              "조건에 맞는 공고가 아직 없어요."
+            )}
           </div>
         )}
       </div>
