@@ -45,9 +45,18 @@ function matchesExamScore(profile: UserProfile, requirement: string): boolean {
 function profileTerms(profile: UserProfile) {
   return [profile.major, profile.education, profile.experience, profile.preferredConditions, ...profile.skills, ...profile.certificates, ...profile.interestedIndustries, ...profile.careerExperiences, ...profile.internshipExperiences, ...profile.projectExperiences, ...profile.trainingExperiences].filter(Boolean);
 }
+// 정규화(공백 제거)로 단어가 서로 붙기 때문에, "AI" 같은 짧은 영문 키워드는
+// "Maintenance" 안에 우연히 들어있는 "ai"처럼 무관한 단어 내부와 오탐 매칭될 수 있다.
+// 2글자 이하 영문/숫자 키워드는 원문 기준 단어 경계(앞뒤가 영문·숫자가 아님)를 요구해 이를 막는다.
+const SHORT_LATIN_TOKEN_PATTERN = /^[a-z0-9]{1,2}$/;
 function hasTerm(values: string[], target: string) {
   const needle = normalize(target);
-  return Boolean(needle) && values.some((value) => { const haystack = normalize(value); return haystack.includes(needle) || needle.includes(haystack); });
+  if (!needle) return false;
+  if (SHORT_LATIN_TOKEN_PATTERN.test(needle)) {
+    const boundaryPattern = new RegExp(`(?<![a-z0-9])${needle}(?![a-z0-9])`, "i");
+    return values.some((value) => boundaryPattern.test(value));
+  }
+  return values.some((value) => { const haystack = normalize(value); return haystack.includes(needle) || needle.includes(haystack); });
 }
 function hasAnyTerm(values: string[], targets: string[]) { return targets.some((target) => hasTerm(values, target)); }
 function matchesRequirement(profile: UserProfile, requirement: string) {
