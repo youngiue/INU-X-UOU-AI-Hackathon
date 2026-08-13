@@ -92,7 +92,7 @@ export function MatchResultCard({
     .join(" + ")} = ${overallScore}%`;
 
   return (
-    <article className="w-full max-w-sm rounded-lg border border-grid bg-panel p-5 text-ink">
+    <article className="w-full rounded-lg border border-grid bg-panel p-5 text-ink">
       <header className="flex min-h-11 items-start justify-between gap-3">
         <div className="min-w-0">
           <h3 className="truncate text-base font-medium text-ink">{jobTitle}</h3>

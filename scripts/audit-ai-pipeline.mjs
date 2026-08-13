@@ -1,8 +1,8 @@
 import fs from "node:fs";
 
 const read = (file) => JSON.parse(fs.readFileSync(new URL(`../data/${file}`, import.meta.url), "utf8"));
-const raw = ["ulsan-jobs.json", "ulsan-humanities-business-jobs.json", "ulsan-public-service-jobs.json"].flatMap(read);
-const analysis = ["ulsan-job-analysis.json", "ulsan-humanities-business-job-analysis.json", "ulsan-public-service-job-analysis.json"].flatMap(read);
+const raw = ["ulsan-jobs.json", "ulsan-humanities-business-jobs.json", "ulsan-public-service-jobs.json", "ulsan-electrical-automation-demo-jobs.json"].flatMap(read);
+const analysis = ["ulsan-job-analysis.json", "ulsan-humanities-business-job-analysis.json", "ulsan-public-service-job-analysis.json", "ulsan-electrical-automation-demo-job-analysis.json"].flatMap(read);
 const rawIds = new Set(raw.map((item) => item.id));
 const analysisIds = new Set(analysis.map((item) => item.id));
 const byId = new Map(analysis.map((item) => [item.id, item]));
@@ -27,9 +27,10 @@ const counts = {
   step4_pa: raw.filter((item) => item.id.startsWith("ULSAN_JOB_NEW_PA_")).length,
   step4_public_service: raw.filter((item) => item.id.startsWith("ULSAN_PUBLIC_SERVICE_")).length,
   step5_id: raw.filter((item) => item.id.startsWith("ULSAN_JOB_NEW_ID_")).length,
+  demo_ee: raw.filter((item) => item.id.startsWith("ULSAN_JOB_DEMO_EE_")).length,
   representative: representativeResults,
 };
-if (counts.raw !== 79 || counts.analysis !== 79 || counts.raw_minus_analysis.length || counts.analysis_minus_raw.length || counts.duplicate_raw.length || Object.values(representativeResults).some((value) => !value)) {
+if (counts.raw !== 84 || counts.analysis !== 84 || counts.demo_ee !== 5 || counts.raw_minus_analysis.length || counts.analysis_minus_raw.length || counts.duplicate_raw.length || Object.values(representativeResults).some((value) => !value)) {
   throw new Error(JSON.stringify(counts, null, 2));
 }
 console.log(JSON.stringify(counts, null, 2));

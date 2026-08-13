@@ -1,0 +1,313 @@
+[
+  {
+    "id": "ULSAN_JOB_DEMO_EE_001",
+    "job_family_ai": "PLC 프로그래밍·전기제어 엔지니어",
+    "actual_tasks_normalized": [
+      "전기 회로 설계",
+      "전장 판넬 제작·배선",
+      "PLC 프로그램 구현",
+      "프로젝트 시공 수행"
+    ],
+    "skills": [
+      "PLC",
+      "전기제어",
+      "전기회로",
+      "전장배선"
+    ],
+    "tools_normalized": [
+      "PLC",
+      "2D CAD",
+      "E-PLAN"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "설비제어",
+      "센서·입출력 신호 이해",
+      "제어시스템 점검",
+      "현장 문제해결"
+    ],
+    "related_roles": [
+      "PLC 프로그래머",
+      "자동제어 엔지니어",
+      "전기제어 엔지니어",
+      "FA 엔지니어",
+      "전장 엔지니어"
+    ],
+    "suitable_experience_examples": [
+      "PLC로 센서 입력과 설비 출력을 제어한 프로젝트",
+      "센서 신호를 이용한 자동화 시퀀스 구현",
+      "설비제어 시스템의 이상상태를 점검한 프로젝트",
+      "전기회로 또는 제어판넬 제작 실습"
+    ],
+    "hard_gate_summary": [],
+    "persona_match": {
+      "major_match": "HIGH",
+      "career_match": "HIGH",
+      "skill_match": "HIGH",
+      "location_match": "MEDIUM",
+      "employment_type_match": "HIGH",
+      "overall_demo_fit": "HIGH"
+    },
+    "existing_search_keywords": [
+      "PLC",
+      "전기제어",
+      "전장",
+      "전기회로"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "PLC 프로그래머·전자제어기술자라는 제목과 실제 PLC 프로그래밍·전기회로·전장배선 업무가 직접 연결된다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "Persona의 PLC 자동제어 프로젝트, 센서 신호처리, 설비제어 경험과 가장 직접적으로 연결되는 기존 검색형 직무 중 하나다. 원본 공고는 종료됐지만 demo_status만 OPEN으로 분리했다."
+  },
+  {
+    "id": "ULSAN_JOB_DEMO_EE_002",
+    "job_family_ai": "PLC 운용·프로그램 개선 엔지니어",
+    "actual_tasks_normalized": [
+      "PLC 운용",
+      "PLC 프로그램 개조·개선",
+      "PLC 프로그램 개발"
+    ],
+    "skills": [
+      "PLC",
+      "PLC 프로그램 개발",
+      "제어로직",
+      "설비제어"
+    ],
+    "tools_normalized": [
+      "PLC"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "제어로직 이해",
+      "설비 동작 분석",
+      "제어시스템 개선",
+      "현장 문제해결"
+    ],
+    "related_roles": [
+      "PLC 프로그래머",
+      "자동제어 엔지니어",
+      "설비제어 엔지니어",
+      "FA 엔지니어"
+    ],
+    "suitable_experience_examples": [
+      "PLC 프로그램 작성 프로젝트",
+      "기존 PLC 제어 시퀀스를 수정한 프로젝트",
+      "센서 입력에 따른 설비 동작 제어 프로젝트",
+      "제어시스템 오류 원인을 분석하고 개선한 경험"
+    ],
+    "hard_gate_summary": [],
+    "persona_match": {
+      "major_match": "HIGH",
+      "career_match": "HIGH",
+      "skill_match": "HIGH",
+      "location_match": "MEDIUM",
+      "employment_type_match": "HIGH",
+      "overall_demo_fit": "HIGH"
+    },
+    "existing_search_keywords": [
+      "PLC",
+      "시운전",
+      "전장"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "제목은 PLC 시운전·전장 설계를 강조하지만 실제 모집분야는 PLC 운용 및 개조개선 프로그램 개발로 더 구체적이다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "학력 제한 없이 신입 지원이 가능하고 PLC 프로젝트 경험이 실제 핵심업무와 직접 연결되어 기존직무 시연 후보로 안정적이다."
+  },
+  {
+    "id": "ULSAN_JOB_DEMO_EE_003",
+    "job_family_ai": "공장자동화 PLC 전기설계·시운전 엔지니어",
+    "actual_tasks_normalized": [
+      "공장자동화 PLC 전기설계",
+      "자동화시스템 시운전",
+      "안전관리"
+    ],
+    "skills": [
+      "PLC",
+      "공장자동화",
+      "전기설계",
+      "시운전"
+    ],
+    "tools_normalized": [
+      "PLC"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "전기회로 이해",
+      "설비제어",
+      "시스템 시운전",
+      "현장 설비 문제점 확인"
+    ],
+    "related_roles": [
+      "PLC 엔지니어",
+      "공장자동화 엔지니어",
+      "전기설계 엔지니어",
+      "FA 엔지니어",
+      "자동제어 엔지니어"
+    ],
+    "suitable_experience_examples": [
+      "PLC 자동제어 프로젝트",
+      "센서 신호를 활용한 설비제어 프로젝트",
+      "전기제어회로 설계 실습",
+      "제어시스템 시운전 또는 상태점검 경험"
+    ],
+    "hard_gate_summary": [
+      "초대졸 이상"
+    ],
+    "persona_match": {
+      "major_match": "HIGH",
+      "career_match": "HIGH",
+      "skill_match": "HIGH",
+      "location_match": "MEDIUM",
+      "employment_type_match": "HIGH",
+      "overall_demo_fit": "HIGH"
+    },
+    "existing_search_keywords": [
+      "PLC",
+      "공장자동화",
+      "전기설계",
+      "시운전"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무인 공장자동화 PLC 전기설계·시운전·안전관리를 직접 설명한다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "전기전자공학 대졸·신입 Persona가 학력과 경력 조건을 충족하고 PLC·자동화·전기설비 경험과도 강하게 연결된다. 실제 모집상태만 UNKNOWN이다."
+  },
+  {
+    "id": "ULSAN_JOB_DEMO_EE_004",
+    "job_family_ai": "전기공사·배선·자동화 PLC 엔지니어",
+    "actual_tasks_normalized": [
+      "전기공사",
+      "전기배선",
+      "자동화솔루션 관련 업무",
+      "PLC 관련 업무"
+    ],
+    "skills": [
+      "PLC",
+      "자동화",
+      "전기배선",
+      "전기공사"
+    ],
+    "tools_normalized": [
+      "PLC"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "전기설비 이해",
+      "제어배선 이해",
+      "자동화설비 이해",
+      "현장 전기작업 이해"
+    ],
+    "related_roles": [
+      "PLC 엔지니어",
+      "자동제어 엔지니어",
+      "전기공사 엔지니어",
+      "전장 엔지니어"
+    ],
+    "suitable_experience_examples": [
+      "PLC 자동제어 프로젝트",
+      "전기배선·제어회로 실습",
+      "센서와 제어기를 연결한 프로젝트",
+      "전기설비 관련 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "고졸 이상"
+    ],
+    "persona_match": {
+      "major_match": "HIGH",
+      "career_match": "HIGH",
+      "skill_match": "HIGH",
+      "location_match": "MEDIUM",
+      "employment_type_match": "HIGH",
+      "overall_demo_fit": "HIGH"
+    },
+    "existing_search_keywords": [
+      "PLC",
+      "자동화솔루션",
+      "전기공사",
+      "배선"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "전기공사·배선·자동화솔루션·PLC라는 제목 자체가 실제 직무범위를 직접 나타낸다."
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "Persona가 평소 검색하는 PLC·자동화·전기설비와 직접 연결되므로 기존 검색 결과용으로 적합하다. 실제 공고는 2025년 종료 공고다."
+  },
+  {
+    "id": "ULSAN_JOB_DEMO_EE_005",
+    "job_family_ai": "PLC 자동제어반 설계·제작·시운전 엔지니어",
+    "actual_tasks_normalized": [
+      "PLC 응용 자동제어반 설계",
+      "자동제어반 조립",
+      "자동제어반 설치",
+      "제어시스템 시운전"
+    ],
+    "skills": [
+      "PLC",
+      "자동제어",
+      "제어반 설계",
+      "시운전"
+    ],
+    "tools_normalized": [
+      "PLC"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "전기배선 이해",
+      "설비제어",
+      "제어시스템 점검",
+      "현장 시운전"
+    ],
+    "related_roles": [
+      "PLC 엔지니어",
+      "자동제어 엔지니어",
+      "제어반 설계 엔지니어",
+      "전장 엔지니어",
+      "FA 엔지니어"
+    ],
+    "suitable_experience_examples": [
+      "PLC 제어회로 프로젝트",
+      "센서·액추에이터 제어 프로젝트",
+      "제어판넬 또는 전기회로 제작 실습",
+      "설비 시운전·점검 프로젝트"
+    ],
+    "hard_gate_summary": [],
+    "persona_match": {
+      "major_match": "HIGH",
+      "career_match": "MEDIUM",
+      "skill_match": "HIGH",
+      "location_match": "MEDIUM",
+      "employment_type_match": "HIGH",
+      "overall_demo_fit": "HIGH"
+    },
+    "existing_search_keywords": [
+      "PLC",
+      "자동제어",
+      "제어반",
+      "시운전"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "PLC프로그래머·자동제어라는 제목과 실제 자동제어반 설계·조립·설치·시운전 업무가 직접 연결된다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "PLC 프로젝트 경험과 기술적으로 매우 잘 맞는다. 다만 원문의 '신입·경력1년 이상' 혼합표현 때문에 career_match는 HIGH가 아닌 MEDIUM으로 보수적으로 설정했다."
+  }
+]

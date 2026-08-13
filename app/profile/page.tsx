@@ -78,7 +78,7 @@ export default function ProfilePage() {
 
   return (
     <main className="min-h-screen px-6 py-12 sm:px-8">
-      <div className="mx-auto w-full max-w-[480px]">
+      <div className="mx-auto w-full max-w-2xl">
         <Link
           href="/"
           className="inline-flex items-center gap-1.5 text-[15px] font-medium text-muted transition active:scale-95 hover:text-ink"

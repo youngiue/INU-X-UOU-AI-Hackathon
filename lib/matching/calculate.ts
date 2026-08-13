@@ -147,9 +147,16 @@ function educationLevelOf(text: string | null | undefined): number | null {
   return null;
 }
 
+function normalizeEducationGateText(gate: string) {
+  return gate
+    .replace(/고졸\s*이상/g, "고등학교 졸업 이상")
+    .replace(/대학\s*\(\s*2\s*,\s*3년\s*\)\s*졸업\s*이상/g, "전문대졸 이상");
+}
+
 function gateEvaluation(profile: UserProfile, job: Job, qualificationSemanticScore?: number): "PASS" | "FAIL" | "UNVERIFIED" {
   const gates = job.hardGates ?? []; if (!gates.length) return "PASS"; const terms = profileTerms(profile); const qualifications = [...profile.certificates, ...profile.skills, ...profile.careerExperiences, ...profile.internshipExperiences, ...profile.projectExperiences, ...profile.trainingExperiences]; let unknown = false;
-  for (const gate of gates) {
+  for (const originalGate of gates) {
+    const gate = normalizeEducationGateText(originalGate);
     const years = gate.match(/(\d+)년\s*이상/); if (years) { if (typeof profile.yearsExperience !== "number") unknown = true; else if (profile.yearsExperience < Number(years[1])) return "FAIL"; continue; }
     const age = gate.match(/만\s*(\d+)세\s*이상/); if (age) { if (typeof profile.age !== "number") unknown = true; else if (profile.age < Number(age[1])) return "FAIL"; continue; }
     if (/면허|자격|전문역량|자격증|기사|요건|응시자격/.test(gate)) {
