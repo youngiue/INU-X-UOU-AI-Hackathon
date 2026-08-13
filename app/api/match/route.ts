@@ -25,7 +25,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const { current_opportunities, career_discovery } = matchJobs(parsed.data, ulsanJobs);
+    const { current_opportunities, career_discovery } = await matchJobs(parsed.data, ulsanJobs);
     const matches = [...current_opportunities, ...career_discovery];
     let aiEnhanced = false;
 
