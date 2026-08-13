@@ -1,0 +1,1551 @@
+[
+  {
+    "id": "ULSAN_JOB_001",
+    "job_family_ai": "화학공정 생산관리",
+    "actual_tasks_normalized": [
+      "생산계획",
+      "공정운영",
+      "품질·정품률관리",
+      "제조원가·원료밸런스관리",
+      "공정·설비 트러블분석",
+      "설비투자·공정테스트",
+      "공정안전·환경관리",
+      "원가절감·공정최적화"
+    ],
+    "skills": [
+      "생산계획",
+      "공정최적화",
+      "원가관리",
+      "품질관리",
+      "안전환경"
+    ],
+    "tools_normalized": [
+      "P&ID",
+      "PFD",
+      "HMB",
+      "Aspen Plus",
+      "HYSYS",
+      "PRO II",
+      "Python"
+    ],
+    "required_skills": [
+      "화학공장 공정 설계·공정제어·장치설계·유체역학·화공이론·유기화학·고분자화학 관련 이론 이해",
+      "P&ID, PFD, HMB 관련 이해",
+      "화학공장 장치 종류 및 원리 이해",
+      "원활한 커뮤니케이션 역량"
+    ],
+    "transferable_skills": [
+      "데이터분석",
+      "문제해결",
+      "프로젝트협업"
+    ],
+    "related_roles": [
+      "생산관리",
+      "공정기술",
+      "공정개선"
+    ],
+    "suitable_experience_examples": [
+      "화학공정 프로젝트",
+      "생산계획·공정개선 프로젝트",
+      "Python 기반 공정데이터 분석"
+    ],
+    "hard_gate_summary": [
+      "공고 마감일 기준 기졸업자 또는 2026년 8월 졸업예정자",
+      "학사 이상",
+      "화학 또는 화학공학 관련 계열 전공"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_002",
+    "job_family_ai": "화학공장 기계설비 관리",
+    "actual_tasks_normalized": [
+      "기계설비관리",
+      "공사설계",
+      "협력업체관리",
+      "설비·공정개선",
+      "트러블슈팅",
+      "PSM·ISO관리",
+      "안전관리"
+    ],
+    "skills": [
+      "설비유지관리",
+      "공사설계",
+      "트러블슈팅",
+      "안전관리"
+    ],
+    "tools_normalized": [
+      "PSM",
+      "ISO"
+    ],
+    "required_skills": [
+      "기본 업무 수준의 영어 소통 가능"
+    ],
+    "transferable_skills": [
+      "문제해결",
+      "협력업체조율",
+      "안전의식"
+    ],
+    "related_roles": [
+      "기계설비",
+      "설비보전",
+      "플랜트 유지보수"
+    ],
+    "suitable_experience_examples": [
+      "기계설비 유지보수 프로젝트",
+      "설비 개선·공사관리 경험"
+    ],
+    "hard_gate_summary": [
+      "공고 마감일 기준 기졸업자 또는 2026년 8월 졸업예정자",
+      "학사 이상",
+      "기계공학 전공"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무를 대부분 직접 설명"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_003",
+    "job_family_ai": "석유화학 공정기술·생산관리",
+    "actual_tasks_normalized": [
+      "생산스케줄링",
+      "공정가동률관리",
+      "공정밸런스관리",
+      "에너지사용분석",
+      "수율·품질개선",
+      "병목개선",
+      "제조원가분석",
+      "공정안전관리"
+    ],
+    "skills": [
+      "생산계획",
+      "공정분석",
+      "에너지절감",
+      "원가분석",
+      "공정안전"
+    ],
+    "tools_normalized": [
+      "ASPEN",
+      "PSM",
+      "MOC"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "데이터분석",
+      "문제해결",
+      "원가분석"
+    ],
+    "related_roles": [
+      "공정기술",
+      "생산기술",
+      "공정개선"
+    ],
+    "suitable_experience_examples": [
+      "ASPEN 공정모사 프로젝트",
+      "공정 수율·에너지 분석 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "학사 학위 이상",
+      "화학공학 등 관련 학과 전공",
+      "2026년 7월 입사 가능"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_004",
+    "job_family_ai": "계장·제어 엔지니어",
+    "actual_tasks_normalized": [
+      "계장설계",
+      "계장기술문서작성",
+      "DCS·PLC 설계·구축·유지보수",
+      "인터록검토",
+      "센서선정·관리",
+      "제어밸브선정·관리",
+      "계기트러블슈팅"
+    ],
+    "skills": [
+      "계장설계",
+      "DCS/PLC",
+      "센서·밸브 선정",
+      "트러블슈팅"
+    ],
+    "tools_normalized": [
+      "P&ID",
+      "Instrument Index",
+      "Data Sheet",
+      "Loop Diagram",
+      "Wiring Diagram",
+      "DCS",
+      "PLC",
+      "Interlock",
+      "Control Valve",
+      "SIS",
+      "SIL",
+      "ISA",
+      "IEC",
+      "ANSI",
+      "Honeywell",
+      "Yokogawa",
+      "Emerson",
+      "Siemens",
+      "Rockwell"
+    ],
+    "required_skills": [
+      "영어 기술문서 작성 및 회의 참석 가능",
+      "P&ID 및 Loop/Wiring Diagram 해석 가능",
+      "ISA, IEC, ANSI 등 국제표준 및 방폭규정 이해",
+      "계기 Data Sheet 작성 및 Review 가능"
+    ],
+    "transferable_skills": [
+      "문제분석",
+      "기술문서작성",
+      "시스템트러블슈팅"
+    ],
+    "related_roles": [
+      "계장설계",
+      "산업제어",
+      "플랜트 자동화"
+    ],
+    "suitable_experience_examples": [
+      "PLC·DCS 제어 프로젝트",
+      "센서·계측 프로젝트",
+      "P&ID 해석 경험"
+    ],
+    "hard_gate_summary": [
+      "학사 학위 이상",
+      "전기·전자·제어계측 관련 학과 전공",
+      "석유·화학·에너지·EPC 또는 유사 업계 계기 경력 7년 이상"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무를 대부분 직접 설명"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_005",
+    "job_family_ai": "계기설비 유지보수",
+    "actual_tasks_normalized": [
+      "계기설비점검·유지보수",
+      "예방정비",
+      "계측기교정",
+      "PLC·TMR 유지보수",
+      "제어로직진단",
+      "제어시스템장애대응",
+      "제어밸브정비",
+      "계장도면검토",
+      "설비개선기술지원",
+      "외주정비관리",
+      "고장원인분석"
+    ],
+    "skills": [
+      "계기정비",
+      "PLC/TMR 유지보수",
+      "제어로직 진단",
+      "고장분석"
+    ],
+    "tools_normalized": [
+      "Calibration",
+      "Communicator",
+      "PLC",
+      "DCS",
+      "TMR",
+      "Control Valve",
+      "P&ID",
+      "Loop Diagram",
+      "Logic Diagram"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "고장진단",
+      "현장문제해결",
+      "정비협업"
+    ],
+    "related_roles": [
+      "계기정비",
+      "산업자동화 유지보수",
+      "제어시스템 유지보수"
+    ],
+    "suitable_experience_examples": [
+      "PLC 유지보수 경험",
+      "계측기 Calibration 경험",
+      "제어시스템 장애진단 경험"
+    ],
+    "hard_gate_summary": [
+      "고등학교 졸업 이상",
+      "전기·전자·계측제어 학과",
+      "석유화학업종 계장분야 2~15년 경력",
+      "2026년 8월 중 입사 가능"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무를 대부분 직접 설명"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_006",
+    "job_family_ai": "석유화학 물류·출하",
+    "actual_tasks_normalized": [
+      "화학제품저장·취급",
+      "탱크·설비운전",
+      "냉동기·펌프운전",
+      "제품출하",
+      "원부재료품질관리",
+      "화학물질수출입"
+    ],
+    "skills": [
+      "저장·출하",
+      "설비운전",
+      "품질관리",
+      "수출입"
+    ],
+    "tools_normalized": [
+      "Tank",
+      "냉동기",
+      "Pump"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "현장운영",
+      "품질관리",
+      "수출입업무"
+    ],
+    "related_roles": [
+      "공장물류",
+      "출하관리",
+      "화학물질 물류"
+    ],
+    "suitable_experience_examples": [
+      "물류·출하 운영 경험",
+      "위험물 취급 관련 경험"
+    ],
+    "hard_gate_summary": [
+      "고등학교 졸업 이상",
+      "화학공학 또는 물류 관련 학과",
+      "2026년 8월 중 입사 가능"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_007",
+    "job_family_ai": "장치·배관 설비보전",
+    "actual_tasks_normalized": [
+      "장치·배관유지보수",
+      "설비이상진단",
+      "예방정비",
+      "정비계획",
+      "정기보수공사관리",
+      "정비예산·예가",
+      "자재·공사발주",
+      "정비품질·안전관리",
+      "협력업체관리",
+      "설비기술문서관리",
+      "정비데이터분석"
+    ],
+    "skills": [
+      "설비보전",
+      "정기보수",
+      "공사관리",
+      "예산·구매",
+      "협력업체관리"
+    ],
+    "tools_normalized": [
+      "Turn Around (TA)"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "공사관리",
+      "예산관리",
+      "협력업체조율"
+    ],
+    "related_roles": [
+      "플랜트 정비",
+      "설비보전",
+      "정기보수 관리"
+    ],
+    "suitable_experience_examples": [
+      "기계·배관 유지보수 경험",
+      "정기보수 프로젝트",
+      "협력업체 공사관리 경험"
+    ],
+    "hard_gate_summary": [
+      "고등학교 졸업 이상",
+      "기계 관련 학과",
+      "석유화학업종 장치·배관 유지보수업무 2~15년 경력",
+      "2026년 8월 중 입사 가능"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_008",
+    "job_family_ai": "자동차부품 물류현장",
+    "actual_tasks_normalized": [
+      "부품입고",
+      "부품저장",
+      "피킹",
+      "부품출고",
+      "수출포장",
+      "출하"
+    ],
+    "skills": [
+      "입고",
+      "저장",
+      "피킹",
+      "출하",
+      "수출포장"
+    ],
+    "tools_normalized": [
+      "지게차",
+      "오더피커",
+      "리치트럭"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "현장운영",
+      "재고정확성",
+      "안전작업"
+    ],
+    "related_roles": [
+      "물류운영",
+      "창고운영",
+      "출하관리"
+    ],
+    "suitable_experience_examples": [
+      "물류센터·창고 운영 경험",
+      "지게차 운전 경험"
+    ],
+    "hard_gate_summary": [
+      "2026년 8월 졸업예정자 또는 기졸업자",
+      "최종합격 후 회사 지정일 입사 가능",
+      "해외여행에 결격사유가 없는 자"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무를 대부분 직접 설명"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_009",
+    "job_family_ai": "공장 시설·공사관리",
+    "actual_tasks_normalized": [
+      "시설공사프로젝트관리",
+      "공사기획",
+      "설계·시공관리",
+      "안전·품질관리",
+      "대관·인허가",
+      "자산관리",
+      "시설업체관리",
+      "기술지원"
+    ],
+    "skills": [
+      "시설공사관리",
+      "설계·시공관리",
+      "인허가",
+      "자산관리"
+    ],
+    "tools_normalized": [
+      "CAD",
+      "BIM",
+      "스케치업"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "프로젝트관리",
+      "인허가행정",
+      "업체관리"
+    ],
+    "related_roles": [
+      "시설관리",
+      "공사관리",
+      "사업장 인프라관리"
+    ],
+    "suitable_experience_examples": [
+      "시설공사 프로젝트",
+      "CAD/BIM 기반 설계·검토 경험"
+    ],
+    "hard_gate_summary": [
+      "관련 직무 6년 이상 경력",
+      "해외여행에 결격사유가 없는 자"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_010",
+    "job_family_ai": "생산지원·출하재고",
+    "actual_tasks_normalized": [
+      "완제품출하관리",
+      "재고관리",
+      "원부자재관리",
+      "일·월마감"
+    ],
+    "skills": [
+      "출하관리",
+      "재고관리",
+      "원부자재관리",
+      "마감업무"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "재고관리",
+      "정산·마감",
+      "업무정확성"
+    ],
+    "related_roles": [
+      "생산지원",
+      "재고관리",
+      "출하관리"
+    ],
+    "suitable_experience_examples": [
+      "재고·자재 관리 경험",
+      "물류·출하 지원 경험"
+    ],
+    "hard_gate_summary": [
+      "고등학교 졸업 이상",
+      "해외여행 및 건강상 결격사유가 없는 자"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무를 대부분 직접 설명"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_011",
+    "job_family_ai": "자동차 플랜트 운영",
+    "actual_tasks_normalized": [
+      "생산공정관리",
+      "생산라인·설비관리",
+      "신차공법·프로세스개발",
+      "설비개선·고장분석",
+      "신설비설치·시운전",
+      "품질이슈관리",
+      "생산계획·실적분석",
+      "자재·물류관리",
+      "안전관리"
+    ],
+    "skills": [
+      "공정관리",
+      "설비관리",
+      "품질관리",
+      "생산계획",
+      "자재·물류",
+      "안전관리"
+    ],
+    "tools_normalized": [
+      "4M",
+      "CAD",
+      "CATIA",
+      "CAM"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "문제해결",
+      "데이터분석",
+      "프로젝트협업"
+    ],
+    "related_roles": [
+      "생산기술",
+      "플랜트운영",
+      "공정관리",
+      "설비기술"
+    ],
+    "suitable_experience_examples": [
+      "생산·공정 개선 프로젝트",
+      "CAD/CATIA 설계 프로젝트",
+      "설비 자동화 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "2026년 8월 또는 2027년 2월 학사 또는 석사 졸업예정자",
+      "2026년 7월 인턴 실습 가능"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "민간 플랫폼 기반이므로 핵심 추천보다 SUPPORT 우선 / 접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_012",
+    "job_family_ai": "생산설비 보전·데이터 기반 설비관리",
+    "actual_tasks_normalized": [
+      "설비개선",
+      "고장분석·보수계획",
+      "신설비구축",
+      "설비시운전·안정화",
+      "예방보전",
+      "설비데이터시스템개발",
+      "가동률데이터분석·시각화",
+      "IT기반설비제어"
+    ],
+    "skills": [
+      "설비보전",
+      "고장분석",
+      "신설비 구축",
+      "설비데이터 분석",
+      "IT기반 설비제어"
+    ],
+    "tools_normalized": [
+      "PLC",
+      "DATA",
+      "IT",
+      "PC",
+      "CAD"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "데이터분석",
+      "문제해결",
+      "시스템개선"
+    ],
+    "related_roles": [
+      "설비보전",
+      "스마트팩토리",
+      "설비데이터 분석"
+    ],
+    "suitable_experience_examples": [
+      "PLC·설비제어 프로젝트",
+      "설비 데이터 분석·시각화 경험"
+    ],
+    "hard_gate_summary": [
+      "학사 이상의 학위",
+      "제조업 설비 유지보수·신규설비 설치·설비개선 경력 5년 이상"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "과거 공고이므로 현재 지원가능 공고가 아니라 직무탐색 참고용으로 사용 / 민간 플랫폼 기반이므로 핵심 추천보다 SUPPORT 우선 / 접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용 / 과거 공고",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_014",
+    "job_family_ai": "IDC 인프라 설계·운영",
+    "actual_tasks_normalized": [
+      "데이터센터설비운영",
+      "인프라운영데이터분석",
+      "IDC·CCR 개선프로젝트",
+      "전산실설계·구축·진단"
+    ],
+    "skills": [
+      "데이터센터 설비운영",
+      "인프라 데이터분석",
+      "개선프로젝트",
+      "전산실 설계·구축"
+    ],
+    "tools_normalized": [
+      "IDC",
+      "CCR"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "인프라운영",
+      "데이터분석",
+      "프로젝트관리"
+    ],
+    "related_roles": [
+      "IDC운영",
+      "데이터센터 인프라",
+      "시설IT"
+    ],
+    "suitable_experience_examples": [
+      "전기·기계·소방 인프라 운영 경험",
+      "데이터센터 설계·구축 경험"
+    ],
+    "hard_gate_summary": [
+      "데이터센터 주요 설비 운영·설계·구축·안전관리 경험 3년 이상",
+      "국내 센터 및 사업장 순환근무 가능",
+      "전기·기계·안전·소방 관련 전공"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "마감일 확인 불가 / 접수상태 확인 불가. 현재 지원가능 추천에서 제외",
+    "quality_tier": "CORE",
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_015",
+    "job_family_ai": "기계설비 유지보수",
+    "actual_tasks_normalized": [
+      "기기장치유지보수",
+      "기계설비예방보전"
+    ],
+    "skills": [
+      "기기장치 유지보수",
+      "예방보전"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "예방보전",
+      "현장문제해결"
+    ],
+    "related_roles": [
+      "기계설비",
+      "설비보전"
+    ],
+    "suitable_experience_examples": [
+      "기계설비 유지보수 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "2년 이내 기졸업자 및 2026년 8월 졸업예정자",
+      "성적 3.5 이상",
+      "TOEIC 750 이상 또는 TOEIC Speaking IM2 이상 또는 이에 준하는 어학성적"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무를 대부분 직접 설명"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "LOW",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_016",
+    "job_family_ai": "도시가스 안전기술",
+    "actual_tasks_normalized": [
+      "안전계획수립",
+      "안전진단",
+      "안전기술표준관리",
+      "정압시설유지관리"
+    ],
+    "skills": [
+      "안전계획",
+      "안전진단",
+      "기술표준",
+      "정압시설 유지관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "위험성평가",
+      "안전기획",
+      "현장점검"
+    ],
+    "related_roles": [
+      "안전관리",
+      "가스안전",
+      "시설안전"
+    ],
+    "suitable_experience_examples": [
+      "안전점검·위험성평가 경험",
+      "가스·에너지 설비 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "이공계열",
+      "2024년 이후 졸업자 및 2026년 8월 졸업예정자",
+      "학점 3.7 이상",
+      "TOEIC 850 이상 또는 TOEIC Speaking IH 이상에 준하는 어학점수",
+      "본인 전공 자격증 1개 이상",
+      "1종 보통 자동차운전면허"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_017",
+    "job_family_ai": "철강 국내영업·영업관리",
+    "actual_tasks_normalized": [
+      "거래선매출관리",
+      "수금관리",
+      "영업지원"
+    ],
+    "skills": [
+      "거래선 매출관리",
+      "수금관리",
+      "영업지원"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "컴퓨터 활용 및 커뮤니케이션 능력"
+    ],
+    "transferable_skills": [
+      "고객관리",
+      "매출관리",
+      "커뮤니케이션"
+    ],
+    "related_roles": [
+      "국내영업",
+      "영업관리",
+      "거래처관리"
+    ],
+    "suitable_experience_examples": [
+      "영업·고객관리 경험",
+      "매출·수금 데이터 관리 경험"
+    ],
+    "hard_gate_summary": [
+      "금속공학, 기계공학, 산업공학 또는 경영학 전공",
+      "학점 3.0 이상",
+      "기졸업자 및 2026년 8월 졸업예정자"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무를 대부분 직접 설명"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_018",
+    "job_family_ai": "자동차부품 영업원가",
+    "actual_tasks_normalized": [
+      "입찰·제품가격계산",
+      "부품가격협의",
+      "고객대응",
+      "원가표준관리",
+      "수익성개선"
+    ],
+    "skills": [
+      "입찰·제품가 계산",
+      "부품가 협의",
+      "고객대응",
+      "원가표준",
+      "수익성 개선"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "원가분석",
+      "고객대응",
+      "수익성분석"
+    ],
+    "related_roles": [
+      "원가관리",
+      "영업관리",
+      "견적·수익성분석"
+    ],
+    "suitable_experience_examples": [
+      "원가계산 프로젝트",
+      "입찰·견적 경험",
+      "수익성 분석 경험"
+    ],
+    "hard_gate_summary": [
+      "상경 또는 공과계열 전공",
+      "학점 3.0 이상",
+      "2년 이내 기졸업자"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_019",
+    "job_family_ai": "조선 생산·설계·품질·공정 통합채용",
+    "actual_tasks_normalized": [
+      "생산업무",
+      "설계업무",
+      "품질업무",
+      "공정관리업무"
+    ],
+    "skills": [
+      "생산",
+      "설계",
+      "품질",
+      "공정"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [
+      "생산관리",
+      "설계",
+      "품질관리",
+      "공정관리"
+    ],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "공과계열",
+      "학점 3.0 이상",
+      "2년 이내 기졸업자 및 2026년 8월 졸업예정자"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_020",
+    "job_family_ai": "자동차부품 품질보증",
+    "actual_tasks_normalized": [
+      "공정품질관리",
+      "불량개선",
+      "협력사품질관리",
+      "고객클레임대응"
+    ],
+    "skills": [
+      "공정품질",
+      "불량개선",
+      "협력사품질",
+      "고객클레임"
+    ],
+    "tools_normalized": [
+      "SQ",
+      "IATF"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "원인분석",
+      "협력사관리",
+      "고객대응"
+    ],
+    "related_roles": [
+      "품질보증",
+      "협력사품질",
+      "품질개선"
+    ],
+    "suitable_experience_examples": [
+      "품질개선 프로젝트",
+      "불량 원인분석 경험",
+      "협력사 품질관리 경험"
+    ],
+    "hard_gate_summary": [
+      "운전 가능"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무를 대부분 직접 설명"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "마감일 확인 불가 / 접수상태 확인 불가. 현재 지원가능 추천에서 제외",
+    "quality_tier": "CORE",
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_021",
+    "job_family_ai": "자동차부품 제품개발·양산승인",
+    "actual_tasks_normalized": [
+      "고객요구분석",
+      "가공공정설계",
+      "PPAP",
+      "양산관리",
+      "품질대응"
+    ],
+    "skills": [
+      "고객요구분석",
+      "가공공정설계",
+      "PPAP",
+      "양산관리",
+      "품질대응"
+    ],
+    "tools_normalized": [
+      "PPAP"
+    ],
+    "required_skills": [
+      "도면 해석 가능"
+    ],
+    "transferable_skills": [
+      "요구사항분석",
+      "도면해석",
+      "품질대응"
+    ],
+    "related_roles": [
+      "제품개발",
+      "공정개발",
+      "양산품질"
+    ],
+    "suitable_experience_examples": [
+      "제품·공정 설계 프로젝트",
+      "도면해석 경험",
+      "PPAP 관련 경험"
+    ],
+    "hard_gate_summary": [
+      "운전 가능"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "마감일 확인 불가 / 접수상태 확인 불가. 현재 지원가능 추천에서 제외",
+    "quality_tier": "CORE",
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_022",
+    "job_family_ai": "해외영업·해외품질",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "UNKNOWN",
+      "reason": "실제 수행업무 정보가 없어 판단 불가"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "실제 수행업무가 없어 경험 기반 매칭 및 related_roles 생성을 제한 / 마감일 확인 불가 / 접수상태 확인 불가. 현재 지원가능 추천에서 제외",
+    "quality_tier": "EXCLUDE",
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_023",
+    "job_family_ai": "석유화학 생산관리",
+    "actual_tasks_normalized": [
+      "생산계획",
+      "공정운영",
+      "공정개선"
+    ],
+    "skills": [
+      "생산계획",
+      "공정개선",
+      "공정기술"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "생산계획",
+      "문제해결",
+      "공정개선"
+    ],
+    "related_roles": [
+      "생산관리",
+      "공정기술"
+    ],
+    "suitable_experience_examples": [
+      "공정개선 프로젝트",
+      "생산계획·운영 경험"
+    ],
+    "hard_gate_summary": [
+      "정규 4년제 대학(원) 기졸업자 또는 2026년 2월 졸업예정자",
+      "공과계열 전공자",
+      "TOEIC 780점 이상 또는 TOEIC Speaking·OPIc IM2 이상 중 하나 충족"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무를 대부분 직접 설명"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "마감일 확인 불가 / 접수상태 확인 불가. 현재 지원가능 추천에서 제외",
+    "quality_tier": "CORE",
+    "posting_status": "UNKNOWN",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_024",
+    "job_family_ai": "식품 생산기술",
+    "actual_tasks_normalized": [
+      "생산계획",
+      "공정안정화",
+      "생산지표분석",
+      "품질관리",
+      "환경안전관리",
+      "설비관리"
+    ],
+    "skills": [
+      "생산계획",
+      "공정안정화",
+      "생산지표분석",
+      "품질·환경안전·설비관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "데이터분석",
+      "공정개선",
+      "품질관리"
+    ],
+    "related_roles": [
+      "생산기술",
+      "공정관리",
+      "생산데이터분석"
+    ],
+    "suitable_experience_examples": [
+      "생산지표 분석 프로젝트",
+      "품질·공정 개선 경험"
+    ],
+    "hard_gate_summary": [
+      "기졸업자 또는 2026년 8월 졸업예정자"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_025",
+    "job_family_ai": "산업용 윤활유 기술영업",
+    "actual_tasks_normalized": [
+      "금속가공유기술영업",
+      "고객관리"
+    ],
+    "skills": [
+      "금속가공유 영업",
+      "고객관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "B2B고객관리",
+      "기술커뮤니케이션"
+    ],
+    "related_roles": [
+      "기술영업",
+      "고객관리"
+    ],
+    "suitable_experience_examples": [
+      "B2B 고객관리 경험",
+      "화학제품 관련 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "운전면허 소지"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무를 대부분 직접 설명"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "LOW",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_026",
+    "job_family_ai": "고분자·수처리 연구개발",
+    "actual_tasks_normalized": [
+      "고분자연구",
+      "중합연구",
+      "수처리화학제품연구",
+      "신사업개발"
+    ],
+    "skills": [
+      "고분자 연구",
+      "중합 연구",
+      "수처리 화학제품 연구",
+      "신사업개발"
+    ],
+    "tools_normalized": [
+      "Polyacrylamide",
+      "Powder polymerization",
+      "Emulsion polymerization",
+      "Liquid polymerization",
+      "Flocculant",
+      "Coagulant",
+      "WWT",
+      "EOR"
+    ],
+    "required_skills": [
+      "비즈니스 영어 커뮤니케이션 가능"
+    ],
+    "transferable_skills": [
+      "실험설계",
+      "연구분석",
+      "기술문서작성"
+    ],
+    "related_roles": [
+      "화학R&D",
+      "고분자연구",
+      "수처리연구"
+    ],
+    "suitable_experience_examples": [
+      "고분자 합성 연구",
+      "수처리·환경 연구",
+      "국가연구과제 경험"
+    ],
+    "hard_gate_summary": [
+      "2년 이내 기졸업자 또는 2026년 8월 졸업예정자",
+      "화학, 화학공학, 고분자공학, 제지공학 관련 전공",
+      "최종학력 학점 3.5 이상",
+      "TOEIC 800 또는 OPIc IM3 이상",
+      "울산 지역 근무 및 해외 출장 가능"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_027",
+    "job_family_ai": "정밀화학 공정관리",
+    "actual_tasks_normalized": [
+      "생산공정관리",
+      "품질관리",
+      "포장관리"
+    ],
+    "skills": [
+      "생산공정관리",
+      "품질관리",
+      "포장관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "공정관리",
+      "품질관리",
+      "업무정확성"
+    ],
+    "related_roles": [
+      "공정관리",
+      "생산관리",
+      "품질관리"
+    ],
+    "suitable_experience_examples": [
+      "화학공정 실험·프로젝트",
+      "생산·품질관리 경험"
+    ],
+    "hard_gate_summary": [
+      "4년제 대학교 졸업 이상 또는 졸업예정",
+      "화학, 화학공학, 고분자공학 관련 전공",
+      "최종학력 학점 3.0 이상",
+      "OPIc IM1, TOEIC 700 또는 TOEIC Speaking IM1 이상 중 기준 충족",
+      "울산 지역 근무 가능"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무를 대부분 직접 설명"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_028",
+    "job_family_ai": "협력업체·자재관리",
+    "actual_tasks_normalized": [
+      "협력업체수급관리",
+      "자재관리",
+      "협력업체품질육성"
+    ],
+    "skills": [
+      "협력업체 수급관리",
+      "자재관리",
+      "협력업체 품질육성"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "협력사관리",
+      "자재관리",
+      "품질개선"
+    ],
+    "related_roles": [
+      "구매·자재",
+      "협력사관리",
+      "SCM"
+    ],
+    "suitable_experience_examples": [
+      "구매·자재 관리 프로젝트",
+      "협력사 평가·관리 경험"
+    ],
+    "hard_gate_summary": [
+      "경영, 경제, 기계, 산업공학 등 관련 전공",
+      "최근 2년 이내 졸업자 또는 2025년 8월 졸업예정자",
+      "최종학력 성적 평균 3.5 이상",
+      "TOEIC Speaking IM2 이상 또는 이에 준하는 어학성적"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "과거 공고이므로 현재 지원가능 공고가 아니라 직무탐색 참고용으로 사용 / 접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용 / 과거 공고",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_029",
+    "job_family_ai": "조선 품질경영",
+    "actual_tasks_normalized": [
+      "품질시스템관리",
+      "선박블록품질검사",
+      "정도관리"
+    ],
+    "skills": [
+      "품질시스템",
+      "선박블록 품질검사",
+      "정도관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "품질검사",
+      "문서관리",
+      "정도관리"
+    ],
+    "related_roles": [
+      "품질경영",
+      "품질검사"
+    ],
+    "suitable_experience_examples": [
+      "품질시스템 프로젝트",
+      "제조 품질검사 경험"
+    ],
+    "hard_gate_summary": [
+      "관련 전공",
+      "학점 3.0 이상",
+      "2년 이내 기졸업자 또는 2026년 2월 졸업예정자"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 실제 업무를 대부분 직접 설명"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "과거 공고이므로 현재 지원가능 공고가 아니라 직무탐색 참고용으로 사용 / 접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용 / 과거 공고",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_030",
+    "job_family_ai": "자동차 도장관리",
+    "actual_tasks_normalized": [
+      "도장원가관리",
+      "도장불량개선",
+      "품질기술지원",
+      "표준문서관리",
+      "예방보전",
+      "CAPA관리",
+      "품질시스템대응"
+    ],
+    "skills": [
+      "원가관리",
+      "불량개선",
+      "품질기술지원",
+      "표준문서관리",
+      "예방보전",
+      "CAPA관리",
+      "품질시스템대응"
+    ],
+    "tools_normalized": [
+      "FMEA",
+      "ISO",
+      "IATF 16949",
+      "T/O"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "원인분석",
+      "문서관리",
+      "품질개선"
+    ],
+    "related_roles": [
+      "도장공정관리",
+      "품질관리",
+      "설비관리",
+      "원가관리"
+    ],
+    "suitable_experience_examples": [
+      "자동차 도장·품질 프로젝트",
+      "FMEA·IATF 문서 경험",
+      "설비 예방보전 경험"
+    ],
+    "hard_gate_summary": [
+      "공학계열 전공",
+      "학점 3.0 이상",
+      "해외여행 및 건강상 결격사유가 없는 자"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "공고 제목보다 실제 수행업무 범위가 더 넓어 경험 기반 직무발견 가치가 있음"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "과거 공고이므로 현재 지원가능 공고가 아니라 직무탐색 참고용으로 사용 / 접수 마감 공고이므로 현재 지원가능 추천이 아니라 직무탐색 참고용으로 사용 / 과거 공고",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  }
+]
