@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState, type MouseEvent } from "react";
-import { Fingerprint, QrCode, RotateCw } from "lucide-react";
+import { QrCode } from "lucide-react";
 
 const MAX_TILT = 9;
 
@@ -151,11 +151,6 @@ export function InteractiveIdCard({
               <span className="absolute left-3 top-3 z-20 grid h-6 w-6 place-items-center rounded border border-white/70 bg-white/10 font-technical text-[10px] font-bold text-white">
                 U
               </span>
-              <RotateCw
-                aria-hidden="true"
-                size={13}
-                className="absolute right-3 top-3 z-20 text-white/70"
-              />
 
               {/* Photo, straddling the orange/navy boundary for a layered, breaking-the-frame feel */}
               <div className="absolute left-1/2 top-[36%] z-10 h-24 w-24 -translate-x-1/2 -translate-y-1/2">
@@ -202,16 +197,11 @@ export function InteractiveIdCard({
               </div>
 
               <div className="text-center">
-                <p className="text-[13px] font-medium text-ink">
+                <p className="text-[14px] font-medium text-ink">
                   아직 발급되지 않은 사원증입니다
                 </p>
                 <p className="mt-1.5 flex items-center justify-center gap-1.5 text-[10px] leading-tight text-muted">
-                  <Fingerprint
-                    aria-hidden="true"
-                    size={12}
-                    className="shrink-0"
-                  />
-                  내 역량을 등록하면 매칭 직무가 채워져요
+                  검색의 한계를 넘어 취업의 가능성을 발견하세요
                 </p>
               </div>
             </div>
