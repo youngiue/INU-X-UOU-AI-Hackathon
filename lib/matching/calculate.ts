@@ -1,177 +1,76 @@
-import type { Job, JobMatch, SkillGap, SkillMatch, SubScore, UserProfile } from "@/lib/types";
-import { getSemanticScores } from "@/lib/matching/semanticScore";
+import type { Job, JobMatch, SkillGap, SkillMatch, SubScore, UserProfile } from "../types";
+import { getSemanticScores } from "./semanticScore.ts";
 
-const SUBSCORE_WEIGHTS = {
-  major: 0.25,
-  experience: 0.3,
-  skill: 0.3,
-  condition: 0.15,
-};
+const MINIMUM_SCORE = 24;
+const DISTRICTS = ["중구", "남구", "동구", "북구", "울주군"] as const;
+type District = (typeof DISTRICTS)[number];
 
-// semanticScore(임베딩 유사도)가 있으면 경험 적합도에 이 비중만큼 반영, 없으면 키워드 매칭만 사용
-const SEMANTIC_BLEND_WEIGHT = 0.5;
-
-interface ExperienceSource {
-  label: string;
-  texts: string[];
+function normalize(value: string) { return value.toLowerCase().replace(/[\s._\-·/]/g, ""); }
+function profileTerms(profile: UserProfile) {
+  return [profile.major, profile.education, profile.experience, profile.preferredConditions, ...profile.skills, ...profile.certificates, ...profile.interestedIndustries, ...profile.careerExperiences, ...profile.internshipExperiences, ...profile.projectExperiences, ...profile.trainingExperiences].filter(Boolean);
 }
-
-function normalize(value: string) {
-  return value.toLowerCase().replace(/[\s._-]/g, "");
-}
-
-function includesTerm(values: string[], target: string) {
+function hasTerm(values: string[], target: string) {
   const needle = normalize(target);
-  if (!needle) return false;
-  return values.some((value) => {
-    const haystack = normalize(value);
-    return haystack.length > 0 && (haystack.includes(needle) || needle.includes(haystack));
-  });
+  return Boolean(needle) && values.some((value) => { const haystack = normalize(value); return haystack.includes(needle) || needle.includes(haystack); });
 }
-
-function clampScore(score: number) {
-  return Math.min(100, Math.max(0, Math.round(score)));
+function hasAnyTerm(values: string[], targets: string[]) { return targets.some((target) => hasTerm(values, target)); }
+const GENERIC_EXPERIENCE_TOKENS = new Set(["프로젝트", "운영", "기획", "활동", "경험", "작성", "관리", "지원"]);
+function matchesExperienceExample(values: string[], example: string) {
+  if (hasTerm(values, example)) return true;
+  const tokens = (example.match(/[가-힣A-Za-z0-9]+/g) ?? []).filter((token) => token.length >= 2 && !GENERIC_EXPERIENCE_TOKENS.has(token));
+  const matched = tokens.filter((token) => hasTerm(values, token)).length;
+  return tokens.length > 1 ? matched >= 2 : matched === 1;
 }
+function parsePreferredLocation(value: string) { const sigungu = DISTRICTS.find((candidate) => value.includes(candidate)) as District | undefined; return { sido: /울산/.test(value) || Boolean(sigungu) ? "울산" : null, sigungu: sigungu ?? null }; }
 
-function ratioScore(matched: number, total: number) {
-  return total ? (matched / total) * 100 : 100;
+function locationMatch(profile: UserProfile, job: Job): NonNullable<JobMatch["location_match"]> {
+  const requested = parsePreferredLocation(profile.preferredLocation); const work = job.workLocation;
+  const jobSido = work?.sido ?? (/울산/.test(job.location) ? "울산" : null); const jobDistrict = work?.sigungu ?? null; const jobDistricts = work?.sigunguCandidates ?? [];
+  if (jobSido === "울산" && job.locationPrecision === "MULTI_WORKSITE_CONFIRMED" && (!requested.sigungu || jobDistricts.includes(requested.sigungu))) return { level: "MULTI_WORKSITE_MATCH", requested: requested.sigungu, job_sigungu: null, reason: `근무 가능 지역: ${jobDistricts.join("·")} 사업장. 세부 배치 사업장은 미확정입니다.` };
+  if (jobSido === "울산" && job.locationPrecision === "COMPANY_ADDRESS_FALLBACK" && (!requested.sigungu || jobDistrict === requested.sigungu)) return { level: "COMPANY_ADDRESS_FALLBACK", requested: requested.sigungu, job_sigungu: jobDistrict, reason: jobDistrict ? `세부 근무지는 미확인·기업 소재지 기준: 울산 ${jobDistrict}` : "세부 근무지는 미확인·기업 소재지 기준 후보입니다." };
+  if (requested.sigungu && jobSido === "울산" && jobDistricts.includes(requested.sigungu)) return { level: job.locationPrecision === "MULTI_WORKSITE_CONFIRMED" ? "MULTI_WORKSITE_MATCH" : "MULTI_SIGUNGU_MATCH", requested: requested.sigungu, job_sigungu: null, reason: `근무 가능 지역: ${jobDistricts.join("·")} 사업장. 세부 배치 사업장은 미확정입니다.` };
+  if (requested.sigungu && jobSido === "울산" && jobDistricts.length && !jobDistricts.includes(requested.sigungu)) return { level: "LOCATION_MISMATCH", requested: requested.sigungu, job_sigungu: null, reason: `희망 지역은 ${requested.sigungu}이나 공고의 복수 근무지는 ${jobDistricts.join("·")}입니다.` };
+  if (requested.sigungu && jobSido === "울산" && jobDistrict === requested.sigungu) return { level: "EXACT_LOCAL_MATCH", requested: requested.sigungu, job_sigungu: jobDistrict, reason: `공고 원문에서 울산 ${jobDistrict} 근무가 확인됩니다.` };
+  if (requested.sigungu && jobSido === "울산" && !jobDistrict && job.ulsanStatus === "ULSAN_CONFIRMED") return { level: "ULSAN_BROAD_MATCH", requested: requested.sigungu, job_sigungu: null, reason: "울산 근무는 확인되지만 세부 구·군은 확인되지 않습니다." };
+  if (requested.sigungu && jobSido === "울산" && jobDistrict && jobDistrict !== requested.sigungu) return { level: "LOCATION_MISMATCH", requested: requested.sigungu, job_sigungu: jobDistrict, reason: `희망 지역은 ${requested.sigungu}이나 ${job.locationPrecision === "COMPANY_ADDRESS_FALLBACK" ? "기업 소재지 기준" : "공고 근무지"}는 ${jobDistrict}입니다.` };
+  if (jobSido === "울산" && job.ulsanStatus === "ULSAN_CONFIRMED") return { level: "ULSAN_BROAD_MATCH", requested: requested.sigungu, job_sigungu: jobDistrict, reason: jobDistrict ? `울산 ${jobDistrict} 근무 공고입니다.` : "울산 근무는 확인되지만 세부 구·군은 확인되지 않습니다." };
+  return { level: "UNKNOWN", requested: requested.sigungu, job_sigungu: jobDistrict, reason: "공고의 근무지역을 충분히 확인하지 못했습니다." };
 }
+function locationRank(match: JobMatch) { return match.location_match?.level === "EXACT_LOCAL_MATCH" ? 3 : ["MULTI_WORKSITE_MATCH", "MULTI_SIGUNGU_MATCH"].includes(match.location_match?.level ?? "") ? 2 : match.location_match?.level === "COMPANY_ADDRESS_FALLBACK" ? 1.5 : match.location_match?.level === "ULSAN_BROAD_MATCH" ? 1 : 0; }
 
-function buildExperienceSources(profile: UserProfile): ExperienceSource[] {
-  return [
-    { label: "경력", texts: profile.careerExperiences },
-    { label: "경험", texts: profile.projectExperiences },
-  ].filter((source) => source.texts.length > 0);
-}
-
-function findSourceContext(sources: ExperienceSource[], skill: string): string | null {
-  const matchedSource = sources.find((source) => includesTerm(source.texts, skill));
-  return matchedSource ? matchedSource.label : null;
-}
-
-function scoreMajorFit(profile: UserProfile, job: Job): number {
-  const majorMatched = job.relatedMajors.some((major) => includesTerm([profile.major], major));
-  return majorMatched ? 92 : 45;
-}
-
-// 기술 적합도: 필수 스킬 비중을 크게, 우대 스킬은 보너스로 반영
-function scoreSkillFit(profile: UserProfile, job: Job): number {
-  const techTerms = [...profile.skills, ...profile.certificates];
-  const matchedRequired = job.requiredSkills.filter((skill) => includesTerm(techTerms, skill));
-  const matchedPreferred = job.preferredSkills.filter((skill) => includesTerm(techTerms, skill));
-  return clampScore(
-    ratioScore(matchedRequired.length, job.requiredSkills.length) * 0.8 +
-      ratioScore(matchedPreferred.length, job.preferredSkills.length) * 0.2,
-  );
-}
-
-// 경험 적합도: 키워드 매칭에 (가능하면) 임베딩 의미 유사도를 블렌딩해 표현이 달라도
-// 의미가 통하는 경험(예: "센서 제어" ↔ "자동화 설비 제어")을 보완한다.
-function scoreExperienceFit(sources: ExperienceSource[], job: Job, semanticScore?: number): number {
-  const experienceTexts = sources.flatMap((source) => source.texts);
-  if (experienceTexts.length === 0) return 30;
-
-  const requiredHit = job.requiredSkills.filter((skill) => includesTerm(experienceTexts, skill));
-  const preferredHit = job.preferredSkills.filter((skill) => includesTerm(experienceTexts, skill));
-  const roleHit = includesTerm(experienceTexts, job.discoveredRole) || includesTerm(experienceTexts, job.title);
-  const keywordScore = clampScore(35 + requiredHit.length * 16 + preferredHit.length * 8 + (roleHit ? 10 : 0));
-
-  if (semanticScore === undefined) return keywordScore;
-  return clampScore(keywordScore * (1 - SEMANTIC_BLEND_WEIGHT) + semanticScore * SEMANTIC_BLEND_WEIGHT);
-}
-
-function scoreConditionFit(profile: UserProfile, job: Job): number {
-  const locationMatched =
-    normalize(job.location).includes(normalize(profile.preferredLocation)) ||
-    normalize(profile.preferredLocation).includes(normalize(job.location));
-  const typeMatched =
-    profile.preferredConditions.trim() === "" || includesTerm([profile.preferredConditions], job.employmentType);
-
-  let score = 50;
-  if (locationMatched) score += 35;
-  if (typeMatched) score += 15;
-  return clampScore(score);
-}
-
-function buildStrengths(profile: UserProfile, job: Job, sources: ExperienceSource[]): SkillMatch[] {
-  const techTerms = [...profile.skills, ...profile.certificates];
-  const candidateSkills = [...new Set([...job.requiredSkills, ...job.preferredSkills])];
-  const relatedTo = `${job.discoveredRole} 업무`;
-
-  const strengths: SkillMatch[] = [];
-
-  const majorMatched = job.relatedMajors.some((major) => includesTerm([profile.major], major));
-  if (majorMatched) {
-    strengths.push({ label: `${profile.major} 전공`, sourceContext: "전공", relatedTo: `${job.discoveredRole} 업무 기반` });
+function gateEvaluation(profile: UserProfile, job: Job): "PASS" | "FAIL" | "UNVERIFIED" {
+  const gates = job.hardGates ?? []; if (!gates.length) return "PASS"; const terms = profileTerms(profile); const qualifications = [...profile.certificates, ...profile.skills, ...profile.careerExperiences, ...profile.internshipExperiences, ...profile.projectExperiences, ...profile.trainingExperiences]; let unknown = false;
+  for (const gate of gates) {
+    const years = gate.match(/(\d+)년\s*이상/); if (years) { if (typeof profile.yearsExperience !== "number") unknown = true; else if (profile.yearsExperience < Number(years[1])) return "FAIL"; continue; }
+    const age = gate.match(/만\s*(\d+)세\s*이상/); if (age) { if (typeof profile.age !== "number") unknown = true; else if (profile.age < Number(age[1])) return "FAIL"; continue; }
+    if (/면허|자격|전문역량|자격증|기사|요건|응시자격/.test(gate)) { const specific = gate.includes("간호") ? ["간호사", "간호조무사"] : gate.includes("물리치료") ? ["물리치료사"] : gate.includes("사회복지") ? ["사회복지사"] : gate.includes("요양보호") ? ["요양보호사"] : gate.includes("운전면허") ? ["운전면허", "자동차운전면허"] : [gate, "면허", "자격", "기사"]; if (!hasAnyTerm(qualifications, specific)) return "FAIL"; continue; }
+    if (/전공|학과|학사|대졸|초대졸|고등학교|졸업|학력/.test(gate)) { if (!profile.education && !profile.major) unknown = true; else if (!hasAnyTerm(terms, [profile.major, gate.replace(/전공|학과|이상|필수/g, "")])) return "FAIL"; continue; }
+    if (/운전/.test(gate)) { if (!hasAnyTerm(terms, ["운전면허", "자동차운전", "지게차", "운전"])) return "FAIL"; continue; }
+    if (/지역|울산 주민|지역인재/.test(gate)) { if (!profile.preferredLocation.includes("울산")) unknown = true; continue; }
+    if (/공무원|소방/.test(gate)) { if (!hasAnyTerm(terms, ["공무원", "소방", "공공"])) unknown = true; continue; }
+    unknown = true;
   }
+  return unknown ? "UNVERIFIED" : "PASS";
+}
+function isExplicitPublicServiceInterest(profile: UserProfile) { return hasAnyTerm([...profile.interestedIndustries, profile.preferredConditions, profile.experience], ["공무원", "소방", "공공기관", "공공직"]); }
+function isCurrentEligible(profile: UserProfile, job: Job) { if (job.qualityTier === "EXCLUDE" || job.ulsanStatus !== "ULSAN_CONFIRMED" || job.postingStatus !== "OPEN" || job.usageMode !== "CURRENT_OPPORTUNITY" || job.analysisConfidence === "LOW" || job.descriptionQuality === "LOW") return false; if (job.occupationType === "PUBLIC_SERVICE" && !isExplicitPublicServiceInterest(profile)) return false; return gateEvaluation(profile, job) === "PASS"; }
 
-  for (const skill of candidateSkills) {
-    const experienceContext = findSourceContext(sources, skill);
-    if (experienceContext) {
-      strengths.push({ label: skill, sourceContext: experienceContext, relatedTo });
-      continue;
-    }
-    if (includesTerm(techTerms, skill)) {
-      strengths.push({ label: skill, sourceContext: "보유 기술·자격증", relatedTo });
-    }
-  }
+function buildStrengths(profile: UserProfile, job: Job, matchedSkills: string[]): SkillMatch[] { return matchedSkills.slice(0, 8).map((label) => ({ label, sourceContext: profile.skills.includes(label) ? "보유 기술·자격증" : "경험", relatedTo: `${job.discoveredRole} 업무` })); }
+function buildGaps(job: Job, matchedSkills: string[]): SkillGap[] { return job.requiredSkills.filter((skill) => !matchedSkills.includes(skill)).slice(0, 2).map((label) => ({ label, suggestion: `${label} 관련 역량 보완 교육 과정을 통해 채울 수 있어요.` })); }
 
-  return strengths;
+function scoreJob(profile: UserProfile, job: Job, semanticScore?: number): JobMatch | null {
+  const terms = profileTerms(profile); const taskTerms = [...(job.actualTasks ?? []), ...(job.analysisSkills ?? []), ...(job.toolsNormalized ?? []), ...(job.aiRequiredSkills ?? []), ...job.requiredSkills, ...(job.transferableSkills ?? [])];
+  const matchedSkills = [...new Set(taskTerms.filter((term) => hasTerm(terms, term)))]; const matchedPreferred = (job.preferredSkills ?? []).filter((term) => hasTerm(terms, term)); const majorMatched = hasAnyTerm(terms, job.relatedMajors ?? []) || hasTerm([profile.major], job.discoveredRole); const taskMatched = (job.actualTasks ?? []).filter((task) => hasAnyTerm(terms, task.split(/[·,/ ]/).filter(Boolean))); const suitableExperienceMatched = (job.suitableExperienceExamples ?? []).filter((example) => matchesExperienceExample(terms, example));
+  const evidenceCount = new Set([...matchedSkills, ...taskMatched, ...suitableExperienceMatched]).size + (majorMatched ? 1 : 0); if (!evidenceCount) return null;
+  let score = Math.min(100, Math.round(Math.min(55, matchedSkills.length * 12 + taskMatched.length * 6 + suitableExperienceMatched.length * 18) + (majorMatched ? 22 : 0) + Math.min(13, matchedPreferred.length * 5 + suitableExperienceMatched.length * 3))); if (semanticScore !== undefined) score = Math.round(score * 0.7 + semanticScore * 0.3); if (score < MINIMUM_SCORE) return null;
+  const reasons: string[] = []; if (matchedSkills.length) reasons.push(`${matchedSkills.slice(0, 3).join(", ")} 경험이 공고의 실제 업무와 연결됩니다.`); if (suitableExperienceMatched.length) reasons.push(`${suitableExperienceMatched[0]} 경험이 공고의 적합 경험 예시와 연결됩니다.`); if (majorMatched) reasons.push(`${profile.major} 전공 또는 경험이 ${job.discoveredRole} 직무 기반과 연결됩니다.`); if (!reasons.length) return null;
+  const strengths = buildStrengths(profile, job, [...new Set([...matchedSkills, ...matchedPreferred])]); const missingSkills = job.requiredSkills.filter((skill) => !hasTerm(terms, skill));
+  const subScores: SubScore[] = [{ label: "전공 적합도", score: majorMatched ? 92 : 45, weight: 0.25 }, { label: "경험 적합도", score: taskMatched.length || suitableExperienceMatched.length ? 85 : 30, weight: 0.3 }, { label: "기술 적합도", score: job.requiredSkills.length ? Math.round((matchedSkills.filter((s) => job.requiredSkills.includes(s)).length / job.requiredSkills.length) * 100) : 100, weight: 0.3 }, { label: "근무조건 적합도", score: Math.round(locationRank({ location_match: locationMatch(profile, job) } as JobMatch) / 3 * 100), weight: 0.15 }];
+  const reasonSummary = reasons.join(" "); const usualKeywords = profile.usualSearchKeywords ?? []; const isHiddenGem = usualKeywords.length > 0 && !usualKeywords.some((keyword) => hasTerm([job.title, job.discoveredRole], keyword));
+  return { job, score, subScores, matchedSkills: [...new Set([...matchedSkills, ...matchedPreferred])], missingSkills, reasons, reasonSummary, strengths, gaps: buildGaps(job, [...new Set([...matchedSkills, ...matchedPreferred])]), isHiddenGem, hiddenGemNote: isHiddenGem ? `평소 검색 키워드와 직무명은 다르지만 실제 업무(${job.discoveredRole})에 경험이 연결됩니다.` : undefined, gateStatus: gateEvaluation(profile, job), location_match: locationMatch(profile, job) };
 }
 
-function buildGaps(profile: UserProfile, job: Job, sources: ExperienceSource[]): SkillGap[] {
-  const techTerms = [...profile.skills, ...profile.certificates, ...sources.flatMap((source) => source.texts)];
-  const missing = job.requiredSkills.filter((skill) => !includesTerm(techTerms, skill));
-
-  return missing.slice(0, 2).map((skill) => ({
-    label: skill,
-    suggestion: `${skill} 관련 역량 보완 교육 과정을 통해 채울 수 있어요.`,
-  }));
-}
-
-function buildReasonSummary(strengths: SkillMatch[], profile: UserProfile, job: Job): string {
-  const topLabels = strengths.slice(0, 2).map((strength) => strength.label);
-  if (topLabels.length === 0) {
-    return `${profile.major} 전공과 보유 역량을 확장해 볼 수 있는 직무입니다.`;
-  }
-  return `${topLabels.join(", ")} 역량이 ${job.discoveredRole} 업무와 높은 연관성을 보입니다.`;
-}
-
-function overallScore(subScores: SubScore[]) {
-  return subScores.reduce((sum, item) => sum + item.score * item.weight, 0);
-}
-
-export function calculateMatch(profile: UserProfile, job: Job, semanticScore?: number): JobMatch {
-  const sources = buildExperienceSources(profile);
-
-  const subScores: SubScore[] = [
-    { label: "전공 적합도", score: scoreMajorFit(profile, job), weight: SUBSCORE_WEIGHTS.major },
-    { label: "경험 적합도", score: scoreExperienceFit(sources, job, semanticScore), weight: SUBSCORE_WEIGHTS.experience },
-    { label: "기술 적합도", score: scoreSkillFit(profile, job), weight: SUBSCORE_WEIGHTS.skill },
-    { label: "근무조건 적합도", score: scoreConditionFit(profile, job), weight: SUBSCORE_WEIGHTS.condition },
-  ];
-
-  const strengths = buildStrengths(profile, job, sources);
-  const gaps = buildGaps(profile, job, sources);
-  const matchedSkills = [...new Set(strengths.map((strength) => strength.label))];
-  const missingSkills = gaps.map((gap) => gap.label);
-  const reasonSummary = buildReasonSummary(strengths, profile, job);
-
-  const usualKeywords = profile.usualSearchKeywords;
-  const jobIsUsualKeyword = usualKeywords.some((keyword) => includesTerm([job.title, job.discoveredRole], keyword));
-  const isHiddenGem = usualKeywords.length > 0 && !jobIsUsualKeyword && strengths.length > 0;
-  const hiddenGemNote = isHiddenGem
-    ? `평소 검색하던 '${usualKeywords.join(", ")}'와(과) 직무명은 다르지만, 이 공고의 실제 업무(${job.discoveredRole})에 회원님의 경험이 연결됩니다.`
-    : undefined;
-
-  return { job, subScores, matchedSkills, missingSkills, reasonSummary, strengths, gaps, isHiddenGem, hiddenGemNote };
-}
-
-export async function rankJobs(profile: UserProfile, jobs: Job[]) {
-  // 팀원이 추가한 임베딩 기반 의미 유사도 — 실패하거나 API 키가 없으면 null로
-  // 폴백되어 키워드 매칭만으로 계산된다.
-  const semanticScores = await getSemanticScores(profile, jobs);
-  return jobs
-    .map((job) => calculateMatch(profile, job, semanticScores?.get(job.id)))
-    .sort((a, b) => overallScore(b.subScores) - overallScore(a.subScores));
-}
+export function calculateMatch(profile: UserProfile, job: Job, semanticScore?: number): JobMatch { return scoreJob(profile, job, semanticScore) ?? { job, score: 0, subScores: [], matchedSkills: [], missingSkills: job.requiredSkills, reasons: [], reasonSummary: "", strengths: [], gaps: [], isHiddenGem: false, gateStatus: gateEvaluation(profile, job), location_match: locationMatch(profile, job) }; }
+export async function rankJobs(profile: UserProfile, jobs: Job[]) { const semanticScores = await getSemanticScores(profile, jobs); return jobs.map((job) => scoreJob(profile, job, semanticScores?.get(job.id))).filter((match): match is JobMatch => Boolean(match)).sort((a, b) => b.score - a.score).slice(0, 3); }
+export function matchJobs(profile: UserProfile, jobs: Job[]) { const scored = jobs.map((job) => scoreJob(profile, job)).filter((match): match is JobMatch => Boolean(match)); const current = scored.filter((match) => isCurrentEligible(profile, match.job)); const discovery = scored.filter((match) => !isCurrentEligible(profile, match.job) && match.job.qualityTier !== "EXCLUDE" && !(match.job.occupationType === "PUBLIC_SERVICE" && !isExplicitPublicServiceInterest(profile))); return { current_opportunities: current.sort((a, b) => locationRank(b) - locationRank(a) || b.score - a.score).slice(0, 3), career_discovery: discovery.sort((a, b) => locationRank(b) - locationRank(a) || b.score - a.score).slice(0, 3) }; }
+export function canUseAsCurrent(profile: UserProfile, job: Job) { return isCurrentEligible(profile, job); }

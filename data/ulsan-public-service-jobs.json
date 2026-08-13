@@ -14,10 +14,11 @@
     "selection_region": "울산광역시",
     "work_location": {
       "raw": "울산광역시 선발 소방공무원 채용체계",
-      "sido": "울산광역시",
-      "sigungu": null,
-      "detail": null,
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "sido": "울산",
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 중앙로 201",
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "COMPANY_ADDRESS_FALLBACK"
     },
     "selection_count": null,
     "application_period": {

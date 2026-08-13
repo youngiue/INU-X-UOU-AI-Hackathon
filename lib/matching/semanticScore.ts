@@ -1,5 +1,5 @@
-import type { Job, UserProfile } from "@/lib/types";
-import { cosineSimilarity, embedTexts } from "@/lib/openai/embeddings";
+import type { Job, UserProfile } from "../types.ts";
+import { cosineSimilarity, embedTexts } from "../openai/embeddings.ts";
 
 // 공고 임베딩은 정적 데이터 기준이라 서버 프로세스 생애주기 동안 재사용
 let jobEmbeddingCache: Map<string, number[]> | null = null;
