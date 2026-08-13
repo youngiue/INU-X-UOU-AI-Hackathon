@@ -1,0 +1,630 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_IT_001",
+    "occupation_group": "스마트팩토리·OT 시스템",
+    "occupation_type": "SMART_FACTORY_OT_SYSTEM_DEVELOPMENT_OPERATION",
+    "employer": "현대오토에버㈜",
+    "employer_normalized": "현대오토에버",
+    "posting_title": "[SDx] Service Engineer - 스마트팩토리 OT 개발 및 운영(울산)",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "영남권역 / 울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "스마트팩토리 환경의 제조 현장 OT 시스템 개발 및 운영",
+      "OT 시스템 구축, 운영, 장애 대응 및 지속적인 개선",
+      "생산 설비와 운영 시스템 연계",
+      "현장 요구사항 반영 및 시스템 이슈 대응",
+      "OT 시스템 표준화, 최적화 및 신뢰성 향상"
+    ],
+    "eligibility_notes": [
+      "경력 4년 이상",
+      "울산 근무 포지션"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [
+      "로봇",
+      "MES",
+      "IQIS"
+    ],
+    "hard_gates": [
+      "경력 4년 이상"
+    ],
+    "required_capabilities": [],
+    "source": {
+      "source_name": "현대오토에버 채용",
+      "source_type": "OFFICIAL_RECRUITMENT_PAGE",
+      "source_url": "https://career.hyundai-autoever.com/ko/o/214818",
+      "source_reference": null,
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "현대오토에버 공식 채용페이지에서 동일 포지션이 확인됨",
+      "공식 채용목록에서 경력 4년 이상, 정규직, 영남권역 포지션으로 확인됨",
+      "공식 상세페이지에서 스마트팩토리 제조현장 OT 시스템 개발·운영 조직 및 로봇·MES·IQIS 생산시스템 관련 내용이 확인됨",
+      "이전 데이터의 대졸 이상 조건은 공식 원문에서 확정하지 못해 제거함",
+      "이전 데이터의 '울산 완성차 공장 OT 시스템 개발 및 운영 역량'을 Hard Gate로 사용한 것은 과잉판정으로 판단하여 제거함",
+      "접수 시작일과 종료일은 이번 최종 검증에서 공식 원문으로 확정하지 못해 null 처리함"
+    ],
+    "posting_status": "CURRENT",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_002",
+    "occupation_group": "산업 AI·DT",
+    "occupation_type": "MANUFACTURING_AI_DT_SYSTEM",
+    "employer": "SK inc.(AX)",
+    "employer_normalized": "SK AX",
+    "posting_title": "제조 에너지/화학 계열 AI/DT 및 시스템 담당자 영입 (울산 근무)",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-05-14",
+      "end": "2026-06-15"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "고객사의 신규 AI/DT 과제 구체화 및 사업 개발·수행",
+      "AI/DT 과제 제안부터 구축 및 운영 전환까지 수행",
+      "사업 규모에 따른 프로젝트 PM 및 분석·설계"
+    ],
+    "eligibility_notes": [
+      "채용 분야 경력 3년 이상",
+      "Application 개발(JavaScript, Spring Boot) 및 분석·설계 역량",
+      "AI/DT 관련 프로젝트 수행 경험 및 프로젝트 PM/PL 또는 사업관리 경험",
+      "제조 영역 생산·설비·안전환경 시스템 운영/개발 경험",
+      "해외여행에 결격사유가 없어야 함",
+      "병역 대상자는 병역필 또는 면제",
+      "최종합격 후 회사가 지정하는 날짜에 입사 가능"
+    ],
+    "preferred_conditions": [
+      "AI/DT 관련 기획 및 사업 수행 경험",
+      "SK이노베이션 계열 업무 경험",
+      "제조 영역 생산·설비·안전환경 관련 Business Knowledge",
+      "다수 프로젝트 수행 경험",
+      "PM뿐 아니라 분석·설계 역할 수행 경험",
+      "Java, C#, Python, React 등 개발언어 경험",
+      "외국어 기반 글로벌 커뮤니케이션 능력"
+    ],
+    "licenses_original": [],
+    "tools_original": [
+      "JavaScript",
+      "Spring Boot",
+      "Java",
+      "C#",
+      "Python",
+      "React"
+    ],
+    "hard_gates": [
+      "채용 분야 경력 3년 이상",
+      "Application 개발(JavaScript, Spring Boot) 및 분석·설계 역량",
+      "AI/DT 관련 프로젝트 수행 경험",
+      "제조 영역 생산·설비·안전환경 시스템 운영/개발 경험",
+      "회사 지정일 입사 가능"
+    ],
+    "required_capabilities": [
+      "Application 개발 및 분석·설계",
+      "AI/DT 프로젝트 수행",
+      "제조 시스템 운영·개발"
+    ],
+    "source": {
+      "source_name": "SK Careers",
+      "source_type": "OFFICIAL_RECRUITMENT_PAGE",
+      "source_url": "https://www.skcareers.com/Recruit/Detail/R261104",
+      "source_reference": "R261104",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "SK 공식 채용페이지에서 기업, 담당업무, 필요역량, 우대사항, 울산 근무, 접수기간을 직접 확인함",
+      "공식 페이지에서 Application closed 상태 확인"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_003",
+    "occupation_group": "제조 IT·DT 운영",
+    "occupation_type": "FACTORY_IT_APPLICATION_OPERATION_DT",
+    "employer": "SK케미칼",
+    "employer_normalized": "SK케미칼",
+    "posting_title": "[SK케미칼] 울산공장 IT 운영/고도화 담당 경력 구성원 모집",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "SK케미칼 울산공장(울산광역시 남구 처용로 718)",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": "처용로 718 SK케미칼 울산공장",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2025-05-21",
+      "end": "2025-05-28"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "공장 Application 운영 및 고도화",
+      "운영 개선과제 도출, 개선 및 보고",
+      "Data 기반 사용·운영 지표 수립 및 관리·보고",
+      "표준운영절차서(SOP), 운영·사용자 매뉴얼 구성",
+      "시스템별 프로세스맵 정의 및 관리",
+      "내부고객 IT 변경요청 정의 및 코디네이션",
+      "AI/DT Solution 타당성 검토"
+    ],
+    "eligibility_notes": [
+      "학사(4년제) 이상의 학위",
+      "시스템, Application, 서버, 네트워크 기본 이해와 지식",
+      "병역 대상자는 병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "preferred_conditions": [
+      "컴퓨터공학 및 산업공학 등 IT 관련 전공",
+      "IT/DT 관련 자격증",
+      "Data 분석 관련 경험",
+      "IT 이슈 진단 및 도출·해결 경험"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "학사(4년제) 이상",
+      "시스템·Application·서버·네트워크 기본 이해와 지식"
+    ],
+    "required_capabilities": [
+      "시스템·Application·서버·네트워크 기본 이해"
+    ],
+    "source": {
+      "source_name": "SK Careers",
+      "source_type": "OFFICIAL_RECRUITMENT_PAGE",
+      "source_url": "https://www.skcareers.com/Recruit/Detail/R251054",
+      "source_reference": "R251054",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "SK 공식 채용페이지에서 담당업무, 지원자격 및 우대사항을 직접 확인함",
+      "경력직 공고이나 공식 본문에서 최소 경력연수는 확인되지 않아 임의로 추가하지 않음"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_004",
+    "occupation_group": "MES·웹개발",
+    "occupation_type": "MES_WEB_DEVELOPMENT_MAINTENANCE",
+    "employer": "한솔코에버㈜",
+    "employer_normalized": "한솔코에버",
+    "posting_title": "[한솔코에버] 울산 MES 시스템 구축 웹개발",
+    "employment_type": "정규직(수습 3개월)",
+    "work_location": {
+      "raw": "울산 동구 해수욕장9길 3 (일산동)",
+      "sido": "울산광역시",
+      "sigungu": "동구",
+      "detail": "해수욕장9길 3",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": "○명",
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-07-28",
+      "end": "2026-09-26"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "회사 내규에 따름 (면접 후 결정)",
+    "working_hours": "주5일(월~금), 09:00~18:00, 탄력근무제",
+    "raw_tasks": [
+      "개발/유지보수"
+    ],
+    "eligibility_notes": [
+      "경력 3년 이상"
+    ],
+    "preferred_conditions": [
+      "유관업무 경력자(3년)"
+    ],
+    "licenses_original": [],
+    "tools_original": [
+      "vue2",
+      "vue3"
+    ],
+    "hard_gates": [
+      "경력 3년 이상"
+    ],
+    "required_capabilities": [],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "RECRUITMENT_PLATFORM",
+      "source_url": "https://m.jobkorea.co.kr/Recruit/GI_Read/49671241",
+      "source_reference": null,
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "잡코리아 실제 공고에서 공고명, 개발/유지보수 모집분야, 울산 동구 근무, 경력 3년 이상, 접수기간을 확인함",
+      "공고 제목에는 MES 시스템 구축 웹개발이 명시되나 확인 가능한 모집요강의 담당업무 표시는 '개발/유지보수'이므로 raw_tasks를 그 이상 확장하지 않음",
+      "스킬 필드의 숫자 코드들은 의미를 확정할 수 없어 제외하고 문자로 확인되는 vue2, vue3만 기록함",
+      "이전 검토에서 제기된 '초대졸 이상' 조건은 현재 확인 가능한 공고 원문에서 확인되지 않아 추가하지 않음",
+      "2026-09-26 채용시마감으로 표시되어 있으며 2026-08-13 기준 D-44로 노출됨"
+    ],
+    "posting_status": "CURRENT",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_005",
+    "occupation_group": "MES 소프트웨어 개발",
+    "occupation_type": "MES_SOFTWARE_DEVELOPMENT_IMPLEMENTATION",
+    "employer": "소프트이에스",
+    "employer_normalized": "소프트이에스",
+    "posting_title": "[울산] 자동차 제조업 MES 솔루션 개발/구축 전문자 모집",
+    "employment_type": "정규직(수습 3개월)",
+    "work_location": {
+      "raw": "울산 중구 종가로 362-11 (교동, 울산과학기술진흥센터/그린카기술센터) 703호",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "detail": "종가로 362-11 703호",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": "○명",
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-04-02",
+      "end": "2026-05-02"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "연봉 3,200만원 이상 (면접 후 결정)",
+    "working_hours": "주5일(월~금), 09:00~18:00",
+    "raw_tasks": [
+      "응용 S/W 프로그램 개발"
+    ],
+    "eligibility_notes": [
+      "신입·경력(3년 이상)",
+      "초대졸 이상"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [
+      "C#.NET",
+      "ASP.NET",
+      "JAVA"
+    ],
+    "hard_gates": [
+      "초대졸 이상"
+    ],
+    "required_capabilities": [],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "RECRUITMENT_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48903463",
+      "source_reference": null,
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "잡코리아에서 실제 공고명, 응용 S/W 프로그램 개발자 모집분야, 울산 중구 근무지, 학력·경력·기술스택 및 접수기간을 확인함",
+      "공고 제목에는 자동차 제조업 MES 솔루션 개발/구축이 명시되어 있음",
+      "확인 가능한 구조화 모집요강에서 세부 담당업무는 '응용 S/W 프로그램 개발자' 수준으로 제공되므로 MES 유지보수 등의 업무를 임의 추가하지 않음",
+      "'신입·경력(3년 이상)'으로 표시되어 있어 경력 3년을 모든 지원자에게 적용되는 Hard Gate로 판정하지 않음",
+      "공고 페이지에서 마감 상태를 확인함"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_006",
+    "occupation_group": "제조 OT 네트워크",
+    "occupation_type": "MES_NETWORK_OPERATION",
+    "employer": "효성ITX㈜",
+    "employer_normalized": "효성ITX",
+    "posting_title": "[효성ITX] 현대자동차 완성차 MES 네트워크 운영 모집 (울산공장)",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산 북구 염포로 700 (양정동, 현대자동차) 전산실",
+      "sido": "울산광역시",
+      "sigungu": "북구",
+      "detail": "염포로 700 현대자동차 울산공장 전산실",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": "○명",
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-07-03",
+      "end": "2026-09-01"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": "회사 내규에 따름 (면접 후 결정)",
+    "working_hours": "스케줄근무 월~일 중 주5일, 06:30~15:30 또는 15:30~24:20",
+    "raw_tasks": [
+      "네트워크 운영"
+    ],
+    "eligibility_notes": [
+      "경력",
+      "학력무관"
+    ],
+    "preferred_conditions": [
+      "유관업무 경력자(5년)",
+      "즉시출근 가능자",
+      "CCNA",
+      "CCNP",
+      "네트워크 운영 경력자"
+    ],
+    "licenses_original": [
+      "CCNA",
+      "CCNP"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "경력자"
+    ],
+    "required_capabilities": [],
+    "source": {
+      "source_name": "잡코리아",
+      "source_type": "RECRUITMENT_PLATFORM",
+      "source_url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49509789",
+      "source_reference": null,
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "실제 고용주는 현대자동차가 아니라 효성ITX임",
+      "현대자동차 울산공장 전산실 근무가 명확히 확인됨",
+      "공고 모집분야는 네트워크 운영이며 스킬 필드에는 네트워크 운영, 방화벽 운영, 유·무선 네트워크, 인증서버가 표시됨",
+      "CCNA와 CCNP는 우대조건이므로 Hard Gate로 설정하지 않음",
+      "유관업무 경력 5년도 우대조건이므로 필수 경력연수로 설정하지 않음",
+      "지원자격의 경력 필드가 '경력'으로 명시되어 있어 경력자 조건 자체는 Hard Gate로 반영하되 최소 연수는 추정하지 않음",
+      "네트워크 운영·방화벽 운영·유무선 네트워크·인증서버는 특정 프로그램명이나 장비명이 아니므로 tools_original에는 넣지 않음"
+    ],
+    "posting_status": "CURRENT",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_008",
+    "occupation_group": "산업 AI·비전·데이터",
+    "occupation_type": "INDUSTRIAL_AI_VISION_DATA_ANALYSIS",
+    "employer": "인터엑스",
+    "employer_normalized": "인터엑스",
+    "posting_title": "[울산] AI 비전·데이터분석 엔지니어",
+    "employment_type": null,
+    "work_location": {
+      "raw": "울산 중구 종가6길7, 10층",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "detail": "종가6길7, 10층",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": null,
+      "end": "2025-12-16"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "객체 인식, 불량 탐지, 이상 탐지, 품질 예측 등 비전 및 데이터 기반 AI 모델 설계·개발·고도화",
+      "모델 경량화 및 메모리 최적화를 통한 실시간 추론 성능 확보",
+      "Edge 디바이스 환경에서 모델 배포·최적화·운영",
+      "데이터 수집·정제·학습·검증·배포·모니터링 전체 AI 파이프라인 설계",
+      "모델 성능 모니터링, 데이터 드리프트 감지 및 재학습 루프 구축",
+      "PoC에서 상용화 전환을 위한 기술검증·성능보고·요구사항 조율",
+      "팀 기술 로드맵 수립, 내부 리뷰·멘토링 및 외부 협업 조율"
+    ],
+    "eligibility_notes": [
+      "경력 8~15년",
+      "컴퓨터공학, 인공지능, 산업공학 관련 석사 이상",
+      "Python 및 PyTorch, TensorFlow 등을 활용한 AI/ML 모델 개발 경험",
+      "비전 AI 경험",
+      "센서·시계열·공정 데이터 등 산업 데이터 처리 및 분석 경험",
+      "모델 최적화·경량화 및 Edge 디바이스 배포 경험",
+      "Docker, Kubernetes, FastAPI 등 AI 서비스 운영 기술 활용 경험",
+      "AI 시스템 학습·배포·모니터링 구조 설계 역량",
+      "AI 모델 실제 서비스 운영 경험"
+    ],
+    "preferred_conditions": [
+      "MLOps 시스템 구축 또는 관리 경험",
+      "SCI 저널 또는 주요 AI·컴퓨터비전·데이터분석 학회 논문 게재",
+      "AI·데이터 프로젝트 리딩 및 멘토링 경험",
+      "글로벌 R&D 조직 협업 또는 기술 커뮤니케이션 경험",
+      "비전과 산업 데이터를 융합한 AI 모델 설계·개발·고도화 경험"
+    ],
+    "licenses_original": [],
+    "tools_original": [
+      "Python",
+      "SQL",
+      "MySQL",
+      "PyTorch",
+      "TensorFlow",
+      "Docker",
+      "Kubernetes",
+      "FastAPI",
+      "TensorRT",
+      "ONNX Runtime",
+      "OpenVINO",
+      "Jetson",
+      "Raspberry Pi",
+      "NPU"
+    ],
+    "hard_gates": [
+      "경력 8~15년",
+      "관련 분야 석사 이상",
+      "Python 및 딥러닝 프레임워크 기반 AI/ML 모델 개발 경험",
+      "비전 AI 경험",
+      "산업 데이터 처리·분석 경험",
+      "Edge 모델 배포·최적화 경험",
+      "AI 서비스 운영 기술 활용 경험"
+    ],
+    "required_capabilities": [
+      "AI/ML 모델 개발",
+      "비전 AI",
+      "산업 데이터 분석",
+      "Edge AI 배포·최적화",
+      "AI 서비스 운영"
+    ],
+    "source": {
+      "source_name": "점핏",
+      "source_type": "RECRUITMENT_PLATFORM",
+      "source_url": "https://jumpit.saramin.co.kr/position/52328729",
+      "source_reference": null,
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "점핏 상세공고에서 담당업무, 필수경험, 기술스택, 근무지와 마감일을 직접 확인함",
+      "근무지역이 울산 중구로 명시됨",
+      "고용형태는 확인 가능한 원문에서 확정하지 못해 null 처리함"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_009",
+    "occupation_group": "Physical AI·로보틱스",
+    "occupation_type": "PHYSICAL_AI_ROBOTICS_ENGINEERING",
+    "employer": "플라잎",
+    "employer_normalized": "플라잎",
+    "posting_title": "[울산지사] Physical AI Engineer",
+    "employment_type": null,
+    "work_location": {
+      "raw": "울산광역시 남구 옥현로 129 벤처빌딩",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": "옥현로 129 벤처빌딩",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": null,
+      "end": "2026-07-24"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": "선택적 근로시간제, 코어타임 10:00~16:00",
+    "raw_tasks": [
+      "Physical AI 연구 및 개발",
+      "VLA/RL 등 로봇 학습 알고리즘·모델 고도화",
+      "비정형적 상황을 파악하고 대처하는 high-level 에이전트 및 시스템 연구·개발",
+      "Physical AI 시스템 성능을 시뮬레이션 및 실제 환경에서 평가",
+      "Physical AI 구현에 필요한 기술 스택의 요구사항 도출 및 구현 지원"
+    ],
+    "eligibility_notes": [
+      "경력 1~10년",
+      "플랫폼 구조화 학력 필드: 대학교졸업(4년) 이상",
+      "영남지역(대구, 울산 등) 근무 가능자",
+      "VLA/RL 등 Physical AI 관련 세부 연구 분야 석사 학위 또는 이에 준하는 경력",
+      "딥러닝 기초 지식 및 PyTorch, Jax 등 딥러닝 프레임워크 활용 능력",
+      "NumPy, Pandas 등 Python 데이터 관리·분석 생태계 활용 능력"
+    ],
+    "preferred_conditions": [
+      "주요 AI/Robotics 학회 및 저널 게재 실적",
+      "실제 로봇 활용 연구·개발 경험",
+      "수학, 컴퓨터공학, 통계학 등 관련 세부 전공",
+      "로봇 HW·제어, 제어이론, 카메라 장치관리, 저지연 통신, Real-time SW, AI 비전, 물리 시뮬레이션, 고성능 추론, 고신뢰 시스템 개발 등 도메인 지식"
+    ],
+    "licenses_original": [],
+    "tools_original": [
+      "C++",
+      "NumPy",
+      "Pandas",
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Jax"
+    ],
+    "hard_gates": [
+      "경력 1~10년",
+      "영남지역 근무 가능",
+      "Physical AI 관련 석사 학위 또는 이에 준하는 경력",
+      "딥러닝 프레임워크 활용 능력",
+      "Python 데이터 관리·분석 생태계 활용 능력"
+    ],
+    "required_capabilities": [
+      "Physical AI 관련 연구 역량",
+      "딥러닝 프레임워크 활용",
+      "Python 데이터 처리·분석"
+    ],
+    "source": {
+      "source_name": "점핏",
+      "source_type": "RECRUITMENT_PLATFORM",
+      "source_url": "https://jumpit.saramin.co.kr/position/54319348",
+      "source_reference": null,
+      "official_url_available": false
+    },
+    "verification_level": "C",
+    "verification_notes": [
+      "점핏 상세공고에서 담당업무, 자격요건, 기술스택, 울산 남구 근무지와 마감일을 확인함",
+      "플랫폼 구조화 학력 필드는 대학교졸업(4년) 이상이나 본문 자격요건에는 Physical AI 관련 석사 또는 이에 준하는 경력이 별도로 명시되어 있어 두 정보를 모두 보존함",
+      "영남지역 근무 가능자가 원문 조건이며 이를 '울산 근무 가능'이라는 별도 필수조건으로 변형하지 않음",
+      "고용형태는 확인 가능한 원문에서 확정하지 못해 null 처리함"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  }
+]
