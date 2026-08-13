@@ -2,6 +2,12 @@ import { NextResponse } from "next/server";
 import { ulsanJobs } from "@/lib/data/ulsan";
 import { matchJobs } from "@/lib/matching/calculate";
 import { enhanceReasons } from "@/lib/openai/explain";
+import {
+  assertExactExplanationJobIds,
+  assertGroundedExplanations,
+  assertKnownSimilarRoles,
+  assertNoDeveloperLanguage,
+} from "@/lib/schemas/explanation";
 import { profileSchema } from "@/lib/schemas/profile";
 
 const sensitivePatterns = [
@@ -32,14 +38,24 @@ export async function POST(request: Request) {
     try {
       const aiResult = await enhanceReasons(parsed.data, matches);
       if (aiResult) {
-        for (const explanation of aiResult.explanations) {
-          const match = matches.find((item) => item.job.id === explanation.jobId);
-          if (!match) continue;
-          match.reasonSummary = explanation.reasonSummary;
-          const note = explanation.hiddenGemNote?.trim();
-          if (match.isHiddenGem && note && note.toLowerCase() !== "null") {
-            match.hiddenGemNote = note;
-          }
+        assertExactExplanationJobIds(aiResult, matches.map((match) => match.job.id));
+        assertKnownSimilarRoles(aiResult, matches.flatMap((match) => [match.job.title, match.job.discoveredRole]));
+        assertNoDeveloperLanguage(aiResult);
+        assertGroundedExplanations(aiResult, matches, parsed.data);
+        const byJobId = new Map(aiResult.explanations.map((item) => [item.jobId, item]));
+        for (const match of matches) {
+          const explanation = byJobId.get(match.job.id);
+          if (!explanation) throw new Error("Validated explanation is missing");
+          match.reasonSummary = explanation.summary;
+          match.aiExplanation = {
+            summary: explanation.summary,
+            recommendationReasons: explanation.recommendationReasons,
+            profileConnections: explanation.profileConnections,
+            missingConditions: explanation.missingConditions,
+            improvementSuggestions: explanation.improvementSuggestions,
+            unexpectedConnections: explanation.unexpectedConnections,
+            similarRoles: explanation.similarRoles,
+          };
         }
         aiEnhanced = true;
       }

@@ -1,5 +1,6 @@
 import type { Job, JobMatch, SkillGap, SkillMatch, SubScore, UserProfile } from "../types";
 import { getSemanticScores } from "./semanticScore.ts";
+import { isExactTermMatch, normalizeQualification } from "./normalize.ts";
 
 const MINIMUM_SCORE = 24;
 const DISTRICTS = ["중구", "남구", "동구", "북구", "울주군"] as const;
@@ -14,6 +15,18 @@ function hasTerm(values: string[], target: string) {
   return Boolean(needle) && values.some((value) => { const haystack = normalize(value); return haystack.includes(needle) || needle.includes(haystack); });
 }
 function hasAnyTerm(values: string[], targets: string[]) { return targets.some((target) => hasTerm(values, target)); }
+function matchesRequirement(profile: UserProfile, requirement: string) {
+  const qualification = normalizeQualification(requirement);
+  if (qualification) {
+    return profile.certificates.some((certificate) => {
+      const owned = normalizeQualification(certificate);
+      return owned?.base === qualification.base && (!qualification.grade || owned.grade === qualification.grade);
+    });
+  }
+  if (profile.skills.some((skill) => isExactTermMatch(skill, requirement))) return true;
+  const experiences = [...profile.careerExperiences, ...profile.internshipExperiences, ...profile.projectExperiences, ...profile.trainingExperiences, profile.experience];
+  return hasTerm(experiences, requirement);
+}
 const GENERIC_EXPERIENCE_TOKENS = new Set(["프로젝트", "운영", "기획", "활동", "경험", "작성", "관리", "지원"]);
 function matchesExperienceExample(values: string[], example: string) {
   if (hasTerm(values, example)) return true;
@@ -60,7 +73,7 @@ function buildGaps(job: Job, matchedSkills: string[]): SkillGap[] { return job.r
 
 function scoreJob(profile: UserProfile, job: Job, semanticScore?: number): JobMatch | null {
   const terms = profileTerms(profile); const taskTerms = [...(job.actualTasks ?? []), ...(job.analysisSkills ?? []), ...(job.toolsNormalized ?? []), ...(job.aiRequiredSkills ?? []), ...job.requiredSkills, ...(job.transferableSkills ?? [])];
-  const matchedSkills = [...new Set(taskTerms.filter((term) => hasTerm(terms, term)))]; const matchedPreferred = (job.preferredSkills ?? []).filter((term) => hasTerm(terms, term)); const majorMatched = hasAnyTerm(terms, job.relatedMajors ?? []) || hasTerm([profile.major], job.discoveredRole); const taskMatched = (job.actualTasks ?? []).filter((task) => hasAnyTerm(terms, task.split(/[·,/ ]/).filter(Boolean))); const suitableExperienceMatched = (job.suitableExperienceExamples ?? []).filter((example) => matchesExperienceExample(terms, example));
+  const matchedSkills = [...new Set(taskTerms.filter((term) => matchesRequirement(profile, term)))]; const matchedPreferred = (job.preferredSkills ?? []).filter((term) => matchesRequirement(profile, term)); const majorMatched = hasAnyTerm(terms, job.relatedMajors ?? []) || hasTerm([profile.major], job.discoveredRole); const taskMatched = (job.actualTasks ?? []).filter((task) => hasAnyTerm(terms, task.split(/[·,/ ]/).filter(Boolean))); const suitableExperienceMatched = (job.suitableExperienceExamples ?? []).filter((example) => matchesExperienceExample(terms, example));
   const evidenceCount = new Set([...matchedSkills, ...taskMatched, ...suitableExperienceMatched]).size + (majorMatched ? 1 : 0); if (!evidenceCount) return null;
   let score = Math.min(100, Math.round(Math.min(55, matchedSkills.length * 12 + taskMatched.length * 6 + suitableExperienceMatched.length * 18) + (majorMatched ? 22 : 0) + Math.min(13, matchedPreferred.length * 5 + suitableExperienceMatched.length * 3))); if (semanticScore !== undefined) score = Math.round(score * 0.7 + semanticScore * 0.3); if (score < MINIMUM_SCORE) return null;
   const reasons: string[] = []; if (matchedSkills.length) reasons.push(`${matchedSkills.slice(0, 3).join(", ")} 경험이 공고의 실제 업무와 연결됩니다.`); if (suitableExperienceMatched.length) reasons.push(`${suitableExperienceMatched[0]} 경험이 공고의 적합 경험 예시와 연결됩니다.`); if (majorMatched) reasons.push(`${profile.major} 전공 또는 경험이 ${job.discoveredRole} 직무 기반과 연결됩니다.`); if (!reasons.length) return null;

@@ -10,20 +10,22 @@ import type { UserProfile } from "@/lib/types";
 
 function toUserProfile(formData: ProfileFormData): UserProfile {
   const careerExperiences = formData.career.trim() ? [formData.career.trim()] : [];
-  const projectExperiences = formData.experience.trim() ? [formData.experience.trim()] : [];
-  const experience = [...careerExperiences, ...projectExperiences].join("\n") || "입력된 경험 없음";
+  const internshipExperiences = formData.internship.trim() ? [formData.internship.trim()] : [];
+  const projectExperiences = formData.project.trim() ? [formData.project.trim()] : [];
+  const trainingExperiences = formData.training.trim() ? [formData.training.trim()] : [];
+  const experience = formData.experience.trim() || [...careerExperiences, ...internshipExperiences, ...projectExperiences, ...trainingExperiences].join("\n") || "입력된 경험 없음";
 
   return {
     major: formData.major,
     education: formData.education,
     careerExperiences,
-    internshipExperiences: [],
+    internshipExperiences,
     projectExperiences,
     certificates: formData.certificates,
     skills: formData.skills,
-    trainingExperiences: [],
+    trainingExperiences,
     preferredConditions: formData.employmentType === "무관" ? "" : formData.employmentType,
-    interestedIndustries: [],
+    interestedIndustries: formData.interestedIndustries,
     usualSearchKeywords: formData.usualSearchKeywords,
     experience,
     preferredLocation: formData.districts.map((district) => `울산 ${district}`).join(", "),

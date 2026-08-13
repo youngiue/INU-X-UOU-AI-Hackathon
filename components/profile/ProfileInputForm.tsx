@@ -10,12 +10,16 @@ export interface ProfileFormData {
   major: string;
   education: string;
   career: string;
+  internship: string;
+  project: string;
+  training: string;
   experience: string;
   certificates: string[];
   skills: string[];
   employmentType: string;
   districts: string[];
   usualSearchKeywords: string[];
+  interestedIndustries: string[];
 }
 
 export interface ProfileInputFormProps {
@@ -27,12 +31,16 @@ const initialFormData: ProfileFormData = {
   major: "",
   education: "",
   career: "",
+  internship: "",
+  project: "",
+  training: "",
   experience: "",
   certificates: [],
   skills: [],
   employmentType: "정규직",
   districts: [],
   usualSearchKeywords: [],
+  interestedIndustries: [],
 };
 
 const inputClassName =
@@ -60,7 +68,10 @@ export function ProfileInputForm({ onSubmit, submitting = false }: ProfileInputF
 
       <FormSection title="경험" index="02">
         <TextAreaField id="career" label="경력" value={formData.career} onChange={(value) => updateField("career", value)} placeholder="담당 업무와 성과, 인턴 경험 등을 적어주세요." />
-        <TextAreaField id="experience" label="경험" value={formData.experience} onChange={(value) => updateField("experience", value)} placeholder="프로젝트, 교육 경험 등을 적어주세요." />
+        <TextAreaField id="internship" label="인턴 경험" value={formData.internship} onChange={(value) => updateField("internship", value)} placeholder="인턴 근무처와 실제 담당 업무를 적어주세요." />
+        <TextAreaField id="project" label="프로젝트 경험" value={formData.project} onChange={(value) => updateField("project", value)} placeholder="프로젝트명, 역할, 사용 기술을 적어주세요." />
+        <TextAreaField id="training" label="교육 경험" value={formData.training} onChange={(value) => updateField("training", value)} placeholder="수료한 교육이나 훈련 과정을 적어주세요." />
+        <TextAreaField id="experience" label="기타 경험" value={formData.experience} onChange={(value) => updateField("experience", value)} placeholder="위 항목에 포함되지 않은 관련 경험을 적어주세요." />
       </FormSection>
 
       <FormSection title="역량" index="03">
@@ -90,6 +101,7 @@ export function ProfileInputForm({ onSubmit, submitting = false }: ProfileInputF
       </FormSection>
 
       <FormSection title="검색습관" index="05" accent>
+        <TagInput id="interestedIndustries" label="관심 산업" value={formData.interestedIndustries} onChange={(value) => updateField("interestedIndustries", value)} placeholder="예: 제조업, 자동차, 에너지" />
         <TagInput
           id="usualSearchKeywords"
           label="평소 어떤 키워드로 채용정보를 검색하셨나요?"

@@ -3,13 +3,19 @@
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
+import { useState } from "react";
 import { MatchReasonDetail } from "@/components/results/MatchReasonDetail";
 import { useMatch } from "@/lib/context/MatchContext";
+import { calculateMatch } from "@/lib/matching/calculate";
+import { createScoreChangeExplanation } from "@/lib/matching/score-change-explanation";
+import { formatRequirement } from "@/lib/matching/display";
+import type { JobMatch } from "@/lib/types";
 
 export default function ResultDetailPage() {
   const router = useRouter();
   const params = useParams<{ jobId: string }>();
   const { result, profile, isHydrated } = useMatch();
+  const [boostedMatch, setBoostedMatch] = useState<JobMatch | null>(null);
 
   if (!isHydrated) return null;
 
@@ -57,6 +63,15 @@ export default function ResultDetailPage() {
             isHiddenGem={match.isHiddenGem}
             hiddenGemNote={match.hiddenGemNote}
             blindSpotLabel={blindSpotLabel}
+            aiExplanation={match.aiExplanation}
+            whatIfContent={profile && match.missingSkills[0] ? (
+              <section className="mt-6 border-t border-grid pt-5">
+                <button type="button" onClick={() => setBoostedMatch(calculateMatch({ ...profile, skills: [...profile.skills, match.missingSkills[0]] }, match.job))} className="w-full rounded-md border border-accent px-4 py-3 text-[13px] font-semibold text-accent">
+                  {formatRequirement(match.missingSkills[0])} 역량을 보완하면
+                </button>
+                {boostedMatch && <div className="mt-3 rounded-lg border border-grid bg-navy-800 p-4 text-xs leading-5 text-muted"><p>{createScoreChangeExplanation(match.missingSkills[0], match, boostedMatch)}</p></div>}
+              </section>
+            ) : undefined}
             onFindTraining={() => window.alert(`${match.job.title} 관련 역량 보완 교육을 찾습니다.`)}
           />
         </div>
