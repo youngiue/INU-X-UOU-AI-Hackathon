@@ -9,10 +9,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 남구 / SK케미칼 울산공장",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "남구",
       "detail": "SK케미칼 울산공장",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-06-11",
@@ -98,10 +99,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 남구 / SK케미칼 울산공장",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "남구",
       "detail": "SK케미칼 울산공장",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-03-30",
@@ -174,10 +176,11 @@
     "employment_type": "계약직 1년 후 정규직 전환 검토",
     "work_location": {
       "raw": "울산광역시 / 남구",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "남구",
       "detail": null,
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIGUNGU_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-05-11",
@@ -255,10 +258,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 남구",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "남구",
       "detail": null,
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIGUNGU_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-03-03",
@@ -355,10 +359,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 울산공장",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": null,
       "detail": "울산공장",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIDO_ONLY"
     },
     "recruitment_count": null,
     "posting_date": "2026-06-12",
@@ -443,10 +448,11 @@
     "employment_type": "계약직 1년 후 정규직 전환평가",
     "work_location": {
       "raw": "울산광역시 / 울산공장",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": null,
       "detail": "울산공장",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIDO_ONLY"
     },
     "recruitment_count": null,
     "posting_date": "2026-04-09",
@@ -518,10 +524,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 울산공장",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": null,
       "detail": "울산공장",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIDO_ONLY"
     },
     "recruitment_count": null,
     "posting_date": "2026-06-12",
@@ -597,10 +604,11 @@
     "employment_type": null,
     "work_location": {
       "raw": "울산광역시",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": null,
       "detail": null,
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIDO_ONLY"
     },
     "recruitment_count": null,
     "posting_date": "2026-05-20",
@@ -673,10 +681,11 @@
     "employment_type": null,
     "work_location": {
       "raw": "울산광역시 / 울산공장",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": null,
       "detail": "울산공장",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIDO_ONLY"
     },
     "recruitment_count": null,
     "posting_date": "2026-07-07",
@@ -747,10 +756,11 @@
     "employment_type": "계약직",
     "work_location": {
       "raw": "울산광역시 / 울산사업장",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": null,
       "detail": "울산사업장",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIDO_ONLY"
     },
     "recruitment_count": null,
     "posting_date": "2026-04-28",
@@ -807,10 +817,11 @@
     "employment_type": "채용전환형 인턴십",
     "work_location": {
       "raw": "울산광역시 / 울산공장",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": null,
       "detail": "울산공장",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIDO_ONLY"
     },
     "recruitment_count": null,
     "posting_date": "2026-04-24",
@@ -882,10 +893,11 @@
     "employment_type": null,
     "work_location": {
       "raw": "울산광역시 / 울산공장",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": null,
       "detail": "울산공장",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIDO_ONLY"
     },
     "recruitment_count": null,
     "posting_date": "2024-07-15",
@@ -963,10 +975,11 @@
     "employment_type": null,
     "work_location": {
       "raw": "울산광역시 / 북구 / 양정동",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "북구",
       "detail": "양정동",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": null,
@@ -1041,10 +1054,11 @@
     "employment_type": "계약직 1년 후 정규직 전환 검토",
     "work_location": {
       "raw": "울산광역시",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": null,
       "detail": null,
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIDO_ONLY"
     },
     "recruitment_count": null,
     "posting_date": "2026-06-29",
@@ -1108,10 +1122,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 북구 / 염포로 260-10 (진장동)",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "북구",
       "detail": "염포로 260-10 (진장동)",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-06-09",
@@ -1182,10 +1197,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 울주군 / 삼남읍 반구대로 359",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "울주군",
       "detail": "삼남읍 반구대로 359",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-05-18",
@@ -1254,10 +1270,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 울주군 / 온산읍 당월로 216-18",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "울주군",
       "detail": "온산읍 당월로 216-18",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-03-14",
@@ -1321,10 +1338,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 울주군 / 온산읍 당월로 216-18",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "울주군",
       "detail": "온산읍 당월로 216-18",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-03-06",
@@ -1387,10 +1405,11 @@
     "employment_type": null,
     "work_location": {
       "raw": "울산광역시 / 울주군 / 청량읍 처용산업5길 51",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "울주군",
       "detail": "청량읍 처용산업5길 51",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": 2,
     "posting_date": "2026-04-15",
@@ -1450,10 +1469,11 @@
     "employment_type": null,
     "work_location": {
       "raw": "울산광역시 / 울주군 / 청량읍 처용산업5길 51",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "울주군",
       "detail": "청량읍 처용산업5길 51",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": 3,
     "posting_date": "2026-04-15",
@@ -1515,10 +1535,11 @@
     "employment_type": null,
     "work_location": {
       "raw": "울산광역시 / 울주군 / 온산읍 화산2길 34-5",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "울주군",
       "detail": "온산읍 화산2길 34-5",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-02-04",
@@ -1568,10 +1589,11 @@
     "employment_type": null,
     "work_location": {
       "raw": "울산광역시 / 남구",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "남구",
       "detail": null,
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIGUNGU_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-02-02",
@@ -1636,10 +1658,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": null,
       "detail": null,
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIDO_ONLY"
     },
     "recruitment_count": null,
     "posting_date": "2026-05-21",
@@ -1698,10 +1721,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 남구 / 삼산로 87",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "남구",
       "detail": "삼산로 87",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-04-16",
@@ -1757,10 +1781,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 남구 / 여천로 215-100 SNF Korea 울산공장",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "남구",
       "detail": "여천로 215-100 SNF Korea 울산공장",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-05-27",
@@ -1844,10 +1869,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 남구 / 여천로 215-100 SNF Korea 울산공장",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "남구",
       "detail": "여천로 215-100 SNF Korea 울산공장",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-01-18",
@@ -1916,10 +1942,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": null,
       "detail": null,
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIDO_ONLY"
     },
     "recruitment_count": null,
     "posting_date": "2025-03-18",
@@ -1985,10 +2012,11 @@
     "employment_type": "정규직",
     "work_location": {
       "raw": "울산광역시 / 울주군 / 온산읍 당월로 216-18",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": "울주군",
       "detail": "온산읍 당월로 216-18",
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2025-11-28",
@@ -2050,10 +2078,11 @@
     "employment_type": "채용연계형 인턴",
     "work_location": {
       "raw": "울산광역시",
-      "sido": "울산광역시",
+      "sido": "울산",
       "sigungu": null,
       "detail": null,
-      "ulsan_status": "ULSAN_CONFIRMED"
+      "ulsan_status": "ULSAN_CONFIRMED",
+      "location_precision": "SIDO_ONLY"
     },
     "recruitment_count": null,
     "posting_date": "2024-10-16",

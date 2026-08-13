@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { jobs } from "@/data/jobs";
-import { rankJobs } from "@/lib/matching/calculate";
+import { ulsanJobs } from "@/lib/data/ulsan";
+import { matchJobs } from "@/lib/matching/calculate";
 import { enhanceReasons } from "@/lib/openai/explain";
 import { profileSchema } from "@/lib/schemas/profile";
 
@@ -25,7 +25,8 @@ export async function POST(request: Request) {
       );
     }
 
-    const matches = rankJobs(parsed.data, jobs);
+    const { current_opportunities, career_discovery } = matchJobs(parsed.data, ulsanJobs);
+    const matches = [...current_opportunities, ...career_discovery];
     let aiEnhanced = false;
 
     try {
@@ -41,7 +42,15 @@ export async function POST(request: Request) {
       console.error("OpenAI explanation fallback:", error);
     }
 
-    return NextResponse.json({ matches, aiEnhanced });
+    const status = current_opportunities.length || career_discovery.length ? "MATCHED" : "NO_MATCH";
+    return NextResponse.json({
+      status,
+      current_opportunities,
+      career_discovery,
+      matches,
+      aiEnhanced,
+      ...(status === "NO_MATCH" ? { no_match_reason: "현재 확보된 울산 채용 데이터에서는 입력한 경험과 충분히 연결되는 공고를 확인하지 못했습니다." } : {}),
+    });
   } catch {
     return NextResponse.json({ error: "요청 형식을 확인해 주세요." }, { status: 400 });
   }
