@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
+import { JetBrains_Mono } from "next/font/google";
+import { MatchProvider } from "@/lib/context/MatchContext";
 import "./globals.css";
+
+const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono" });
 
 export const metadata: Metadata = {
   title: "울산 커리어 레이더",
@@ -8,8 +12,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ko">
-      <body>{children}</body>
+    <html lang="ko" className={jetbrainsMono.variable}>
+      <body>
+        <MatchProvider>{children}</MatchProvider>
+      </body>
     </html>
   );
 }

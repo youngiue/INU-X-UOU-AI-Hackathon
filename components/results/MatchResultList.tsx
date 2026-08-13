@@ -1,0 +1,130 @@
+"use client";
+
+import { useMemo, useState } from "react";
+import { Lightbulb } from "lucide-react";
+import { MatchResultCard, type MatchResultCardProps } from "./MatchResultCard";
+
+export type MatchResultListItem = MatchResultCardProps & { jobId: string };
+
+export interface MatchResultListProps {
+  results: MatchResultListItem[];
+}
+
+type ResultGroup = "existing" | "hidden";
+
+function groupByDiscoveryType(results: MatchResultListItem[]) {
+  return results.reduce(
+    (groups, result) => {
+      groups[result.isHiddenGem === true ? "hidden" : "existing"].push(result);
+      return groups;
+    },
+    { existing: [] as MatchResultListItem[], hidden: [] as MatchResultListItem[] },
+  );
+}
+
+export function MatchResultList({ results }: MatchResultListProps) {
+  const groupedResults = useMemo(() => groupByDiscoveryType(results), [results]);
+  const [activeGroup, setActiveGroup] = useState<ResultGroup>(
+    groupedResults.existing.length > 0 ? "existing" : "hidden",
+  );
+  const visibleResults = groupedResults[activeGroup];
+
+  return (
+    <section className="w-full max-w-sm">
+      <div className="grid grid-cols-2 border-b border-grid" role="tablist" aria-label="매칭 결과 분류">
+        <TabButton
+          active={activeGroup === "existing"}
+          onClick={() => setActiveGroup("existing")}
+          count={groupedResults.existing.length}
+          id="existing-results-tab"
+          controls="existing-results-panel"
+        >
+          기존 검색 직무
+        </TabButton>
+        <TabButton
+          active={activeGroup === "hidden"}
+          onClick={() => setActiveGroup("hidden")}
+          count={groupedResults.hidden.length}
+          id="hidden-results-tab"
+          controls="hidden-results-panel"
+          accent
+        >
+          <Lightbulb aria-hidden="true" size={14} strokeWidth={2} />
+          <span>새로 발견된 직무</span>
+        </TabButton>
+      </div>
+
+      <div
+        id={`${activeGroup}-results-panel`}
+        role="tabpanel"
+        aria-labelledby={`${activeGroup}-results-tab`}
+        className="mt-4"
+      >
+        {activeGroup === "hidden" && (
+          <div className="mb-4 rounded-lg border border-accent2/40 bg-accent2-soft p-4 text-[13px] leading-5 text-accent2">
+            평소 검색하지 않았던 직무지만, 회원님의 역량과 연관성이 높은 공고예요.
+          </div>
+        )}
+
+        {visibleResults.length > 0 ? (
+          <div className="flex flex-col gap-4">
+            {visibleResults.map((result) => (
+              <MatchResultCard key={result.jobId} {...result} />
+            ))}
+          </div>
+        ) : (
+          <div className="rounded-lg border border-dashed border-grid bg-navy-800 px-5 py-12 text-center text-[13px] text-muted">
+            조건에 맞는 공고가 아직 없어요.
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}
+
+function TabButton({
+  active,
+  onClick,
+  count,
+  id,
+  controls,
+  accent = false,
+  children,
+}: {
+  active: boolean;
+  onClick: () => void;
+  count: number;
+  id: string;
+  controls: string;
+  accent?: boolean;
+  children: React.ReactNode;
+}) {
+  const activeColor = accent ? "border-accent2 text-accent2" : "border-success text-success";
+
+  return (
+    <button
+      id={id}
+      type="button"
+      role="tab"
+      aria-selected={active}
+      aria-controls={controls}
+      onClick={onClick}
+      className={`inline-flex min-h-12 items-center justify-center gap-1.5 border-b-2 px-2 text-xs font-medium transition-colors ${
+        active ? activeColor : "border-transparent text-muted hover:text-ink"
+      }`}
+    >
+      {children}
+      <span
+        className={`rounded-full px-1.5 py-0.5 font-technical text-[11px] ${
+          active && accent
+            ? "bg-accent2-soft text-accent2"
+            : active
+              ? "bg-success-soft text-success"
+              : "bg-navy-800 text-muted"
+        }`}
+      >
+        {count}
+      </span>
+    </button>
+  );
+}

@@ -33,7 +33,12 @@ export async function POST(request: Request) {
       if (aiResult) {
         for (const explanation of aiResult.explanations) {
           const match = matches.find((item) => item.job.id === explanation.jobId);
-          if (match) match.reasons = explanation.reasons;
+          if (!match) continue;
+          match.reasonSummary = explanation.reasonSummary;
+          const note = explanation.hiddenGemNote?.trim();
+          if (match.isHiddenGem && note && note.toLowerCase() !== "null") {
+            match.hiddenGemNote = note;
+          }
         }
         aiEnhanced = true;
       }
