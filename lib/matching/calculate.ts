@@ -56,6 +56,20 @@ function locationMatch(profile: UserProfile, job: Job): NonNullable<JobMatch["lo
   const work = job.workLocation;
   const jobSido = work?.sido ?? (/울산/.test(job.location) ? "울산" : null);
   const jobDistrict = work?.sigungu ?? null;
+  const jobDistricts = work?.sigunguCandidates ?? [];
+  if (jobSido === "울산" && job.locationPrecision === "MULTI_WORKSITE_CONFIRMED" && (!requested.sigungu || jobDistricts.includes(requested.sigungu))) {
+    return { level: "MULTI_WORKSITE_MATCH", requested: requested.sigungu, job_sigungu: null, reason: `근무 가능 지역: ${jobDistricts.join("·")} 사업장. 세부 배치 사업장은 미확정입니다.` };
+  }
+  if (jobSido === "울산" && job.locationPrecision === "COMPANY_ADDRESS_FALLBACK" && (!requested.sigungu || jobDistrict === requested.sigungu)) {
+    return { level: "COMPANY_ADDRESS_FALLBACK", requested: requested.sigungu, job_sigungu: jobDistrict, reason: jobDistrict ? `세부 근무지는 미확인·기업 소재지 기준: 울산 ${jobDistrict}` : "세부 근무지는 미확인·기업 소재지 기준 후보입니다." };
+  }
+  if (requested.sigungu && jobSido === "울산" && jobDistricts.includes(requested.sigungu)) {
+    const multiLevel = job.locationPrecision === "MULTI_WORKSITE_CONFIRMED" ? "MULTI_WORKSITE_MATCH" : "MULTI_SIGUNGU_MATCH";
+    return { level: multiLevel, requested: requested.sigungu, job_sigungu: null, reason: `근무 가능 지역: ${jobDistricts.join("·")} 사업장. 세부 배치 사업장은 미확정입니다.` };
+  }
+  if (requested.sigungu && jobSido === "울산" && jobDistricts.length && !jobDistricts.includes(requested.sigungu)) {
+    return { level: "LOCATION_MISMATCH", requested: requested.sigungu, job_sigungu: null, reason: `희망 지역은 ${requested.sigungu}이나 공고의 복수 근무지는 ${jobDistricts.join("·")}입니다.` };
+  }
   if (requested.sigungu && jobSido === "울산" && jobDistrict === requested.sigungu) {
     return { level: "EXACT_LOCAL_MATCH", requested: requested.sigungu, job_sigungu: jobDistrict, reason: `공고 원문에서 울산 ${jobDistrict} 근무가 확인됩니다.` };
   }
@@ -63,7 +77,11 @@ function locationMatch(profile: UserProfile, job: Job): NonNullable<JobMatch["lo
     return { level: "ULSAN_BROAD_MATCH", requested: requested.sigungu, job_sigungu: null, reason: "울산 근무는 확인되지만 세부 구·군은 확인되지 않습니다." };
   }
   if (requested.sigungu && jobSido === "울산" && jobDistrict && jobDistrict !== requested.sigungu) {
-    return { level: "LOCATION_MISMATCH", requested: requested.sigungu, job_sigungu: jobDistrict, reason: `희망 지역은 ${requested.sigungu}이나 공고 근무지는 ${jobDistrict}입니다.` };
+    const prefix = job.locationPrecision === "COMPANY_ADDRESS_FALLBACK" ? "기업 소재지 기준" : "공고 근무지";
+    return { level: "LOCATION_MISMATCH", requested: requested.sigungu, job_sigungu: jobDistrict, reason: `희망 지역은 ${requested.sigungu}이나 ${prefix}는 ${jobDistrict}입니다.` };
+  }
+  if (requested.sigungu && jobSido === "울산" && !jobDistrict && job.locationPrecision === "COMPANY_ADDRESS_FALLBACK") {
+    return { level: "COMPANY_ADDRESS_FALLBACK", requested: requested.sigungu, job_sigungu: null, reason: "세부 근무지는 미확인·기업 소재지 기준 후보입니다." };
   }
   if (jobSido === "울산" && job.ulsanStatus === "ULSAN_CONFIRMED") {
     return { level: "ULSAN_BROAD_MATCH", requested: requested.sigungu, job_sigungu: jobDistrict, reason: jobDistrict ? `울산 ${jobDistrict} 근무 공고입니다.` : "울산 근무는 확인되지만 세부 구·군은 확인되지 않습니다." };
@@ -72,7 +90,7 @@ function locationMatch(profile: UserProfile, job: Job): NonNullable<JobMatch["lo
 }
 
 function locationRank(match: JobMatch) {
-  return match.location_match?.level === "EXACT_LOCAL_MATCH" ? 2 : match.location_match?.level === "ULSAN_BROAD_MATCH" ? 1 : 0;
+  return match.location_match?.level === "EXACT_LOCAL_MATCH" ? 3 : ["MULTI_WORKSITE_MATCH", "MULTI_SIGUNGU_MATCH"].includes(match.location_match?.level ?? "") ? 2 : match.location_match?.level === "COMPANY_ADDRESS_FALLBACK" ? 1.5 : match.location_match?.level === "ULSAN_BROAD_MATCH" ? 1 : 0;
 }
 
 function gateEvaluation(profile: UserProfile, job: Job): "PASS" | "FAIL" | "UNVERIFIED" {

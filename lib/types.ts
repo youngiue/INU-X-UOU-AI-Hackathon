@@ -51,9 +51,11 @@ export interface Job {
     raw?: string;
     sido?: "울산" | string | null;
     sigungu?: "중구" | "남구" | "동구" | "북구" | "울주군" | null;
+    sigunguCandidates?: ("중구" | "남구" | "동구" | "북구" | "울주군")[];
+    worksites?: { name: string; sigungu: "중구" | "남구" | "동구" | "북구" | "울주군"; detail?: string }[];
     ulsanStatus?: string;
   };
-  locationPrecision?: "ADDRESS_CONFIRMED" | "SIGUNGU_CONFIRMED" | "SIDO_ONLY" | "UNKNOWN";
+  locationPrecision?: "ADDRESS_CONFIRMED" | "SIGUNGU_CONFIRMED" | "MULTI_WORKSITE_CONFIRMED" | "COMPANY_ADDRESS_FALLBACK" | "MULTI_SIGUNGU_CONFIRMED" | "SIDO_ONLY" | "UNKNOWN";
 }
 
 export interface JobMatch {
@@ -64,7 +66,7 @@ export interface JobMatch {
   reasons: string[];
   gateStatus?: "PASS" | "FAIL" | "UNVERIFIED";
   location_match?: {
-    level: "EXACT_LOCAL_MATCH" | "ULSAN_BROAD_MATCH" | "LOCATION_MISMATCH" | "UNKNOWN";
+    level: "EXACT_LOCAL_MATCH" | "MULTI_WORKSITE_MATCH" | "MULTI_SIGUNGU_MATCH" | "COMPANY_ADDRESS_FALLBACK" | "ULSAN_BROAD_MATCH" | "LOCATION_MISMATCH" | "UNKNOWN";
     requested: string | null;
     job_sigungu: string | null;
     reason: string;

@@ -360,10 +360,10 @@
     "work_location": {
       "raw": "울산광역시 / 울산공장",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "울산공장",
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 용잠로 255",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-06-12",
@@ -449,10 +449,10 @@
     "work_location": {
       "raw": "울산광역시 / 울산공장",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "울산공장",
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 용잠로 255",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-04-09",
@@ -525,10 +525,10 @@
     "work_location": {
       "raw": "울산광역시 / 울산공장",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "울산공장",
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 용잠로 255",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-06-12",
@@ -605,10 +605,10 @@
     "work_location": {
       "raw": "울산광역시",
       "sido": "울산",
-      "sigungu": null,
-      "detail": null,
+      "sigungu": "북구",
+      "detail": "울산광역시 북구 염포로 706",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-05-20",
@@ -682,10 +682,10 @@
     "work_location": {
       "raw": "울산광역시 / 울산공장",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "울산공장",
+      "sigungu": "북구",
+      "detail": "울산광역시 북구 염포로 700",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-07-07",
@@ -818,10 +818,10 @@
     "work_location": {
       "raw": "울산광역시 / 울산공장",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "울산공장",
+      "sigungu": "북구",
+      "detail": "울산광역시 북구 염포로 700",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-04-24",
@@ -894,10 +894,10 @@
     "work_location": {
       "raw": "울산광역시 / 울산공장",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "울산공장",
+      "sigungu": "북구",
+      "detail": "울산광역시 북구 염포로 706",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2024-07-15",
@@ -1056,9 +1056,10 @@
       "raw": "울산광역시",
       "sido": "울산",
       "sigungu": null,
-      "detail": null,
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 장생포로 336",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "COMPANY_ADDRESS_FALLBACK"
     },
     "recruitment_count": null,
     "posting_date": "2026-06-29",

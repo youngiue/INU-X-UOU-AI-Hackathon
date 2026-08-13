@@ -14,10 +14,10 @@ const missingProtection = raw.filter((item) => {
   const guard = tierById.get(item.id);
   return !guard?.quality_tier || !(item.posting_status ?? guard.posting_status) || !(item.usage_mode ?? guard.usage_mode) || !(item.status_checked_at ?? guard.status_checked_at);
 }).map((item) => item.id);
-const precisionValues = new Set(["ADDRESS_CONFIRMED", "SIGUNGU_CONFIRMED", "SIDO_ONLY", "UNKNOWN"]);
+const precisionValues = new Set(["ADDRESS_CONFIRMED", "SIGUNGU_CONFIRMED", "MULTI_WORKSITE_CONFIRMED", "COMPANY_ADDRESS_FALLBACK", "MULTI_SIGUNGU_CONFIRMED", "SIDO_ONLY", "UNKNOWN"]);
 const invalidLocations = raw.filter((item) => {
   const location = item.work_location ?? {};
-  return !precisionValues.has(location.location_precision) || location.sido !== "울산" || (location.sigungu && !["중구", "남구", "동구", "북구", "울주군"].includes(location.sigungu));
+  return !precisionValues.has(location.location_precision) || location.sido !== "울산" || (location.sigungu && !["중구", "남구", "동구", "북구", "울주군"].includes(location.sigungu)) || (location.sigungu_candidates && (!Array.isArray(location.sigungu_candidates) || location.sigungu_candidates.some((district) => !["중구", "남구", "동구", "북구", "울주군"].includes(district)))) || (location.worksites && (!Array.isArray(location.worksites) || location.worksites.some((site) => !site.name || !["중구", "남구", "동구", "북구", "울주군"].includes(site.sigungu))));
 }).map((item) => item.id);
 
 for (const file of ["ulsan-jobs.json", "ulsan-humanities-business-jobs.json", "ulsan-public-service-jobs.json", "ulsan-job-analysis.json", "ulsan-humanities-business-job-analysis.json", "ulsan-public-service-job-analysis.json", "ulsan-job-quality-tiers.json", "ulsan-job-protection.json", "ulsan-settlement-policies.json"]) read(file);

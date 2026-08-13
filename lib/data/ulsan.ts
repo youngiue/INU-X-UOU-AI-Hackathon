@@ -15,7 +15,7 @@ type RawRecord = {
   posting_title?: string;
   career_name?: string;
   occupation_type?: string;
-  work_location?: { raw?: string; sido?: string; sigungu?: "중구" | "남구" | "동구" | "북구" | "울주군" | null; detail?: string | null; ulsan_status?: string; location_precision?: Job["locationPrecision"] };
+  work_location?: { raw?: string; sido?: string; sigungu?: "중구" | "남구" | "동구" | "북구" | "울주군" | null; sigungu_candidates?: ("중구" | "남구" | "동구" | "북구" | "울주군")[]; worksites?: { name: string; sigungu: "중구" | "남구" | "동구" | "북구" | "울주군"; detail?: string }[]; detail?: string | null; ulsan_status?: string; location_precision?: Job["locationPrecision"] };
   raw_tasks?: string[];
   hard_gates?: string[];
   licenses_original?: string[];
@@ -79,6 +79,8 @@ export const ulsanJobs: Job[] = rawRecords.map((raw) => {
       raw: raw.work_location?.raw,
       sido: raw.work_location?.sido,
       sigungu: raw.work_location?.sigungu,
+      sigunguCandidates: raw.work_location?.sigungu_candidates,
+      worksites: raw.work_location?.worksites,
       ulsanStatus: raw.work_location?.ulsan_status,
     },
     locationPrecision: raw.work_location?.location_precision,
@@ -119,7 +121,7 @@ export function assertUlsanDataset() {
   const missingProtection = ulsanJobs.filter((job) => !job.qualityTier || !job.postingStatus || !job.usageMode).map((job) => job.id);
   const invalidLocation = ulsanJobs.filter((job) => (
     !job.locationPrecision ||
-    !["ADDRESS_CONFIRMED", "SIGUNGU_CONFIRMED", "SIDO_ONLY", "UNKNOWN"].includes(job.locationPrecision) ||
+    !["ADDRESS_CONFIRMED", "SIGUNGU_CONFIRMED", "MULTI_WORKSITE_CONFIRMED", "COMPANY_ADDRESS_FALLBACK", "MULTI_SIGUNGU_CONFIRMED", "SIDO_ONLY", "UNKNOWN"].includes(job.locationPrecision) ||
     job.workLocation?.sido !== "울산" ||
     Boolean(job.workLocation?.sigungu && !["중구", "남구", "동구", "북구", "울주군"].includes(job.workLocation.sigungu))
   )).map((job) => job.id);

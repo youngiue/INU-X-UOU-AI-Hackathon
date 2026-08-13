@@ -234,10 +234,10 @@
     "work_location": {
       "raw": "울산대학교",
       "sido": "울산",
-      "sigungu": null,
-      "detail": null,
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 대학로 93",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": 2,
     "posting_date": null,
@@ -288,10 +288,10 @@
     "work_location": {
       "raw": "울산대학교",
       "sido": "울산",
-      "sigungu": null,
-      "detail": null,
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 대학로 93",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": null,
@@ -336,10 +336,10 @@
     "work_location": {
       "raw": "울산도시공사 배치부서",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "재무회계·주택사업·보상분양",
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 두왕로 318",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "COMPANY_ADDRESS_FALLBACK"
     },
     "recruitment_count": 5,
     "posting_date": "2026-05-11",
@@ -390,10 +390,10 @@
     "work_location": {
       "raw": "울산광역시도시공사",
       "sido": "울산",
-      "sigungu": null,
-      "detail": null,
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 두왕로 318",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "COMPANY_ADDRESS_FALLBACK"
     },
     "recruitment_count": 2,
     "posting_date": "2026-02-09",
@@ -441,10 +441,10 @@
     "work_location": {
       "raw": "울산광역시도시공사",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "두왕로 318",
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 두왕로 318",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "ADDRESS_CONFIRMED"
+      "location_precision": "COMPANY_ADDRESS_FALLBACK"
     },
     "recruitment_count": 1,
     "posting_date": "2026-06-22",
@@ -495,9 +495,10 @@
       "raw": "울산경제일자리진흥원",
       "sido": "울산",
       "sigungu": null,
-      "detail": null,
+      "sigungu": "북구",
+      "detail": "울산광역시 북구 산업로 915",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "COMPANY_ADDRESS_FALLBACK"
     },
     "recruitment_count": 3,
     "posting_date": "2026-04-21",
@@ -603,10 +604,10 @@
     "work_location": {
       "raw": "울산항만공사",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "장생포고래로 271",
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 장생포고래로 271",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "ADDRESS_CONFIRMED"
+      "location_precision": "COMPANY_ADDRESS_FALLBACK"
     },
     "recruitment_count": 1,
     "posting_date": null,
@@ -650,10 +651,10 @@
     "work_location": {
       "raw": "울산항만공사",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "장생포고래로 271",
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 장생포고래로 271",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "ADDRESS_CONFIRMED"
+      "location_precision": "COMPANY_ADDRESS_FALLBACK"
     },
     "recruitment_count": 1,
     "posting_date": null,
@@ -697,10 +698,10 @@
     "work_location": {
       "raw": "울산항만공사",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "장생포고래로 271",
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 장생포고래로 271",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "ADDRESS_CONFIRMED"
+      "location_precision": "COMPANY_ADDRESS_FALLBACK"
     },
     "recruitment_count": null,
     "posting_date": "2026-04-13",
@@ -745,9 +746,10 @@
       "raw": "울산광역시",
       "sido": "울산",
       "sigungu": null,
-      "detail": null,
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 중앙로 201",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "COMPANY_ADDRESS_FALLBACK"
     },
     "recruitment_count": null,
     "posting_date": "2026-02-04",
@@ -911,10 +913,10 @@
     "work_location": {
       "raw": "울산",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "울산Complex",
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 신여천로 2",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": null,
@@ -1487,10 +1489,10 @@
     "work_location": {
       "raw": "울산항만공사",
       "sido": "울산",
-      "sigungu": null,
-      "detail": null,
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 장생포고래로 271",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "COMPANY_ADDRESS_FALLBACK"
     },
     "recruitment_count": 1,
     "posting_date": "2026-04-13",
@@ -1538,10 +1540,10 @@
     "work_location": {
       "raw": "울산항만공사",
       "sido": "울산",
-      "sigungu": null,
-      "detail": null,
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 장생포고래로 271",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "COMPANY_ADDRESS_FALLBACK"
     },
     "recruitment_count": 1,
     "posting_date": "2026-04-13",
@@ -1643,9 +1645,18 @@
       "raw": "본·지점 및 소상공인 행복드림센터(울산광역시 내)",
       "sido": "울산",
       "sigungu": null,
+      "sigungu_candidates": ["중구", "남구", "동구", "북구", "울주군"],
+      "worksites": [
+        { "name": "본점", "sigungu": "북구", "detail": "울산광역시 북구 산업로 915" },
+        { "name": "남울산지점", "sigungu": "남구", "detail": "울산광역시 남구 중앙로 196" },
+        { "name": "동울산지점", "sigungu": "동구", "detail": "울산광역시 동구 방어진순환도로 1145" },
+        { "name": "서울산지점", "sigungu": "울주군", "detail": "울산광역시 울주군 언양읍 동문길 58" },
+        { "name": "중울산지점", "sigungu": "중구", "detail": "울산광역시 중구 새즈믄해거리 28" },
+        { "name": "소상공인행복드림센터", "sigungu": "북구", "detail": "울산광역시 북구 산업로 915" }
+      ],
       "detail": null,
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "MULTI_WORKSITE_CONFIRMED"
     },
     "recruitment_count": 2,
     "posting_date": null,
@@ -1704,9 +1715,10 @@
       "raw": "울산문화관광재단 사무실(울주군 및 남구 등)",
       "sido": "울산",
       "sigungu": null,
+      "sigungu_candidates": ["남구", "울주군"],
       "detail": "울주군 및 남구 등",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "MULTI_WORKSITE_CONFIRMED"
     },
     "recruitment_count": 4,
     "posting_date": "2025-12-24",
@@ -1762,8 +1774,8 @@
     "work_location": {
       "raw": "울산테크노파크",
       "sido": "울산",
-      "sigungu": null,
-      "detail": "종가로 15",
+      "sigungu": "중구",
+      "detail": "울산광역시 중구 종가로 15",
       "ulsan_status": "ULSAN_CONFIRMED",
       "location_precision": "ADDRESS_CONFIRMED"
     },
@@ -1815,10 +1827,10 @@
     "work_location": {
       "raw": "울산연구원",
       "sido": "울산",
-      "sigungu": null,
-      "detail": null,
+      "sigungu": "남구",
+      "detail": "울산광역시 남구 삼산중로 6",
       "ulsan_status": "ULSAN_CONFIRMED",
-      "location_precision": "SIDO_ONLY"
+      "location_precision": "ADDRESS_CONFIRMED"
     },
     "recruitment_count": null,
     "posting_date": "2026-06-30",
