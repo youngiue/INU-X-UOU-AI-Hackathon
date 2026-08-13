@@ -9,6 +9,7 @@ export interface UserProfile {
   trainingExperiences: string[];
   preferredConditions: string;
   interestedIndustries: string[];
+  usualSearchKeywords: string[];
   experience: string;
   preferredLocation: string;
 }
@@ -19,6 +20,7 @@ export interface Job {
   title: string;
   discoveredRole: string;
   location: string;
+  employmentType: string;
   description: string;
   requiredSkills: string[];
   preferredSkills: string[];
@@ -26,12 +28,33 @@ export interface Job {
   sourceUrl: string;
 }
 
+export interface SubScore {
+  label: string;
+  score: number;
+  weight: number;
+}
+
+export interface SkillMatch {
+  label: string;
+  sourceContext: string;
+  relatedTo: string;
+}
+
+export interface SkillGap {
+  label: string;
+  suggestion?: string;
+}
+
 export interface JobMatch {
   job: Job;
-  score: number;
+  subScores: SubScore[];
   matchedSkills: string[];
   missingSkills: string[];
-  reasons: string[];
+  reasonSummary: string;
+  strengths: SkillMatch[];
+  gaps: SkillGap[];
+  isHiddenGem: boolean;
+  hiddenGemNote?: string;
 }
 
 export interface MatchResponse {
