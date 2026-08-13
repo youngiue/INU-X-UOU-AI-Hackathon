@@ -9,11 +9,13 @@ import { useMatch } from "@/lib/context/MatchContext";
 export default function ResultDetailPage() {
   const router = useRouter();
   const params = useParams<{ jobId: string }>();
-  const { result, isHydrated } = useMatch();
+  const { result, profile, isHydrated } = useMatch();
 
   if (!isHydrated) return null;
 
   const match = result?.matches.find((item) => item.job.id === params.jobId);
+  const usualSearchKeywords = profile?.usualSearchKeywords ?? [];
+  const blindSpotLabel = profile ? (usualSearchKeywords.length > 0 ? usualSearchKeywords.join(", ") : profile.major) : undefined;
 
   if (!match) {
     return (
@@ -54,6 +56,7 @@ export default function ResultDetailPage() {
             gaps={match.gaps}
             isHiddenGem={match.isHiddenGem}
             hiddenGemNote={match.hiddenGemNote}
+            blindSpotLabel={blindSpotLabel}
             onFindTraining={() => window.alert(`${match.job.title} 관련 역량 보완 교육을 찾습니다.`)}
           />
         </div>

@@ -1,39 +1,56 @@
 "use client";
 
-interface OptionSelectProps {
+interface OptionSelectBaseProps {
   id: string;
   label: string;
   options: readonly string[];
-  value: string;
-  onChange: (value: string) => void;
   columns?: number;
   description?: string;
 }
 
-export function OptionSelect({ id, label, options, value, onChange, columns = 3, description }: OptionSelectProps) {
+type OptionSelectProps = OptionSelectBaseProps &
+  (
+    | { multiple?: false; value: string; onChange: (value: string) => void }
+    | { multiple: true; value: string[]; onChange: (value: string[]) => void }
+  );
+
+export function OptionSelect({ id, label, options, columns = 3, description, ...selection }: OptionSelectProps) {
+  function isSelected(option: string) {
+    return selection.multiple ? selection.value.includes(option) : option === selection.value;
+  }
+
+  function handleClick(option: string) {
+    if (selection.multiple) {
+      const next = selection.value.includes(option)
+        ? selection.value.filter((item) => item !== option)
+        : [...selection.value, option];
+      selection.onChange(next);
+      return;
+    }
+    selection.onChange(option);
+  }
+
   return (
     <div className="space-y-2">
       <label id={`${id}-label`} className="block text-[13px] font-medium text-ink">
         {label}
       </label>
-      {description && (
-        <p className="text-xs leading-5 text-muted">{description}</p>
-      )}
+      {description && <p className="text-xs leading-5 text-muted">{description}</p>}
       <div
-        role="radiogroup"
+        role={selection.multiple ? "group" : "radiogroup"}
         aria-labelledby={`${id}-label`}
         className="grid gap-2"
         style={{ gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))` }}
       >
         {options.map((option) => {
-          const selected = option === value;
+          const selected = isSelected(option);
           return (
             <button
               key={option}
               type="button"
-              role="radio"
+              role={selection.multiple ? "checkbox" : "radio"}
               aria-checked={selected}
-              onClick={() => onChange(option)}
+              onClick={() => handleClick(option)}
               className={`rounded-md border px-3 py-2.5 text-[13px] font-medium transition-colors ${
                 selected
                   ? "border-accent bg-accent-soft text-accent"

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { ArrowRight, Lightbulb } from "lucide-react";
+import { ArrowRight, Lightbulb, Search } from "lucide-react";
 
 export interface SubScore {
   label: string;
@@ -15,6 +15,8 @@ export interface MatchResultCardProps {
   employmentType: string;
   subScores: SubScore[];
   isHiddenGem?: boolean;
+  /** What the user usually searches by (keyword or major) — shown as the reason this job was a blind spot. */
+  blindSpotLabel?: string;
   onShowReason?: () => void;
 }
 
@@ -66,6 +68,7 @@ export function MatchResultCard({
   employmentType,
   subScores,
   isHiddenGem = false,
+  blindSpotLabel,
   onShowReason,
 }: MatchResultCardProps) {
   const overallScore = useMemo(
@@ -101,6 +104,15 @@ export function MatchResultCard({
           </span>
         )}
       </header>
+
+      {isHiddenGem && blindSpotLabel && (
+        <p className="mt-2 flex items-center gap-1.5 text-xs text-accent2">
+          <Search aria-hidden="true" size={12} strokeWidth={2} className="shrink-0" />
+          <span>
+            평소 <strong className="font-medium">&apos;{blindSpotLabel}&apos;</strong> 검색만으론 놓치기 쉬운 직무예요
+          </span>
+        </p>
+      )}
 
       <div className="mt-5 grid grid-cols-[124px_minmax(0,1fr)] items-center gap-4">
         <div className="relative mx-auto h-28 w-28" aria-label={`종합 매칭률 ${overallScore}%`}>

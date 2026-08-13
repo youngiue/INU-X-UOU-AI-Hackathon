@@ -26,7 +26,7 @@ function toUserProfile(formData: ProfileFormData): UserProfile {
     interestedIndustries: [],
     usualSearchKeywords: formData.usualSearchKeywords,
     experience,
-    preferredLocation: `울산 ${formData.district}`,
+    preferredLocation: formData.districts.map((district) => `울산 ${district}`).join(", "),
   };
 }
 

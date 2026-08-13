@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Lightbulb } from "lucide-react";
+import { ArrowRight, Lightbulb, Search } from "lucide-react";
 
 export interface SkillMatch {
   label: string;
@@ -21,6 +21,8 @@ export interface MatchReasonDetailProps {
   gaps: SkillGap[];
   isHiddenGem?: boolean;
   hiddenGemNote?: string;
+  /** What the user usually searches by (keyword or major) — shown as a chip explaining the blind spot. */
+  blindSpotLabel?: string;
   onFindTraining?: () => void;
 }
 
@@ -32,6 +34,7 @@ export function MatchReasonDetail({
   gaps,
   isHiddenGem = false,
   hiddenGemNote,
+  blindSpotLabel,
   onFindTraining,
 }: MatchReasonDetailProps) {
   return (
@@ -42,6 +45,12 @@ export function MatchReasonDetail({
             <Lightbulb aria-hidden="true" size={15} strokeWidth={2} />
             내가 놓치고 있던 직무
           </div>
+          {blindSpotLabel && (
+            <span className="mt-2 inline-flex items-center gap-1 rounded-full bg-navy-900/40 px-2 py-1 text-[11px] font-medium text-accent2">
+              <Search aria-hidden="true" size={11} strokeWidth={2} />
+              평소 검색: &apos;{blindSpotLabel}&apos;
+            </span>
+          )}
           {hiddenGemNote && <p className="mt-2 text-xs leading-5 text-accent2/80">{hiddenGemNote}</p>}
         </div>
       )}

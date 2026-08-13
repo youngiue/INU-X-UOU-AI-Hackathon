@@ -8,6 +8,8 @@ export type MatchResultListItem = MatchResultCardProps & { jobId: string };
 
 export interface MatchResultListProps {
   results: MatchResultListItem[];
+  /** What the user usually searches by (keyword or major) — shown in the discovery tab's intro. */
+  blindSpotLabel?: string;
 }
 
 type ResultGroup = "existing" | "hidden";
@@ -22,7 +24,7 @@ function groupByDiscoveryType(results: MatchResultListItem[]) {
   );
 }
 
-export function MatchResultList({ results }: MatchResultListProps) {
+export function MatchResultList({ results, blindSpotLabel }: MatchResultListProps) {
   const groupedResults = useMemo(() => groupByDiscoveryType(results), [results]);
   const [activeGroup, setActiveGroup] = useState<ResultGroup>(
     groupedResults.existing.length > 0 ? "existing" : "hidden",
@@ -62,7 +64,14 @@ export function MatchResultList({ results }: MatchResultListProps) {
       >
         {activeGroup === "hidden" && (
           <div className="mb-4 rounded-lg border border-accent2/40 bg-accent2-soft p-4 text-[13px] leading-5 text-accent2">
-            평소 검색하지 않았던 직무지만, 회원님의 역량과 연관성이 높은 공고예요.
+            {blindSpotLabel ? (
+              <>
+                평소 <strong className="font-semibold">&apos;{blindSpotLabel}&apos;</strong> 위주로 검색하셨네요. 그
+                사각지대에 있던 직무들이에요.
+              </>
+            ) : (
+              "평소 검색하지 않았던 직무지만, 회원님의 역량과 연관성이 높은 공고예요."
+            )}
           </div>
         )}
 

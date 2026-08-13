@@ -30,6 +30,9 @@ export default function ResultsPage() {
     );
   }
 
+  const usualSearchKeywords = profile.usualSearchKeywords ?? [];
+  const blindSpotLabel = usualSearchKeywords.length > 0 ? usualSearchKeywords.join(", ") : profile.major;
+
   const listResults: MatchResultListItem[] = result.matches.map((match) => ({
     jobId: match.job.id,
     jobTitle: match.job.title,
@@ -37,6 +40,7 @@ export default function ResultsPage() {
     employmentType: match.job.employmentType,
     subScores: match.subScores,
     isHiddenGem: match.isHiddenGem,
+    blindSpotLabel,
     onShowReason: () => router.push(`/results/${match.job.id}`),
   }));
 
@@ -55,7 +59,7 @@ export default function ResultsPage() {
         </p>
 
         <div className="mt-8">
-          <MatchResultList results={listResults} />
+          <MatchResultList results={listResults} blindSpotLabel={blindSpotLabel} />
         </div>
       </div>
     </main>
