@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowRight, Lightbulb, Search } from "lucide-react";
+import type { JobMatch } from "@/lib/types";
 
 export interface SkillMatch {
   label: string;
@@ -24,6 +25,8 @@ export interface MatchReasonDetailProps {
   /** What the user usually searches by (keyword or major) — shown as a chip explaining the blind spot. */
   blindSpotLabel?: string;
   onFindTraining?: () => void;
+  aiExplanation?: JobMatch["aiExplanation"];
+  whatIfContent?: React.ReactNode;
 }
 
 export function MatchReasonDetail({
@@ -36,6 +39,8 @@ export function MatchReasonDetail({
   hiddenGemNote,
   blindSpotLabel,
   onFindTraining,
+  aiExplanation,
+  whatIfContent,
 }: MatchReasonDetailProps) {
   return (
     <article className="w-full max-w-sm rounded-lg border border-grid bg-panel p-5 text-ink">
@@ -60,6 +65,18 @@ export function MatchReasonDetail({
         <p className="mt-1 text-[13px] text-muted">{companyName}</p>
         <p className="mt-4 text-[13px] leading-6 text-ink/90">{reasonSummary}</p>
       </header>
+
+      {aiExplanation && (
+        <div className="mt-6 space-y-5 border-t border-grid pt-5">
+          <ExplanationSection title="추천한 이유" items={aiExplanation.recommendationReasons} />
+          <ExplanationSection title="내 프로필과의 연결" items={aiExplanation.profileConnections} />
+          <ExplanationSection title="보완하면 좋은 점" items={[...aiExplanation.missingConditions, ...aiExplanation.improvementSuggestions]} />
+          <ExplanationSection title="새로운 직무 연결" items={aiExplanation.unexpectedConnections} />
+          {aiExplanation.similarRoles.length > 0 && (
+            <section><h3 className="text-sm font-medium text-ink">함께 살펴볼 직무</h3><ul className="mt-2 space-y-2 text-xs leading-5 text-muted">{aiExplanation.similarRoles.map(({ role, reason }) => <li key={`${role}-${reason}`}><strong className="text-ink">{role}</strong> — {reason}</li>)}</ul></section>
+          )}
+        </div>
+      )}
 
       <section className="mt-6">
         <h3 className="text-sm font-medium text-ink">연관 강점</h3>
@@ -88,6 +105,7 @@ export function MatchReasonDetail({
           </div>
         </section>
       )}
+      {whatIfContent}
 
       {gaps.length > 0 && (
         <button
@@ -101,4 +119,9 @@ export function MatchReasonDetail({
       )}
     </article>
   );
+}
+
+function ExplanationSection({ title, items }: { title: string; items: string[] }) {
+  if (items.length === 0) return null;
+  return <section><h3 className="text-sm font-medium text-ink">{title}</h3><ul className="mt-2 list-disc space-y-2 pl-4 text-xs leading-5 text-muted">{items.map((item) => <li key={item}>{item}</li>)}</ul></section>;
 }

@@ -1,48 +1,72 @@
-import OpenAI from "openai";
 import { zodTextFormat } from "openai/helpers/zod";
-import { z } from "zod";
+import { getOpenAIClient } from "@/lib/openai/client";
+import { EXPLAIN_MATCH_SYSTEM_PROMPT } from "@/lib/openai/prompts/explain-match";
+import { explanationsSchema, type Explanations } from "@/lib/schemas/explanation";
 import type { JobMatch, UserProfile } from "@/lib/types";
+import { normalizeQualification } from "@/lib/matching/normalize";
 
-const explanationsSchema = z.object({
-  explanations: z.array(
-    z.object({
-      jobId: z.string(),
-      reasonSummary: z.string().min(1).max(300),
-      hiddenGemNote: z.string().max(300).nullable(),
-    }),
-  ),
-});
+function buildExplanationEvidence(match: JobMatch) {
+  const matchedEvidence = match.matchedEvidence?.length
+    ? match.matchedEvidence
+    : match.strengths.map((strength, index) => ({
+        id: `evidence-${index + 1}`,
+        category: strength.sourceContext.includes("전공") ? "major" as const
+          : normalizeQualification(strength.label) ? "certificate" as const
+            : strength.sourceContext.includes("경험") ? "career" as const : "skill" as const,
+        profileValue: strength.label,
+        jobValue: strength.relatedTo,
+        explanationBasis: strength.sourceContext,
+      }));
+  const missingEvidence = match.missingEvidence?.length
+    ? match.missingEvidence
+    : match.gaps.map((gap, index) => ({
+        id: `missing-${index + 1}`,
+        category: normalizeQualification(gap.label) ? "certificate" as const : "skill" as const,
+        profileValue: "",
+        jobValue: gap.label,
+        explanationBasis: gap.suggestion ?? "현재 등록된 프로필에서 확인되지 않는 공고 요구사항",
+      }));
+  const locationMatch = match.locationMatch ?? [
+    "EXACT_LOCAL_MATCH", "MULTI_WORKSITE_MATCH", "MULTI_SIGUNGU_MATCH", "ULSAN_BROAD_MATCH",
+  ].includes(match.location_match?.level ?? "");
+  return { matchedEvidence, missingEvidence, locationMatch };
+}
 
-export async function enhanceReasons(profile: UserProfile, matches: JobMatch[]) {
-  if (!process.env.OPENAI_API_KEY) return null;
-
-  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-  const response = await client.responses.parse({
+export async function enhanceReasons(profile: UserProfile, matches: JobMatch[]): Promise<Explanations | null> {
+  if (!process.env.OPENAI_API_KEY || matches.length === 0) return null;
+  const allowedSimilarRoles = matches.flatMap((item) => [item.job.title, item.job.discoveredRole]);
+  const aiInput = {
+    사용자프로필: {
+      전공: profile.major, 학력: profile.education, 경력: profile.careerExperiences,
+      인턴경험: profile.internshipExperiences, 프로젝트경험: profile.projectExperiences,
+      보유자격증: profile.certificates, 보유기술: profile.skills,
+      교육경험: profile.trainingExperiences, 기타경험: profile.experience,
+      희망근무조건: profile.preferredConditions, 관심산업: profile.interestedIndustries,
+      희망근무지역: profile.preferredLocation,
+    },
+    추천결과: matches.map((match) => {
+      const evidence = buildExplanationEvidence(match);
+      return ({
+      식별자: match.job.id, 회사: match.job.company, 직무명: match.job.title,
+      연결직무: match.job.discoveredRole, 근무지역: match.job.location,
+      공고업무: match.job.description, 필수요구사항: match.job.requiredSkills,
+      우대요구사항: match.job.preferredSkills, 관련전공: match.job.relatedMajors,
+      일치근거: evidence.matchedEvidence, 부족및확인필요근거: evidence.missingEvidence,
+      지역일치: evidence.locationMatch, 지역판정근거: match.location_match?.reason ?? "",
+      일치자격증: match.matchedQualifications ?? [],
+      부족자격증: match.missingQualifications ?? [], 확인필요자격증: match.uncertainQualifications ?? [],
+      허용유사직무명: allowedSimilarRoles,
+    }); }),
+  };
+  const response = await getOpenAIClient().responses.parse({
     model: process.env.OPENAI_MODEL ?? "gpt-5.4-nano",
+    store: false,
     input: [
-      {
-        role: "system",
-        content:
-          "당신은 울산 청년 커리어 매칭 설명가입니다. 제공된 profile과 matches(job, strengths, gaps, isHiddenGem)에 있는 사실만 사용해 한국어로 설명하세요. 점수를 바꾸거나 합격 가능성을 언급하지 마세요. reasonSummary는 strengths와 실제 업무(discoveredRole)를 연결하는 2문장 이내 설명입니다. isHiddenGem이 true인 항목에는 평소 검색 키워드와 직무명은 다르지만 실제 업무가 연결된다는 점을 강조하는 hiddenGemNote를 작성하고, false인 항목은 hiddenGemNote를 null로 두세요.",
-      },
-      {
-        role: "user",
-        content: JSON.stringify({
-          profile,
-          matches: matches.map((match) => ({
-            jobId: match.job.id,
-            jobTitle: match.job.title,
-            discoveredRole: match.job.discoveredRole,
-            usualSearchKeywords: profile.usualSearchKeywords,
-            strengths: match.strengths,
-            gaps: match.gaps,
-            isHiddenGem: match.isHiddenGem,
-          })),
-        }),
-      },
+      { role: "system", content: EXPLAIN_MATCH_SYSTEM_PROMPT },
+      { role: "user", content: JSON.stringify(aiInput) },
     ],
     text: { format: zodTextFormat(explanationsSchema, "job_explanations") },
   });
-
+  if (!response.output_parsed) throw new Error("OpenAI returned no parsed explanations");
   return response.output_parsed;
 }
