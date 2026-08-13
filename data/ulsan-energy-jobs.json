@@ -1,0 +1,956 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_001",
+    "occupation_group": "석유·정유·석유화학",
+    "occupation_type": "INSTRUMENTATION_CONTROL_MAINTENANCE",
+    "employer": "SK picglobal",
+    "employer_normalized": "SK picglobal",
+    "posting_title": "SK picglobal 울산공장 계기직무(기술직) 경력직 채용",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "Ulsan",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-06-12",
+      "end": "2026-06-21"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": "주간",
+    "raw_tasks": [
+      "계기설비 일상점검 및 유지보수 작업",
+      "계기설비 예방정비(PM) 수행",
+      "계측기기 검·교정(Calibration) 및 신뢰성 검증",
+      "계측기기 및 계장설비 점검·진단·정비·교체",
+      "Communicator를 활용한 계기 상태 점검 및 설정 관리",
+      "제어시스템(PLC/DCS/TMR) 유지보수",
+      "PLC 및 TMR 시스템 유지보수",
+      "제어 로직 분석 및 이상 진단",
+      "시스템 장애 대응 및 복구",
+      "Local Control System 유지보수",
+      "제어밸브 탈·부착 및 Overhaul 수행",
+      "제어밸브 성능 점검 및 기능시험",
+      "P&ID, Loop Diagram, Logic Diagram 기술 검토",
+      "제어 로직 및 계장 구성 검토",
+      "설비 개선 및 신설 프로젝트 기술 지원",
+      "외주 정비작업 관리·감독",
+      "작업 안전관리 및 품질관리",
+      "설비 고장 원인 분석 및 재발방지 대책 수립",
+      "계기설비 신뢰성 향상 활동"
+    ],
+    "eligibility_notes": [
+      "고등학교 졸업 이상",
+      "전기/전자/계측제어 학과",
+      "석유화학업종 계장분야 2~15년 경력",
+      "해외여행에 결격사유가 없어야 함",
+      "남성의 경우 병역필 또는 면제",
+      "2026년 8월 중 입사 가능"
+    ],
+    "preferred_conditions": [
+      "전기/전자/정보통신/전기공사 관련 자격",
+      "생산자동화 관련 자격",
+      "석유화학업종 정기보수 경험",
+      "현장 계기 점검 및 Valve 탈부착·Overhaul 경험"
+    ],
+    "licenses_original": [],
+    "tools_original": [
+      "Communicator",
+      "PLC",
+      "DCS",
+      "TMR"
+    ],
+    "hard_gates": [
+      "고등학교 졸업 이상",
+      "전기/전자/계측제어 학과",
+      "석유화학업종 계장분야 2~15년 경력",
+      "해외여행에 결격사유가 없어야 함",
+      "남성의 경우 병역필 또는 면제",
+      "2026년 8월 중 입사 가능"
+    ],
+    "required_capabilities": [
+      "계기설비 유지보수",
+      "제어시스템 유지보수",
+      "계장도면 기술검토"
+    ],
+    "source": {
+      "source_name": "SK Careers",
+      "source_type": "기업 공식 채용페이지",
+      "source_url": "https://www.skcareers.com/Recruit/Detail/R261338",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "SK Careers 기업 공식 공고에서 울산 근무, 고용형태, 업무, 전공, 경력 및 기타 지원조건을 직접 확인"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_002",
+    "occupation_group": "석유·정유·석유화학",
+    "occupation_type": "PETROCHEMICAL_MECHANICAL_MAINTENANCE",
+    "employer": "SK picglobal",
+    "employer_normalized": "SK picglobal",
+    "posting_title": "SK picglobal 울산공장 장치직무(기술직) 경력직 채용",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "Ulsan",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-06-12",
+      "end": "2026-06-21"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": "주간",
+    "raw_tasks": [
+      "장치·배관 설비 유지보수 및 정기보수 수행",
+      "설비 이상 진단 및 정비 작업 수행",
+      "설비 신뢰성 향상 및 고장 예방 활동",
+      "정비 계획 수립 및 실행",
+      "Turn Around(TA) 및 정기보수 공사 관리",
+      "정비작업 예산 및 예가 산출",
+      "자재 및 공사 구매 발주 관리",
+      "정비작업 품질 및 안전관리 감독",
+      "공사업체 및 상주 도급 협력업체 관리·감독",
+      "작업 허가 및 안전조치 이행 관리",
+      "공사 품질 검수 및 성과 관리",
+      "설비 자료 및 기술문서 관리",
+      "정비 이력 및 설비 데이터 관리",
+      "정비 실적 분석 및 개선 활동"
+    ],
+    "eligibility_notes": [
+      "고등학교 졸업 이상",
+      "기계/재료/용접 등 기계 관련학과",
+      "석유화학업종 장치/배관 유지보수 업무경력 2~15년",
+      "해외여행에 결격사유가 없어야 함",
+      "남성의 경우 병역필 또는 면제",
+      "2026년 8월 중 입사 가능"
+    ],
+    "preferred_conditions": [
+      "기계/재료/안전관리 관련 자격",
+      "석유화학업종 정기보수 경험"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "고등학교 졸업 이상",
+      "기계/재료/용접 등 기계 관련학과",
+      "석유화학업종 장치/배관 유지보수 업무경력 2~15년",
+      "해외여행에 결격사유가 없어야 함",
+      "남성의 경우 병역필 또는 면제",
+      "2026년 8월 중 입사 가능"
+    ],
+    "required_capabilities": [
+      "장치·배관 유지보수",
+      "설비 이상 진단",
+      "정비공사 관리"
+    ],
+    "source": {
+      "source_name": "SK Careers",
+      "source_type": "기업 공식 채용페이지",
+      "source_url": "https://www.skcareers.com/Recruit/Detail/R261346",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "SK Careers 기업 공식 공고에서 업무·근무형태·울산근무·전공·경력·기타 지원조건을 직접 확인"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_003",
+    "occupation_group": "석유·정유·석유화학",
+    "occupation_type": "CHEMICAL_PROCESS_OPERATOR",
+    "employer": "SK chemicals(GC)",
+    "employer_normalized": "SK chemicals",
+    "posting_title": "[SK케미칼] 26년 울산공장 현장 기술사원 모집(신입, 정규 전환형 계약직)",
+    "employment_type": "정규 전환형 계약직",
+    "work_location": {
+      "raw": "Ulsan",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": "울산공장",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "신입 계약직 1년 근무 및 평가 후 정규직 전환 검토"
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "DCS 운영",
+      "시스템 모니터링·제어·조정 및 경보 관리",
+      "보고서 작성",
+      "공정 최적화 및 품질관리",
+      "효율성 분석 및 비용절감",
+      "품질 모니터링",
+      "위험요소 파악·제거",
+      "비상상황 대응"
+    ],
+    "eligibility_notes": [
+      "고등학교 졸업~초대졸",
+      "화공 전공자",
+      "2026년 8월 입사 및 근무 가능",
+      "병역필 또는 면제",
+      "해외 출국 및 건강상 결격사유가 없어야 함"
+    ],
+    "preferred_conditions": [
+      "화공 관련 자격증",
+      "위험물 관련 자격증",
+      "안전(소방) 관련 자격증",
+      "고압가스 관련 자격증"
+    ],
+    "licenses_original": [],
+    "tools_original": [
+      "DCS"
+    ],
+    "hard_gates": [
+      "고등학교 졸업~초대졸",
+      "화공 전공",
+      "2026년 8월 입사 및 근무 가능",
+      "병역필 또는 면제",
+      "해외 출국 및 건강상 결격사유가 없어야 함"
+    ],
+    "required_capabilities": [
+      "DCS 운영",
+      "화학공정 운전",
+      "공정 모니터링"
+    ],
+    "source": {
+      "source_name": "SK Careers",
+      "source_type": "기업 공식 채용페이지",
+      "source_url": "https://www.skcareers.com/Recruit/Detail/R261398",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "하나의 공식 모집공고에 생산기술과 설비관리(기계) 직무가 함께 존재하며 본 데이터는 생산기술-화학공정 생산 오퍼레이터 부분만 분리",
+      "공고 제목은 임의 가공하지 않고 SK Careers의 공식 전체 공고명을 보존"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_004",
+    "occupation_group": "석유·정유·석유화학",
+    "occupation_type": "CHEMICAL_PLANT_MECHANICAL_ENGINEERING",
+    "employer": "SK chemicals(GC)",
+    "employer_normalized": "SK chemicals",
+    "posting_title": "[SK케미칼(GC)] 설비관리 담당 신입 구성원 모집 (울산공장)",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "SK케미칼 울산공장(울산광역시 남구 처용로 소재)",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": "처용로 소재 울산공장",
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-03-30",
+      "end": "2026-04-13"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "고정장치 및 회전기계 설비 관리",
+      "공사 설계, 업체 선정 및 관리",
+      "신규 기술·설비 및 공정 개선 검토 및 수행",
+      "설비 Trouble shooting",
+      "PSM/ISO 관리",
+      "안전관리"
+    ],
+    "eligibility_notes": [
+      "공고 마감일 기준 기졸업자 또는 2026년 8월 졸업예정자",
+      "학사 이상",
+      "기계공학 전공",
+      "기본 업무 수준의 영어 소통 가능",
+      "병역 대상자의 경우 병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "preferred_conditions": [
+      "기계 전공 관련 기사·산업기사",
+      "안전 관련 자격증",
+      "화학공장 기계설비 유관 경험"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "공고 마감일 기준 기졸업자 또는 2026년 8월 졸업예정자",
+      "학사 이상",
+      "기계공학 전공",
+      "기본 업무 수준의 영어 소통 가능",
+      "병역 대상자의 경우 병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "required_capabilities": [
+      "기계설비 관리",
+      "공사 설계·관리",
+      "설비 Trouble shooting"
+    ],
+    "source": {
+      "source_name": "SK Careers",
+      "source_type": "기업 공식 채용페이지",
+      "source_url": "https://www.skcareers.com/Recruit/Detail/R260710",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "SK Careers 공식 공고에서 울산 남구 공장, 업무, 졸업시점, 학력, 기계공학 전공 및 기타 조건 확인"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_005",
+    "occupation_group": "에너지·신산업",
+    "occupation_type": "GAS_PLANT_PIPING_SUPERVISION",
+    "employer": "SK aircore",
+    "employer_normalized": "SK aircore",
+    "posting_title": "[SK에어코어] 울산 Gas Plant 기계배관 Supervisor (계약직)",
+    "employment_type": "계약직",
+    "work_location": {
+      "raw": "울산광역시 남구",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-04-24",
+      "end": "2026-05-10"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "Gas Plant 배관 설계 및 현장시공 감독",
+      "N2, CDA, H2, CO2 등 Gas 배관 BM 검토 및 자재발주",
+      "현장시공 감독",
+      "배관 시공품질관리",
+      "시공 스케줄 및 협력업체 관리",
+      "작업허가서 발행·관리",
+      "현장 안전관리",
+      "관련 인허가 업무 지원"
+    ],
+    "eligibility_notes": [
+      "전문대졸 이상",
+      "공학 전공",
+      "Gas Plant 배관 설계검토 및 시공관리 5년 이상",
+      "남성의 경우 병역이행의무 완료 또는 면제"
+    ],
+    "preferred_conditions": [
+      "Gas Plant 배관 설계검토 및 시공관리 경험"
+    ],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "전문대졸 이상",
+      "공학 전공",
+      "Gas Plant 배관 설계검토 및 시공관리 5년 이상",
+      "남성의 경우 병역이행의무 완료 또는 면제"
+    ],
+    "required_capabilities": [
+      "Gas Plant 배관 설계검토",
+      "시공관리",
+      "현장 안전관리"
+    ],
+    "source": {
+      "source_name": "SK Careers",
+      "source_type": "기업 공식 채용페이지",
+      "source_url": "https://www.skcareers.com/Recruit/Detail/R260954",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "SK Careers 공식 공고에서 Gas Plant 배관업무, 울산 남구 근무 및 경력·학력 조건 확인",
+      "H2 배관이 포함되지만 수소 전용 직무라고 확대 분류하지 않음"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_006",
+    "occupation_group": "에너지·신산업",
+    "occupation_type": "MANUFACTURING_AI_DT",
+    "employer": "SK inc.(AX)",
+    "employer_normalized": "SK inc. AX",
+    "posting_title": "제조 에너지/화학 계열 AI/DT 및 시스템 담당자 영입 (울산 근무)",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": null,
+    "application_period": {
+      "start": "2026-05-14",
+      "end": "2026-06-15"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "고객사의 신규 AI/DT 과제 구체화 및 사업 개발·수행",
+      "AI/DT 과제 제안부터 구축 및 운영 전환까지 수행",
+      "프로젝트 PM",
+      "프로젝트 분석·설계"
+    ],
+    "eligibility_notes": [
+      "Application 개발(JavaScript, Spring Boot) 및 분석·설계 역량",
+      "AI/DT 관련 프로젝트 수행 경험 및 PM/PL 또는 사업관리 경험",
+      "제조 영역 생산·설비·안전환경 시스템 운영·개발 경험",
+      "AI/DT 관련 insight 및 사업 수행 경험",
+      "채용 분야 경력 3년 이상",
+      "해외여행에 결격사유가 없어야 함",
+      "병역 대상자의 경우 병역필 또는 면제",
+      "최종합격 후 회사가 지정하는 날짜에 입사 가능"
+    ],
+    "preferred_conditions": [
+      "AI/DT 관련 기획 및 사업 수행 경험",
+      "SK이노베이션 계열 업무 경험",
+      "제조 생산·설비·안전환경 Biz Knowledge",
+      "다수 프로젝트 수행 경험",
+      "PM 및 분석·설계 경험",
+      "Java, C#, Python, React 등 다양한 개발언어 경험",
+      "외국어 커뮤니케이션 역량"
+    ],
+    "licenses_original": [],
+    "tools_original": [
+      "JavaScript",
+      "Spring Boot"
+    ],
+    "hard_gates": [
+      "Application 개발(JavaScript, Spring Boot) 및 분석·설계 역량",
+      "AI/DT 관련 프로젝트 수행 경험 및 PM/PL 또는 사업관리 경험",
+      "제조 영역 생산·설비·안전환경 시스템 운영·개발 경험",
+      "AI/DT 관련 insight 및 사업 수행 경험",
+      "채용 분야 경력 3년 이상",
+      "해외여행에 결격사유가 없어야 함",
+      "병역 대상자의 경우 병역필 또는 면제",
+      "최종합격 후 회사가 지정하는 날짜에 입사 가능"
+    ],
+    "required_capabilities": [
+      "Application 개발",
+      "Application 분석·설계",
+      "AI/DT 프로젝트 수행",
+      "제조 시스템 운영·개발",
+      "프로젝트 PM/PL 또는 사업관리"
+    ],
+    "source": {
+      "source_name": "SK Careers",
+      "source_type": "기업 공식 채용페이지",
+      "source_url": "https://www.skcareers.com/Recruit/Detail/R261104",
+      "official_url_available": true
+    },
+    "verification_level": "A",
+    "verification_notes": [
+      "SK Careers 공식 공고에서 울산 근무, 필요 역량·경험, 우대사항 및 공통 자격조건 확인",
+      "JavaScript와 Spring Boot는 우대가 아니라 필요역량의 Application 개발 항목에 명시되므로 필수 측에 보존",
+      "Java, C#, Python, React는 우대 경험으로 분리"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_007",
+    "occupation_group": "에너지·신산업",
+    "occupation_type": "MATERIAL_QA_QC",
+    "employer": "LS MnM",
+    "employer_normalized": "LS MnM",
+    "posting_title": "2025년 4분기 신입/경력사원 수시채용",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": "2025-11-03",
+    "application_period": {
+      "start": "2025-11-03",
+      "end": "2025-11-16"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "제품 품질관리 및 보증(QA/QC)",
+      "공정·제품 규격 관리",
+      "고객 요청사항 대응 및 Audit 수행",
+      "원재료 Sample 및 시료 조제",
+      "원부재료 및 제품 검사",
+      "분석 과정 및 결과 관리",
+      "ISO 9001 System 및 사내표준 관리",
+      "제품 관련 인증 관리",
+      "시험 절차 개선"
+    ],
+    "eligibility_notes": [
+      "채용부문: [경력] 품질관리",
+      "학사 이상",
+      "화학·화학공학·산업공학 계열 전공",
+      "품질관리 업무 경력 3년 이상",
+      "TOEIC Speaking/OPIc(영어) IM1 이상",
+      "어학성적은 접수 마감일 기준 2년 이내 성적",
+      "통계적 품질관리 기본 지식 보유",
+      "남성의 경우 병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "학사 이상",
+      "화학·화학공학·산업공학 계열 전공",
+      "품질관리 업무 경력 3년 이상",
+      "TOEIC Speaking/OPIc(영어) IM1 이상 및 접수 마감일 기준 2년 이내 성적",
+      "통계적 품질관리 기본 지식 보유",
+      "남성의 경우 병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "required_capabilities": [
+      "품질관리·보증",
+      "제품 검사",
+      "통계적 품질관리"
+    ],
+    "source": {
+      "source_name": "고용24",
+      "source_type": "공공기관 채용정보",
+      "source_url": "https://www.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=OEW&infoTypeGroup=tb_workinfoopen&wantedAuthNo=140204",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "고용24에서 LS MnM 공식 채용홈페이지로 연결되는 공채 상세자료를 확인",
+      "동일 공채 내 여러 직무 중 [경력] 품질관리 부문만 별도 데이터화",
+      "공고 자체에서 배터리 소재 전담 QA/QC라고 확인할 수 없어 occupation_type을 BATTERY_MATERIAL_QA_QC에서 MATERIAL_QA_QC로 보수적으로 변경"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_008",
+    "occupation_group": "에너지·신산업",
+    "occupation_type": "INDUSTRIAL_ELECTRICAL_ENGINEER",
+    "employer": "LS MnM",
+    "employer_normalized": "LS MnM",
+    "posting_title": "2025년 4분기 신입/경력사원 수시채용",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": "2025-11-03",
+    "application_period": {
+      "start": "2025-11-03",
+      "end": "2025-11-16"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": "수습기간 6개월"
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "수배전 전력설비 신규설치 및 유지보전",
+      "동력·이송·자동화 전기설비 신규설치 및 유지보전",
+      "전기작업 안전관리 및 교육",
+      "전기공사 관리감독(안전·품질·비용·납기)"
+    ],
+    "eligibility_notes": [
+      "채용부문: [신입] 설비 엔지니어(전기)",
+      "학사 이상",
+      "전기공학 계열 전공",
+      "TOEIC Speaking/OPIc(영어) IM1 이상",
+      "어학성적은 접수 마감일 기준 2년 이내 성적",
+      "기졸업자 또는 2026년 2월 졸업예정자",
+      "학점 3.0 이상(4.5 만점 기준)",
+      "남성의 경우 병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "학사 이상",
+      "전기공학 계열 전공",
+      "TOEIC Speaking/OPIc(영어) IM1 이상 및 접수 마감일 기준 2년 이내 성적",
+      "기졸업자 또는 2026년 2월 졸업예정자",
+      "학점 3.0 이상(4.5 만점 기준)",
+      "남성의 경우 병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "required_capabilities": [
+      "수배전 전력설비 유지보전",
+      "산업 전기설비 유지보전",
+      "전기공사 관리감독"
+    ],
+    "source": {
+      "source_name": "고용24",
+      "source_type": "공공기관 채용정보",
+      "source_url": "https://www.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=OEW&infoTypeGroup=tb_workinfoopen&wantedAuthNo=140204",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "고용24의 LS MnM 공채 상세자료에서 울산근무, 세부업무, 전공·어학조건 확인",
+      "공통 신입 자격인 졸업시점과 학점 3.0 이상을 추가 반영",
+      "동일 공채 내 [신입] 설비 엔지니어(전기) 부문만 별도 데이터화"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_009",
+    "occupation_group": "석유·정유·석유화학",
+    "occupation_type": "SPECIALTY_CHEMICAL_RND",
+    "employer": "이수스페셜티케미컬",
+    "employer_normalized": "이수스페셜티케미컬",
+    "posting_title": "2025년 상반기 그룹 신입사원 공개채용",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": "2025-03-25",
+    "application_period": {
+      "start": "2025-03-25",
+      "end": "2025-04-14"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "정밀화학 분야 신규 제품 제조 기술 개발",
+      "정밀화학 분야 기존 제품 공정 개선 연구",
+      "실험 계획 수립",
+      "선행 기술 및 경쟁 기술 조사"
+    ],
+    "eligibility_notes": [
+      "채용부문: R&D",
+      "국내·외 4년제 대학 기졸업자 및 졸업예정자",
+      "석사 이상",
+      "병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "석사 이상",
+      "병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "required_capabilities": [
+      "정밀화학 연구개발",
+      "공정 개선 연구",
+      "실험 계획"
+    ],
+    "source": {
+      "source_name": "고용24",
+      "source_type": "공공기관 채용정보",
+      "source_url": "https://www.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=OEW&infoTypeGroup=tb_workinfoopen&wantedAuthNo=120276",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "고용24가 이수그룹 채용홈페이지로 연결하는 공개채용 상세자료",
+      "동일 공채 내 R&D 부문만 별도 데이터화",
+      "석사 이상 조건이 4년제 대학 졸업·졸업예정 공통조건보다 더 높은 학력조건이므로 Hard Gate에는 석사 이상을 중심으로 기록"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_010",
+    "occupation_group": "석유·정유·석유화학",
+    "occupation_type": "CHEMICAL_QC_ANALYSIS",
+    "employer": "이수스페셜티케미컬",
+    "employer_normalized": "이수스페셜티케미컬",
+    "posting_title": "2025년 상반기 그룹 신입사원 공개채용",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": "2025-03-25",
+    "application_period": {
+      "start": "2025-03-25",
+      "end": "2025-04-14"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "원재료·공정간 제품·최종제품 품질특성 분석 및 품질관리",
+      "분석법 검토 및 Application",
+      "분석기기 유지관리",
+      "분석기기 사용·검정·교정 관리"
+    ],
+    "eligibility_notes": [
+      "채용부문: QC",
+      "국내·외 4년제 대학 기졸업자 및 졸업예정자",
+      "모집표에는 '필수사항: 화학, 화학공학 관련 전공'으로 기재",
+      "같은 공고의 공통사항에는 '전공 및 우대사항은 필수요건이 아님'이라고 별도 기재되어 전공 필수 여부에 내부 충돌이 있음",
+      "지원자격 표: 대졸예정(4년)~대졸(4년) 신입",
+      "병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "국내·외 4년제 대학 기졸업자 또는 졸업예정자",
+      "병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "required_capabilities": [
+      "화학 분석",
+      "품질관리",
+      "분석기기 유지관리"
+    ],
+    "source": {
+      "source_name": "고용24",
+      "source_type": "공공기관 채용정보",
+      "source_url": "https://www.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=OEW&infoTypeGroup=tb_workinfoopen&wantedAuthNo=120276",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "고용24 공개채용 상세자료에서 업무와 울산근무 확인",
+      "전공 필수 여부가 동일 공고 내부에서 상충하므로 화학·화학공학 전공을 Hard Gate로 강제하지 않음",
+      "이 충돌 때문에 지원자격 판정에서는 보수적으로 취급해야 함"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_011",
+    "occupation_group": "석유·정유·석유화학",
+    "occupation_type": "CHEMICAL_EHS",
+    "employer": "이수스페셜티케미컬",
+    "employer_normalized": "이수스페셜티케미컬",
+    "posting_title": "2025년 상반기 그룹 신입사원 공개채용",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": "2025-03-25",
+    "application_period": {
+      "start": "2025-03-25",
+      "end": "2025-04-14"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "통합환경허가 대응 및 기록·보존 등 운영관리",
+      "유해화학물질 영업허가 대응",
+      "유해화학물질 취급시설 점검관리",
+      "ISO 9001/14001/45001 및 IATF16949 대응"
+    ],
+    "eligibility_notes": [
+      "채용부문: 안전환경",
+      "국내·외 4년제 대학 기졸업자 및 졸업예정자",
+      "대기환경기사 및 수질환경기사 필수",
+      "지원자격 표: 대졸예정(4년)~대졸(4년) 신입",
+      "병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [
+      "대기환경기사",
+      "수질환경기사"
+    ],
+    "tools_original": [],
+    "hard_gates": [
+      "국내·외 4년제 대학 기졸업자 또는 졸업예정자",
+      "대기환경기사 보유",
+      "수질환경기사 보유",
+      "병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "required_capabilities": [
+      "환경 인허가 대응",
+      "유해화학물질 관리",
+      "환경·품질·안전 시스템 대응"
+    ],
+    "source": {
+      "source_name": "고용24",
+      "source_type": "공공기관 채용정보",
+      "source_url": "https://www.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=OEW&infoTypeGroup=tb_workinfoopen&wantedAuthNo=120276",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "고용24 상세자료에서 자격증 두 종을 '필수사항'으로 명시",
+      "동일 공채 내 안전환경 직무만 별도 데이터화"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_012",
+    "occupation_group": "에너지·신산업",
+    "occupation_type": "DEMO_PLANT_PROJECT_OPERATION",
+    "employer": "이수스페셜티케미컬",
+    "employer_normalized": "이수스페셜티케미컬",
+    "posting_title": "2025년 상반기 그룹 신입사원 공개채용",
+    "employment_type": "정규직",
+    "work_location": {
+      "raw": "울산",
+      "sido": "울산광역시",
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "ULSAN_CONFIRMED"
+    },
+    "recruitment_count": null,
+    "posting_date": "2025-03-25",
+    "application_period": {
+      "start": "2025-03-25",
+      "end": "2025-04-14"
+    },
+    "contract_period": {
+      "start": null,
+      "end": null,
+      "note": null
+    },
+    "salary": null,
+    "working_hours": null,
+    "raw_tasks": [
+      "Demo Plant 공정 관리 및 개선",
+      "제품 관리 및 출하 관리",
+      "ISO 및 IATF 관리 업무"
+    ],
+    "eligibility_notes": [
+      "채용부문: 프로젝트(시운전)",
+      "국내·외 4년제 대학 기졸업자 및 졸업예정자",
+      "지원자격 표: 대졸예정(4년)~대졸(4년) 신입",
+      "병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함",
+      "직무별 별도 전공·자격·경력 필수조건은 공고 표에 기재되지 않음"
+    ],
+    "preferred_conditions": [],
+    "licenses_original": [],
+    "tools_original": [],
+    "hard_gates": [
+      "국내·외 4년제 대학 기졸업자 또는 졸업예정자",
+      "병역필 또는 면제",
+      "해외여행에 결격사유가 없어야 함"
+    ],
+    "required_capabilities": [
+      "Demo Plant 공정관리",
+      "공정 개선"
+    ],
+    "source": {
+      "source_name": "고용24",
+      "source_type": "공공기관 채용정보",
+      "source_url": "https://www.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=OEW&infoTypeGroup=tb_workinfoopen&wantedAuthNo=120276",
+      "official_url_available": true
+    },
+    "verification_level": "B",
+    "verification_notes": [
+      "고용24 상세자료에서 Demo Plant 공정관리·개선 등 실제 업무와 울산근무 확인",
+      "공고상의 채용부문명은 프로젝트(시운전)이지만 담당업무에 구체적인 시운전 절차가 기재되지 않아 occupation_type을 DEMO_PLANT_COMMISSIONING에서 DEMO_PLANT_PROJECT_OPERATION으로 보수적으로 변경"
+    ],
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13"
+  }
+]

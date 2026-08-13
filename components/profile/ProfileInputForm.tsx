@@ -110,7 +110,7 @@ export function ProfileInputForm({
           label="경험"
           value={formData.experience}
           onChange={(value) => updateField("experience", value)}
-          placeholder="프로젝트, 인턴, 교육 경험 등을 적어주세요."
+          placeholder="프로젝트, 교육 경험 등을 적어주세요."
         />
       </FormSection>
 

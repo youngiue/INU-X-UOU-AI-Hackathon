@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Lightbulb, MapPin, Search } from "lucide-react";
+import { Lightbulb, MapPin, Search } from "lucide-react";
 import type { JobMatch, WelfareService } from "@/lib/types";
 
 export interface SkillMatch {
@@ -24,7 +24,6 @@ export interface MatchReasonDetailProps {
   hiddenGemNote?: string;
   /** What the user usually searches by (keyword or major) — shown as a chip explaining the blind spot. */
   blindSpotLabel?: string;
-  onFindTraining?: () => void;
   aiExplanation?: JobMatch["aiExplanation"];
   whatIfContent?: React.ReactNode;
   /** 공고 근무지 기준으로 이용 가능성이 있는 울산 복지서비스 */
@@ -40,7 +39,6 @@ export function MatchReasonDetail({
   isHiddenGem = false,
   hiddenGemNote,
   blindSpotLabel,
-  onFindTraining,
   aiExplanation,
   whatIfContent,
   welfareServices = [],
@@ -140,17 +138,6 @@ export function MatchReasonDetail({
           </div>
           <p className="mt-2 text-[11px] leading-4 text-muted">실제 신청 자격·지원 내용은 기관 공고 원문을 반드시 확인하세요.</p>
         </section>
-      )}
-
-      {gaps.length > 0 && (
-        <button
-          type="button"
-          onClick={onFindTraining}
-          className="mt-6 inline-flex w-full items-center justify-center gap-1.5 rounded-md bg-accent px-4 py-3 text-[13px] font-semibold text-navy-950 transition active:scale-95 hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent2"
-        >
-          역량 보완 교육 보기
-          <ArrowRight aria-hidden="true" size={15} />
-        </button>
       )}
     </article>
   );

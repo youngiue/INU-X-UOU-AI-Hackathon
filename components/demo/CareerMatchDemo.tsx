@@ -128,10 +128,7 @@ export function CareerMatchDemo() {
       <div className="w-full max-w-sm">
         <BackButton onClick={() => setStep("results")}>매칭 목록으로</BackButton>
         <div className="mt-4">
-          <MatchReasonDetail
-            {...selectedJob.detail}
-            onFindTraining={() => window.alert("울산 지역 역량 보완 교육 목록을 연결합니다.")}
-          />
+          <MatchReasonDetail {...selectedJob.detail} />
         </div>
       </div>
     );
