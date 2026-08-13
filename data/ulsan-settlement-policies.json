@@ -1,0 +1,1729 @@
+[
+  {
+    "id": "ULSAN_SETTLE_001",
+    "category": "HOUSING",
+    "subcategory": "월세지원",
+    "title": "청년 월세 지원",
+    "provider": "울산광역시",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": 19,
+      "age_max": 34,
+      "residency_required": null,
+      "residency_area": null,
+      "employment_required": null,
+      "employment_condition": null,
+      "income_condition": "청년 본인소득 기준 중위소득 60% 이하, 원가구 소득 기준 중위소득 100% 이하",
+      "education_condition": null,
+      "housing_condition": "부모와 별도 거주하는 무주택 청년",
+      "additional_conditions": []
+    },
+    "support": {
+      "type": "월세 지원",
+      "amount": "임차료 월 최대 20만원",
+      "amount_max": null,
+      "period": "최대 24개월",
+      "description": "실제 납부하는 임차료를 월 최대 20만원씩 최대 24개월간 실비 지원"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": null,
+      "method": null,
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 건축정책과 주거지원팀",
+      "phone": "052-229-4415"
+    },
+    "status": "UNKNOWN",
+    "priority": "CORE",
+    "date_posted": null,
+    "source": "울산청년정책플랫폼 U-PAGE",
+    "source_type": "GOVERNMENT",
+    "source_url": "https://www.ulsan.go.kr/s/ulsanyouth/bbs/view.do?bbsId=BBS_0000000000000316&dataId=56099&mId=008001001000000000",
+    "secondary_sources": [],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "B"
+    },
+    "conditions_original": [
+      "19~34세 이하 부모님과 별도 거주 무주택 청년",
+      "청년 본인소득 기준 중위소득 60% 이하, 원가구 소득 기준 중위소득 100% 이하"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_002",
+    "category": "HOUSING",
+    "subcategory": "주거비지원",
+    "title": "2026년 울산 청년가구 주거비 지원사업",
+    "provider": "울산광역시",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": 19,
+      "age_max": 39,
+      "residency_required": true,
+      "residency_area": "울산광역시",
+      "employment_required": null,
+      "employment_condition": null,
+      "income_condition": "기준 중위소득 150% 이하",
+      "education_condition": null,
+      "housing_condition": "무주택 미혼 청년 1인 가구의 세대주",
+      "additional_conditions": [
+        "임차보증금 1억원 이하이고 월세 50만원 이하인 주택 또는 주거용 오피스텔 거주",
+        "주민등록상 39세 이하 형제·자매가 세대원인 경우 예외적으로 1인가구가 아니어도 신청 가능",
+        "부모 또는 조부모가 세대원인 경우 지원 제외",
+        "정부 또는 지자체의 중복 주거지원 대상자는 지원 제외"
+      ]
+    },
+    "support": {
+      "type": "월세 및 임차보증금 이자 지원",
+      "amount": "월 임차료 10만원 실비 및 월 임차보증금 이자 5만원 실비",
+      "amount_max": "가구당 최대 720만원",
+      "period": "최대 4년(48개월), 생애 1회",
+      "description": "월세와 임차보증금 이자비용을 실비 지원"
+    },
+    "application": {
+      "start_date": "2026-03-03",
+      "end_date": "2026-03-31",
+      "rolling": false,
+      "method": "울산주거지원사업 홈페이지 온라인 신청 후 증빙서류 업로드",
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 건축정책과",
+      "phone": "052-229-4415"
+    },
+    "status": "CLOSED",
+    "priority": "CORE",
+    "date_posted": "2026-02-13",
+    "source": "울산광역시 고시공고",
+    "source_type": "GOVERNMENT",
+    "source_url": "https://www.ulsan.go.kr/u/rep/transfer/notice/45528.ulsan?gosiGbn=A&mId=001004002000000000",
+    "secondary_sources": [
+      "https://www.ulsan.go.kr/s/house/contents.ulsan?mId=001002001000000000"
+    ],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "19세~39세 무주택 미혼 청년 1인 가구의 세대주",
+      "임차보증금 1억원 이하이고 월세 50만원 이하인 주택 거주",
+      "기준 중위소득 150% 이하"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_003",
+    "category": "HOUSING",
+    "subcategory": "청년주택",
+    "title": "유홈(U home) 성안매입 신규 입주자 모집",
+    "provider": "울산도시공사",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "neighborhood": "성안동",
+      "address": null
+    },
+    "target": {
+      "age_min": 19,
+      "age_max": 39,
+      "residency_required": null,
+      "residency_area": null,
+      "employment_required": null,
+      "employment_condition": null,
+      "income_condition": "순위별 소득 및 자산 기준 적용",
+      "education_condition": null,
+      "housing_condition": "무주택 미혼 청년",
+      "additional_conditions": [
+        "대학생 및 취업준비생 포함"
+      ]
+    },
+    "support": {
+      "type": "청년 임대주택 공급",
+      "amount": null,
+      "amount_max": null,
+      "period": null,
+      "description": "총 48호 공급. 1순위는 시중 전세가의 25%, 2·3순위는 약 45% 수준의 임대조건을 적용"
+    },
+    "application": {
+      "start_date": "2026-03-09",
+      "end_date": "2026-03-10",
+      "rolling": false,
+      "method": null,
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 건축정책과",
+      "phone": "052-229-4413"
+    },
+    "status": "CLOSED",
+    "priority": "CORE",
+    "date_posted": "2026-02-20",
+    "source": "울산광역시 고시공고",
+    "source_type": "GOVERNMENT",
+    "source_url": "https://www.ulsan.go.kr/u/rep/transfer/notice/45582.ulsan?gosiGbn=A&mId=001004002000000000",
+    "secondary_sources": [
+      "https://www.ulsan.go.kr/u/rep/bbs/view.ulsan?bbsId=BBS_0000000000000027&dataId=179102&mId=001004003001000000",
+      "https://www.ulsan.go.kr/u/rep/transfer/notice/45985.ulsan?gosiGbn=A&mId=001004002000000000"
+    ],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "만 19세 이상 39세 이하의 무주택 미혼 청년",
+      "대학생이나 취업준비생 포함",
+      "순위별 소득 및 자산 기준 적용"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_004",
+    "category": "HOUSING",
+    "subcategory": "기숙사지원",
+    "title": "울산 청년 웰스테이 지원사업",
+    "provider": "울산경제일자리진흥원",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": null,
+      "age_max": null,
+      "residency_required": null,
+      "residency_area": null,
+      "employment_required": true,
+      "employment_condition": "울산 소재 대상업종 중소기업의 청년근로자",
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": "대표자 또는 사업주 명의로 계약된 기숙사 이용",
+      "additional_conditions": [
+        "기업이 사업 신청 주체",
+        "대상업종은 제조업, 제조업 관련 서비스업, 지식서비스업"
+      ]
+    },
+    "support": {
+      "type": "기숙사 임차비 지원",
+      "amount": "기숙사비의 80%, 청년 1인당 월 30만원 이내",
+      "amount_max": "기업당 최대 540만원",
+      "period": "최대 9개월",
+      "description": "기업당 최대 2명의 청년근로자 기숙사비를 지원"
+    },
+    "application": {
+      "start_date": "2026-07-24",
+      "end_date": "2026-08-28",
+      "rolling": false,
+      "method": null,
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산경제일자리진흥원 기업지원부",
+      "phone": "052-283-7223"
+    },
+    "status": "ACTIVE",
+    "priority": "CORE",
+    "date_posted": "2026-07-24",
+    "source": "울산경제일자리진흥원",
+    "source_type": "PUBLIC_AGENCY",
+    "source_url": "https://www.ubpi.or.kr/sub/?mcode=0401020000&no=404",
+    "secondary_sources": [
+      "https://www.ubpi.or.kr/sub/?mcode=0403010000&no=3508"
+    ],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "울산 소재 중소기업 중 제조업, 제조업관련서비스업, 지식서비스업",
+      "대표자 또는 사업주 명의로 계약된 기숙사비의 80% 지원",
+      "청년 1인당 월 30만원 이내, 최대 2인, 9개월 지원"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_005",
+    "category": "EDUCATION",
+    "subcategory": "직무교육",
+    "title": "2026년 청년 재직자 슈퍼패스 바우처 사업",
+    "provider": "울산경제일자리진흥원",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": 19,
+      "age_max": 39,
+      "residency_required": true,
+      "residency_area": "울산광역시",
+      "employment_required": true,
+      "employment_condition": "울산광역시 내 사업장을 둔 중소·중견기업에 재직 중인 자",
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "2026년 1월 1일 기준 19~39세",
+        "신청일 기준 울산광역시에 주민등록",
+        "현재 수행 중인 직무와 직접 관련된 교육만 인정"
+      ]
+    },
+    "support": {
+      "type": "직무교육비 지원",
+      "amount": "직무 교육비의 최대 95%",
+      "amount_max": "1인 최대 50만원",
+      "period": null,
+      "description": "기업당 최대 5명까지 지원하며 교육비 선납 및 수료 후 사후정산"
+    },
+    "application": {
+      "start_date": "2026-08-04",
+      "end_date": null,
+      "rolling": true,
+      "method": "이메일 접수",
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산경제일자리진흥원 일자리지원부",
+      "phone": "052-283-7202"
+    },
+    "status": "ACTIVE",
+    "priority": "CORE",
+    "date_posted": "2026-08-04",
+    "source": "울산경제일자리진흥원 수정공고",
+    "source_type": "PUBLIC_AGENCY",
+    "source_url": "https://www.ubpi.or.kr/_Inc/download.php?f_idx=55358&gb=supportdata",
+    "secondary_sources": [
+      "https://www.ubpi.or.kr/sub/?mcode=0403010000&no=3396"
+    ],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "울산광역시 내 사업장을 둔 중소·중견기업",
+      "해당 기업에 재직 중인 울산 거주 청년 19~39세",
+      "현재 수행 중인 직무와 직접 관련된 교육만 인정"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_006",
+    "category": "CERTIFICATION_LANGUAGE",
+    "subcategory": "자격증응시료",
+    "title": "2026년 울산광역시 청년 자격증 응시료 지원사업",
+    "provider": "울산광역시",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": 19,
+      "age_max": 39,
+      "residency_required": true,
+      "residency_area": "울산광역시",
+      "employment_required": false,
+      "employment_condition": "미취업·미창업",
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "응시일부터 신청일까지 울산광역시에 주민등록",
+        "2025년 12월 1일부터 2026년 11월 30일까지 응시한 자격증·어학시험"
+      ]
+    },
+    "support": {
+      "type": "자격증·어학시험 응시료 지원",
+      "amount": "실제 응시료",
+      "amount_max": "연 1회 최대 10만원",
+      "period": "연 1회",
+      "description": "자격증, 어학시험 등 응시료를 실비 지원"
+    },
+    "application": {
+      "start_date": "2026-03-03",
+      "end_date": "2026-07-29",
+      "rolling": false,
+      "method": "울산청년정책플랫폼 온라인 신청",
+      "application_url": "https://www.ulsan.go.kr/s/ulsanyouth/contents.do?contentsId=3771"
+    },
+    "contact": {
+      "organization": "울산광역시 대학협력과",
+      "phone": "052-229-7984"
+    },
+    "status": "CLOSED",
+    "priority": "CORE",
+    "date_posted": "2026-03-03",
+    "source": "울산광역시 청년 자격증 응시료 지원 신청",
+    "source_type": "GOVERNMENT",
+    "source_url": "https://www.ulsan.go.kr/s/ulsanyouth/contents.do?contentsId=3771",
+    "secondary_sources": [
+      "https://www.ulsan.go.kr/u/rep/transfer/notice/45635.ulsan?gosiGbn=A&mId=001004002000000000"
+    ],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "응시일부터 신청일까지 울산광역시에 주민등록된 19세 이상 39세 이하 미취업·미창업 청년",
+      "연 1회 최대 10만원"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_007",
+    "category": "CAREER",
+    "subcategory": "일경험",
+    "title": "사회연대경제 청년 일경험",
+    "provider": "울산광역시",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": 19,
+      "age_max": 39,
+      "residency_required": true,
+      "residency_area": "울산광역시",
+      "employment_required": false,
+      "employment_condition": "신청일 기준 미취업",
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "2026년 1월 1일 기준 19~39세",
+        "참여기간 동안 울산광역시 거주",
+        "울산 소재 사회연대경제 조직에서 일경험 수행"
+      ]
+    },
+    "support": {
+      "type": "유급 일경험 및 직무교육",
+      "amount": "월 급여 최대 234만원(세전)",
+      "amount_max": null,
+      "period": null,
+      "description": "사회연대경제 조직에서 실제 업무를 경험하고 직무 실무교육과 멘토링을 제공받는 사업"
+    },
+    "application": {
+      "start_date": "2026-08-05",
+      "end_date": "2026-10-05",
+      "rolling": false,
+      "method": null,
+      "application_url": null
+    },
+    "contact": {
+      "organization": null,
+      "phone": null
+    },
+    "status": "ACTIVE",
+    "priority": "CORE",
+    "date_posted": "2026-08-05",
+    "source": "울산청년정책플랫폼 U-PAGE",
+    "source_type": "GOVERNMENT",
+    "source_url": "https://www.ulsan.go.kr/s/ulsanyouth/bbs/view.do?bbsId=BBS_0000000000000309&dataId=60093&mId=008001002000000000",
+    "secondary_sources": [],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "2026년 1월 1일 기준 19~39세",
+      "신청일 기준 미취업",
+      "참여기간 울산광역시 거주"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_008",
+    "category": "RELOCATION",
+    "subcategory": "전입지원",
+    "title": "울산형 생활장학금 지원",
+    "provider": "울산광역시",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": null,
+      "age_max": null,
+      "residency_required": true,
+      "residency_area": "울산광역시",
+      "employment_required": null,
+      "employment_condition": null,
+      "income_condition": null,
+      "education_condition": "울산 소재 대학 또는 대학원 재학생",
+      "housing_condition": null,
+      "additional_conditions": [
+        "2024년 1월 1일 이후 울산으로 전입",
+        "신청일 현재 주민등록상 주소지 울산",
+        "졸업생 제외"
+      ]
+    },
+    "support": {
+      "type": "생활장학금",
+      "amount": "최초 전입 시 20만원, 주소 6개월 유지 시 10만원",
+      "amount_max": null,
+      "period": "최대 8학기",
+      "description": "울산으로 전입한 울산 소재 대학·대학원 재학생에게 생활장학금을 지급"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": false,
+      "method": "각 대학별 접수처 운영",
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 대학협력과",
+      "phone": "052-229-7992"
+    },
+    "status": "CLOSED",
+    "priority": "CORE",
+    "date_posted": "2026-04-15",
+    "source": "울산광역시 울산형 생활장학금 지원 신청안내",
+    "source_type": "GOVERNMENT",
+    "source_url": "https://www.ulsan.go.kr/u/gov/contents.ulsan?mId=001007002003001000",
+    "secondary_sources": [
+      "https://www.ulsan.go.kr/u/rep/transfer/notice/46068.ulsan?gosiGbn=A&mId=001004002000000000"
+    ],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "신청일 현재 주민등록상 주소지 울산",
+      "2024년 1월 1일 이후 울산으로 전입한 관내 소재 대학·대학원생",
+      "졸업생 제외"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_009",
+    "category": "EDUCATION",
+    "subcategory": "디지털역량지원",
+    "title": "2026년 청년 생성형 AI 구독료 지원사업",
+    "provider": "울산광역시",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": 19,
+      "age_max": 39,
+      "residency_required": true,
+      "residency_area": "울산광역시",
+      "employment_required": null,
+      "employment_condition": null,
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "1986년~2007년 출생자",
+        "공고일부터 신청일까지 울산광역시에 주민등록 유지",
+        "울산청년멤버십 가입 필수",
+        "1,000명 선착순"
+      ]
+    },
+    "support": {
+      "type": "생성형 AI 서비스 구독료 지원",
+      "amount": "실 결제금액의 90%",
+      "amount_max": "1인 연 1회, 1개 서비스 최대 10만원",
+      "period": "연 1회",
+      "description": "ChatGPT, Perplexity, Grok, Claude, Gemini, Copilot 중 1개 서비스 구독료를 지원"
+    },
+    "application": {
+      "start_date": "2026-05-26",
+      "end_date": "2026-11-30",
+      "rolling": false,
+      "method": "온라인 신청",
+      "application_url": "https://www.ulsanyouthpass.kr/ai-subscribe/apply"
+    },
+    "contact": {
+      "organization": "울산청년지원센터",
+      "phone": "052-230-3454~3457"
+    },
+    "status": "ACTIVE",
+    "priority": "CORE",
+    "date_posted": "2026-05-15",
+    "source": "울산청년지원센터",
+    "source_type": "PUBLIC_AGENCY",
+    "source_url": "https://www.ulsanyouthpass.kr/ai-subscribe/business",
+    "secondary_sources": [
+      "https://www.ulsan.go.kr/s/ulsanyouth/bbs/view.do?bbsId=BBS_0000000000000309&dataId=57903&mId=008001002000000000",
+      "https://www.ulsan.go.kr/u/rep/transfer/notice/46329.ulsan?gosiGbn=A&mId=001004002000000000"
+    ],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "19~39세 청년",
+      "공고일부터 신청일까지 울산광역시에 주민등록 유지",
+      "실 구입비의 90% 지원, 1인 최대 10만원"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_010",
+    "category": "LIFE",
+    "subcategory": "문화지원",
+    "title": "울산 청년 스포츠+문화패스 지원사업",
+    "provider": "울산광역시",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": 19,
+      "age_max": 39,
+      "residency_required": true,
+      "residency_area": "울산광역시",
+      "employment_required": null,
+      "employment_condition": null,
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "1986년~2007년 출생자",
+        "공고일부터 신청일까지 울산광역시에 주민등록 유지",
+        "울산청년멤버십 가입 필수",
+        "2026년 청년문화예술패스 지원사업 대상자는 제외",
+        "10,000명 선착순"
+      ]
+    },
+    "support": {
+      "type": "스포츠·문화 관람료 환급",
+      "amount": "실제 본인 관람비",
+      "amount_max": "1인당 연간 최대 10만원",
+      "period": null,
+      "description": "울산에서 개최되는 스포츠 경기와 울산 관내 공연·전시 관람료를 본인 결제 후 증빙자료 확인을 거쳐 울산페이로 환급"
+    },
+    "application": {
+      "start_date": "2026-05-26",
+      "end_date": "2026-11-30",
+      "rolling": false,
+      "method": "온라인 신청",
+      "application_url": "https://www.ulsanyouthpass.kr/"
+    },
+    "contact": {
+      "organization": "울산청년지원센터",
+      "phone": "052-230-3454~3457"
+    },
+    "status": "ACTIVE",
+    "priority": "SUPPORT",
+    "date_posted": "2026-05-15",
+    "source": "울산청년지원센터",
+    "source_type": "PUBLIC_AGENCY",
+    "source_url": "https://www.ulsanyouthpass.kr/sports-pass/business",
+    "secondary_sources": [
+      "https://www.ulsan.go.kr/s/ulsanyouth/bbs/view.do?bbsId=BBS_0000000000000309&dataId=57904&mId=008001002000000000"
+    ],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "19~39세 울산 청년",
+      "공고일부터 신청일까지 울산광역시에 주민등록 유지",
+      "2026년 청년문화예술패스 지원사업 대상자 제외"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_011",
+    "category": "TRANSPORT",
+    "subcategory": "교통비",
+    "title": "K-패스",
+    "provider": "국토교통부 대도시권광역교통위원회·한국교통안전공단",
+    "area_level": "NATIONAL",
+    "service_area": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": 19,
+      "age_max": 34,
+      "residency_required": true,
+      "residency_area": "K-패스 참여 지자체",
+      "employment_required": null,
+      "employment_condition": null,
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "울산광역시는 K-패스 참여 지역",
+        "청년기본법에 따른 만 19~34세 청년 환급률 적용"
+      ]
+    },
+    "support": {
+      "type": "대중교통비 환급",
+      "amount": "청년 기본 환급률 30%",
+      "amount_max": null,
+      "period": null,
+      "description": "K-패스 이용 실적에 따라 대중교통비를 환급하는 전국 제도"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": true,
+      "method": "K-패스 카드 발급 후 회원가입",
+      "application_url": "https://korea-pass.kr/"
+    },
+    "contact": {
+      "organization": null,
+      "phone": null
+    },
+    "status": "ACTIVE",
+    "priority": "CORE",
+    "date_posted": null,
+    "source": "K-패스 공식 홈페이지",
+    "source_type": "CENTRAL_GOVERNMENT",
+    "source_url": "https://korea-pass.kr/info/intro.do",
+    "secondary_sources": [],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "K-패스 사업에 참여하는 지자체에 주민등록",
+      "청년기본법에 따른 만 19세~34세"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_013",
+    "category": "CAREER",
+    "subcategory": "청년도전",
+    "title": "청년도전 지원사업",
+    "provider": "울산광역시 중구",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": null,
+      "age_max": null,
+      "residency_required": null,
+      "residency_area": null,
+      "employment_required": false,
+      "employment_condition": "구직단념청년, 자립준비청년, 청소년쉼터 입·퇴소 청소년 등",
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": []
+    },
+    "support": {
+      "type": "맞춤형 구직지원 프로그램 및 참여수당",
+      "amount": null,
+      "amount_max": null,
+      "period": "단기 5주 이상, 중기 15주 이상, 장기 25주 이상",
+      "description": "단기·중기·장기 유형별 프로그램, 참여수당 및 조건별 인센티브 지원"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": null,
+      "method": null,
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 중구청 일자리정책과",
+      "phone": null
+    },
+    "status": "UNKNOWN",
+    "priority": "CORE",
+    "date_posted": null,
+    "source": "울산광역시 중구 취업청년 꿈이룸 패키지",
+    "source_type": "LOCAL_GOVERNMENT",
+    "source_url": "https://www.junggu.ulsan.kr/suit/policy/policy02.jsp",
+    "secondary_sources": [],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": false,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "B"
+    },
+    "conditions_original": [
+      "구직단념청년, 자립준비청년, 청소년쉼터 입·퇴소 청소년 등"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_014",
+    "category": "CAREER",
+    "subcategory": "면접지원",
+    "title": "옷드림+",
+    "provider": "울산광역시 중구",
+    "area_level": "DISTRICT",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "neighborhood": null,
+      "address": "월평로 187번길 19, 1층"
+    },
+    "target": {
+      "age_min": 19,
+      "age_max": 39,
+      "residency_required": true,
+      "residency_area": "울산광역시 중구",
+      "employment_required": false,
+      "employment_condition": "중구 청년 구직자",
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "실제 면접 증빙자료 제출 필요",
+        "대학·대학원 면접, 모의면접, 취업캠프, 단순 일자리박람회, 현장실습 등은 제외"
+      ]
+    },
+    "support": {
+      "type": "면접정장·구두 무료 대여",
+      "amount": null,
+      "amount_max": null,
+      "period": "1회 3박4일, 연 4회",
+      "description": "면접용 정장과 구두를 무료 대여"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": true,
+      "method": "홈페이지 신청 및 승인 후 지정 업체 방문",
+      "application_url": "https://www.junggu.ulsan.kr/suit/rental/rsv_info.jsp"
+    },
+    "contact": {
+      "organization": "울산광역시 중구청 일자리정책과",
+      "phone": "052-290-8323"
+    },
+    "status": "ACTIVE",
+    "priority": "CORE",
+    "date_posted": null,
+    "source": "울산광역시 중구 옷드림+",
+    "source_type": "LOCAL_GOVERNMENT",
+    "source_url": "https://www.junggu.ulsan.kr/suit/rental/rsv_info.jsp",
+    "secondary_sources": [],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "만 19세~39세 이하의 중구 청년 구직자",
+      "주민등록초본으로 울산 중구 거주 확인",
+      "면접 증빙자료 제출 필요"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_015",
+    "category": "LIFE",
+    "subcategory": "청년공간",
+    "title": "청년일자리카페",
+    "provider": "울산광역시 남구",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "neighborhood": "무거동",
+      "address": "대학로 130, 2층"
+    },
+    "target": {
+      "age_min": 19,
+      "age_max": 39,
+      "residency_required": true,
+      "residency_area": "울산광역시",
+      "employment_required": null,
+      "employment_condition": null,
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": []
+    },
+    "support": {
+      "type": "청년 취업지원 공간 및 프로그램",
+      "amount": null,
+      "amount_max": null,
+      "period": null,
+      "description": "스터디 공간, 화상면접 공간, 강의실, 코워킹 공간과 취업역량 강화·상담 프로그램 제공"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": true,
+      "method": "첫 방문 시 참가서류 작성 후 전화·방문 예약, 프로그램은 인스타 링크트리·전화·방문 신청",
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 남구 청년일자리카페",
+      "phone": "052-260-2700"
+    },
+    "status": "ACTIVE",
+    "priority": "SUPPORT",
+    "date_posted": null,
+    "source": "울산광역시 남구 일자리포털",
+    "source_type": "LOCAL_GOVERNMENT",
+    "source_url": "https://www.ulsannamgu.go.kr/namgujob/contents/jobfacility/cafe_part.do",
+    "secondary_sources": [
+      "https://www.ulsannamgu.go.kr/namgujob/contents/education/cafe_job.do"
+    ],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "울산 청년 19~39세"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_016",
+    "category": "CAREER",
+    "subcategory": "면접지원",
+    "title": "면접정장 대여 프로그램",
+    "provider": "울산광역시 남구",
+    "area_level": "DISTRICT",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "neighborhood": "무거동",
+      "address": "대학로 130, 2층"
+    },
+    "target": {
+      "age_min": 19,
+      "age_max": 39,
+      "residency_required": true,
+      "residency_area": "울산광역시 남구",
+      "employment_required": false,
+      "employment_condition": "청년 구직자",
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "면접응시 증빙자료 필요"
+      ]
+    },
+    "support": {
+      "type": "면접정장 무료 대여",
+      "amount": null,
+      "amount_max": null,
+      "period": "대여 4일 이내, 연 3회",
+      "description": "면접에 필요한 정장과 구두 등을 전액 무료로 대여"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": true,
+      "method": "청년일자리카페 방문 및 신청서 제출",
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 남구 청년일자리카페",
+      "phone": "052-260-2700"
+    },
+    "status": "UNKNOWN",
+    "priority": "CORE",
+    "date_posted": null,
+    "source": "울산광역시 남구 일자리포털",
+    "source_type": "LOCAL_GOVERNMENT",
+    "source_url": "https://www.ulsannamgu.go.kr/namgujob/contents/education/cafe_job.do",
+    "secondary_sources": [],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "B"
+    },
+    "conditions_original": [
+      "신청일 현재 울산 남구가 주소인 19세~39세 청년 구직자",
+      "운영기간 연중, 예산 소진 시 종료"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_017",
+    "category": "HOUSING",
+    "subcategory": "청년근로자주택",
+    "title": "2026년 청년노동자 공유주택 예비입주자 모집",
+    "provider": "울산광역시 동구",
+    "area_level": "DISTRICT",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": "동구",
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": "울산광역시",
+      "sigungu": "동구",
+      "neighborhood": "전하동",
+      "address": "바드래1길 45"
+    },
+    "target": {
+      "age_min": 18,
+      "age_max": 39,
+      "residency_required": null,
+      "residency_area": null,
+      "employment_required": true,
+      "employment_condition": "울산 동구에서 근무",
+      "income_condition": "기준 중위소득 180% 이하",
+      "education_condition": null,
+      "housing_condition": "무주택 1인가구 청년 또는 신혼부부",
+      "additional_conditions": []
+    },
+    "support": {
+      "type": "청년노동자 공유주택 임대료 지원",
+      "amount": "월 임대료의 55%, 호당 25만원",
+      "amount_max": null,
+      "period": null,
+      "description": "동구에서 근무하는 청년 또는 신혼부부를 대상으로 공유주택 임대료 지원"
+    },
+    "application": {
+      "start_date": "2025-12-01",
+      "end_date": "2025-12-05",
+      "rolling": false,
+      "method": "동구청 건축주택과 방문접수",
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 동구청 건축주택과",
+      "phone": "052-209-3792"
+    },
+    "status": "CLOSED",
+    "priority": "CORE",
+    "date_posted": "2025-11-14",
+    "source": "울산광역시 동구 공식 안내",
+    "source_type": "LOCAL_GOVERNMENT",
+    "source_url": "https://donggu.ulsan.kr/cop/bbs/selectBoardArticle.do?bbsId=BBSMSTR_000000000252&nttId=207457",
+    "secondary_sources": [],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "1인가구 청년 및 신혼부부 18세 이상 39세 이하",
+      "동구에서 근무하는 기준중위소득 180% 이하 무주택자"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_018",
+    "category": "HOUSING",
+    "subcategory": "공공지원임대",
+    "title": "다시채움 빈집 리모델링 입주 희망자 모집",
+    "provider": "울산광역시 동구",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": "울산광역시",
+      "sigungu": "동구",
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": null,
+      "age_max": null,
+      "residency_required": true,
+      "residency_area": "울산광역시",
+      "employment_required": null,
+      "employment_condition": null,
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": "무주택자",
+      "additional_conditions": [
+        "울산광역시에 주민등록 또는 외국인등록",
+        "청년·대학생은 입주 우선순위 대상 중 하나"
+      ]
+    },
+    "support": {
+      "type": "공공지원 임대주택",
+      "amount": "월 임대료 10만원 이하",
+      "amount_max": null,
+      "period": null,
+      "description": "보증금 200만원 이하, 월 임대료 10만원 이하 조건의 리모델링 임대주택 공급"
+    },
+    "application": {
+      "start_date": "2026-07-27",
+      "end_date": "2026-08-07",
+      "rolling": false,
+      "method": "동구청 건축주택과 방문 신청",
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 동구청 건축주택과",
+      "phone": "052-209-3808"
+    },
+    "status": "CLOSED",
+    "priority": "CORE",
+    "date_posted": "2026-07-24",
+    "source": "울산광역시 동구 공식 보도자료",
+    "source_type": "LOCAL_GOVERNMENT",
+    "source_url": "https://www.donggu.ulsan.kr/cop/bbs/selectBoardArticle.do?bbsId=BBSMSTR_000000000322&nttId=211592",
+    "secondary_sources": [],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "A"
+    },
+    "conditions_original": [
+      "울산광역시에 주민등록 또는 외국인등록을 두고 있는 무주택자",
+      "보증금 200만원 이하, 월 임대료 10만원 이하"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_019",
+    "category": "CAREER",
+    "subcategory": "취업준비비용",
+    "title": "2026년 청년 일드림 패키지 지원사업",
+    "provider": "울산광역시 북구",
+    "area_level": "DISTRICT",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": "북구",
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": 18,
+      "age_max": 39,
+      "residency_required": true,
+      "residency_area": "울산광역시 북구",
+      "employment_required": false,
+      "employment_condition": "청년 구직자",
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "2026년 1월 1일 기준 만 18~39세",
+        "자격시험 응시료 지원은 만 19~39세",
+        "서비스 이용일부터 신청일까지 북구에 주민등록상 거주"
+      ]
+    },
+    "support": {
+      "type": "취업준비 비용 지원",
+      "amount": null,
+      "amount_max": null,
+      "period": null,
+      "description": "면접정장 무료대여, 취업사진 비용, 면접 헤어·메이크업 비용, 자격시험 응시료 지원"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": null,
+      "method": null,
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 북구청 경제일자리과",
+      "phone": "052-241-7720"
+    },
+    "status": "UNKNOWN",
+    "priority": "CORE",
+    "date_posted": "2026-01-30",
+    "source": "울산광역시 북구 고시공고",
+    "source_type": "LOCAL_GOVERNMENT",
+    "source_url": "https://eminwon.bukgu.ulsan.kr/emwp/gov/mogaha/ntis/web/ofr/action/OfrAction.do?Key=B_Subject&context=NTIS&countYn=Y&epcCheck=Y&homepage_pbs_yn=Y&initValue=Y&jndinm=OfrNotAncmtEJB&method=selectOfrNotAncmt&methodnm=selectOfrNotAncmtRegst&nodate_recent_mm=12&not_ancmt_mgt_no=43357&not_ancmt_se_code=01%2C03%2C04&ofr_pageSize=10&pageIndex=2&subCheck=Y&title=%EA%B3%A0%EC%8B%9C%EA%B3%B5%EA%B3%A0",
+    "secondary_sources": [
+      "https://www.bukgu.ulsan.kr/lay1/S1T2039C2076/contents.do"
+    ],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "B"
+    },
+    "conditions_original": [
+      "2026년 1월 1일 기준 만 18~39세 청년 구직자",
+      "서비스 이용일부터 신청일까지 북구에 거주",
+      "자격시험 응시료는 만 19~39세"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_020",
+    "category": "CAREER",
+    "subcategory": "청년도전",
+    "title": "청년도전지원사업",
+    "provider": "울산광역시 북구",
+    "area_level": "DISTRICT",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": "북구",
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": 18,
+      "age_max": 39,
+      "residency_required": null,
+      "residency_area": null,
+      "employment_required": false,
+      "employment_condition": "구직단념청년 등",
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "신청일 이전 6개월 이상 취·창업, 교육·직업훈련 참여 이력이 없는 구직단념청년 등이 주요 대상",
+        "자립준비청년, 청소년복지시설 입·퇴소 청년, 북한이탈청년, 지역특화청년 등 포함 가능"
+      ]
+    },
+    "support": {
+      "type": "맞춤형 구직활동 지원",
+      "amount": null,
+      "amount_max": null,
+      "period": null,
+      "description": "진로상담 등 맞춤형 프로그램과 유형별 참여수당·인센티브 제공"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": null,
+      "method": null,
+      "application_url": null
+    },
+    "contact": {
+      "organization": "(사)사회고용정책개발원",
+      "phone": "052-289-9203~9204"
+    },
+    "status": "UNKNOWN",
+    "priority": "CORE",
+    "date_posted": null,
+    "source": "울산광역시 북구 청년정책",
+    "source_type": "LOCAL_GOVERNMENT",
+    "source_url": "https://www.bukgu.ulsan.kr/lay1/S1T2039C2076/contents.do",
+    "secondary_sources": [],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "B"
+    },
+    "conditions_original": [
+      "18~39세 구직단념청년 등",
+      "신청일 이전 6개월 이상 취·창업, 교육·직업훈련 참여 이력이 없는 구직단념청년 등이 대상"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_021",
+    "category": "CAREER",
+    "subcategory": "기업탐방",
+    "title": "내:일(MY JOB)을 준비하는 구인기업 탐방 운영",
+    "provider": "울산광역시 북구",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": null,
+      "age_max": null,
+      "residency_required": null,
+      "residency_area": null,
+      "employment_required": false,
+      "employment_condition": "구직청년",
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": []
+    },
+    "support": {
+      "type": "기업탐방 및 취업매칭",
+      "amount": null,
+      "amount_max": null,
+      "period": "연 1회",
+      "description": "일자리 발굴 및 매칭, 구인기업 탐방, 사후관리"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": null,
+      "method": null,
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 북구청 경제일자리과",
+      "phone": "052-241-8648, 052-241-8649"
+    },
+    "status": "UNKNOWN",
+    "priority": "SUPPORT",
+    "date_posted": null,
+    "source": "울산광역시 북구 청년정책",
+    "source_type": "LOCAL_GOVERNMENT",
+    "source_url": "https://www.bukgu.ulsan.kr/lay1/S1T2039C2076/contents.do",
+    "secondary_sources": [],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": false,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "B"
+    },
+    "conditions_original": [
+      "지원대상 구직청년"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_022",
+    "category": "LIFE",
+    "subcategory": "청년공간",
+    "title": "청년공간 와락(樂) 운영",
+    "provider": "울산광역시 북구",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": "울산광역시",
+      "sigungu": "북구",
+      "neighborhood": null,
+      "address": "진장유통로 16, 진장디플렉스 C동 1층"
+    },
+    "target": {
+      "age_min": null,
+      "age_max": null,
+      "residency_required": null,
+      "residency_area": null,
+      "employment_required": null,
+      "employment_condition": null,
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": []
+    },
+    "support": {
+      "type": "청년공간 및 프로그램",
+      "amount": null,
+      "amount_max": null,
+      "period": null,
+      "description": "공유라운지, 커뮤니티룸, 사무공간을 제공하고 청년 맞춤 프로그램을 운영"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": true,
+      "method": null,
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 북구청 경제일자리과",
+      "phone": "052-241-7719~7720"
+    },
+    "status": "ACTIVE",
+    "priority": "SUPPORT",
+    "date_posted": null,
+    "source": "울산광역시 북구 청년정책",
+    "source_type": "LOCAL_GOVERNMENT",
+    "source_url": "https://www.bukgu.ulsan.kr/lay1/S1T2039C2076/contents.do",
+    "secondary_sources": [],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": false,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "B"
+    },
+    "conditions_original": [
+      "운영요일 화요일~토요일, 11:00~20:00"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_023",
+    "category": "CERTIFICATION_LANGUAGE",
+    "subcategory": "자기개발비",
+    "title": "2026년 울주군 청년 자기개발비 지원사업",
+    "provider": "울산광역시 울주군",
+    "area_level": "DISTRICT",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": null,
+      "sigungu": null,
+      "neighborhood": null,
+      "address": null
+    },
+    "target": {
+      "age_min": 18,
+      "age_max": 39,
+      "residency_required": true,
+      "residency_area": "울산광역시 울주군",
+      "employment_required": false,
+      "employment_condition": "미취업·미창업",
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "신청일 기준 울주군에 1년 전부터 계속해서 주민등록"
+      ]
+    },
+    "support": {
+      "type": "자기개발비 실비 지원",
+      "amount": null,
+      "amount_max": "1인 100만원 이내",
+      "period": null,
+      "description": "자격증 시험응시료, 수강료, 교재비를 실비 지원"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": true,
+      "method": "울주군 청년정책플랫폼 온라인 신청",
+      "application_url": "https://www.ulju.ulsan.kr/dreamwings/"
+    },
+    "contact": {
+      "organization": "울주군청 일자리지원과",
+      "phone": "052-204-1363"
+    },
+    "status": "UNKNOWN",
+    "priority": "CORE",
+    "date_posted": "2026-01-15",
+    "source": "울주군 청년정책플랫폼",
+    "source_type": "LOCAL_GOVERNMENT",
+    "source_url": "https://www.ulju.ulsan.kr/dreamwings/community/news.jsp?n=18993&pg=1&prc=view",
+    "secondary_sources": [],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": true,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "B"
+    },
+    "conditions_original": [
+      "신청일 기준 울주군에 1년 전부터 계속해서 주민등록을 두고 있는 18세~39세 미취업·미창업 청년",
+      "1인 100만원 이내 실비",
+      "예산 소진 시 조기 마감"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_024",
+    "category": "HOUSING",
+    "subcategory": "향후청년주택공급",
+    "title": "청년형 유홈(U home) 범서 건립공사",
+    "provider": "울산광역시",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "neighborhood": "범서읍",
+      "address": "굴화리 80-43번지 일원"
+    },
+    "target": {
+      "age_min": null,
+      "age_max": null,
+      "residency_required": null,
+      "residency_area": null,
+      "employment_required": null,
+      "employment_condition": null,
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "현재 설계·건립 단계로 실제 향후 입주자격은 확정하지 않음"
+      ]
+    },
+    "support": {
+      "type": "향후 청년주택 공급",
+      "amount": null,
+      "amount_max": null,
+      "period": null,
+      "description": "울주군 범서읍 굴화리에 청년주택 36호와 공유시설 등을 건립하는 사업"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": null,
+      "method": null,
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 건축정책과",
+      "phone": "052-229-4412"
+    },
+    "status": "UPCOMING",
+    "priority": "SUPPORT",
+    "date_posted": "2026-06-24",
+    "source": "울산광역시 고시공고",
+    "source_type": "GOVERNMENT",
+    "source_url": "https://www.ulsan.go.kr/u/rep/transfer/notice/46572.ulsan?gosiGbn=A&mId=001004002000000000",
+    "secondary_sources": [
+      "https://www.ulsan.go.kr/u/rep/bbs/view.ulsan?bbsId=BBS_0000000000000027&dataId=181969&mId=001004003001000000"
+    ],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": false,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "B"
+    },
+    "conditions_original": [
+      "현재 설계공모 및 건립 단계",
+      "청년주택 36호 공급 예정",
+      "실제 향후 입주자격은 현재 자료에서 확인되지 않음"
+    ]
+  },
+  {
+    "id": "ULSAN_SETTLE_025",
+    "category": "HOUSING",
+    "subcategory": "향후청년주택공급",
+    "title": "청년형 유홈(U home) 온산 건립공사",
+    "provider": "울산광역시",
+    "area_level": "CITY",
+    "service_area": {
+      "sido": "울산광역시",
+      "sigungu": null,
+      "neighborhood": null
+    },
+    "facility_location": {
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "neighborhood": "온산읍",
+      "address": "덕신리 1370번지"
+    },
+    "target": {
+      "age_min": null,
+      "age_max": null,
+      "residency_required": null,
+      "residency_area": null,
+      "employment_required": null,
+      "employment_condition": null,
+      "income_condition": null,
+      "education_condition": null,
+      "housing_condition": null,
+      "additional_conditions": [
+        "현재 설계·건립 단계로 실제 향후 입주자격은 확정하지 않음"
+      ]
+    },
+    "support": {
+      "type": "향후 청년주택 공급",
+      "amount": null,
+      "amount_max": null,
+      "period": null,
+      "description": "울주군 온산읍 덕신리에 청년주택 36호를 건립하는 사업"
+    },
+    "application": {
+      "start_date": null,
+      "end_date": null,
+      "rolling": null,
+      "method": null,
+      "application_url": null
+    },
+    "contact": {
+      "organization": "울산광역시 건축정책과",
+      "phone": "052-229-4412"
+    },
+    "status": "UPCOMING",
+    "priority": "SUPPORT",
+    "date_posted": "2026-06-24",
+    "source": "울산광역시 고시공고",
+    "source_type": "GOVERNMENT",
+    "source_url": "https://www.ulsan.go.kr/u/rep/transfer/notice/46573.ulsan?gosiGbn=A&mId=001004002000000000",
+    "secondary_sources": [
+      "https://www.ulsan.go.kr/u/rep/bbs/view.ulsan?bbsId=BBS_0000000000000027&dataId=181969&mId=001004003001000000"
+    ],
+    "collected_at": "2026-08-12",
+    "verification": {
+      "program_exists": true,
+      "eligibility_verified": false,
+      "benefit_verified": true,
+      "official_source_verified": true,
+      "verification_level": "B"
+    },
+    "conditions_original": [
+      "현재 설계공모 및 건립 단계",
+      "청년주택 36호 공급 예정",
+      "실제 향후 입주자격은 현재 자료에서 확인되지 않음"
+    ]
+  }
+]

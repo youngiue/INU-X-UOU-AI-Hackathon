@@ -1,0 +1,1559 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_HB_001",
+    "job_family_ai": "SNS·홍보콘텐츠",
+    "actual_tasks_normalized": [
+      "SNS 운영",
+      "홍보 콘텐츠 기획·제작",
+      "온라인 이벤트",
+      "홍보물 관리"
+    ],
+    "skills": [
+      "콘텐츠기획",
+      "SNS운영",
+      "홍보콘텐츠 제작"
+    ],
+    "tools_normalized": [
+      "Adobe Illustrator",
+      "Adobe Photoshop"
+    ],
+    "required_skills": [
+      "Adobe Illustrator 활용",
+      "Adobe Photoshop 활용"
+    ],
+    "transferable_skills": [
+      "글쓰기",
+      "콘텐츠기획",
+      "온라인 커뮤니케이션"
+    ],
+    "related_roles": [
+      "SNS 운영",
+      "콘텐츠 마케팅",
+      "홍보"
+    ],
+    "suitable_experience_examples": [
+      "SNS 계정 운영",
+      "블로그 콘텐츠 제작",
+      "온라인 홍보활동"
+    ],
+    "hard_gate_summary": [
+      "Illustrator·Photoshop 활용 필수"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "홍보 직무명과 SNS·콘텐츠 업무가 직접 일치"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "Adobe Gate 미충족자는 현재 지원가능 공고에서 제외"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_002",
+    "job_family_ai": "언론홍보·PR",
+    "actual_tasks_normalized": [
+      "취재 대응",
+      "보도자료 관리",
+      "프레스 운영",
+      "리뷰단 운영",
+      "기록콘텐츠 관리"
+    ],
+    "skills": [
+      "기사작성",
+      "자료정리",
+      "대외커뮤니케이션",
+      "행사운영"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "글쓰기",
+      "취재",
+      "자료조사",
+      "커뮤니케이션"
+    ],
+    "related_roles": [
+      "PR",
+      "언론홍보",
+      "콘텐츠 운영"
+    ],
+    "suitable_experience_examples": [
+      "교내신문 기사작성",
+      "취재 활동",
+      "기자단·서포터즈 운영",
+      "행사 홍보"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "홍보라는 직무명과 실제 언론홍보 업무가 일치"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": ""
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_003",
+    "job_family_ai": "문화콘텐츠·프로그램 운영",
+    "actual_tasks_normalized": [
+      "콘텐츠 자료관리",
+      "번역·출판 협업",
+      "프로그램 행사운영"
+    ],
+    "skills": [
+      "자료조사",
+      "문서편집",
+      "콘텐츠관리",
+      "행사운영"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "문서편집",
+      "자료정리",
+      "프로그램운영"
+    ],
+    "related_roles": [
+      "콘텐츠운영",
+      "출판기획",
+      "문화프로그램 운영"
+    ],
+    "suitable_experience_examples": [
+      "교내신문·잡지 편집",
+      "자료조사",
+      "학생회 행사운영",
+      "발표·행사진행"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "'프로그램4'라는 제목만으로 출판·콘텐츠 관리 업무를 예상하기 어려움"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "U-Career Graph 직무발견 사례로 특히 적합"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_004",
+    "job_family_ai": null,
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "4년제 대학 졸업 또는 동등 이상"
+    ],
+    "title_task_gap": {
+      "level": "UNKNOWN",
+      "reason": "공식 원문 수행업무 확보 부족"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "상세 업무 공식자료 확보 전 강한 추천 금지"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_005",
+    "job_family_ai": "연구행정·과제관리",
+    "actual_tasks_normalized": [
+      "연구지원",
+      "연구과제 관리"
+    ],
+    "skills": [
+      "과제관리",
+      "행정",
+      "문서관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "자료조사",
+      "문서작성",
+      "프로젝트관리"
+    ],
+    "related_roles": [
+      "연구행정",
+      "R&D 과제관리"
+    ],
+    "suitable_experience_examples": [
+      "연구 프로젝트 자료관리",
+      "보고서 작성",
+      "프로젝트 행정지원"
+    ],
+    "hard_gate_summary": [
+      "학사학위 이상"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "연구기획팀과 실제 연구지원·과제관리 업무가 대체로 일치"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": ""
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_006",
+    "job_family_ai": "사업기획·사업운영",
+    "actual_tasks_normalized": [
+      "사업기획",
+      "사업운영"
+    ],
+    "skills": [
+      "기획",
+      "프로젝트운영"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "기획안 작성",
+      "행사·프로젝트 운영"
+    ],
+    "related_roles": [
+      "사업기획",
+      "사업운영"
+    ],
+    "suitable_experience_examples": [
+      "학생회 사업기획",
+      "행사기획",
+      "프로젝트 운영"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "제목과 업무가 직접 일치"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "RAW 업무가 짧으므로 스킬 확장 제한"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_007",
+    "job_family_ai": "공공기관 사무행정",
+    "actual_tasks_normalized": [
+      "지출행정 지원",
+      "주택행정 지원",
+      "보상행정 지원"
+    ],
+    "skills": [
+      "행정처리",
+      "문서관리",
+      "자료정리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "문서작성",
+      "자료관리"
+    ],
+    "related_roles": [
+      "사무행정",
+      "경영지원"
+    ],
+    "suitable_experience_examples": [
+      "학생회 행정서류 관리",
+      "예산·증빙자료 정리",
+      "사무보조"
+    ],
+    "hard_gate_summary": [
+      "울산 연고 조건",
+      "청년 연령조건"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "사무행정 내에서 실제 배치부서별 업무가 나뉨"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "analysis_note": ""
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_008",
+    "job_family_ai": "공공기관 일반행정",
+    "actual_tasks_normalized": [
+      "일반행정"
+    ],
+    "skills": [
+      "행정"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "울산 지역인재 조건"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "행정(일반)과 실제 업무가 동일하게 표현됨"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "직무기술서 분석 전 경험 기반 추천 근거 부족"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_009",
+    "job_family_ai": "기록물관리",
+    "actual_tasks_normalized": [
+      "기록물관리",
+      "일반행정"
+    ],
+    "skills": [
+      "기록관리",
+      "문서관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "기록물관리 전문역량"
+    ],
+    "transferable_skills": [
+      "문서분류",
+      "자료관리"
+    ],
+    "related_roles": [
+      "기록물관리"
+    ],
+    "suitable_experience_examples": [
+      "문서 아카이빙 경험"
+    ],
+    "hard_gate_summary": [
+      "기록물관리 전문요원 자격 필수"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "기록물 직무와 실제 업무가 일치"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "LOW",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "PUBLIC_SPECIALIST 전용. 자격 미보유자는 현재 지원가능 후보에서 제외"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_010",
+    "job_family_ai": "공공기관 일반행정·사업지원",
+    "actual_tasks_normalized": [
+      "일반행정",
+      "지원사업 운영"
+    ],
+    "skills": [
+      "행정",
+      "사업운영"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "문서작성",
+      "프로젝트운영"
+    ],
+    "related_roles": [
+      "일반행정",
+      "사업운영"
+    ],
+    "suitable_experience_examples": [
+      "지원사업 운영",
+      "프로젝트 행정",
+      "결과보고서 작성"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "일반직 7급이라는 제목보다 실제 업무영역이 넓음"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "정보기술·투자운용 역량을 사용자에게 임의 추정하지 않음"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_011",
+    "job_family_ai": "창업지원·사업행정",
+    "actual_tasks_normalized": [
+      "지원사업 운영",
+      "사업비·회계행정",
+      "창업팀 지원"
+    ],
+    "skills": [
+      "사업운영",
+      "행정",
+      "예산관리",
+      "창업지원"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "프로젝트운영",
+      "예산관리",
+      "문서작성"
+    ],
+    "related_roles": [
+      "연구행정",
+      "창업지원",
+      "정부사업 운영"
+    ],
+    "suitable_experience_examples": [
+      "교내 지원사업 운영",
+      "학생회 예산·증빙관리",
+      "창업동아리 운영",
+      "결과보고서 작성"
+    ],
+    "hard_gate_summary": [
+      "학사학위 이상"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "'연구원'이라는 제목만으로 창업지원·회계행정 업무를 예측하기 어려움"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "직무명보다 수행업무 분석이 중요한 대표 사례"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_012",
+    "job_family_ai": null,
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "UNKNOWN",
+      "reason": "상세 업무 미확보"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "EXCLUDE"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_013",
+    "job_family_ai": null,
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "UNKNOWN",
+      "reason": "비서라는 모집분야 외 실제 수행업무 미확보"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "EXCLUDE"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_014",
+    "job_family_ai": null,
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "UNKNOWN",
+      "reason": "세부 모집직무·업무정보 부족"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "EXCLUDE"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HB_015",
+    "job_family_ai": null,
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "UNKNOWN",
+      "reason": "첨부 원문 수행업무 미검증"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "공고 자체는 유효하나 현재 AI 매칭에는 사용하지 않음"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_001",
+    "job_family_ai": "임상간호",
+    "actual_tasks_normalized": [
+      "환자 간호",
+      "건강관리",
+      "간호행정"
+    ],
+    "skills": [
+      "간호수행",
+      "환자관리",
+      "건강관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "간호 전문역량"
+    ],
+    "transferable_skills": [
+      "환자 커뮤니케이션",
+      "상황대응",
+      "기록관리"
+    ],
+    "related_roles": [
+      "임상간호",
+      "병원간호"
+    ],
+    "suitable_experience_examples": [
+      "간호학 임상실습",
+      "병원 간호실습"
+    ],
+    "hard_gate_summary": [
+      "간호사 면허 필수"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "간호사라는 제목과 실제 간호업무가 직접 일치"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "간호사 면허 미보유자는 현재 지원가능 후보에서 제외"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_002",
+    "job_family_ai": "물리치료·재활",
+    "actual_tasks_normalized": [
+      "물리치료"
+    ],
+    "skills": [
+      "물리치료"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "물리치료 전문역량"
+    ],
+    "transferable_skills": [],
+    "related_roles": [
+      "물리치료",
+      "재활치료"
+    ],
+    "suitable_experience_examples": [
+      "물리치료 관련 임상실습"
+    ],
+    "hard_gate_summary": [
+      "물리치료사 면허 필수"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "물리치료사라는 제목과 업무가 직접 일치"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "면허 우선 Gate"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_003",
+    "job_family_ai": "산업간호·보건관리",
+    "actual_tasks_normalized": [
+      "사업장 보건관리",
+      "건강진단 사후관리",
+      "건강증진 프로그램",
+      "감염병 관리",
+      "응급대응"
+    ],
+    "skills": [
+      "산업보건",
+      "건강관리",
+      "보건프로그램 운영",
+      "응급대응"
+    ],
+    "tools_normalized": [
+      "MS Office"
+    ],
+    "required_skills": [
+      "간호 전문역량",
+      "기업체 보건관리 실무"
+    ],
+    "transferable_skills": [
+      "프로그램기획",
+      "건강상담",
+      "응급상황 대응"
+    ],
+    "related_roles": [
+      "산업간호",
+      "보건관리자",
+      "기업건강관리"
+    ],
+    "suitable_experience_examples": [
+      "기업체 보건관리",
+      "특수건강진단 사후관리",
+      "건강증진 프로그램 운영"
+    ],
+    "hard_gate_summary": [
+      "간호사 면허",
+      "기업체 보건관리 경력 2년 이상",
+      "전문대학 이상"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "산업간호에서 예상 가능한 업무 외에 보건기획·감염병·건강증진 프로그램까지 포함"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "임상간호에서 산업보건 경로를 발견하는 데 유용하나 경력 Gate 우선"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_004",
+    "job_family_ai": "작업치료",
+    "actual_tasks_normalized": [
+      "작업치료 업무"
+    ],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [
+      "작업치료"
+    ],
+    "suitable_experience_examples": [
+      "작업치료 관련 실습"
+    ],
+    "hard_gate_summary": [
+      "작업치료사 자격",
+      "4년제 대학 졸업"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "직무명과 RAW 업무가 직접 일치"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "원문에 상세 치료업무가 없어 AI 확장 금지"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_005",
+    "job_family_ai": "지역사회 정신건강",
+    "actual_tasks_normalized": [
+      "지역사회 정신건강업무"
+    ],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [
+      "지역사회 정신건강"
+    ],
+    "suitable_experience_examples": [
+      "지역사회 정신건강증진사업 경험",
+      "자살예방사업 경험"
+    ],
+    "hard_gate_summary": [
+      "지정 전문자격 중 하나 필수"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "팀원이라는 직책만으로는 정신건강사업 업무와 다직종 자격구조를 파악하기 어려움"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "사회복지·심리·간호·작업치료 등 여러 전문배경의 직무발견 가치가 있음"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_006",
+    "job_family_ai": "병원동행·돌봄서비스",
+    "actual_tasks_normalized": [
+      "병원동행",
+      "이용자 케어"
+    ],
+    "skills": [
+      "돌봄",
+      "이용자지원"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "요양보호"
+    ],
+    "transferable_skills": [
+      "대인커뮤니케이션",
+      "돌봄지원"
+    ],
+    "related_roles": [
+      "병원동행",
+      "돌봄서비스"
+    ],
+    "suitable_experience_examples": [
+      "요양보호 업무",
+      "노인돌봄 또는 병원동행 경험"
+    ],
+    "hard_gate_summary": [
+      "요양보호사 자격 필수"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "병원동행매니저 제목과 실제 동행·케어 업무가 직접 일치"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "analysis_note": ""
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_007",
+    "job_family_ai": "장애인복지·생활지원",
+    "actual_tasks_normalized": [
+      "장애인 돌봄",
+      "복지행정",
+      "프로그램 관리·진행"
+    ],
+    "skills": [
+      "돌봄",
+      "프로그램운영",
+      "행정"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "프로그램운영",
+      "행정",
+      "대인커뮤니케이션"
+    ],
+    "related_roles": [
+      "장애인복지",
+      "복지프로그램 운영"
+    ],
+    "suitable_experience_examples": [
+      "장애인 복지시설 봉사·실습",
+      "복지 프로그램 운영",
+      "행정문서 처리"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "사회복지사라는 제목보다 장애인 돌봄·행정·프로그램 운영이라는 실제 업무가 구체적"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "필수 자격조건 전체를 원문에서 확인하지 못했으므로 SUPPORT. 자격을 임의 생성하지 않음."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_008",
+    "job_family_ai": "가족복지·지원사업 운영",
+    "actual_tasks_normalized": [
+      "교육활동비 지원사업 운영",
+      "연관 복지사업 운영",
+      "센터업무"
+    ],
+    "skills": [
+      "복지사업운영",
+      "행정",
+      "대상자지원"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "프로그램운영",
+      "문서작성",
+      "대상자커뮤니케이션"
+    ],
+    "related_roles": [
+      "복지사업 운영",
+      "가족지원사업"
+    ],
+    "suitable_experience_examples": [
+      "사회복지 프로그램 운영",
+      "다문화·청소년 지원활동",
+      "복지기관 행정"
+    ],
+    "hard_gate_summary": [
+      "관련학과 학사 또는 사회복지사2급",
+      "운전 가능"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "사회복지사라는 표현보다 특정 지원사업 운영 비중이 큼"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": ""
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_009",
+    "job_family_ai": "노인복지사업 운영",
+    "actual_tasks_normalized": [
+      "노인일자리 및 사회활동지원사업 운영"
+    ],
+    "skills": [
+      "노인복지",
+      "복지사업운영"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "사회복지 전문자격"
+    ],
+    "transferable_skills": [
+      "프로그램운영",
+      "행정"
+    ],
+    "related_roles": [
+      "노인복지",
+      "노인일자리사업"
+    ],
+    "suitable_experience_examples": [
+      "노인복지기관 실습",
+      "노인일자리사업 운영 경험"
+    ],
+    "hard_gate_summary": [
+      "사회복지사2급 이상"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "사회복지사보다 실제 노인일자리 사업분야가 더 구체적"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "analysis_note": ""
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_010",
+    "job_family_ai": null,
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "초대졸 이상"
+    ],
+    "title_task_gap": {
+      "level": "UNKNOWN",
+      "reason": "응급실 원무팀이라는 모집분야 외 구체 수행업무 미확인"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "SUPPORT. 일반적인 접수·수납 업무를 AI가 임의 생성하지 않음."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_011",
+    "job_family_ai": "외래 진료지원·간호조무",
+    "actual_tasks_normalized": [
+      "진료준비",
+      "환자안내",
+      "의료기기 관리",
+      "의료진 업무지원"
+    ],
+    "skills": [
+      "환자안내",
+      "진료지원",
+      "의료기기관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "간호조무"
+    ],
+    "transferable_skills": [
+      "환자커뮤니케이션",
+      "현장지원"
+    ],
+    "related_roles": [
+      "진료지원",
+      "간호조무"
+    ],
+    "suitable_experience_examples": [
+      "간호조무 실습",
+      "의료기관 진료지원 경험"
+    ],
+    "hard_gate_summary": [
+      "간호조무사 자격 필수"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "진료보조라는 제목에서 환자안내·의료기기 관리까지 업무가 확장됨"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "analysis_note": ""
+  },
+  {
+    "id": "ULSAN_JOB_NEW_HW_012",
+    "job_family_ai": "요양병원 병동간호",
+    "actual_tasks_normalized": [
+      "요양병원 병동간호"
+    ],
+    "skills": [
+      "병동간호"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "간호 전문역량"
+    ],
+    "transferable_skills": [
+      "환자관리",
+      "환자커뮤니케이션"
+    ],
+    "related_roles": [
+      "병동간호",
+      "요양병원 간호"
+    ],
+    "suitable_experience_examples": [
+      "병동 임상실습",
+      "요양병원 간호 경험"
+    ],
+    "hard_gate_summary": [
+      "간호사 면허"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "간호사 제목과 병동간호 업무가 직접 일치"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "LOW",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "민간 상세정보 교차검증이 포함되어 SUPPORT로 유지"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_001",
+    "job_family_ai": "공공기관 사무행정",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "UNKNOWN",
+      "reason": "사무행정 직렬은 확인되지만 세부 직무기술서 업무내용을 확보하지 못함"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "공고 자체는 신뢰할 수 있으나 경험 기반 핵심 추천에는 사용하지 않고 SUPPORT로 사용"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_002",
+    "job_family_ai": "공공기관 통계 직무",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "UNKNOWN",
+      "reason": "통계 직렬은 확인되지만 실제 수행업무 원문을 확보하지 못함"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "통계라는 제목만 보고 데이터분석·Python 등의 스킬을 임의 생성하지 않음"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_003",
+    "job_family_ai": "공공기관 일반행정",
+    "actual_tasks_normalized": [
+      "기획행정",
+      "총무행정",
+      "회계행정",
+      "기관운영 지원"
+    ],
+    "skills": [
+      "행정",
+      "기획",
+      "총무",
+      "회계지원"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "문서작성",
+      "조직운영",
+      "기획"
+    ],
+    "related_roles": [
+      "일반행정",
+      "총무",
+      "경영지원"
+    ],
+    "suitable_experience_examples": [
+      "학생회 조직운영",
+      "행사·사업 기획서 작성",
+      "예산 또는 증빙자료 관리"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "행정·사무라는 직렬 안에 기획·총무·회계 업무가 함께 포함됨"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": ""
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_004",
+    "job_family_ai": "공공금융·소상공인지원",
+    "actual_tasks_normalized": [
+      "경영전략",
+      "신용보증",
+      "회생지원",
+      "소상공인 교육"
+    ],
+    "skills": [
+      "공공금융 지원",
+      "사업지원",
+      "소상공인 지원"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "자료분석",
+      "문서작성",
+      "고객지원",
+      "사업운영"
+    ],
+    "related_roles": [
+      "신용보증",
+      "공공금융 행정",
+      "소상공인 지원"
+    ],
+    "suitable_experience_examples": [
+      "창업·소상공인 지원 프로그램 운영",
+      "경제·경영 관련 프로젝트",
+      "고객상담 또는 사업지원 활동"
+    ],
+    "hard_gate_summary": [
+      "지역인재 자격요건",
+      "병역조건"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "'일반직'이라는 제목만으로 신용보증·회생지원·소상공인교육까지 수행한다는 점을 알기 어려움"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "U-Career Graph의 직무발견 기능을 보여주기에 적합"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_005",
+    "job_family_ai": "문화·관광 공공행정",
+    "actual_tasks_normalized": [
+      "경영 일반행정",
+      "문화 일반행정",
+      "관광 일반행정"
+    ],
+    "skills": [
+      "행정",
+      "문화·관광 사업지원"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "문서작성",
+      "사업기획",
+      "프로그램운영",
+      "커뮤니케이션"
+    ],
+    "related_roles": [
+      "문화행정",
+      "관광행정",
+      "공공사업 운영"
+    ],
+    "suitable_experience_examples": [
+      "문화행사·축제 운영",
+      "학생회 행사기획",
+      "지역문화 프로젝트",
+      "사업계획서·결과보고서 작성"
+    ],
+    "hard_gate_summary": [
+      "연령조건",
+      "국적조건",
+      "공고상 행정직 자격기준"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "행정직이라는 제목 외에 문화·관광이라는 실제 사업영역이 존재"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": ""
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_006",
+    "job_family_ai": "사업지원·경영지원",
+    "actual_tasks_normalized": [
+      "사업지원",
+      "경영지원"
+    ],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고에서 확인되는 업무 자체가 사업지원·경영지원으로 매우 포괄적"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "세부 업무 공식원문 확보 전 경험 기반 강한 매칭 금지"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_PA_007",
+    "job_family_ai": null,
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "UNKNOWN",
+      "reason": "공식 상세 직무정보 미확보"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "verification D. 핵심 매칭에서 제외."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_001",
+    "job_family_ai": "제조 AI·DX·IT시스템",
+    "actual_tasks_normalized": [
+      "AI·DX 과제 기획 및 수행",
+      "AI·DX 시스템 구축",
+      "운영 전환",
+      "시스템 분석·설계",
+      "프로젝트 PM"
+    ],
+    "skills": [
+      "AI/DX 프로젝트",
+      "시스템 분석·설계",
+      "애플리케이션 개발",
+      "프로젝트관리"
+    ],
+    "tools_normalized": [
+      "JavaScript",
+      "Spring Boot"
+    ],
+    "required_skills": [
+      "Application 개발 및 분석·설계",
+      "AI/DT 프로젝트 수행",
+      "PM·PL 또는 사업관리"
+    ],
+    "transferable_skills": [
+      "소프트웨어개발",
+      "프로젝트관리",
+      "문제분석"
+    ],
+    "related_roles": [
+      "제조IT",
+      "스마트팩토리 IT",
+      "DX 프로젝트",
+      "IT 프로젝트 PM"
+    ],
+    "suitable_experience_examples": [
+      "제조 시스템 개발 프로젝트",
+      "AI·DX 프로젝트",
+      "스마트팩토리 프로젝트",
+      "Java 기반 업무시스템 개발"
+    ],
+    "hard_gate_summary": [
+      "경력 3년 이상",
+      "Application 개발 및 분석·설계 역량",
+      "AI/DT 프로젝트 또는 PM·PL·사업관리 경험"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "AI/DT라는 제목 외에 시스템 개발·운영전환·PM 및 분석설계까지 수행"
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "제조기업 내부 IT·DX 직무 발견을 보여주는 핵심 공고"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_002",
+    "job_family_ai": "AI 개발",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [
+      "API",
+      "AWS",
+      "PostgreSQL",
+      "Python"
+    ],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "경력 3년 이상"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "AI 개발자라는 직무명이 기술영역을 직접 제시"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "기술스택은 확인되지만 실제 수행업무가 없어 경험 매칭 확대 금지"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_003",
+    "job_family_ai": "소프트웨어 개발",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [
+      "ASP.NET",
+      "C#",
+      "JAVA",
+      "Python",
+      "React",
+      "Vue.js",
+      "Nexacro"
+    ],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "경력 3년 이상",
+      "대졸 이상"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "개발자라는 공고 제목이 직무를 직접 설명"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "공고에 표시된 기술은 활용 가능하지만 실제 수행업무 기반 매칭은 제한"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_004",
+    "job_family_ai": "Java·React 프로젝트 개발",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [
+      "Java",
+      "React"
+    ],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "경력 10년 이상",
+      "대졸 이상"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "직무명에서 기술과 프로젝트 개발 역할을 직접 확인 가능"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "대학생 현재지원 후보에서는 경력 10년 Gate로 제외"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_005",
+    "job_family_ai": "AI 개발",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "AI 개발자라는 직무명 자체는 명확함"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "채용이력 확인 수준. 상세업무 확보 전 핵심 매칭 금지."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_006",
+    "job_family_ai": "Flutter 앱 개발",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [
+      "Flutter"
+    ],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "직무명이 직접적"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "SUPPORT 전용"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_007",
+    "job_family_ai": "Node.js 백엔드 개발",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [
+      "Node.js"
+    ],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "직무명이 직접적"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "SUPPORT 전용"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_008",
+    "job_family_ai": "서버 인프라 운영",
+    "actual_tasks_normalized": [
+      "공공기관 서버 인프라 상주 운영"
+    ],
+    "skills": [
+      "서버 인프라 운영"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "시스템 운영"
+    ],
+    "related_roles": [
+      "서버운영",
+      "IT인프라 운영"
+    ],
+    "suitable_experience_examples": [
+      "서버 또는 시스템 운영 실무경험"
+    ],
+    "hard_gate_summary": [
+      "경력 3년 이상",
+      "초대졸 이상"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "서버 인프라 운영이라는 제목과 실제 모집분야가 일치"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": ""
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_009",
+    "job_family_ai": "정보보안 운영",
+    "actual_tasks_normalized": [
+      "공공기관 보안 상주 운영"
+    ],
+    "skills": [
+      "정보보안 운영"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [
+      "보안운영"
+    ],
+    "suitable_experience_examples": [
+      "정보보안 운영 실무경험"
+    ],
+    "hard_gate_summary": [
+      "경력 3년 이상",
+      "초대졸 이상"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "보안 상주 운영이라는 직무명이 실제 업무를 직접 설명"
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "특정 보안솔루션·기술은 원문 근거가 없어 생성하지 않음"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_010",
+    "job_family_ai": "그래픽·영상디자인",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [
+      "Excel",
+      "PowerPoint",
+      "Illustrator",
+      "InDesign",
+      "Photoshop",
+      "After Effects",
+      "Premiere Pro",
+      "한글"
+    ],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "초대졸 이상"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "그래픽 디자이너라는 직무명과 공고상 디자인 직무분류가 직접적"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "툴은 실제 공고 근거가 있으나 상세 디자인 수행업무·포트폴리오 필수 여부는 확인되지 않음"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_011",
+    "job_family_ai": "App/Web 서비스기획",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "서비스기획자라는 직무명이 직접적"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "세부 서비스기획 업무가 확인되지 않아 SUPPORT 전용"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_012",
+    "job_family_ai": "호텔 프런트",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "호텔프런트라는 모집직무가 직접적"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "구체적인 고객응대 업무를 원문에서 확인하지 못했으므로 경험 기반 매칭을 제한"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_013",
+    "job_family_ai": "호텔 객실서비스",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "객실 팀원이라는 직무명이 직접적"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "상세업무 없음"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_014",
+    "job_family_ai": "호텔 객실·OTA",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "객실부와 OTA 담당이라는 복합 모집분야는 확인되지만 실제 OTA 업무는 확인되지 않음"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "OTA 플랫폼·예약시스템·판매채널 관리업무를 임의 생성하지 않음"
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ID_015",
+    "job_family_ai": "호텔 프런트",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "프런트직이라는 모집명칭이 직접적"
+    },
+    "description_quality": "LOW",
+    "discovery_value": "LOW",
+    "analysis_confidence": "LOW",
+    "analysis_note": "기업 채용이력 수준의 SUPPORT 데이터"
+  }
+]
