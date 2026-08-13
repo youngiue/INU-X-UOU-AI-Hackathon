@@ -14,7 +14,7 @@ export interface ProfileFormData {
   certificates: string[];
   skills: string[];
   employmentType: string;
-  district: string;
+  districts: string[];
   usualSearchKeywords: string[];
 }
 
@@ -31,7 +31,7 @@ const initialFormData: ProfileFormData = {
   certificates: [],
   skills: [],
   employmentType: "정규직",
-  district: "",
+  districts: [],
   usualSearchKeywords: [],
 };
 
@@ -47,7 +47,7 @@ export function ProfileInputForm({ onSubmit, submitting = false }: ProfileInputF
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    if (!formData.district) return;
+    if (formData.districts.length === 0) return;
     void onSubmit(formData);
   }
 
@@ -81,10 +81,11 @@ export function ProfileInputForm({ onSubmit, submitting = false }: ProfileInputF
           id="district"
           label="희망 근무지역 (울산)"
           options={ULSAN_DISTRICTS}
-          value={formData.district}
-          onChange={(value) => updateField("district", value)}
+          multiple
+          value={formData.districts}
+          onChange={(value) => updateField("districts", value)}
           columns={5}
-          description="울산 내 희망 구/군을 선택해 주세요."
+          description="울산 내 희망 구/군을 선택해 주세요. (복수 선택 가능)"
         />
       </FormSection>
 
@@ -101,7 +102,7 @@ export function ProfileInputForm({ onSubmit, submitting = false }: ProfileInputF
 
       <button
         type="submit"
-        disabled={submitting || !formData.district}
+        disabled={submitting || formData.districts.length === 0}
         className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-accent px-4 py-3 text-sm font-semibold text-navy-950 transition-colors hover:bg-accent-hover disabled:cursor-not-allowed disabled:opacity-40"
       >
         {submitting ? "울산의 공고를 분석하는 중…" : "내 역량으로 공고 찾기"}

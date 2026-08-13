@@ -9,11 +9,14 @@ const explanationsSchema = z.object({
       jobId: z.string(),
       reasonSummary: z.string().min(1).max(300),
       hiddenGemNote: z.string().max(300).nullable(),
-    }),
+    })
   ),
 });
 
-export async function enhanceReasons(profile: UserProfile, matches: JobMatch[]) {
+export async function enhanceReasons(
+  profile: UserProfile,
+  matches: JobMatch[]
+) {
   if (!process.env.OPENAI_API_KEY) return null;
 
   const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });

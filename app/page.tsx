@@ -15,7 +15,7 @@ const STEPS = [
   {
     index: "02",
     title: "울산의 채용기회를 발견",
-    body: "직무명이 아니라 실제 담당업무·요구 역량·우대 경험을 기준으로 공고를 다시 읽습니다.",
+    body: "평소 검색하던 키워드만으로는 보이지 않던 사각지대를, 실제 담당업무·요구 역량 기준으로 다시 찾아냅니다.",
   },
   {
     index: "03",
@@ -189,8 +189,8 @@ export default function Home() {
                 <span className="text-accent">숨은 도면</span>을 읽습니다
               </h1>
               <p className="mt-6 max-w-lg text-[15px] leading-7 text-muted">
-                전공과 기술, 프로젝트 경험을 입력하면 채용공고의 실제 업무를 분석해
-                생각하지 못했던 울산의 기회를 보여드립니다.
+                전공과 평소 검색 습관이 만든 사각지대 때문에, 나에게 맞는 울산의 기회를
+                놓치고 있을 수 있어요. AI가 그 빈틈을 찾아 실제 업무 기준으로 보여드립니다.
               </p>
               <Link
                 href="/profile"
