@@ -33,7 +33,7 @@ export function MatchResultList({ results, blindSpotLabel }: MatchResultListProp
 
   return (
     <section className="w-full max-w-sm">
-      <div className="grid grid-cols-2 border-b border-grid" role="tablist" aria-label="매칭 결과 분류">
+      <div className="relative grid grid-cols-2 border-b border-grid" role="tablist" aria-label="매칭 결과 분류">
         <TabButton
           active={activeGroup === "existing"}
           onClick={() => setActiveGroup("existing")}
@@ -54,6 +54,12 @@ export function MatchResultList({ results, blindSpotLabel }: MatchResultListProp
           <Lightbulb aria-hidden="true" size={14} strokeWidth={2} />
           <span>새로 발견된 직무</span>
         </TabButton>
+        <div
+          aria-hidden="true"
+          className={`absolute bottom-0 left-0 h-0.5 w-1/2 rounded-full transition-transform duration-300 ease-out ${
+            activeGroup === "hidden" ? "translate-x-full bg-accent2" : "translate-x-0 bg-success"
+          }`}
+        />
       </div>
 
       <div
@@ -63,11 +69,11 @@ export function MatchResultList({ results, blindSpotLabel }: MatchResultListProp
         className="mt-4"
       >
         {activeGroup === "hidden" && (
-          <div className="mb-4 rounded-lg border border-accent2/40 bg-accent2-soft p-4 text-[13px] leading-5 text-accent2">
+          <div className="mb-4 rounded-lg border border-accent2/40 bg-accent2-soft p-4 text-center text-[13px] leading-5 text-accent2">
             {blindSpotLabel ? (
               <>
-                평소 <strong className="font-semibold">&apos;{blindSpotLabel}&apos;</strong> 위주로 검색하셨네요. 그
-                사각지대에 있던 직무들이에요.
+                평소 <strong className="font-semibold">&apos;{blindSpotLabel}&apos;</strong> 위주로 검색하셨네요.
+                <br />그 사각지대에 있던 직무들이에요.
               </>
             ) : (
               "평소 검색하지 않았던 직무지만, 회원님의 역량과 연관성이 높은 공고예요."
@@ -108,7 +114,7 @@ function TabButton({
   accent?: boolean;
   children: React.ReactNode;
 }) {
-  const activeColor = accent ? "border-accent2 text-accent2" : "border-success text-success";
+  const activeColor = accent ? "text-accent2" : "text-success";
 
   return (
     <button
@@ -118,8 +124,8 @@ function TabButton({
       aria-selected={active}
       aria-controls={controls}
       onClick={onClick}
-      className={`inline-flex min-h-12 items-center justify-center gap-1.5 border-b-2 px-2 text-xs font-medium transition-colors ${
-        active ? activeColor : "border-transparent text-muted hover:text-ink"
+      className={`inline-flex min-h-12 items-center justify-center gap-1.5 px-2 text-xs font-medium transition active:scale-95 ${
+        active ? activeColor : "text-muted hover:text-ink"
       }`}
     >
       {children}

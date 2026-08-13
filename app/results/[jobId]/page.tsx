@@ -32,7 +32,7 @@ export default function ResultDetailPage() {
           <p className="mt-2 text-[13px] leading-6 text-muted">세션이 만료되었거나 잘못된 접근입니다.</p>
           <Link
             href="/profile"
-            className="mt-6 inline-flex items-center gap-2 rounded-md bg-accent px-5 py-3 text-sm font-semibold text-navy-950 transition-colors hover:bg-accent-hover"
+            className="mt-6 inline-flex items-center gap-2 rounded-md bg-accent px-5 py-3 text-sm font-semibold text-navy-950 transition active:scale-95 hover:bg-accent-hover"
           >
             프로필 입력하러 가기
           </Link>
@@ -47,7 +47,7 @@ export default function ResultDetailPage() {
         <button
           type="button"
           onClick={() => router.push("/results")}
-          className="inline-flex items-center gap-1.5 text-[13px] font-medium text-muted transition-colors hover:text-ink"
+          className="inline-flex items-center gap-1.5 text-[13px] font-medium text-muted transition active:scale-95 hover:text-ink"
         >
           <ArrowLeft aria-hidden="true" size={15} strokeWidth={2} />
           목록으로

@@ -144,7 +144,7 @@ export function CareerMatchDemo() {
           <p className="text-xs font-medium text-emerald-700 dark:text-emerald-400">{profile?.major || "입력한 프로필"} 기반</p>
           <h2 className="mt-1 text-xl font-medium text-neutral-950 dark:text-white">매칭 결과 {results.length}개</h2>
         </div>
-        <button type="button" onClick={() => setStep("profile")} className="text-xs font-medium text-neutral-500 underline-offset-4 hover:underline dark:text-neutral-400">
+        <button type="button" onClick={() => setStep("profile")} className="text-xs font-medium text-neutral-500 underline-offset-4 transition active:scale-95 hover:underline dark:text-neutral-400">
           프로필 다시 입력
         </button>
       </div>
@@ -155,7 +155,7 @@ export function CareerMatchDemo() {
 
 function BackButton({ onClick, children }: { onClick: () => void; children: React.ReactNode }) {
   return (
-    <button type="button" onClick={onClick} className="inline-flex items-center gap-1.5 text-[13px] font-medium text-neutral-600 hover:text-neutral-950 dark:text-neutral-400 dark:hover:text-white">
+    <button type="button" onClick={onClick} className="inline-flex items-center gap-1.5 text-[13px] font-medium text-neutral-600 transition active:scale-95 hover:text-neutral-950 dark:text-neutral-400 dark:hover:text-white">
       <ArrowLeft aria-hidden="true" size={15} />
       {children}
     </button>

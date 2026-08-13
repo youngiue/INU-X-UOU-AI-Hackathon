@@ -14,9 +14,18 @@ type OptionSelectProps = OptionSelectBaseProps &
     | { multiple: true; value: string[]; onChange: (value: string[]) => void }
   );
 
-export function OptionSelect({ id, label, options, columns = 3, description, ...selection }: OptionSelectProps) {
+export function OptionSelect({
+  id,
+  label,
+  options,
+  columns = 3,
+  description,
+  ...selection
+}: OptionSelectProps) {
   function isSelected(option: string) {
-    return selection.multiple ? selection.value.includes(option) : option === selection.value;
+    return selection.multiple
+      ? selection.value.includes(option)
+      : option === selection.value;
   }
 
   function handleClick(option: string) {
@@ -32,10 +41,15 @@ export function OptionSelect({ id, label, options, columns = 3, description, ...
 
   return (
     <div className="space-y-2">
-      <label id={`${id}-label`} className="block text-[13px] font-medium text-ink">
+      <label
+        id={`${id}-label`}
+        className="block text-[14px] font-medium text-ink"
+      >
         {label}
       </label>
-      {description && <p className="text-xs leading-5 text-muted">{description}</p>}
+      {description && (
+        <p className="text-xs leading-5 text-muted">{description}</p>
+      )}
       <div
         role={selection.multiple ? "group" : "radiogroup"}
         aria-labelledby={`${id}-label`}
@@ -51,7 +65,7 @@ export function OptionSelect({ id, label, options, columns = 3, description, ...
               role={selection.multiple ? "checkbox" : "radio"}
               aria-checked={selected}
               onClick={() => handleClick(option)}
-              className={`rounded-md border px-3 py-2.5 text-[13px] font-medium transition-colors ${
+              className={`rounded-md border px-3 py-2.5 text-[13px] font-medium transition active:scale-95 ${
                 selected
                   ? "border-accent bg-accent-soft text-accent"
                   : "border-grid bg-navy-800 text-muted hover:border-grid-strong hover:text-ink"

@@ -163,7 +163,7 @@ export function MatchResultCard({
       <button
         type="button"
         onClick={onShowReason}
-        className="mt-4 inline-flex w-full items-center justify-center gap-1.5 rounded-md bg-accent px-4 py-3 text-[13px] font-semibold text-navy-950 transition-colors hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent2"
+        className="mt-4 inline-flex w-full items-center justify-center gap-1.5 rounded-md bg-accent px-4 py-3 text-[13px] font-semibold text-navy-950 transition active:scale-95 hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent2"
       >
         추천 이유 보기
         <ArrowRight aria-hidden="true" size={15} strokeWidth={2} />

@@ -47,7 +47,7 @@ export function TagInput({
 
   return (
     <div className="space-y-2">
-      <label htmlFor={id} className="block text-[13px] font-medium text-ink">
+      <label htmlFor={id} className="block text-[14px] font-medium text-ink">
         {label}
       </label>
       {description && (
@@ -61,7 +61,7 @@ export function TagInput({
             key={tag}
             type="button"
             onClick={() => removeTag(tag)}
-            className="inline-flex items-center gap-1 rounded-md bg-panel-light px-2 py-1 text-xs text-ink transition-colors hover:bg-grid"
+            className="inline-flex items-center gap-1 rounded-md bg-panel-light px-2 py-1 text-xs text-ink transition active:scale-95 hover:bg-grid"
             aria-label={`${tag} 삭제`}
           >
             {tag}
@@ -79,7 +79,7 @@ export function TagInput({
           className="min-w-32 flex-1 border-0 bg-transparent p-0 text-[13px] text-ink outline-none placeholder:text-muted-dim focus:shadow-none"
         />
       </div>
-      <p className="text-xs text-muted-dim">Enter 또는 쉼표로 추가 · 태그를 누르면 삭제</p>
+      <p className="text-xs text-muted-dim">Enter 또는 쉼표로 추가</p>
     </div>
   );
 }

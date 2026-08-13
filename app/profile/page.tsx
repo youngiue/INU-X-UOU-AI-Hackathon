@@ -4,31 +4,43 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { ProfileInputForm, type ProfileFormData } from "@/components/profile/ProfileInputForm";
+import {
+  ProfileInputForm,
+  type ProfileFormData,
+} from "@/components/profile/ProfileInputForm";
 import { useMatch } from "@/lib/context/MatchContext";
 import type { UserProfile } from "@/lib/types";
 
+const CAREER_YEARS_MAP: Record<string, number> = {
+  "신입": 0,
+  "1년 이하": 1,
+  "1~3년": 1,
+  "3~5년": 3,
+  "5년 이상": 5,
+};
+
 function toUserProfile(formData: ProfileFormData): UserProfile {
   const careerExperiences = formData.career.trim() ? [formData.career.trim()] : [];
-  const internshipExperiences = formData.internship.trim() ? [formData.internship.trim()] : [];
-  const projectExperiences = formData.project.trim() ? [formData.project.trim()] : [];
-  const trainingExperiences = formData.training.trim() ? [formData.training.trim()] : [];
-  const experience = formData.experience.trim() || [...careerExperiences, ...internshipExperiences, ...projectExperiences, ...trainingExperiences].join("\n") || "입력된 경험 없음";
+  const projectExperiences = formData.experience.trim() ? [formData.experience.trim()] : [];
+  const experience = [...careerExperiences, ...projectExperiences].join("\n") || "입력된 경험 없음";
 
   return {
     major: formData.major,
     education: formData.education,
     careerExperiences,
-    internshipExperiences,
+    internshipExperiences: [],
     projectExperiences,
     certificates: formData.certificates,
     skills: formData.skills,
-    trainingExperiences,
+    trainingExperiences: [],
     preferredConditions: formData.employmentType === "무관" ? "" : formData.employmentType,
-    interestedIndustries: formData.interestedIndustries,
+    interestedIndustries: [],
     usualSearchKeywords: formData.usualSearchKeywords,
     experience,
-    preferredLocation: formData.districts.map((district) => `울산 ${district}`).join(", "),
+    yearsExperience: CAREER_YEARS_MAP[formData.careerYears],
+    preferredLocation: formData.districts
+      .map((district) => `울산 ${district}`)
+      .join(", "),
   };
 }
 
@@ -50,11 +62,16 @@ export default function ProfilePage() {
         body: JSON.stringify(profile),
       });
       const payload = await response.json();
-      if (!response.ok) throw new Error(payload.error ?? "분석에 실패했습니다.");
+      if (!response.ok)
+        throw new Error(payload.error ?? "분석에 실패했습니다.");
       setMatchResult(profile, payload);
       router.push("/results");
     } catch (cause) {
-      setError(cause instanceof Error ? cause.message : "알 수 없는 오류가 발생했습니다.");
+      setError(
+        cause instanceof Error
+          ? cause.message
+          : "알 수 없는 오류가 발생했습니다."
+      );
       setLoading(false);
     }
   }
@@ -62,13 +79,25 @@ export default function ProfilePage() {
   return (
     <main className="min-h-screen px-6 py-12 sm:px-8">
       <div className="mx-auto w-full max-w-[480px]">
-        <Link href="/" className="inline-flex items-center gap-1.5 text-[13px] font-medium text-muted transition-colors hover:text-ink">
-          <ArrowLeft aria-hidden="true" size={15} strokeWidth={2} />
+        <Link
+          href="/"
+          className="inline-flex items-center gap-1.5 text-[15px] font-medium text-muted transition active:scale-95 hover:text-ink"
+        >
+          <ArrowLeft
+            aria-hidden="true"
+            size={15}
+            strokeWidth={2}
+            className="mt-[-3px]"
+          />
           처음으로
         </Link>
 
-        <p className="mt-6 font-technical text-xs tracking-[0.2em] text-accent2">PROFILE INPUT</p>
-        <h1 className="mt-2 text-2xl font-semibold tracking-tight text-ink">내 역량 도면 작성</h1>
+        <p className="mt-6 font-technical text-xs tracking-[0.2em] text-accent2">
+          PROFILE INPUT
+        </p>
+        <h1 className="mt-2 text-2xl font-semibold tracking-tight text-ink">
+          내 역량 도면 작성
+        </h1>
         <p className="mt-2 text-[13px] leading-6 text-muted">
           입력한 정보는 울산 지역 공고와의 적합도를 계산하는 데만 사용됩니다.
         </p>
@@ -76,7 +105,10 @@ export default function ProfilePage() {
         <div className="mt-8">
           <ProfileInputForm onSubmit={handleSubmit} submitting={loading} />
           {error && (
-            <p className="mt-4 rounded-md border border-danger/40 bg-danger/10 px-4 py-3 text-[13px] text-danger" role="alert">
+            <p
+              className="mt-4 rounded-md border border-danger/40 bg-danger/10 px-4 py-3 text-[13px] text-danger"
+              role="alert"
+            >
               {error}
             </p>
           )}

@@ -15,7 +15,7 @@ export interface InteractiveIdCardProps {
   variant?: "cropped" | "clipped";
 }
 
-const STRAP_HEIGHT = { cropped: 240, clipped: 108 } as const;
+const STRAP_HEIGHT = { cropped: 320, clipped: 108 } as const;
 const STRAP_ROTATION = 12;
 
 function LanyardStrap({
