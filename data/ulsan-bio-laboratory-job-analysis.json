@@ -1,0 +1,361 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_BIO_001",
+    "job_family_ai": "환경 시험실 실험보조",
+    "actual_tasks_normalized": [
+      "환경분야 실험업무 지원"
+    ],
+    "skills": [
+      "환경 실험 지원"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "실험 절차 준수",
+      "정확한 기록",
+      "실험실 협업"
+    ],
+    "related_roles": [
+      "환경 시험분석 보조",
+      "실험실 연구보조",
+      "환경 시험원"
+    ],
+    "suitable_experience_examples": [
+      "대학 화학·환경 실험실습",
+      "시료를 다루고 실험 결과를 기록한 경험",
+      "연구실 또는 실험실 보조 경험"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "환경분야 실험보조라는 모집분야와 확인된 업무가 직접 일치한다."
+    },
+    "description_quality": "LOW",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "공식자료라 공고 존재와 분야 신뢰도는 높지만 상세 시험업무 공개 수준이 낮아 분석 범위를 확장하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_BIO_002",
+    "job_family_ai": "바이오메디컬 실험연구",
+    "actual_tasks_normalized": [
+      "바이오스캐폴드 제작",
+      "미세유체칩 제작",
+      "세포배양 및 관리"
+    ],
+    "skills": [
+      "생물학 실험",
+      "분자생물학 실험",
+      "미세유체칩 제작",
+      "세포배양"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "생물학·분자생물학 실험 기술",
+      "미세유체칩 제작 기술"
+    ],
+    "transferable_skills": [
+      "실험 수행",
+      "실험 결과 기록",
+      "연구실 안전",
+      "실험 문제해결"
+    ],
+    "related_roles": [
+      "바이오 연구원",
+      "바이오메디컬 연구원",
+      "생명공학 연구원",
+      "미세유체 연구원",
+      "세포배양 연구원"
+    ],
+    "suitable_experience_examples": [
+      "세포배양을 포함한 생명공학 실험",
+      "미세유체칩 또는 바이오칩 제작 프로젝트",
+      "나노입자·유기화학 관련 연구실 경험"
+    ],
+    "hard_gate_summary": [
+      "학사 또는 임용 전 학사 취득 예정",
+      "화학·바이오메디컬공학·생명과학·생명공학 전공"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "전체 공고명은 정보바이오융합대학 연구원으로 넓지만 BME-R001 실제 직무는 바이오스캐폴드·미세유체칩·세포배양 연구로 구체적이다."
+    },
+    "description_quality": "VERY_HIGH",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "VERY_HIGH",
+    "analysis_note": "기업 소개가 아니라 UNIST 공식 직무기술서를 기반으로 해 학생 진로탐색과 지원자격 분석 모두에 활용 가치가 높다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_BIO_003",
+    "job_family_ai": "시험연구소 Chemist·화학 실험분석",
+    "actual_tasks_normalized": [
+      "울산시험연구소 Chemist 업무",
+      "실험·분석 업무"
+    ],
+    "skills": [
+      "시험실 실험",
+      "화학 분석업무"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "실험 정확성",
+      "시험절차 준수",
+      "분석결과 관리"
+    ],
+    "related_roles": [
+      "시험분석원",
+      "화학분석 연구원",
+      "시험검사원",
+      "시험연구원"
+    ],
+    "suitable_experience_examples": [
+      "분석화학 실험실습",
+      "화학 시료를 분석하고 결과를 정리한 프로젝트",
+      "시험·분석 연구실 인턴 또는 현장실습"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "울산시험연구소 실험·분석이라는 공고 제목과 Chemist 모집분야가 직접 일치한다."
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "신입 지원이 가능한 실제 울산 시험분석 직무라는 점에서 탐색 가치가 높다. 사용 분석장비는 확인되지 않아 추가하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_BIO_004",
+    "job_family_ai": "환경·모빌리티 시료채취·시험지원",
+    "actual_tasks_normalized": [
+      "시료채취",
+      "현장 시험업무 지원"
+    ],
+    "skills": [
+      "시료채취",
+      "현장업무 지원"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "현장 절차 준수",
+      "정확한 시료 취급",
+      "현장 협업"
+    ],
+    "related_roles": [
+      "환경 시료채취원",
+      "시험검사 보조",
+      "환경 시험지원",
+      "현장 시험원"
+    ],
+    "suitable_experience_examples": [
+      "환경 시료채취 실험실습",
+      "환경 현장조사 경험",
+      "환경·화학 관련 실험 프로젝트"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "환경 및 모빌리티 업무보조라는 제목보다 실제 확인 업무는 시료채취와 현장업무 지원으로 구체적이다."
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "시험인증기관의 현장형 직무를 보여주는 자료이며 세부 분석업무는 공개되지 않아 추가 해석하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_BIO_005",
+    "job_family_ai": "의료기기 기구설계·제품개발",
+    "actual_tasks_normalized": [
+      "의료기기 기구설계",
+      "3D 모델링 및 도면작성",
+      "시제품 제작·검증",
+      "제조공정 고려 설계",
+      "메커니즘 설계",
+      "양산제품 설계개선",
+      "설계변경 관리"
+    ],
+    "skills": [
+      "기구설계",
+      "3D 모델링",
+      "도면작성",
+      "시제품 검증",
+      "메커니즘 설계",
+      "양산설계 최적화"
+    ],
+    "tools_normalized": [
+      "SolidWorks",
+      "Creo",
+      "NX",
+      "CATIA"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "제품개발",
+      "설계 문제해결",
+      "제조부서 협업",
+      "기술문서 관리"
+    ],
+    "related_roles": [
+      "의료기기 개발",
+      "의료기기 기구설계",
+      "정밀기기 설계",
+      "제품개발 엔지니어",
+      "기계 R&D"
+    ],
+    "suitable_experience_examples": [
+      "캡스톤에서 기구물을 직접 설계·제작한 경험",
+      "3D CAD로 부품을 설계하고 도면을 작성한 경험",
+      "3D 프린팅·가공을 이용한 시제품 제작",
+      "설계 변경 전후 성능을 비교·검증한 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "4년제 대졸 이상",
+      "경력 지원자의 경우 실무 경력 10년 미만"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "의료기기 기구설계 및 제품개발이라는 제목과 실제 제품 설계·시제품·양산개선 업무가 일치한다."
+    },
+    "description_quality": "VERY_HIGH",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "신입 지원이 가능하고 학교 프로젝트·캡스톤 경험이 실제 공고에서 연결되는 의료기기 R&D 사례다. 특정 3D CAD 경험은 우대이며 필수조건으로 확대하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_BIO_006",
+    "job_family_ai": "분자진단·EV Assay 연구개발·Application",
+    "actual_tasks_normalized": [
+      "분자진단 Assay 개발",
+      "EV·엑소좀 Biomarker 분석법 개발",
+      "Assay 자동화 Workflow·Protocol 개발",
+      "Application Note·SOP·기술자료 작성",
+      "연구기관·병원 기술지원 및 마케팅 협업"
+    ],
+    "skills": [
+      "분자진단 Assay 개발",
+      "EV·엑소좀 분석",
+      "Biomarker 분석법 개발",
+      "자동화 Protocol 개발",
+      "기술문서 작성",
+      "기술지원"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "실험 문제해결",
+      "기술문서화",
+      "연구자·고객 커뮤니케이션",
+      "R&D와 제품화 연계"
+    ],
+    "related_roles": [
+      "분자진단 연구원",
+      "바이오 Assay 개발",
+      "IVD 연구개발",
+      "Application Scientist",
+      "바이오 기술지원"
+    ],
+    "suitable_experience_examples": [
+      "qPCR·ELISA·세포배양 등을 사용한 생명공학 실험",
+      "바이오마커 분석 연구",
+      "분자진단 또는 바이오센서 프로젝트",
+      "SOP 또는 실험 프로토콜 작성 경험"
+    ],
+    "hard_gate_summary": [
+      "학사 이상",
+      "분자생물학·생화학·생명공학 등 관련 전공"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "'기술응용팀 모집'이라는 제목만으로는 분자진단·EV Assay 개발, 자동화 및 기술지원 업무를 알기 어렵다."
+    },
+    "description_quality": "VERY_HIGH",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "바이오 R&D와 Application Scientist·기술지원이 연결되는 드문 울산 직무다. qPCR·ELISA·실무경력 3년은 우대조건으로 유지했다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_BIO_007",
+    "job_family_ai": "시험기관 시험업무 보조",
+    "actual_tasks_normalized": [
+      "시험업무 지원"
+    ],
+    "skills": [
+      "시험업무 지원"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "시험절차 준수",
+      "정확한 업무수행",
+      "시험기관 협업"
+    ],
+    "related_roles": [
+      "시험분석 보조",
+      "시험검사 보조",
+      "연구보조",
+      "환경·화학 시험지원"
+    ],
+    "suitable_experience_examples": [
+      "화학·환경 실험실습",
+      "시험절차에 따라 실험을 수행한 경험",
+      "시험·연구기관 현장실습"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "시험보조라는 공고 제목과 확인 가능한 모집분야가 일치한다."
+    },
+    "description_quality": "LOW",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "실근무지가 KTR 울산청사인 것은 확인되지만 공개된 상세 직무가 제한적이다. 분석장비나 시험방법을 임의로 확장하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_BIO_008",
+    "job_family_ai": "식품 HACCP·미생물 품질관리",
+    "actual_tasks_normalized": [
+      "식품 품질관리",
+      "HACCP 관리",
+      "식품 위생관리",
+      "미생물 분석"
+    ],
+    "skills": [
+      "품질관리",
+      "HACCP 관리",
+      "식품 위생관리",
+      "미생물 분석"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "품질시스템 관리",
+      "위생관리",
+      "분석결과 관리",
+      "문서관리"
+    ],
+    "related_roles": [
+      "식품 품질관리",
+      "미생물 분석원",
+      "HACCP 품질관리",
+      "식품 QC"
+    ],
+    "suitable_experience_examples": [
+      "미생물 시험·분석 실험",
+      "HACCP 기준을 조사하거나 적용한 프로젝트",
+      "식품·바이오 품질관리 실습",
+      "시험결과와 품질문서를 관리한 경험"
+    ],
+    "hard_gate_summary": [
+      "경력자"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "전체 제목에는 품질관리팀장과 생산팀장이 함께 있으나 본 레코드는 실제 별도 모집분야인 품질관리팀장만 다루며 업무에는 HACCP·미생물 분석이 포함된다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "유관업무 3년은 우대이고 필수 최소연수는 확인되지 않아 Hard Gate를 경력자까지만 설정했다."
+  }
+]
