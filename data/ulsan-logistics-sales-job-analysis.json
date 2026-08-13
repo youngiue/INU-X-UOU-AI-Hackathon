@@ -1,0 +1,295 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_LOG_001",
+    "job_family_ai": "산업재 B2B 기술영업·SCM",
+    "actual_tasks_normalized": [
+      "고객 관리 및 기술영업",
+      "제품 공급·판매 관리",
+      "SCM 관리"
+    ],
+    "skills": [
+      "B2B 고객관리",
+      "기술영업",
+      "제품 공급관리",
+      "SCM 관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "고객 커뮤니케이션",
+      "업무 조율",
+      "정보 전달",
+      "일정 관리"
+    ],
+    "related_roles": [
+      "B2B 기술영업",
+      "영업관리",
+      "SCM 운영",
+      "공급관리"
+    ],
+    "suitable_experience_examples": [
+      "기업 또는 팀의 요구사항을 파악하고 해결안을 제안한 프로젝트",
+      "제품·자재의 공급 흐름이나 일정을 관리한 프로젝트",
+      "여러 이해관계자 사이에서 요청사항과 일정을 조율한 경험"
+    ],
+    "hard_gate_summary": [
+      "경력 3년 이상",
+      "대학교 졸업(4년제) 이상"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목은 영업구매팀이지만 확인된 담당업무는 기술영업과 제품 공급·판매 및 SCM 관리 중심이다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "기술영업과 SCM이 결합된 실제 직무를 탐색하기에 유용하다. 다만 경력 3년 이상이 Hard Gate이므로 대학생의 유사 프로젝트 경험과 현재 지원 가능 여부는 구분해야 한다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_LOG_002",
+    "job_family_ai": "국내·해외 B2B 영업·무역",
+    "actual_tasks_normalized": [
+      "해외 거래처와 비즈니스 이메일 커뮤니케이션 및 조율",
+      "국내 거래업체 영업 및 조율"
+    ],
+    "skills": [
+      "해외 거래처 커뮤니케이션",
+      "비즈니스 이메일",
+      "국내 B2B 영업",
+      "거래처 조율"
+    ],
+    "tools_normalized": [
+      "CAD/CAM"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "대외 커뮤니케이션",
+      "문서 커뮤니케이션",
+      "요구사항 조율",
+      "업무 일정 관리"
+    ],
+    "related_roles": [
+      "해외영업",
+      "국내 B2B 영업",
+      "무역영업",
+      "영업관리"
+    ],
+    "suitable_experience_examples": [
+      "외국인 또는 해외 상대와 이메일로 업무를 조율한 경험",
+      "기업이나 조직을 대상으로 제안·협의를 수행한 프로젝트",
+      "해외시장 또는 거래처를 조사해 결과를 정리한 경험"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "국내영업 및 해외영업이라는 제목과 실제 국내 업체 영업·해외 거래처 조율 업무가 대체로 일치한다."
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "경력무관이라는 제목과 경력 1년 이상이라는 구조화 조건이 충돌하므로 현재 지원자격 판단에는 주의가 필요하다. 800점 이상 조건의 시험 종류도 특정하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_LOG_003",
+    "job_family_ai": "제조기업 수출입·구매·자재관리",
+    "actual_tasks_normalized": [
+      "수출입 통관 업무",
+      "구매 업무",
+      "자재관리"
+    ],
+    "skills": [
+      "수출입 통관 업무",
+      "구매관리",
+      "자재관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "정확한 문서처리",
+      "자재 흐름 파악",
+      "업무 일정 관리",
+      "유관부서 조율"
+    ],
+    "related_roles": [
+      "수출입관리",
+      "무역사무",
+      "구매",
+      "자재관리",
+      "물류관리"
+    ],
+    "suitable_experience_examples": [
+      "수출입 절차 또는 통관 프로세스를 조사한 프로젝트",
+      "부품이나 자재의 입출고·재고를 관리한 경험",
+      "구매 품목이나 공급업체를 비교·분석한 프로젝트"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "수출통관 및 자재관리라는 제목과 실제 담당업무가 직접적으로 일치한다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "제조기업에서 수출입 통관과 구매·자재 업무가 결합될 수 있음을 보여주는 사례다. 해당 공고는 경력무관·학력무관으로 확인됐다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_LOG_004",
+    "job_family_ai": "플랜트 전기·계장 자재관리",
+    "actual_tasks_normalized": [
+      "모듈 전기·계장 자재관리",
+      "자재 관련 실적관리",
+      "설치관리",
+      "자재 및 설치 검사",
+      "MS-Office 활용 업무"
+    ],
+    "skills": [
+      "전기·계장 자재관리",
+      "실적관리",
+      "설치관리",
+      "자재 검사",
+      "설치 검사",
+      "문서관리"
+    ],
+    "tools_normalized": [
+      "Microsoft Office"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "자재 상태 추적",
+      "공정·일정 관리",
+      "검사 결과 기록",
+      "문서관리"
+    ],
+    "related_roles": [
+      "플랜트 자재관리",
+      "전기자재관리",
+      "계장자재관리",
+      "현장 자재관리"
+    ],
+    "suitable_experience_examples": [
+      "전기·전자 부품의 BOM 또는 자재목록을 관리한 프로젝트",
+      "장비 설치와 부품 준비상태를 함께 관리한 프로젝트",
+      "부품 검사결과와 진척도를 기록·관리한 실험 또는 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "초대졸 이상"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "제목은 일반적인 플랜트 자재관리지만 실제 업무는 전기·계장 자재, 설치관리 및 검사까지 포함한다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "신입·경력(3년 이상)으로 표기돼 신입 지원 가능성이 함께 존재하므로 경력 3년을 전체 지원자의 필수조건으로 확대하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_LOG_005",
+    "job_family_ai": "제조기업 구매·조달·물류·수출입 관리",
+    "actual_tasks_normalized": [
+      "공사 견적 분석 및 계약관리",
+      "협력업체 관리 및 신규 거래처 발굴",
+      "원부자재 조달 및 물류관리",
+      "일반 물품 구매",
+      "수출입 통관 관리",
+      "원부재료 재고 및 입출고 관리"
+    ],
+    "skills": [
+      "견적 분석",
+      "계약관리",
+      "협력업체 관리",
+      "공급업체 발굴",
+      "구매·조달",
+      "수출입 통관관리",
+      "재고관리"
+    ],
+    "tools_normalized": [
+      "SAP"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "비용 비교·분석",
+      "외부 업체 커뮤니케이션",
+      "자재 흐름 관리",
+      "계약 문서관리",
+      "재고 정확도 관리"
+    ],
+    "related_roles": [
+      "구매",
+      "조달",
+      "물류관리",
+      "자재관리",
+      "수출입관리",
+      "SCM"
+    ],
+    "suitable_experience_examples": [
+      "공급업체의 가격·납기·조건을 비교한 프로젝트",
+      "전기·기계 부품의 자재목록과 재고 흐름을 관리한 경험",
+      "수입자재의 주문·통관·입고 프로세스를 분석한 프로젝트",
+      "협력업체 평가 또는 공급 리스크를 분석한 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "관련 경력 2년 이상 3년 이하"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "구매물류라는 제목보다 실제 업무범위가 넓어 계약, 협력업체 관리, 구매·조달, 통관 및 재고관리까지 포함한다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "제조업 구매물류 직무가 단순 구매에 그치지 않고 계약·조달·통관·재고관리까지 연결되는 실제 사례다. 다만 경력 조건이 있으므로 직무탐색 가치와 현재 대학생의 지원 가능 여부는 분리해야 한다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_LOG_006",
+    "job_family_ai": "수출입 화물 검량·현장검사",
+    "actual_tasks_normalized": [
+      "선박탱크 계측 및 물량 산출",
+      "선박탱크 견본 채취",
+      "육상탱크 계측 및 물량 산출",
+      "육상탱크 견본 채취",
+      "검사 결과 Survey Report 작성 및 발행"
+    ],
+    "skills": [
+      "탱크 계측",
+      "화물 물량 산출",
+      "견본채취",
+      "현장검사",
+      "검사결과 문서화"
+    ],
+    "tools_normalized": [
+      "Microsoft Office",
+      "Microsoft Excel"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "정확한 측정",
+      "수치 검증",
+      "현장 기록",
+      "보고서 작성",
+      "현장 커뮤니케이션"
+    ],
+    "related_roles": [
+      "검량",
+      "감정",
+      "수출입화물 검사",
+      "항만 화물검사",
+      "탱크 화물 검사"
+    ],
+    "suitable_experience_examples": [
+      "실험에서 계측값을 측정하고 오차를 검토한 경험",
+      "센서 측정값으로 수량 또는 상태를 계산한 프로젝트",
+      "측정결과를 정형화된 보고서로 작성한 실험·실습",
+      "산업설비나 측정장비를 직접 다뤄본 경험"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "수출입화물검사관이라는 제목만으로는 일반 통관검사로 이해할 수 있으나 실제 업무는 탱크 계측·물량 산출·견본채취 및 Survey Report 작성이다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "공고의 자격요건에 운전면허, Office, 어학시험, 검량사·감정사가 명시되어 있지만 각 항목이 모두 독립적인 필수 지원조건인지는 확인되지 않았다. 따라서 RAW에는 그대로 보존하고 Hard Gate는 확정하지 않았다."
+  }
+]

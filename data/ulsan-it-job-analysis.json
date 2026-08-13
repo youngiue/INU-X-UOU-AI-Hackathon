@@ -1,0 +1,433 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_IT_001",
+    "job_family_ai": "완성차 스마트팩토리 OT 시스템 개발·운영",
+    "actual_tasks_normalized": [
+      "제조현장 OT 시스템 개발·운영",
+      "OT 시스템 구축 및 장애 대응",
+      "생산설비와 운영시스템 연계",
+      "OT 시스템 표준화·최적화·신뢰성 개선"
+    ],
+    "skills": [
+      "OT 시스템 운영",
+      "스마트팩토리 시스템 운영",
+      "제조 시스템 연계",
+      "운영 안정화"
+    ],
+    "tools_normalized": [
+      "MES",
+      "IQIS"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "시스템 장애 대응",
+      "시스템 연계",
+      "제조 시스템 이해",
+      "운영 안정화"
+    ],
+    "related_roles": [
+      "스마트팩토리 엔지니어",
+      "OT 시스템 엔지니어",
+      "MES 운영",
+      "제조 IT 엔지니어"
+    ],
+    "suitable_experience_examples": [
+      "PLC·설비 데이터를 상위 시스템과 연계한 프로젝트",
+      "MES 또는 제조 시스템 인터페이스 프로젝트",
+      "산업용 시스템의 상태를 모니터링하고 개선한 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "경력 4년 이상"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "스마트팩토리 OT 개발·운영이라는 제목과 제조현장 OT 시스템의 구축·운영·장애대응 업무가 직접 일치한다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "제조설비와 IT 시스템이 결합되는 스마트팩토리 직무를 탐색하는 데 가치가 높다. 다만 경력 4년 이상 포지션이므로 학부 프로젝트 경험과 현재 지원자격을 동일하게 판단해서는 안 된다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_002",
+    "job_family_ai": "에너지·화학 제조 AI/DT 시스템",
+    "actual_tasks_normalized": [
+      "제조 고객사 AI/DT 과제 발굴 및 구체화",
+      "AI/DT 사업 제안·구축·운영 전환",
+      "프로젝트 PM 및 시스템 분석·설계"
+    ],
+    "skills": [
+      "AI/DT 프로젝트 수행",
+      "제조 시스템 분석·설계",
+      "Application 개발",
+      "프로젝트 관리"
+    ],
+    "tools_normalized": [
+      "JavaScript",
+      "Spring Boot",
+      "Java",
+      "C#",
+      "Python",
+      "React"
+    ],
+    "required_skills": [
+      "Application 개발 및 분석·설계",
+      "AI/DT 프로젝트 경험",
+      "제조 생산·설비·안전환경 시스템 경험"
+    ],
+    "transferable_skills": [
+      "요구사항 분석",
+      "프로젝트 관리",
+      "시스템 설계",
+      "이해관계자 커뮤니케이션"
+    ],
+    "related_roles": [
+      "산업 AI 엔지니어",
+      "제조 DT 컨설턴트",
+      "제조 시스템 분석·설계",
+      "스마트팩토리 PM/PL",
+      "제조 IT 개발"
+    ],
+    "suitable_experience_examples": [
+      "제조 데이터를 활용해 공정·설비 문제를 분석한 프로젝트",
+      "AI 모델을 제조 문제에 적용한 프로젝트",
+      "제조 데이터를 사용하는 Application 개발 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "관련 경력 3년 이상",
+      "Application 개발·분석설계 역량",
+      "AI/DT 프로젝트 경험",
+      "제조 시스템 운영·개발 경험"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "AI/DT 및 시스템 담당이라는 제목과 AI/DT 과제의 발굴·구축·운영 및 시스템 분석·설계 업무가 일치한다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "울산 제조업에서 소프트웨어 개발과 AI/DT 사업·시스템 분석이 결합되는 직무 사례다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_003",
+    "job_family_ai": "화학공장 IT Application 운영·DT",
+    "actual_tasks_normalized": [
+      "공장 Application 운영·개선",
+      "데이터 기반 운영지표 관리",
+      "SOP·매뉴얼·프로세스맵 관리",
+      "내부 IT 변경요청 조정",
+      "AI/DT 솔루션 적용 타당성 검토"
+    ],
+    "skills": [
+      "Application 운영",
+      "IT 운영기획",
+      "운영 데이터 관리",
+      "프로세스 관리",
+      "AI/DT 검토"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "시스템·Application·서버·네트워크 기본 이해"
+    ],
+    "transferable_skills": [
+      "IT 이슈 분석",
+      "업무 프로세스 문서화",
+      "운영지표 관리",
+      "내부 고객 커뮤니케이션"
+    ],
+    "related_roles": [
+      "공장 IT 운영",
+      "제조 IT 기획",
+      "Application 운영",
+      "DT 기획",
+      "스마트팩토리 운영"
+    ],
+    "suitable_experience_examples": [
+      "시스템 운영 데이터를 분석해 개선안을 만든 프로젝트",
+      "사용자 요구사항을 시스템 개선안으로 정리한 프로젝트",
+      "업무 프로세스를 분석·문서화한 경험"
+    ],
+    "hard_gate_summary": [
+      "학사 이상",
+      "시스템·Application·서버·네트워크 기본 이해"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "IT 운영·고도화라는 제목보다 실제 업무가 데이터 기반 운영관리와 AI/DT 솔루션 검토까지 포함한다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "제조기업 내부 IT 직무가 단순 개발뿐 아니라 Application 운영, 데이터 기반 관리, DT 검토까지 포함할 수 있음을 보여준다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_004",
+    "job_family_ai": "MES 웹 개발·유지보수",
+    "actual_tasks_normalized": [
+      "MES 시스템 구축 관련 웹 개발·유지보수"
+    ],
+    "skills": [
+      "웹 개발",
+      "시스템 유지보수"
+    ],
+    "tools_normalized": [
+      "Vue2",
+      "Vue3"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "웹 애플리케이션 개발",
+      "기존 시스템 유지보수"
+    ],
+    "related_roles": [
+      "MES 개발자",
+      "스마트팩토리 웹개발자",
+      "제조 시스템 개발자",
+      "MES 유지보수 엔지니어"
+    ],
+    "suitable_experience_examples": [
+      "Vue 기반 웹서비스 개발 프로젝트",
+      "생산·재고·공정 정보를 조회하는 웹 애플리케이션 프로젝트",
+      "기존 웹서비스 기능 유지보수 경험"
+    ],
+    "hard_gate_summary": [
+      "경력 3년 이상"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "공고 제목은 MES 시스템 구축 웹개발로 구체적이지만 확인 가능한 모집요강의 실제 모집분야는 개발/유지보수 수준으로 제시된다."
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "MES 관련 공고라는 사실은 제목에서 확인되지만 세부 개발업무 공개 수준이 낮다. 따라서 일반적인 MES 기능이나 데이터베이스 기술을 추정해 추가하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_005",
+    "job_family_ai": "자동차 제조 MES 응용소프트웨어 개발",
+    "actual_tasks_normalized": [
+      "자동차 제조 MES 솔루션 관련 응용 소프트웨어 개발"
+    ],
+    "skills": [
+      "응용 소프트웨어 개발"
+    ],
+    "tools_normalized": [
+      "C#.NET",
+      "ASP.NET",
+      "Java"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "응용 소프트웨어 구현",
+      "업무 시스템 개발"
+    ],
+    "related_roles": [
+      "MES 개발자",
+      "응용소프트웨어 개발자",
+      "스마트팩토리 개발자",
+      "제조 시스템 개발자"
+    ],
+    "suitable_experience_examples": [
+      "Java 또는 .NET 기반 업무시스템 개발 프로젝트",
+      "생산·공정 데이터를 관리하는 애플리케이션 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "초대졸 이상"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "제목에는 MES 솔루션 개발·구축이 명시되지만 구조화 모집분야에서는 응용 S/W 프로그램 개발자로 표시된다."
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "신입·경력(3년 이상)이 함께 표기되어 있으므로 경력 3년을 신입 지원자까지 적용되는 필수조건으로 해석하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_006",
+    "job_family_ai": "완성차 MES 네트워크 운영",
+    "actual_tasks_normalized": [
+      "완성차 공장 MES 관련 네트워크 운영"
+    ],
+    "skills": [
+      "네트워크 운영",
+      "방화벽 운영",
+      "유·무선 네트워크",
+      "인증서버 운영"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "네트워크 장애 대응",
+      "인프라 운영",
+      "제조 시스템 운영 지원",
+      "교대 운영 대응"
+    ],
+    "related_roles": [
+      "OT 네트워크 엔지니어",
+      "네트워크 운영 엔지니어",
+      "MES 인프라 운영",
+      "스마트팩토리 인프라 엔지니어"
+    ],
+    "suitable_experience_examples": [
+      "라우터·스위치 기반 네트워크 구축 실습",
+      "방화벽 또는 인증 시스템 구성 프로젝트",
+      "산업 네트워크 구조를 설계·분석한 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "경력자"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "MES 네트워크 운영이라는 제목과 실제 모집분야인 네트워크 운영이 직접 연결된다."
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "CCNA·CCNP와 유관경력 5년은 우대조건이며 필수조건이 아니다. 또한 CCNA·CCNP는 자격증이므로 tools_normalized에서 제거했다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_008",
+    "job_family_ai": "산업용 비전 AI·MLOps·Edge AI",
+    "actual_tasks_normalized": [
+      "비전·산업 데이터 기반 AI 모델 개발",
+      "AI 모델 경량화 및 실시간 추론 최적화",
+      "Edge 디바이스 AI 배포·운영",
+      "AI 학습·배포·모니터링 파이프라인 구축",
+      "모델 드리프트 관리 및 재학습",
+      "AI PoC의 상용화 전환"
+    ],
+    "skills": [
+      "Computer Vision",
+      "산업 데이터 분석",
+      "딥러닝",
+      "Edge AI",
+      "MLOps",
+      "AI 모델 최적화"
+    ],
+    "tools_normalized": [
+      "Python",
+      "SQL",
+      "MySQL",
+      "PyTorch",
+      "TensorFlow",
+      "Docker",
+      "Kubernetes",
+      "FastAPI",
+      "TensorRT",
+      "ONNX Runtime",
+      "OpenVINO",
+      "Jetson",
+      "Raspberry Pi",
+      "NPU"
+    ],
+    "required_skills": [
+      "AI/ML 모델 개발",
+      "비전 AI",
+      "산업 데이터 분석",
+      "Edge AI 배포",
+      "AI 서비스 운영"
+    ],
+    "transferable_skills": [
+      "실험 설계",
+      "모델 성능 분석",
+      "데이터 파이프라인 설계",
+      "기술 요구사항 조율"
+    ],
+    "related_roles": [
+      "AI 비전 엔지니어",
+      "산업 AI 엔지니어",
+      "MLOps 엔지니어",
+      "Edge AI 엔지니어",
+      "AI 기반 품질관리 엔지니어"
+    ],
+    "suitable_experience_examples": [
+      "카메라 영상으로 불량 또는 객체를 검출하는 AI 프로젝트",
+      "센서·공정 데이터로 이상상태나 품질을 예측한 프로젝트",
+      "Edge 장치에 AI 모델을 배포한 프로젝트",
+      "Docker 기반 AI 서비스를 구축한 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "경력 8~15년",
+      "관련 석사 이상",
+      "AI/ML 및 비전 AI 경험",
+      "산업 데이터 분석 경험",
+      "Edge 배포·운영 경험"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "AI 비전·데이터분석이라는 제목보다 실제 업무가 Edge AI, 모델 최적화, MLOps와 상용화까지 넓다."
+    },
+    "description_quality": "VERY_HIGH",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "산업 비전검사·품질예측·Edge AI·MLOps가 결합된 실제 울산 산업 AI 직무 사례다. 높은 경력·학력조건 때문에 직무탐색 가치와 현재 지원 가능성을 분리해야 한다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_IT_009",
+    "job_family_ai": "Physical AI·로봇 학습",
+    "actual_tasks_normalized": [
+      "Physical AI 연구개발",
+      "VLA/RL 기반 로봇 학습 모델 고도화",
+      "고수준 에이전트·시스템 개발",
+      "Physical AI 시스템 시뮬레이션·실환경 평가",
+      "실제 구현을 위한 기술 요구사항 도출·지원"
+    ],
+    "skills": [
+      "Physical AI",
+      "Reinforcement Learning",
+      "로봇 학습",
+      "딥러닝",
+      "Python 데이터 처리",
+      "AI 시스템 평가"
+    ],
+    "tools_normalized": [
+      "C++",
+      "Python",
+      "NumPy",
+      "Pandas",
+      "PyTorch",
+      "TensorFlow",
+      "Jax"
+    ],
+    "required_skills": [
+      "Physical AI 관련 연구 역량",
+      "딥러닝 프레임워크 활용",
+      "Python 데이터 분석"
+    ],
+    "transferable_skills": [
+      "AI 실험 설계",
+      "시뮬레이션",
+      "모델 성능평가",
+      "로봇·소프트웨어 협업"
+    ],
+    "related_roles": [
+      "Physical AI Engineer",
+      "Robotics AI Engineer",
+      "로봇 학습 연구원",
+      "AI 비전 엔지니어",
+      "Real-time AI 시스템 엔지니어"
+    ],
+    "suitable_experience_examples": [
+      "강화학습 또는 로봇 제어 알고리즘 프로젝트",
+      "PyTorch 기반 딥러닝 모델 연구·개발",
+      "로봇 시뮬레이터에서 모델을 검증한 프로젝트",
+      "카메라·센서와 AI 모델을 결합한 로봇 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "경력 1~10년",
+      "영남지역 근무 가능",
+      "Physical AI 관련 석사 또는 이에 준하는 경력",
+      "딥러닝 프레임워크 활용 역량",
+      "Python 데이터 처리·분석 역량"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "Physical AI Engineer라는 제목과 VLA/RL 로봇학습, 에이전트 연구, 시뮬레이션·실환경 평가 업무가 일치한다."
+    },
+    "description_quality": "VERY_HIGH",
+    "discovery_value": "VERY_HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "전통적인 공장자동화와 구분되는 Physical AI 직무다. 석사 또는 이에 준하는 경력 등의 조건 때문에 학부 프로젝트 경험만으로 현재 지원 가능하다고 판단해서는 안 된다."
+  }
+]
