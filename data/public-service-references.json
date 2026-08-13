@@ -1,0 +1,44 @@
+[
+  {
+    "id": "PUBLIC_SERVICE_REFERENCE_POLICE_2026",
+    "occupation_group": "PUBLIC_SERVICE",
+    "occupation_type": "PUBLIC_SERVICE",
+    "career_name": "경찰공무원",
+    "recruitment_year": 2026,
+    "selection_region": null,
+    "work_location": {
+      "raw": null,
+      "sido": null,
+      "sigungu": null,
+      "detail": null,
+      "ulsan_status": "UNKNOWN"
+    },
+    "selection_count": null,
+    "application_period": {
+      "start": null,
+      "end": null
+    },
+    "eligibility": {
+      "age": null,
+      "education": null,
+      "license": [],
+      "career": [],
+      "other": []
+    },
+    "hard_gates": [],
+    "exam_process": [],
+    "source": {
+      "source_name": "경찰청 2026년 경찰공무원 채용인원 등 공식 발표",
+      "source_type": "PUBLIC_OFFICIAL",
+      "source_url": "https://www.police.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1002&q_bbscttSn=20260112073315293",
+      "official_url_available": true
+    },
+    "verification_level": "D",
+    "verification_notes": [
+      "경찰청 차원의 2026년 경찰공무원 채용계획 존재는 확인",
+      "울산경찰청의 2026년 순경 지역별 상세 모집원문은 이번 검증에서 확보하지 못함",
+      "울산 선발인원, 응시연령, 운전면허, 시험과목, 체력시험, 신체조건을 추정하지 않음",
+      "U-Career Graph의 울산 현재채용 추천 후보에는 사용하지 않음"
+    ]
+  }
+]
