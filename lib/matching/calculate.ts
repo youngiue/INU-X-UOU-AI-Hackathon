@@ -83,11 +83,11 @@ function isCurrentEligible(profile: UserProfile, job: Job, qualificationSemantic
 function buildStrengths(profile: UserProfile, job: Job, matchedSkills: string[]): SkillMatch[] { return matchedSkills.slice(0, 8).map((label) => ({ label, sourceContext: profile.skills.includes(label) ? "보유 기술·자격증" : "경험", relatedTo: `${job.discoveredRole} 업무` })); }
 function buildGaps(job: Job, matchedSkills: string[]): SkillGap[] { return job.requiredSkills.filter((skill) => !matchedSkills.includes(skill)).slice(0, 2).map((label) => ({ label, suggestion: `${label} 관련 역량 보완 교육 과정을 통해 채울 수 있어요.` })); }
 
-function scoreJob(profile: UserProfile, job: Job, semanticScore?: number, qualificationSemanticScore?: number): JobMatch | null {
+function scoreJob(profile: UserProfile, job: Job, semanticScore?: number, qualificationSemanticScore?: number, bypassMinimumScore = false): JobMatch | null {
   const terms = profileTerms(profile); const taskTerms = [...(job.actualTasks ?? []), ...(job.analysisSkills ?? []), ...(job.toolsNormalized ?? []), ...(job.aiRequiredSkills ?? []), ...job.requiredSkills, ...(job.transferableSkills ?? [])];
   const matchedSkills = [...new Set(taskTerms.filter((term) => matchesRequirement(profile, term)))]; const matchedPreferred = (job.preferredSkills ?? []).filter((term) => matchesRequirement(profile, term)); const majorMatched = hasAnyTerm(terms, job.relatedMajors ?? []) || hasTerm([profile.major], job.discoveredRole); const taskMatched = (job.actualTasks ?? []).filter((task) => hasAnyTerm(terms, task.split(/[·,/ ]/).filter(Boolean))); const suitableExperienceMatched = (job.suitableExperienceExamples ?? []).filter((example) => matchesExperienceExample(terms, example));
   const evidenceCount = new Set([...matchedSkills, ...taskMatched, ...suitableExperienceMatched]).size + (majorMatched ? 1 : 0); if (!evidenceCount) return null;
-  let score = Math.min(100, Math.round(Math.min(55, matchedSkills.length * 12 + taskMatched.length * 6 + suitableExperienceMatched.length * 18) + (majorMatched ? 22 : 0) + Math.min(13, matchedPreferred.length * 5 + suitableExperienceMatched.length * 3))); if (semanticScore !== undefined) score = Math.round(score * 0.7 + semanticScore * 0.3); if (score < MINIMUM_SCORE) return null;
+  let score = Math.min(100, Math.round(Math.min(55, matchedSkills.length * 12 + taskMatched.length * 6 + suitableExperienceMatched.length * 18) + (majorMatched ? 22 : 0) + Math.min(13, matchedPreferred.length * 5 + suitableExperienceMatched.length * 3))); if (semanticScore !== undefined) score = Math.round(score * 0.7 + semanticScore * 0.3); if (!bypassMinimumScore && score < MINIMUM_SCORE) return null;
   const reasons: string[] = []; if (matchedSkills.length) reasons.push(`${matchedSkills.slice(0, 3).join(", ")} 경험이 공고의 실제 업무와 연결됩니다.`); if (suitableExperienceMatched.length) reasons.push(`${suitableExperienceMatched[0]} 경험이 공고의 적합 경험 예시와 연결됩니다.`); if (majorMatched) reasons.push(`${profile.major} 전공 또는 경험이 ${job.discoveredRole} 직무 기반과 연결됩니다.`); if (!reasons.length) return null;
   const strengths = buildStrengths(profile, job, [...new Set([...matchedSkills, ...matchedPreferred])]); const missingSkills = job.requiredSkills.filter((skill) => !hasTerm(terms, skill));
   // 기술 적합도: 필수요건 직접 충족(hasTerm 기반, 정확히 일치할 필요 없음)이 주된 비중,
@@ -112,7 +112,18 @@ export async function matchJobs(profile: UserProfile, jobs: Job[]) {
     .map((job) => scoreJob(profile, job, semanticScores?.get(job.id), qualificationSemanticScores?.get(job.id)))
     .filter((match): match is JobMatch => Boolean(match));
   const current = scored.filter((match) => isCurrentEligible(profile, match.job, qualificationSemanticScores?.get(match.job.id)));
-  const discovery = scored.filter((match) => !isCurrentEligible(profile, match.job, qualificationSemanticScores?.get(match.job.id)) && match.job.qualityTier !== "EXCLUDE" && !(match.job.occupationType === "PUBLIC_SERVICE" && !isExplicitPublicServiceInterest(profile)));
+  let discovery = scored.filter((match) => !isCurrentEligible(profile, match.job, qualificationSemanticScores?.get(match.job.id)) && match.job.qualityTier !== "EXCLUDE" && !(match.job.occupationType === "PUBLIC_SERVICE" && !isExplicitPublicServiceInterest(profile)));
+
+  // 24점 미만이라 전부 걸러진 경우, 완전한 무응답(NO_MATCH) 대신 근거가 조금이라도 있는
+  // 공고를 낮은 점수 그대로 최소한 보여준다 (하드게이트 PASS 없는 공고만 대상 — current는 그대로 비움)
+  if (current.length === 0 && discovery.length === 0) {
+    const fallbackScored = jobs
+      .map((job) => scoreJob(profile, job, semanticScores?.get(job.id), qualificationSemanticScores?.get(job.id), true))
+      .filter((match): match is JobMatch => Boolean(match))
+      .filter((match) => match.job.qualityTier !== "EXCLUDE" && !(match.job.occupationType === "PUBLIC_SERVICE" && !isExplicitPublicServiceInterest(profile)));
+    discovery = fallbackScored.sort((a, b) => locationRank(b) - locationRank(a) || b.score - a.score).slice(0, 3);
+  }
+
   return {
     current_opportunities: current.sort((a, b) => locationRank(b) - locationRank(a) || b.score - a.score).slice(0, 3),
     career_discovery: discovery.sort((a, b) => locationRank(b) - locationRank(a) || b.score - a.score).slice(0, 3),
