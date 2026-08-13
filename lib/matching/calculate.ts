@@ -1,6 +1,7 @@
 import type { Job, JobMatch, SkillGap, SkillMatch, SubScore, UserProfile } from "../types";
 import { getQualificationSemanticScores, getSemanticScores, getSkillSemanticScores } from "./semanticScore.ts";
 import { isExactTermMatch, normalizeQualification } from "./normalize.ts";
+import { getInferredCertificateSkills } from "../openai/infer-certificate-skills.ts";
 
 // 자격/전공 게이트에서 키워드 매칭이 실패했을 때, 이 유사도 이상이면 FAIL 대신 UNVERIFIED로 완화
 const QUALIFICATION_SIMILARITY_THRESHOLD = 70;
@@ -15,16 +16,31 @@ function normalize(value: string) { return value.toLowerCase().replace(/[\s._\-�
 // (임베딩은 한글↔영문 표기 차이에서 유사도가 깎여 이런 명백한 충족을 놓칠 수 있음).
 // 별칭 치환은 이 파서 안에서만 적용 — 전역 normalize에 넣으면 "토익"→"toeic"의 "to"가
 // "T/O" 같은 짧은 약어와 엉뚱하게 부분 매칭되는 부작용이 생긴다.
-const EXAM_ALIASES: [RegExp, string][] = [[/토익스피킹/g, "toeicspeaking"], [/토익/g, "toeic"], [/토플/g, "toefl"], [/오픽/g, "opic"], [/아이엘츠/g, "ielts"]];
+const EXAM_ALIASES: [RegExp, string][] = [[/토익\s*스피킹/g, "toeicspeaking"], [/토익/g, "toeic"], [/토플/g, "toefl"], [/오픽/g, "opic"], [/아이엘츠/g, "ielts"]];
 const EXAM_SCORE_PATTERN = /(toeicspeaking|toeic|toefl|opic|ielts)[^0-9]*(\d{2,4})/;
+// OPIc 등급 서열 (낮음→높음). 숫자 없는 "IM"은 IM1과 IM2 사이의 보수적 위치로 취급
+const OPIC_GRADE_ORDER = ["nl", "nm", "nh", "il", "im1", "im", "im2", "im3", "ih", "al"];
+const OPIC_GRADE_PATTERN = /opic[^a-z0-9]*(al|ih|im[1-3]?|il|nh|nm|nl)/;
+// TOEIC Speaking은 Lv 1~8 단일 숫자 레벨 (일반 점수 패턴의 2자리 이상 조건에 안 걸림)
+const TOEIC_SPEAKING_LEVEL_PATTERN = /toeicspeaking[^0-9]*([1-8])(?![0-9])/;
 function normalizeExamText(value: string) { let v = value.toLowerCase(); for (const [pattern, replacement] of EXAM_ALIASES) v = v.replace(pattern, replacement); return v.replace(/[\s._\-·/]/g, ""); }
+function opicRank(normalized: string): number | null { const m = normalized.match(OPIC_GRADE_PATTERN); return m ? OPIC_GRADE_ORDER.indexOf(m[1]) : null; }
+function toeicSpeakingLevel(normalized: string): number | null { const m = normalized.match(TOEIC_SPEAKING_LEVEL_PATTERN); return m ? Number(m[1]) : null; }
+// "TOEIC 750 이상" / "OPIc IM2 이상" / "TOEIC Speaking Lv 6" 요건을 사용자의 시험 결과와
+// 숫자·등급으로 직접 비교한다. 요건 문구에 여러 시험이 나열된 경우("TOEIC 800 또는 OPIc IM2")
+// 하나라도 충족하면 통과(우대사항 나열의 일반적 의미).
+// 별칭 치환은 이 파서 안에서만 적용 — 전역 normalize에 넣으면 "토익"→"toeic"의 "to"가
+// "T/O" 같은 짧은 약어와 엉뚱하게 부분 매칭되는 부작용이 생긴다.
 function matchesExamScore(profile: UserProfile, requirement: string): boolean {
-  const required = normalizeExamText(requirement).match(EXAM_SCORE_PATTERN);
-  if (!required) return false;
-  return [...profile.certificates, ...profile.skills].some((item) => {
-    const owned = normalizeExamText(item).match(EXAM_SCORE_PATTERN);
-    return owned !== null && owned[1] === required[1] && Number(owned[2]) >= Number(required[2]);
-  });
+  const required = normalizeExamText(requirement);
+  const ownedItems = [...profile.certificates, ...profile.skills].map(normalizeExamText);
+  const requiredOpic = opicRank(required);
+  if (requiredOpic !== null && ownedItems.some((item) => (opicRank(item) ?? -1) >= requiredOpic)) return true;
+  const requiredSpeaking = toeicSpeakingLevel(required);
+  if (requiredSpeaking !== null && ownedItems.some((item) => (toeicSpeakingLevel(item) ?? -1) >= requiredSpeaking)) return true;
+  const requiredScore = required.match(EXAM_SCORE_PATTERN);
+  if (requiredScore && ownedItems.some((item) => { const owned = item.match(EXAM_SCORE_PATTERN); return owned !== null && owned[1] === requiredScore[1] && Number(owned[2]) >= Number(requiredScore[2]); })) return true;
+  return false;
 }
 function profileTerms(profile: UserProfile) {
   return [profile.major, profile.education, profile.experience, profile.preferredConditions, ...profile.skills, ...profile.certificates, ...profile.interestedIndustries, ...profile.careerExperiences, ...profile.internshipExperiences, ...profile.projectExperiences, ...profile.trainingExperiences].filter(Boolean);
@@ -189,16 +205,21 @@ function scoreJob(profile: UserProfile, job: Job, semanticScore?: number, qualif
 export function calculateMatch(profile: UserProfile, job: Job, semanticScore?: number, qualificationSemanticScore?: number, skillSemanticScore?: number): JobMatch { return scoreJob(profile, job, semanticScore, qualificationSemanticScore, skillSemanticScore) ?? { job, score: 0, subScores: [], matchedSkills: [], missingSkills: job.requiredSkills, reasons: [], reasonSummary: "", strengths: [], gaps: [], isHiddenGem: false, gateStatus: gateEvaluation(profile, job, qualificationSemanticScore), location_match: locationMatch(profile, job) }; }
 export async function rankJobs(profile: UserProfile, jobs: Job[]) { const semanticScores = await getSemanticScores(profile, jobs); return jobs.map((job) => scoreJob(profile, job, semanticScores?.get(job.id))).filter((match): match is JobMatch => Boolean(match)).sort((a, b) => b.score - a.score).slice(0, 3); }
 export async function matchJobs(profile: UserProfile, jobs: Job[]) {
+  // 자격증이 실제로 검증하는 능력을 추론해 매칭용 기술로 추가 (예: ADsP → 데이터 분석 기초).
+  // 매칭 계산에만 쓰고 원본 profile은 유지 — 사용자가 직접 입력한 기술과 추론 기술을 섞어
+  // "직접 보유"처럼 설명하지 않기 위함 (설명 생성은 원본 profile을 받음).
+  const inferredSkills = await getInferredCertificateSkills(profile.certificates);
+  const matchingProfile: UserProfile = inferredSkills.length ? { ...profile, skills: [...new Set([...profile.skills, ...inferredSkills])] } : profile;
   const [semanticScores, qualificationSemanticScores, skillSemanticScores] = await Promise.all([
-    getSemanticScores(profile, jobs),
-    getQualificationSemanticScores(profile, jobs),
-    getSkillSemanticScores(profile, jobs),
+    getSemanticScores(matchingProfile, jobs),
+    getQualificationSemanticScores(matchingProfile, jobs),
+    getSkillSemanticScores(matchingProfile, jobs),
   ]);
   const scored = jobs
-    .map((job) => scoreJob(profile, job, semanticScores?.get(job.id), qualificationSemanticScores?.get(job.id), skillSemanticScores?.get(job.id)))
+    .map((job) => scoreJob(matchingProfile, job, semanticScores?.get(job.id), qualificationSemanticScores?.get(job.id), skillSemanticScores?.get(job.id)))
     .filter((match): match is JobMatch => Boolean(match));
-  const current = scored.filter((match) => isCurrentEligible(profile, match.job, qualificationSemanticScores?.get(match.job.id)));
-  const discovery = scored.filter((match) => !isCurrentEligible(profile, match.job, qualificationSemanticScores?.get(match.job.id)) && match.job.qualityTier !== "EXCLUDE" && !(match.job.occupationType === "PUBLIC_SERVICE" && !isExplicitPublicServiceInterest(profile)));
+  const current = scored.filter((match) => isCurrentEligible(matchingProfile, match.job, qualificationSemanticScores?.get(match.job.id)));
+  const discovery = scored.filter((match) => !isCurrentEligible(matchingProfile, match.job, qualificationSemanticScores?.get(match.job.id)) && match.job.qualityTier !== "EXCLUDE" && !(match.job.occupationType === "PUBLIC_SERVICE" && !isExplicitPublicServiceInterest(profile)));
 
   return {
     current_opportunities: current.sort((a, b) => locationRank(b) - locationRank(a) || b.score - a.score).slice(0, 3),

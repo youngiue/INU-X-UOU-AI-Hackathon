@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { ulsanJobs } from "@/lib/data/ulsan";
 import { matchJobs } from "@/lib/matching/calculate";
+import { matchWelfareServices } from "@/lib/matching/welfare";
 import { enhanceReasons } from "@/lib/openai/explain";
 import {
   assertExactExplanationJobIds,
@@ -62,6 +63,9 @@ export async function POST(request: Request) {
     } catch (error) {
       console.error("OpenAI explanation fallback:", error);
     }
+
+    // 각 공고 근무지 기준 복지서비스 첨부 (AI 설명 생성 이후에 붙여 GPT 입력에는 영향 없음)
+    for (const match of matches) match.welfareServices = matchWelfareServices(parsed.data, match.job);
 
     const status = current_opportunities.length || career_discovery.length ? "MATCHED" : "NO_MATCH";
     return NextResponse.json({

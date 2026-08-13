@@ -1,7 +1,7 @@
 "use client";
 
-import { ArrowRight, Lightbulb, Search } from "lucide-react";
-import type { JobMatch } from "@/lib/types";
+import { ArrowRight, Lightbulb, MapPin, Search } from "lucide-react";
+import type { JobMatch, WelfareService } from "@/lib/types";
 
 export interface SkillMatch {
   label: string;
@@ -27,6 +27,8 @@ export interface MatchReasonDetailProps {
   onFindTraining?: () => void;
   aiExplanation?: JobMatch["aiExplanation"];
   whatIfContent?: React.ReactNode;
+  /** 공고 근무지 기준으로 이용 가능성이 있는 울산 복지서비스 */
+  welfareServices?: WelfareService[];
 }
 
 export function MatchReasonDetail({
@@ -41,6 +43,7 @@ export function MatchReasonDetail({
   onFindTraining,
   aiExplanation,
   whatIfContent,
+  welfareServices = [],
 }: MatchReasonDetailProps) {
   return (
     <article className="w-full max-w-sm rounded-lg border border-grid bg-panel p-5 text-ink">
@@ -106,6 +109,38 @@ export function MatchReasonDetail({
         </section>
       )}
       {whatIfContent}
+
+      {welfareServices.length > 0 && (
+        <section className="mt-6 border-t border-grid pt-5">
+          <h3 className="flex items-center gap-1.5 text-sm font-medium text-ink">
+            <MapPin aria-hidden="true" size={14} strokeWidth={2} />
+            울산 취업 시 확인할 수 있는 청년지원
+          </h3>
+          <div className="mt-3 space-y-3">
+            {welfareServices.map((service) => (
+              <div key={service.id} className="rounded-lg border border-grid bg-navy-800 p-4">
+                <div className="flex items-start justify-between gap-2">
+                  <strong className="text-[13px] font-medium text-ink">{service.title}</strong>
+                  <span className="shrink-0 rounded-full bg-navy-900/60 px-2 py-0.5 text-[11px] font-medium text-accent2">{service.areaLabel}</span>
+                </div>
+                {service.supportSummary && <p className="mt-1 text-xs text-muted">{service.supportSummary}</p>}
+                <p className="mt-1.5 text-xs leading-5 text-ink/80">{service.reason}</p>
+                {service.conditions.length > 0 && (
+                  <ul className="mt-1.5 list-disc space-y-0.5 pl-4 text-[11px] leading-4 text-muted">
+                    {service.conditions.map((condition) => <li key={condition}>{condition}</li>)}
+                  </ul>
+                )}
+                {service.sourceUrl && (
+                  <a href={service.sourceUrl} target="_blank" rel="noreferrer" className="mt-2 inline-block text-[11px] font-medium text-accent2 hover:underline">
+                    자세히 보기 ↗
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+          <p className="mt-2 text-[11px] leading-4 text-muted">실제 신청 자격·지원 내용은 기관 공고 원문을 반드시 확인하세요.</p>
+        </section>
+      )}
 
       {gaps.length > 0 && (
         <button
