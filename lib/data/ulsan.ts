@@ -4,6 +4,8 @@ import publicJobs from "../../data/ulsan-public-service-jobs.json" with { type: 
 import baseAnalysis from "../../data/ulsan-job-analysis.json" with { type: "json" };
 import humanitiesAnalysis from "../../data/ulsan-humanities-business-job-analysis.json" with { type: "json" };
 import publicAnalysis from "../../data/ulsan-public-service-job-analysis.json" with { type: "json" };
+import electricalAutomationDemoJobs from "../../data/ulsan-electrical-automation-demo-jobs.json" with { type: "json" };
+import electricalAutomationDemoAnalysis from "../../data/ulsan-electrical-automation-demo-job-analysis.json" with { type: "json" };
 import qualityTiers from "../../data/ulsan-job-quality-tiers.json" with { type: "json" };
 import protection from "../../data/ulsan-job-protection.json" with { type: "json" };
 import type { Job } from "../types";
@@ -25,6 +27,8 @@ type RawRecord = {
   posting_status?: Job["postingStatus"];
   usage_mode?: Job["usageMode"];
   status_checked_at?: string;
+  demo_enabled?: boolean;
+  demo_status?: Job["postingStatus"];
 };
 
 type AnalysisRecord = {
@@ -53,8 +57,8 @@ type ProtectionRecord = {
   status_checked_at: string;
 };
 
-const rawRecords = [...baseJobs, ...humanitiesJobs, ...publicJobs] as RawRecord[];
-const analysisRecords = [...baseAnalysis, ...humanitiesAnalysis, ...publicAnalysis] as AnalysisRecord[];
+const rawRecords = [...baseJobs, ...humanitiesJobs, ...publicJobs, ...electricalAutomationDemoJobs] as RawRecord[];
+const analysisRecords = [...baseAnalysis, ...humanitiesAnalysis, ...publicAnalysis, ...electricalAutomationDemoAnalysis] as AnalysisRecord[];
 const analysisById = new Map(analysisRecords.map((record) => [record.id, record]));
 const tierById = new Map((qualityTiers as ProtectionRecord[]).map((record) => [record.id, record]));
 const protectionById = new Map((protection as ProtectionRecord[]).map((record) => [record.id, record]));
@@ -68,6 +72,7 @@ export const ulsanJobs: Job[] = rawRecords.map((raw) => {
   const guard = protectionFor(raw.id);
   const actualTasks = analysis?.actual_tasks_normalized ?? [];
   const source = raw.source?.source_url ?? "#";
+  const isDemo = raw.demo_enabled === true;
   return {
     id: raw.id,
     company: raw.employer_normalized ?? raw.employer ?? "울산 채용기관",
@@ -78,22 +83,22 @@ export const ulsanJobs: Job[] = rawRecords.map((raw) => {
     location: raw.work_location?.raw ?? "울산",
     workLocation: {
       raw: raw.work_location?.raw,
-      sido: raw.work_location?.sido,
+      sido: isDemo && raw.work_location?.sido === "울산광역시" ? "울산" : raw.work_location?.sido,
       sigungu: raw.work_location?.sigungu,
       sigunguCandidates: raw.work_location?.sigungu_candidates,
       worksites: raw.work_location?.worksites,
       ulsanStatus: raw.work_location?.ulsan_status,
     },
-    locationPrecision: raw.work_location?.location_precision,
+    locationPrecision: raw.work_location?.location_precision ?? (isDemo ? "SIGUNGU_CONFIRMED" : undefined),
     description: actualTasks.join(" / "),
     requiredSkills: [ ...(analysis?.required_skills ?? []), ...(raw.licenses_original ?? []) ],
     preferredSkills: raw.preferred_conditions ?? [],
     relatedMajors: analysis?.related_roles ?? [],
     sourceUrl: source,
     hardGates: raw.hard_gates ?? [],
-    qualityTier: guard?.quality_tier,
-    postingStatus: raw.posting_status ?? guard?.posting_status ?? "UNKNOWN",
-    usageMode: raw.usage_mode ?? guard?.usage_mode ?? "CAREER_DISCOVERY_REFERENCE",
+    qualityTier: guard?.quality_tier ?? (isDemo ? "CORE" : undefined),
+    postingStatus: isDemo ? raw.demo_status : (raw.posting_status ?? guard?.posting_status ?? "UNKNOWN"),
+    usageMode: isDemo ? "CURRENT_OPPORTUNITY" : (raw.usage_mode ?? guard?.usage_mode ?? "CAREER_DISCOVERY_REFERENCE"),
     analysisConfidence: analysis?.analysis_confidence,
     descriptionQuality: analysis?.description_quality,
     verificationLevel: raw.verification_level,
@@ -126,7 +131,7 @@ export function assertUlsanDataset() {
     job.workLocation?.sido !== "울산" ||
     Boolean(job.workLocation?.sigungu && !["중구", "남구", "동구", "북구", "울주군"].includes(job.workLocation.sigungu))
   )).map((job) => job.id);
-  if (ulsanJobs.length !== 79 || analysisRecords.length !== 79 || duplicateIds.length || missingAnalysis.length || orphanAnalysis.length || missingProtection.length || invalidLocation.length) {
+  if (ulsanJobs.length !== 84 || analysisRecords.length !== 84 || duplicateIds.length || missingAnalysis.length || orphanAnalysis.length || missingProtection.length || invalidLocation.length) {
     throw new Error(`U-Career dataset invariant failed: raw=${ulsanJobs.length}, analysis=${analysisRecords.length}, duplicate=${duplicateIds.length}, missingAnalysis=${missingAnalysis.length}, orphanAnalysis=${orphanAnalysis.length}, protection=${missingProtection.length}, location=${invalidLocation.length}`);
   }
 }
