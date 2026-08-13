@@ -77,6 +77,18 @@ export interface SkillGap {
   suggestion?: string;
 }
 
+export type MatchEvidenceCategory =
+  | "major" | "education" | "skill" | "certificate" | "career"
+  | "internship" | "project" | "training" | "industry" | "location";
+
+export interface MatchEvidence {
+  id: string;
+  category: MatchEvidenceCategory;
+  profileValue: string;
+  jobValue: string;
+  explanationBasis?: string;
+}
+
 export interface JobMatch {
   job: Job;
   score: number;
@@ -95,6 +107,21 @@ export interface JobMatch {
     requested: string | null;
     job_sigungu: string | null;
     reason: string;
+  };
+  matchedEvidence?: MatchEvidence[];
+  missingEvidence?: MatchEvidence[];
+  locationMatch?: boolean;
+  matchedQualifications?: string[];
+  missingQualifications?: string[];
+  uncertainQualifications?: string[];
+  aiExplanation?: {
+    summary: string;
+    recommendationReasons: string[];
+    profileConnections: string[];
+    missingConditions: string[];
+    improvementSuggestions: string[];
+    unexpectedConnections: string[];
+    similarRoles: Array<{ role: string; reason: string }>;
   };
 }
 
