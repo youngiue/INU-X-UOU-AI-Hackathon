@@ -30,7 +30,8 @@ export default function ResultsPage() {
     );
   }
 
-  const blindSpotLabel = profile.usualSearchKeywords.length > 0 ? profile.usualSearchKeywords.join(", ") : profile.major;
+  const usualSearchKeywords = profile.usualSearchKeywords ?? [];
+  const blindSpotLabel = usualSearchKeywords.length > 0 ? usualSearchKeywords.join(", ") : profile.major;
 
   const listResults: MatchResultListItem[] = result.matches.map((match) => ({
     jobId: match.job.id,

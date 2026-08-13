@@ -14,11 +14,8 @@ export default function ResultDetailPage() {
   if (!isHydrated) return null;
 
   const match = result?.matches.find((item) => item.job.id === params.jobId);
-  const blindSpotLabel = profile
-    ? profile.usualSearchKeywords.length > 0
-      ? profile.usualSearchKeywords.join(", ")
-      : profile.major
-    : undefined;
+  const usualSearchKeywords = profile?.usualSearchKeywords ?? [];
+  const blindSpotLabel = profile ? (usualSearchKeywords.length > 0 ? usualSearchKeywords.join(", ") : profile.major) : undefined;
 
   if (!match) {
     return (
