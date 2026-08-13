@@ -29,13 +29,30 @@ function notify() {
   listeners.forEach((listener) => listener());
 }
 
+// useSyncExternalStore requires getSnapshot to return a referentially stable
+// value when nothing changed — JSON.parse would otherwise allocate a new
+// object on every call and trigger an infinite re-render loop.
+let cachedRaw: string | null = null;
+let cachedSession: StoredSession | null = null;
+
 function readSession(): StoredSession | null {
+  let raw: string | null;
   try {
-    const raw = window.sessionStorage.getItem(STORAGE_KEY);
-    return raw ? (JSON.parse(raw) as StoredSession) : null;
+    raw = window.sessionStorage.getItem(STORAGE_KEY);
   } catch {
-    return null;
+    raw = null;
   }
+
+  if (raw !== cachedRaw) {
+    cachedRaw = raw;
+    try {
+      cachedSession = raw ? (JSON.parse(raw) as StoredSession) : null;
+    } catch {
+      cachedSession = null;
+    }
+  }
+
+  return cachedSession;
 }
 
 function getServerSnapshot(): StoredSession | null {
