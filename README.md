@@ -54,6 +54,7 @@ lib/schemas/         요청 검증 및 구조화 출력
 lib/types.ts         공통 타입
 ```
 
-## 데이터 교체
+## 데이터
 
-현재 `data/jobs.ts`는 UI와 매칭 개발을 위한 검증용 샘플입니다. 채용 API가 준비되면 `app/api/match/route.ts`의 데이터 공급 부분만 교체합니다. 화면과 매칭 응답 형식은 유지합니다.
+운영 매칭은 `data/ulsan-jobs.json`, `data/ulsan-humanities-business-jobs.json`,
+`data/ulsan-public-service-jobs.json`의 RAW 공고와 각 AI_ANALYSIS JSON을 ID 기준으로 결합해 사용합니다.
