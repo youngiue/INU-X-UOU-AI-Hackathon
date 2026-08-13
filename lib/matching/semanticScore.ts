@@ -103,6 +103,70 @@ export async function getQualificationSemanticScores(
   }
 }
 
+function jobRequirementItems(job: Job): string[] {
+  return [...(job.preferredSkills ?? []), ...(job.requiredSkills ?? [])].map((item) => item.trim()).filter(Boolean);
+}
+
+let requirementItemCache: Map<string, number[]> | null = null;
+let requirementItemPromise: Promise<Map<string, number[]>> | null = null;
+
+// 요구사항 문자열 하나하나를 개별 임베딩해 캐싱 (공고 간 중복 문자열은 한 번만)
+function getRequirementItemEmbeddings(jobs: Job[]): Promise<Map<string, number[]>> {
+  if (requirementItemCache) return Promise.resolve(requirementItemCache);
+  if (!requirementItemPromise) {
+    requirementItemPromise = (async () => {
+      try {
+        const uniqueItems = [...new Set(jobs.flatMap(jobRequirementItems))];
+        const vectors = uniqueItems.length ? await embedTexts(uniqueItems) : [];
+        const map = new Map<string, number[]>();
+        if (vectors) uniqueItems.forEach((item, index) => map.set(item, vectors[index]));
+        requirementItemCache = map;
+        return map;
+      } catch (error) {
+        requirementItemPromise = null;
+        throw error;
+      }
+    })();
+  }
+  return requirementItemPromise;
+}
+
+/**
+ * job.id -> 0~100 유사도. 사용자의 자격증·기술 항목 각각을 공고의 우대사항·필수요건 항목 각각과
+ * 1:1로 비교한 최대값. 항목들을 한 덩어리로 합쳐 비교하면 "토익 900점" ↔ "TOEIC 750 이상" 같은
+ * 단일 항목 간 강한 연결이 덩어리의 다른 내용에 희석돼 놓친다 — 쌍별 최대값이라 표기 차이
+ * (한글 토익 ↔ 영문 TOEIC)도 안정적으로 잡힌다.
+ * 매칭 키워드가 하나도 없을 때 "증거"로 인정할지 여부를 판단하는 용도로만 쓴다.
+ */
+export async function getSkillSemanticScores(profile: UserProfile, jobs: Job[]): Promise<Map<string, number> | null> {
+  try {
+    const userItems = [...profile.certificates, ...profile.skills].map((item) => item.trim()).filter(Boolean);
+    if (!userItems.length) return null;
+    const [userVectors, requirementEmbeddings] = await Promise.all([
+      embedTexts(userItems),
+      getRequirementItemEmbeddings(jobs),
+    ]);
+    if (!userVectors || requirementEmbeddings.size === 0) return null;
+
+    const scores = new Map<string, number>();
+    for (const job of jobs) {
+      let best = 0;
+      for (const item of jobRequirementItems(job)) {
+        const requirementVector = requirementEmbeddings.get(item);
+        if (!requirementVector) continue;
+        for (const userVector of userVectors) {
+          best = Math.max(best, cosineSimilarity(userVector, requirementVector));
+        }
+      }
+      if (best > 0) scores.set(job.id, Math.round(Math.max(0, Math.min(1, best)) * 100));
+    }
+    return scores;
+  } catch (error) {
+    console.error("Skill semantic score fallback:", error);
+    return null;
+  }
+}
+
 /** job.id -> 0~100 의미 유사도 점수. OpenAI 키가 없거나 호출 실패 시 null (키워드 매칭으로 폴백). */
 export async function getSemanticScores(profile: UserProfile, jobs: Job[]): Promise<Map<string, number> | null> {
   try {
