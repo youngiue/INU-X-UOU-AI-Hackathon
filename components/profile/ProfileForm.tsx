@@ -73,6 +73,7 @@ export function ProfileForm({ onSubmit, loading }: Props) {
       preferredLocation: draft.preferredLocation,
       interestedIndustries: lines(draft.interestedIndustries),
       experience,
+      usualSearchRoles: [],
     });
   }
 

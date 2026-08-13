@@ -13,4 +13,5 @@ export const profileSchema = z.object({
   interestedIndustries: z.array(z.string().trim().min(1)).max(20).default([]),
   experience: z.string().trim().min(5, "경험을 조금 더 자세히 입력해 주세요.").max(5000),
   preferredLocation: z.string().trim().min(1).max(80),
+  usualSearchRoles: z.array(z.string().trim().min(1)).max(20).default([]),
 });

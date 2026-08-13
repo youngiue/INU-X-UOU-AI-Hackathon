@@ -11,6 +11,7 @@ export interface UserProfile {
   interestedIndustries: string[];
   experience: string;
   preferredLocation: string;
+  usualSearchRoles: string[];
 }
 
 export interface Job {
@@ -29,6 +30,15 @@ export interface Job {
 export interface JobMatch {
   job: Job;
   score: number;
+  fitScore: number;
+  discoveryScore: number;
+  finalScore: number;
+  scoreBreakdown: {
+    skill: number;
+    experience: number;
+    major: number;
+    condition: number;
+  };
   matchedSkills: string[];
   missingSkills: string[];
   reasons: string[];
