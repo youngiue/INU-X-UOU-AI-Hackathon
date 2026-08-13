@@ -1,0 +1,634 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_001",
+    "job_family_ai": "석유화학 계기·제어설비 유지보수",
+    "actual_tasks_normalized": [
+      "계기·계장설비 예방정비",
+      "계측기기 검교정",
+      "PLC/DCS/TMR 제어시스템 유지보수",
+      "제어로직 이상진단",
+      "Local Control System 유지보수",
+      "제어밸브 정비",
+      "계장도면 기술검토",
+      "정비공사 및 외주업체 관리",
+      "설비 고장원인 분석 및 신뢰성 개선"
+    ],
+    "skills": [
+      "계장설비 유지보수",
+      "제어시스템 장애진단",
+      "계측기기 교정",
+      "계장도면 검토"
+    ],
+    "tools_normalized": [
+      "Communicator",
+      "PLC",
+      "DCS",
+      "TMR"
+    ],
+    "required_skills": [
+      "석유화학 계장분야 유지보수 경험"
+    ],
+    "transferable_skills": [
+      "자동제어 시스템 진단",
+      "설비 예방정비",
+      "고장 원인 분석"
+    ],
+    "related_roles": [
+      "계장 엔지니어",
+      "제어설비 유지보수",
+      "Instrumentation Maintenance"
+    ],
+    "suitable_experience_examples": [
+      "계측·제어 설비 유지보수 경험",
+      "PLC 또는 제어시스템 트러블슈팅 경험",
+      "계장도면 검토 경험"
+    ],
+    "hard_gate_summary": [
+      "고등학교 졸업 이상",
+      "전기/전자/계측제어 전공",
+      "석유화학 계장분야 경력 2~15년",
+      "2026년 8월 입사 가능",
+      "해외여행 및 병역 조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "계기직이라는 제목만으로는 PLC/DCS/TMR, 제어밸브, 계장도면 검토, 외주정비 관리와 설비 신뢰성 개선까지의 실제 업무범위를 충분히 알기 어렵다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13",
+    "analysis_note": "공식 원문에 업무와 Hard Gate가 상세히 확인된다. 경력직이므로 신입 사용자에게 현재지원 가능 직무로 판단해서는 안 된다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_002",
+    "job_family_ai": "석유화학 장치·배관 설비보전",
+    "actual_tasks_normalized": [
+      "장치·배관 유지보수",
+      "설비 이상진단 및 정비",
+      "설비 신뢰성 개선",
+      "정비계획 수립",
+      "Turn Around 및 정기보수 관리",
+      "정비예산·구매발주 관리",
+      "정비 품질·안전관리",
+      "협력업체 관리",
+      "설비 이력·데이터 관리"
+    ],
+    "skills": [
+      "설비보전",
+      "설비 이상진단",
+      "정비계획",
+      "정비공사 관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "석유화학 장치·배관 유지보수 경험"
+    ],
+    "transferable_skills": [
+      "예방정비",
+      "설비 고장진단",
+      "정비 프로젝트 관리"
+    ],
+    "related_roles": [
+      "장치 엔지니어",
+      "배관 설비보전",
+      "기계설비 유지보수"
+    ],
+    "suitable_experience_examples": [
+      "장치·배관 유지보수 경험",
+      "화학공장 정기보수 또는 설비정비 경험"
+    ],
+    "hard_gate_summary": [
+      "고등학교 졸업 이상",
+      "기계/재료/용접 등 기계 관련 전공",
+      "석유화학 장치·배관 유지보수 경력 2~15년",
+      "2026년 8월 입사 가능",
+      "해외여행 및 병역 조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "장치직이라는 명칭만으로는 TA, 예산·구매발주, 안전·품질감독, 협력업체와 설비 데이터 관리까지의 업무범위를 파악하기 어렵다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13",
+    "analysis_note": "장치직의 실제 역할을 구체화하는 직무탐색 가치가 높다. 경력 Hard Gate를 현재지원 추천에 반드시 반영해야 한다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_003",
+    "job_family_ai": "화학공정 운전·DCS 오퍼레이션",
+    "actual_tasks_normalized": [
+      "DCS 기반 공정 모니터링·제어",
+      "공정 경보 관리",
+      "공정운전 보고서 작성",
+      "공정 최적화",
+      "품질 모니터링",
+      "효율성·비용 분석",
+      "공정 안전관리 및 비상대응"
+    ],
+    "skills": [
+      "DCS 운전",
+      "화학공정 운전",
+      "공정 모니터링",
+      "공정 최적화"
+    ],
+    "tools_normalized": [
+      "DCS"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "공정 상태 모니터링",
+      "제어시스템 운용",
+      "이상상황 대응"
+    ],
+    "related_roles": [
+      "화학공정 오퍼레이터",
+      "공정운전 기술직",
+      "DCS Operator"
+    ],
+    "suitable_experience_examples": [
+      "DCS 또는 화학공정 제어 실습",
+      "화학공정 운전 관련 교육·실습"
+    ],
+    "hard_gate_summary": [
+      "고졸~초대졸",
+      "화공 전공",
+      "2026년 8월 입사 가능",
+      "병역 및 해외출국·건강상 조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "공식 공고 제목은 울산공장 현장 기술사원 모집으로 포괄적이며, 실제로는 DCS 기반 화학공정 오퍼레이터 직무가 별도 모집되고 있다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13",
+    "analysis_note": "동일 공식 공고의 생산기술 직무만 분리 분석했다. 기계설비 직무의 업무를 섞지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_004",
+    "job_family_ai": "화학공장 기계설비 엔지니어링",
+    "actual_tasks_normalized": [
+      "고정장치·회전기계 설비관리",
+      "공사 설계 및 업체관리",
+      "신규 설비·공정 개선",
+      "설비 트러블슈팅",
+      "PSM·ISO 관리",
+      "안전관리"
+    ],
+    "skills": [
+      "기계설비 관리",
+      "공사 설계·관리",
+      "설비 트러블슈팅"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "기계공학 기반 설비관리 역량",
+      "기본 업무 수준 영어 소통"
+    ],
+    "transferable_skills": [
+      "설비 문제해결",
+      "설비개선",
+      "공사업체 관리"
+    ],
+    "related_roles": [
+      "화학공장 설비 엔지니어",
+      "기계설비 엔지니어",
+      "설비기술 엔지니어"
+    ],
+    "suitable_experience_examples": [
+      "기계설비 설계·관리 프로젝트",
+      "설비 트러블슈팅 또는 유지보수 경험"
+    ],
+    "hard_gate_summary": [
+      "학사 이상",
+      "기졸업 또는 2026년 8월 졸업예정",
+      "기계공학 전공",
+      "기본 업무 수준 영어 소통",
+      "병역 및 해외여행 조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "설비관리라는 제목과 핵심업무는 일치하지만 실제로 공사설계, 공정개선, PSM/ISO와 안전관리까지 담당한다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13",
+    "analysis_note": "기계공학 기반 화학공장 설비관리 직무로 원문 근거가 충분하다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_005",
+    "job_family_ai": "산업가스 플랜트 배관 설계검토·시공관리",
+    "actual_tasks_normalized": [
+      "Gas Plant 배관 설계검토",
+      "Gas 배관 자재발주",
+      "배관 현장시공 감독",
+      "배관 시공품질관리",
+      "시공일정·협력업체 관리",
+      "작업허가·현장 안전관리",
+      "관련 인허가 지원"
+    ],
+    "skills": [
+      "Gas Plant 배관 설계검토",
+      "배관 시공관리",
+      "배관 품질관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "Gas Plant 배관 설계검토 및 시공관리"
+    ],
+    "transferable_skills": [
+      "플랜트 시공관리",
+      "품질관리",
+      "협력업체 관리"
+    ],
+    "related_roles": [
+      "Gas Plant Piping Engineer",
+      "배관 Supervisor"
+    ],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "전문대졸 이상",
+      "공학 전공",
+      "Gas Plant 배관 설계검토·시공관리 경력 5년 이상",
+      "남성 병역조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목이 Gas Plant 기계배관 Supervisor라는 실제 역할을 직접 설명한다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13",
+    "analysis_note": "H2를 포함한 여러 산업가스 배관을 다루지만 수소 전용 직무로 확대하지 않았다. 제목과 업무가 직접 일치하므로 discovery_value는 MEDIUM으로 보수화했다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_006",
+    "job_family_ai": "에너지·화학 제조 AI/DT",
+    "actual_tasks_normalized": [
+      "제조 AI/DT 과제 구체화",
+      "AI/DT 사업 개발·수행",
+      "AI/DT 과제 제안·구축·운영전환",
+      "프로젝트 PM",
+      "시스템 분석·설계"
+    ],
+    "skills": [
+      "Application 개발",
+      "시스템 분석·설계",
+      "AI/DT 프로젝트 수행",
+      "프로젝트 PM/PL",
+      "제조 시스템 운영·개발"
+    ],
+    "tools_normalized": [
+      "JavaScript",
+      "Spring Boot"
+    ],
+    "required_skills": [
+      "Application 개발 및 분석·설계",
+      "AI/DT 프로젝트 수행",
+      "프로젝트 PM/PL 또는 사업관리",
+      "제조 생산·설비·안전환경 시스템 운영·개발"
+    ],
+    "transferable_skills": [
+      "프로젝트 관리",
+      "시스템 분석",
+      "제조 디지털전환"
+    ],
+    "related_roles": [
+      "Manufacturing DX Engineer",
+      "제조 IT 시스템 엔지니어",
+      "AI/DT Project Manager"
+    ],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "관련 경력 3년 이상",
+      "JavaScript·Spring Boot 기반 Application 개발 및 분석·설계 역량",
+      "AI/DT 프로젝트 및 PM/PL·사업관리 경험",
+      "제조 시스템 운영·개발 경험",
+      "병역·해외여행 및 입사가능일 조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "제조 AI/DT라는 제목과 업무가 일치하지만 시스템 구축·운영전환과 PM 역할까지 포함된다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13",
+    "analysis_note": "JavaScript와 Spring Boot는 실제 필요역량이다. Java·C#·Python·React는 우대조건이므로 required_skills에 포함하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_007",
+    "job_family_ai": "소재 품질보증·품질관리",
+    "actual_tasks_normalized": [
+      "제품 QA/QC",
+      "공정·제품 규격관리",
+      "고객 품질요구 및 Audit 대응",
+      "원부재료·제품 검사",
+      "분석결과 관리",
+      "ISO 9001·사내표준 관리",
+      "제품 인증관리",
+      "시험절차 개선"
+    ],
+    "skills": [
+      "QA/QC",
+      "품질분석",
+      "규격관리",
+      "Audit 대응",
+      "통계적 품질관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "품질관리 경력",
+      "통계적 품질관리 기본 지식"
+    ],
+    "transferable_skills": [
+      "품질 데이터 분석",
+      "고객 품질 대응",
+      "표준관리"
+    ],
+    "related_roles": [
+      "QA Engineer",
+      "QC Engineer",
+      "소재 품질 엔지니어"
+    ],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "관련 전공 학사 이상",
+      "품질관리 경력 3년 이상",
+      "영어 IM1 이상",
+      "통계적 품질관리 기본 지식",
+      "병역·해외여행 조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "품질관리라는 제목보다 QA, Audit, 인증, 시험절차 개선까지 업무범위가 넓다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13",
+    "analysis_note": "공고 자체에서 EV 배터리 소재 전담 QA/QC라는 근거가 부족하므로 배터리 전용 직무로 분류하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_008",
+    "job_family_ai": "산업 전력·전기설비 엔지니어링",
+    "actual_tasks_normalized": [
+      "수배전 전력설비 신규설치",
+      "수배전 전력설비 유지보전",
+      "동력·이송·자동화 전기설비 신규설치",
+      "동력·이송·자동화 전기설비 유지보전",
+      "전기작업 안전관리·교육",
+      "전기공사 안전·품질·비용·납기 관리감독"
+    ],
+    "skills": [
+      "전력설비 유지보전",
+      "산업 전기설비 관리",
+      "전기공사 관리감독"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "전기공학 기반 설비 엔지니어링"
+    ],
+    "transferable_skills": [
+      "전기설비 유지보수",
+      "전기작업 안전관리",
+      "공사관리"
+    ],
+    "related_roles": [
+      "전기설비 엔지니어",
+      "전력설비 엔지니어",
+      "산업 전기설비 유지보전"
+    ],
+    "suitable_experience_examples": [
+      "수배전·전력설비 관련 프로젝트 또는 실습",
+      "산업 전기설비·자동화 설비 관련 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "학사 이상",
+      "전기공학 계열 전공",
+      "영어 IM1 이상",
+      "기졸업 또는 2026년 2월 졸업예정",
+      "학점 3.0/4.5 이상",
+      "병역·해외여행 조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "설비 엔지니어(전기)라는 제목과 핵심업무는 일치하지만 수배전뿐 아니라 자동화 전기설비와 공사관리까지 담당한다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13",
+    "analysis_note": "신입 공통 학점 3.0 이상과 졸업시점 조건을 반드시 Hard Gate에 반영해야 한다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_009",
+    "job_family_ai": "정밀화학 R&D",
+    "actual_tasks_normalized": [
+      "신규제품 제조기술 개발",
+      "기존제품 공정개선 연구",
+      "실험계획 수립",
+      "선행·경쟁기술 조사"
+    ],
+    "skills": [
+      "정밀화학 연구개발",
+      "공정개선 연구",
+      "실험설계"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "실험계획",
+      "기술조사"
+    ],
+    "related_roles": [
+      "정밀화학 R&D 연구원",
+      "공정개발 연구원"
+    ],
+    "suitable_experience_examples": [
+      "정밀화학 또는 화학공정 연구 경험",
+      "제품·공정개선 연구 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "석사 이상",
+      "병역·해외여행 조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "전체 공채 제목만으로는 울산의 정밀화학 R&D 직무와 제조기술·공정개선 연구 업무를 알기 어렵다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13",
+    "analysis_note": "석사 이상 필수인 연구직이다. 학부생을 현재지원 가능 대상으로 추천하면 안 된다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_010",
+    "job_family_ai": "정밀화학 QC·분석",
+    "actual_tasks_normalized": [
+      "원재료·공정제품·최종제품 품질특성 분석",
+      "제품 품질관리",
+      "분석법 검토·적용",
+      "분석기기 사용·검정·교정·유지관리"
+    ],
+    "skills": [
+      "화학분석",
+      "품질관리",
+      "분석기기 관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "실험분석",
+      "품질 데이터 관리"
+    ],
+    "related_roles": [
+      "Chemical QC Analyst",
+      "화학 품질분석",
+      "QC 분석 담당"
+    ],
+    "suitable_experience_examples": [
+      "화학·기기분석 실험 경험"
+    ],
+    "hard_gate_summary": [
+      "4년제 대학 기졸업 또는 졸업예정",
+      "병역·해외여행 조건 충족",
+      "화학·화학공학 전공은 원문 내부 표기가 상충하여 확정 Hard Gate에서 제외"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "전체 공채 제목만으로는 울산 QC 직무나 분석기기 검정·교정까지의 실제 업무를 알 수 없다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "MEDIUM",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13",
+    "analysis_note": "업무와 근무지는 명확하지만 동일 원문에서 전공을 '필수사항'이라고 표시하는 동시에 공통사항에서는 전공이 필수가 아니라고 적어 지원조건이 상충한다. 따라서 전공을 Hard Gate로 강제하지 않는다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_011",
+    "job_family_ai": "화학산업 환경·EHS",
+    "actual_tasks_normalized": [
+      "통합환경허가 대응·운영관리",
+      "유해화학물질 영업허가 대응",
+      "유해화학물질 취급시설 점검관리",
+      "ISO 9001·14001·45001 및 IATF16949 대응"
+    ],
+    "skills": [
+      "환경 인허가 대응",
+      "유해화학물질 관리",
+      "환경·안전 시스템 대응"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "법규 대응",
+      "시설 점검",
+      "환경 문서관리"
+    ],
+    "related_roles": [
+      "환경 엔지니어",
+      "EHS 담당",
+      "화학물질 관리"
+    ],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "4년제 대학 기졸업 또는 졸업예정",
+      "대기환경기사",
+      "수질환경기사",
+      "병역·해외여행 조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "전체 공채 제목만으로는 울산 안전환경 직무와 환경허가·유해화학물질·ISO 대응 업무를 알기 어렵다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "quality_tier": "CORE",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13",
+    "analysis_note": "대기환경기사와 수질환경기사 두 자격이 모두 필수로 명시되어 있어 전문자격 Hard Gate를 엄격히 적용해야 한다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_ENERGY_012",
+    "job_family_ai": "Demo Plant 프로젝트·공정관리",
+    "actual_tasks_normalized": [
+      "Demo Plant 공정관리",
+      "Demo Plant 공정개선",
+      "제품관리",
+      "출하관리",
+      "ISO·IATF 관리"
+    ],
+    "skills": [
+      "Demo Plant 공정관리",
+      "공정개선"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "공정관리",
+      "공정개선"
+    ],
+    "related_roles": [
+      "Demo Plant 운영",
+      "Demo Plant 공정관리"
+    ],
+    "suitable_experience_examples": [
+      "화학공정 또는 공정개선 프로젝트 경험"
+    ],
+    "hard_gate_summary": [
+      "4년제 대학 기졸업 또는 졸업예정",
+      "병역·해외여행 조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "전체 공채 제목만으로는 프로젝트(시운전) 부문 자체를 확인하기 어렵고, 실제 담당업무는 Demo Plant 공정관리·개선 및 제품·출하·ISO 관리로 구체화된다."
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "quality_tier": "SUPPORT",
+    "posting_status": "CLOSED",
+    "usage_mode": "CAREER_DISCOVERY_REFERENCE",
+    "status_checked_at": "2026-08-13",
+    "analysis_note": "채용부문명에는 시운전이 들어가지만 담당업무에는 구체적인 시운전 시험·절차가 제시되지 않는다. 따라서 '공정 시운전 엔지니어'로 확대하지 않고 Demo Plant 프로젝트·공정관리 수준으로 분석했다."
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_BIZ_001",
+    "job_family_ai": "지역 신용보증·금융지원 일반직",
+    "actual_tasks_normalized": [
+      "경영전략",
+      "신용보증",
+      "회생지원",
+      "소상공인 교육지원"
+    ],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "기업·소상공인 지원업무",
+      "사업운영"
+    ],
+    "related_roles": [
+      "신용보증 업무",
+      "지역금융 지원",
+      "소상공인 지원사업 운영"
+    ],
+    "suitable_experience_examples": [
+      "금융·경제 관련 프로젝트",
+      "소상공인 지원사업 또는 공공기관 사업운영 경험"
+    ],
+    "hard_gate_summary": [
+      "지역인재 자격요건 충족",
+      "병역 및 재단 채용제한 조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "HIGH",
+      "reason": "일반직이라는 제목만으로는 경영전략·신용보증·회생지원·소상공인 교육이라는 실제 업무영역을 알기 어렵다."
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "일반행정만이 아니라 지역 금융·신용보증과 소상공인 지원을 탐색할 수 있는 데이터다. 세부 배치 직무는 공고 단계에서 확정되지 않으므로 특정 업무 하나로 좁혀 추천하면 안 된다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_BIZ_002",
+    "job_family_ai": "세무회계·기장",
+    "actual_tasks_normalized": [
+      "기장대리",
+      "부가가치세·원천세·종합소득세·법인세 신고",
+      "결산",
+      "세무조정"
+    ],
+    "skills": [
+      "세무신고",
+      "기장",
+      "결산·세무조정"
+    ],
+    "tools_normalized": [
+      "세무사랑"
+    ],
+    "required_skills": [
+      "회계·세무 실무 경력"
+    ],
+    "transferable_skills": [
+      "회계자료 처리",
+      "세무신고 업무"
+    ],
+    "related_roles": [
+      "세무회계 사무원",
+      "기장 담당자",
+      "세무신고 담당자"
+    ],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "경력 최소 5년 이상",
+      "전산회계 2급 이상"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "회계사무소 직원이라는 제목보다 실제로는 주요 세목 신고와 결산·세무조정까지 담당한다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "세무회계 실무를 매우 구체적으로 보여주지만 강한 경력·자격 Hard Gate가 있으므로 학부생 현재지원 추천에는 적합하지 않다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_BIZ_003",
+    "job_family_ai": "인사·노무·총무",
+    "actual_tasks_normalized": [
+      "인사 업무",
+      "노무 업무",
+      "총무 업무"
+    ],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "조직운영 지원"
+    ],
+    "related_roles": [
+      "인사 담당",
+      "노무·총무 담당"
+    ],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "공고 제목과 실제 인사·노무·총무 업무가 직접 일치한다."
+    },
+    "description_quality": "LOW",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "신입 지원이 가능한 울산 HR 계열 공고라는 의미는 있으나 세부 수행업무가 한 줄 수준이므로 AI 분석을 확대하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_BIZ_004",
+    "job_family_ai": "제조기업 구매",
+    "actual_tasks_normalized": [
+      "구매"
+    ],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [
+      "구매 담당"
+    ],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "대졸 4년 이상"
+    ],
+    "title_task_gap": {
+      "level": "UNKNOWN",
+      "reason": "구매가 모집분야로 확인되지만 구체적인 구매 수행업무가 공고에 제시되지 않았다."
+    },
+    "description_quality": "LOW",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "울산 제조업 구매 직무 선택지는 보완하지만 발주·원가·협력사관리 등 세부업무를 공고 근거 없이 추가하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_BIZ_005",
+    "job_family_ai": "제조업 해외영업",
+    "actual_tasks_normalized": [],
+    "skills": [],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [],
+    "related_roles": [
+      "해외영업"
+    ],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "4년제 대학 졸업"
+    ],
+    "title_task_gap": {
+      "level": "UNKNOWN",
+      "reason": "해외영업이라는 직무명은 확인되지만 실제 세부 수행업무가 현재 확보된 공고 본문에 제시되지 않았다."
+    },
+    "description_quality": "LOW",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "울산 제조업의 해외영업 신입 공고라는 탐색 가치는 있으나 수출입·거래처관리·견적·계약 등의 업무를 임의로 생성하지 않았다."
+  }
+]

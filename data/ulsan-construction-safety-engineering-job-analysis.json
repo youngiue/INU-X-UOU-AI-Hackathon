@@ -1,0 +1,207 @@
+[
+  {
+    "id": "ULSAN_JOB_NEW_CSE_001",
+    "job_family_ai": "건축 현상설계",
+    "actual_tasks_normalized": [
+      "건축 현상설계"
+    ],
+    "skills": [
+      "건축설계"
+    ],
+    "tools_normalized": [],
+    "required_skills": [],
+    "transferable_skills": [
+      "설계안 구성"
+    ],
+    "related_roles": [
+      "건축설계"
+    ],
+    "suitable_experience_examples": [
+      "건축설계 스튜디오 프로젝트",
+      "건축 설계공모 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "대졸 이상"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "모집분야가 현상설계로 직접 명시되어 실제 직무와의 차이가 작다."
+    },
+    "description_quality": "MEDIUM",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "울산 건축설계 직무 자체를 보완하는 데이터다. 공고에서 특정 CAD/BIM 프로그램을 요구하지 않으므로 관련 도구를 임의로 추가하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_CSE_002",
+    "job_family_ai": "정보통신공사 현장 안전관리",
+    "actual_tasks_normalized": [
+      "공사 위험성평가",
+      "현장 안전점검",
+      "TBM 및 작업허가 운영",
+      "유해위험요인 방지계획 수립·수행",
+      "근로자 안전교육",
+      "안전수칙 관리",
+      "법정 안전서류 관리",
+      "발주처·원청 대응"
+    ],
+    "skills": [
+      "건설·공사 안전관리",
+      "위험성평가",
+      "현장 안전점검",
+      "안전교육"
+    ],
+    "tools_normalized": [
+      "TBM",
+      "작업허가서"
+    ],
+    "required_skills": [
+      "안전관리자 선임 가능 자격",
+      "안전관리 경력 5년 이상"
+    ],
+    "transferable_skills": [
+      "위험요인 식별",
+      "현장 안전관리",
+      "법정 안전문서 관리"
+    ],
+    "related_roles": [
+      "건설안전관리자",
+      "공사 안전관리자"
+    ],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "산업안전보건법상 안전관리자 선임 가능 자격",
+      "안전관리 경력 5년 이상",
+      "병역·해외여행·입사가능일 조건 충족"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "안전관리자라는 제목과 핵심 직무는 일치하지만 위험성평가, TBM, 작업허가, 법정 안전서류와 발주처 대응까지 업무범위가 구체적이다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "법정 선임자격과 경력 5년이 요구되는 전문 경력직이다. 안전 관련 수업이나 프로젝트 경험만 가진 학생에게 현재지원 가능 공고로 추천해서는 안 된다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_CSE_003",
+    "job_family_ai": "화학공장 EH&S",
+    "actual_tasks_normalized": [
+      "안전·보건·환경 사고예방",
+      "EH&S 문서·작업관행 검토",
+      "EH&S 규정 및 법규 준수관리",
+      "화학물질관리법 대응",
+      "화학사고예방관리계획 운영",
+      "사업장 지속가능성 관리",
+      "화재예방 관련 규정 대응"
+    ],
+    "skills": [
+      "EH&S 관리",
+      "환경·안전 법규 대응",
+      "화학사고 예방관리"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "글로벌 EH&S 팀과 의사소통 가능한 영어"
+    ],
+    "transferable_skills": [
+      "위험요인 식별",
+      "법규 대응",
+      "안전·환경 문서관리"
+    ],
+    "related_roles": [
+      "EHS Engineer",
+      "환경안전 담당",
+      "화학안전 담당"
+    ],
+    "suitable_experience_examples": [
+      "화학안전 또는 환경법규 관련 프로젝트",
+      "위험성평가·안전관리 프로젝트"
+    ],
+    "hard_gate_summary": [
+      "글로벌 EH&S 팀과 의사소통 가능한 영어"
+    ],
+    "title_task_gap": {
+      "level": "MEDIUM",
+      "reason": "EH&S라는 제목과 방향은 일치하지만 실제 업무에는 화학물질관리법, 화학사고예방관리계획, 지속가능성 및 화재예방 규정 대응이 포함된다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "환경·안전 자격증과 관련 전공은 우대조건이므로 필수조건으로 확대하지 않았다. 화학안전·환경·산업안전이 결합된 EHS 직무 탐색에 가치가 높다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_CSE_004",
+    "job_family_ai": "소방시설 시공",
+    "actual_tasks_normalized": [
+      "소방시설 공사"
+    ],
+    "skills": [
+      "소방시설 시공"
+    ],
+    "tools_normalized": [],
+    "required_skills": [
+      "관련 경력 1년"
+    ],
+    "transferable_skills": [
+      "현장 시공"
+    ],
+    "related_roles": [
+      "소방시설 시공 기술자"
+    ],
+    "suitable_experience_examples": [],
+    "hard_gate_summary": [
+      "경력 1년"
+    ],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "소방시설 공사 경력자라는 공고명이 확인된 업무를 직접 설명한다."
+    },
+    "description_quality": "LOW",
+    "discovery_value": "MEDIUM",
+    "analysis_confidence": "MEDIUM",
+    "analysis_note": "소방시설 시공이라는 부족 직무를 보완하지만 2026년 공공 채용목록에서 확보되는 상세 수행업무는 제한적이다. 특정 소방 자격이나 설계·점검 업무를 임의로 추가하지 않았다."
+  },
+  {
+    "id": "ULSAN_JOB_NEW_CSE_005",
+    "job_family_ai": "선박엔진 부품 비파괴검사",
+    "actual_tasks_normalized": [
+      "선박엔진 부품 비파괴검사",
+      "초음파탐상검사(UT)",
+      "자분탐상검사(MT)",
+      "침투탐상검사(PT)"
+    ],
+    "skills": [
+      "비파괴검사",
+      "UT 검사",
+      "MT 검사",
+      "PT 검사"
+    ],
+    "tools_normalized": [
+      "UT",
+      "MT",
+      "PT"
+    ],
+    "required_skills": [],
+    "transferable_skills": [
+      "제품 결함검사",
+      "검사결과 판정"
+    ],
+    "related_roles": [
+      "비파괴검사원",
+      "품질검사원"
+    ],
+    "suitable_experience_examples": [
+      "재료시험·비파괴검사 실습"
+    ],
+    "hard_gate_summary": [],
+    "title_task_gap": {
+      "level": "LOW",
+      "reason": "비파괴검사원이라는 제목과 UT·MT·PT 방식의 선박엔진 부품 검사업무가 직접 일치한다."
+    },
+    "description_quality": "HIGH",
+    "discovery_value": "HIGH",
+    "analysis_confidence": "HIGH",
+    "analysis_note": "RT를 수행하지 않는다는 점까지 공고에 명확하다. 침투·자기비파괴검사기사 정보가 존재하지만 자격 소지자 우대 문구가 확인되므로 자격증 미보유자를 자동 FAIL시키는 Hard Gate로 사용하지 않았다."
+  }
+]
