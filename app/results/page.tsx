@@ -50,6 +50,7 @@ export default function ResultsPage() {
     jobTitle: match.job.title,
     companyName: match.job.company,
     employmentType: match.job.employmentType,
+    sourceUrl: match.job.sourceUrl,
     subScores: match.subScores,
     isHiddenGem: match.isHiddenGem,
     blindSpotLabel,

@@ -57,6 +57,7 @@ export default function ResultDetailPage() {
           <MatchReasonDetail
             jobTitle={match.job.title}
             companyName={match.job.company}
+            sourceUrl={match.job.sourceUrl}
             reasonSummary={match.reasonSummary}
             strengths={match.strengths}
             gaps={match.gaps}
